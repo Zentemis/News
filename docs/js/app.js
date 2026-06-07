@@ -92,7 +92,7 @@
       const resp = await fetch('data/news.json');
       if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
       const data = await resp.json();
-      allArticles = data.articles || data || [];
+      allArticles = deriveArticleMeta(data.articles || data || []);
       document.getElementById('lastUpdated').textContent = `Updated: ${data.generated || 'recently'}`;
       renderArticles();
     } catch (err) {
@@ -127,6 +127,22 @@
       renderSection(section, sectionArticles);
     }
 
+    // Update sidebar counts
+    $$('.sidebar-nav a').forEach(a => {
+      const sec = a.dataset.section;
+      const countEl = a.querySelector('.nav-count');
+      if (countEl && categories[sec]) {
+        const count = filtered.filter(fa => fa.category === categories[sec] || fa.category === 'geopolitical').length;
+        countEl.textContent = count;
+      } else if (countEl && sec === 'overview') {
+        countEl.textContent = filtered.length;
+      } else if (countEl && sec === 'articles') {
+        countEl.textContent = filtered.length;
+      } else if (countEl && sec === 'briefings') {
+        countEl.textContent = allBriefings.length;
+      }
+    });
+
     // Articles section
     renderArticlesSection();
   }
@@ -140,9 +156,12 @@
   }
 
   function renderSection(section, articles) {
-    const featured = articles.filter(a => a.impact === 'high').slice(0, 1);
+    // Featured: high impact first, then medium, fallback to first article
+    let featured = articles.filter(a => a.impact === 'high').slice(0, 1);
+    if (featured.length === 0) featured = articles.filter(a => a.impact === 'medium').slice(0, 1);
+    if (featured.length === 0 && articles.length > 0) featured = articles.slice(0, 1);
     const grid = articles.filter(a => !featured.includes(a)).slice(0, 6);
-    const list = articles.filter(a => !featured.includes(a) && !grid.includes(a));
+    const list = articles.filter(a => !featured.includes(a) && !grid.includes(a)).slice(0, 12);
 
     // Featured
     const featuredEl = document.getElementById(`featured-${section}`);
@@ -281,6 +300,45 @@
 
       fill.style.stroke = color;
     }
+  }
+
+  // --- ARTICLE META DERIVATION ---
+  function deriveArticleMeta(articles) {
+    const catKeywords = {
+      equities: ['stock', 'equity', 'equities', 's&p', 'nasdaq', 'djia', 'dow', 'earnings', 'ipo', 'shares', 'trading', 'index', 'indices', 'nyse', 'wall st', 'futures'],
+      crypto: ['crypto', 'bitcoin', 'btc', 'ethereum', 'eth', 'solana', 'sol', 'defi', 'nft', 'blockchain', 'token', 'binance', 'coinbase', 'web3', 'altcoin', 'memecoin', 'memecoins'],
+      commodities: ['gold', 'silver', 'oil', 'crude', 'copper', 'platinum', 'commodity', 'commodities', 'opec', 'natural gas', 'wheat', 'corn', 'metals', 'precious'],
+      macro: ['fed', 'federal reserve', 'interest rate', 'rates', 'inflation', 'gdp', 'employment', 'unemployment', 'tariff', 'tariffs', 'treasury', 'bond', 'yields', 'central bank', 'ecb', 'boj', 'imf', 'trade war', 'fiscal', 'monetary', 'recession', 'economic'],
+      geopolitical: ['war', 'ukraine', 'russia', 'china', 'sanctions', 'election', 'geopolitical', 'military', 'conflict', 'nato', 'trump', 'biden']
+    };
+
+    const impactKeywords = ['fed', 'crash', 'surge', 'plunge', 'tariff', 'tariffs', 'recession', 'war', 'rally', 'record', 'crisis', 'collapse', 'emergency', 'rate cut', 'rate hike', 'default', 'bankruptcy', 'trump', 'ban', 'sanctions', 'all-time', 'ath', 'bull', 'bear', 'correction'];
+
+    return articles.map(a => {
+      if (a.category && a.impact) return a; // Already has meta
+
+      const cats = (a.categories || []).map(c => c.toLowerCase());
+      const title = (a.title || '').toLowerCase();
+      const desc = (a.description || a.summary || '').toLowerCase();
+      const allText = title + ' ' + desc + ' ' + cats.join(' ');
+
+      // Derive category
+      let category = a.category || 'macro';
+      for (const [cat, keywords] of Object.entries(catKeywords)) {
+        if (cats.some(c => keywords.some(k => c.includes(k))) || keywords.some(k => allText.includes(k))) {
+          category = cat;
+          break;
+        }
+      }
+
+      // Derive impact
+      let impact = a.impact || 'low';
+      const matchCount = impactKeywords.filter(k => allText.includes(k)).length;
+      if (matchCount >= 3) impact = 'high';
+      else if (matchCount >= 1) impact = 'medium';
+
+      return { ...a, category, impact };
+    });
   }
 
   // --- HELPERS ---
