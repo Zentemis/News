@@ -532,15 +532,31 @@
       '</div>';
     }
 
+    // Full briefing content (from email)
+    let fullContentHtml = '';
+    if (b.content) {
+      // Format the plain-text email content into readable HTML
+      const formatted = escHtml(b.content)
+        .replace(/={3,}/g, '<hr class="briefing-hr">')
+        .replace(/-{3,}/g, '<hr class="briefing-hr">')
+        .replace(/\n\n/g, '</p><p>')
+        .replace(/\n/g, '<br>');
+      fullContentHtml = '<div class="briefing-full-content">' +
+        '<div class="briefing-full-header">Full Briefing</div>' +
+        '<div class="briefing-full-text"><p>' + formatted + '</p></div>' +
+      '</div>';
+    }
+
     el.innerHTML =
       '<div class="briefing-detail-header">' +
         '<div class="briefing-detail-title">' + escHtml(b.title) + '</div>' +
         '<div class="briefing-detail-date">' + dateStr + '</div>' +
         '<span class="briefing-card-badge ' + sentimentClass + '" style="margin-top:0.75rem">' + escHtml(b.sentiment || '') + '</span>' +
-        '<div class="briefing-detail-sentiment">' + escHtml(b.overview || '') + '</div>' +
+        '<div class="briefing-detail-sentiment">' + escHtml(b.overview || b.summary || '') + '</div>' +
         '<div class="briefing-card-topics" style="margin-top:0.75rem">' + topics + '</div>' +
       '</div>' +
-      storiesHtml;
+      storiesHtml +
+      fullContentHtml;
   }
 
   function initBriefings() {

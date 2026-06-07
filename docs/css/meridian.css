@@ -989,6 +989,35 @@ a:hover { text-decoration: underline; }
 .briefing-story-impact.bullish { background: rgba(34,197,94,0.15); color: var(--green); }
 .briefing-story-impact.bearish { background: rgba(239,68,68,0.15); color: var(--red); }
 .briefing-story-impact.neutral { background: rgba(245,158,11,0.15); color: var(--amber); }
+.briefing-full-content {
+  margin-top: 2rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--border);
+}
+.briefing-full-header {
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--text-primary);
+  margin-bottom: 1rem;
+  font-family: 'Source Serif 4', 'Georgia', serif;
+}
+.briefing-full-text {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 1.25rem 1.5rem;
+  font-family: 'JetBrains Mono', 'Fira Code', monospace;
+  font-size: 0.78rem;
+  line-height: 1.7;
+  color: var(--text-secondary);
+  max-height: 600px;
+  overflow-y: auto;
+}
+.briefing-full-text p { margin-bottom: 0.75rem; }
+.briefing-full-text .briefing-hr { border: none; border-top: 1px solid var(--border); margin: 1rem 0; }
+.briefing-full-text::-webkit-scrollbar { width: 6px; }
+.briefing-full-text::-webkit-scrollbar-track { background: var(--bg); }
+.briefing-full-text::-webkit-scrollbar-thumb { background: var(--border); border-radius: 3px; }
 @media (max-width: 768px) {
   .briefing-card-header { flex-direction: column; gap: 0.5rem; }
   .briefing-card-meta { order: -1; }
