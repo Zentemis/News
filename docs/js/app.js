@@ -410,11 +410,14 @@
     const pageArticles = filtered.slice(0, totalToShow);
 
     // Render
-    const html = pageArticles.map(a => `
-      <div class="article-entry" onclick="window.open('${a.url}', '_blank')">
+    const html = pageArticles.map(a => {
+      const hasSummary = a.summary && a.summary.trim();
+      const impactClass = a.impact === 'high' ? 'impact-high' : a.impact === 'medium' ? 'impact-medium' : '';
+      return `
+      <div class="article-entry ${impactClass}" onclick="window.open('${a.url}', '_blank')">
         <div class="article-left">
           <div class="article-title">${escHtml(a.title)}</div>
-          ${a.summary ? `<div class="article-summary">${escHtml(a.summary)}</div>` : ''}
+          ${hasSummary ? `<div class="article-summary">${escHtml(a.summary)}</div>` : ''}
           <div class="article-meta">
             <span class="cat-badge ${a.category || 'macro'}">${a.category || 'general'}</span>
             ${a.impact ? `<span class="impact-badge ${a.impact}">${a.impact}</span>` : ''}
@@ -423,7 +426,7 @@
           </div>
         </div>
       </div>
-    `).join('');
+    `}).join('');
 
     if (append) {
       // Only replace the new items (skip already rendered ones)

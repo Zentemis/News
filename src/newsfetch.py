@@ -202,16 +202,23 @@ def fetch_feeds():
         for source_name, url in sources:
             try:
                 feed = feedparser.parse(url)
-                for entry in feed.entries[:10]:  # Max 10 per source
+                for entry in feed.entries[:15]:  # Max 15 per source
                     title = clean_html(entry.get('title', ''))
                     if not title:
                         continue
 
-                    description = clean_html(
-                        entry.get('summary', '') or
-                        entry.get('description', '') or
-                        entry.get('content', [{}])[0].get('value', '') if entry.get('content') else ''
-                    )
+                    description = ''
+                    # Try multiple fields for summary
+                    for desc_field in ['summary', 'description']:
+                        raw = entry.get(desc_field, '')
+                        if raw:
+                            description = clean_html(raw)
+                            break
+                    if not description and entry.get('content'):
+                        try:
+                            description = clean_html(entry['content'][0].get('value', ''))
+                        except (IndexError, AttributeError, TypeError):
+                            pass
 
                     # Truncate description
                     if len(description) > 300:
