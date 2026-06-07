@@ -107,6 +107,10 @@
       <span class="nav-icon">☰</span>
       <span class="nav-label">All Articles</span>
     </a>
+    <a href="#briefings" data-section="briefings">
+      <span class="nav-icon">✒</span>
+      <span class="nav-label">Briefings</span>
+    </a>
   </nav>
 
   <div class="sidebar-section">
@@ -377,6 +381,25 @@
     <div class="articles-list" id="articlesList"></div>
     <div class="articles-load-more" id="articlesLoadMore">
       <button class="load-more-btn" id="loadMoreBtn">Load More</button>
+    </div>
+  </section>
+
+  <!-- BRIEFINGS SECTION -->
+  <section class="section-content" id="section-briefings">
+    <div class="section-header">
+      <h2>Market Briefings</h2>
+      <div class="section-sub">Riel's curated market summaries and analysis</div>
+    </div>
+
+    <!-- Detail view (hidden by default) -->
+    <div class="briefing-detail" id="briefingDetail" style="display:none;">
+      <button class="briefing-back-btn" id="briefingBackBtn">← Back to all briefings</button>
+      <div id="briefingDetailContent"></div>
+    </div>
+
+    <!-- List view -->
+    <div id="briefingsListView">
+      <div class="briefings-list" id="briefingsList"></div>
     </div>
   </section>
 

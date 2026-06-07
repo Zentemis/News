@@ -15,6 +15,8 @@
   let articlesSearchQuery = '';
   let articlesCategoryFilter = 'all';
   let articlesSortOrder = 'newest';
+  let allBriefings = [];
+  let viewingBriefing = null;
 
   // --- DOM REFS ---
   const $ = (sel, ctx) => (ctx || document).querySelector(sel);
@@ -50,7 +52,7 @@
 
     // Handle hash on load
     const hash = window.location.hash.replace('#', '');
-    if (hash && ['overview', 'macro', 'equities', 'crypto', 'commodities', 'articles'].includes(hash)) {
+    if (hash && ['overview', 'macro', 'equities', 'crypto', 'commodities', 'articles', 'briefings'].includes(hash)) {
       switchSection(hash);
     }
   }
@@ -69,6 +71,7 @@
     });
 
     window.location.hash = section;
+    if (section === 'briefings') renderBriefings();
     renderArticles();
   }
 
@@ -94,6 +97,18 @@
       renderArticles();
     } catch (err) {
       console.error('Failed to load news:', err);
+    }
+
+    // Load briefings
+    try {
+      const bResp = await fetch('data/briefings.json');
+      if (bResp.ok) {
+        const bData = await bResp.json();
+        allBriefings = bData.briefings || [];
+        renderBriefings();
+      }
+    } catch (err) {
+      console.warn('No briefings data found:', err);
       document.getElementById('lastUpdated').textContent = 'Updated: unable to load data';
     }
   }
@@ -441,6 +456,103 @@
     }
   }
 
+  // --- BRIEFINGS ---
+  function renderBriefings() {
+    const listEl = document.getElementById('briefingsList');
+    const detailEl = document.getElementById('briefingDetail');
+    const listView = document.getElementById('briefingsListView');
+    if (!listEl) return;
+
+    if (viewingBriefing !== null) {
+      // Show detail view
+      listView.style.display = 'none';
+      detailEl.style.display = 'block';
+      renderBriefingDetail(viewingBriefing);
+      return;
+    }
+
+    // Show list view
+    detailEl.style.display = 'none';
+    listView.style.display = 'block';
+
+    if (allBriefings.length === 0) {
+      listEl.innerHTML = '<div style="color:var(--text-muted);padding:2rem 0;text-align:center;">No briefings yet</div>';
+      return;
+    }
+
+    const sorted = [...allBriefings].sort((a, b) => new Date(b.date) - new Date(a.date));
+
+    listEl.innerHTML = sorted.map((b, idx) => {
+      const sentimentClass = b.sentiment === 'Bullish' ? 'bullish' : b.sentiment === 'Bearish' ? 'bearish' : 'neutral';
+      const topics = (b.topics || []).map(t => '<span class="briefing-topic-tag">' + escHtml(t) + '</span>').join('');
+      const storyCount = (b.stories || []).length;
+      const dateStr = new Date(b.date).toLocaleDateString('en-US', { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' });
+
+      return '<div class="briefing-card" onclick="window._openBriefing(' + idx + ')">' +
+        '<div class="briefing-card-header">' +
+          '<div class="briefing-card-title">' + escHtml(b.title) + '</div>' +
+          '<div class="briefing-card-meta">' +
+            '<span class="briefing-card-badge ' + sentimentClass + '">' + escHtml(b.sentiment || '') + '</span>' +
+            '<span class="briefing-card-date">' + dateStr + '</span>' +
+          '</div>' +
+        '</div>' +
+        '<div class="briefing-card-summary">' + escHtml(b.overview || '') + '</div>' +
+        '<div class="briefing-card-topics">' + topics + '</div>' +
+        '<div class="briefing-card-stories">' + storyCount + ' stories</div>' +
+      '</div>';
+    }).join('');
+  }
+
+  window._openBriefing = function(idx) {
+    const sorted = [...allBriefings].sort((a, b) => new Date(b.date) - new Date(a.date));
+    viewingBriefing = sorted[idx];
+    renderBriefings();
+  };
+
+  function renderBriefingDetail(b) {
+    const el = document.getElementById('briefingDetailContent');
+    if (!el) return;
+
+    const sentimentClass = b.sentiment === 'Bullish' ? 'bullish' : b.sentiment === 'Bearish' ? 'bearish' : 'neutral';
+    const dateStr = new Date(b.date).toLocaleDateString('en-US', { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' });
+    const topics = (b.topics || []).map(t => '<span class="briefing-topic-tag">' + escHtml(t) + '</span>').join(' ');
+
+    let storiesHtml = '';
+    if (b.stories && b.stories.length > 0) {
+      storiesHtml = '<div class="briefing-detail-stories">' +
+        b.stories.map((s, i) => {
+          const sImpactClass = s.impact === 'Bullish' ? 'bullish' : s.impact === 'Bearish' ? 'bearish' : 'neutral';
+          return '<div class="briefing-story">' +
+            '<div class="briefing-story-number">Story ' + (i + 1) + '</div>' +
+            '<div class="briefing-story-title">' + escHtml(s.title) + '</div>' +
+            '<div class="briefing-story-body">' + escHtml(s.analysis || s.body || '') + '</div>' +
+            (s.impact ? '<span class="briefing-story-impact ' + sImpactClass + '">' + escHtml(s.impact) + '</span>' : '') +
+          '</div>';
+        }).join('') +
+      '</div>';
+    }
+
+    el.innerHTML =
+      '<div class="briefing-detail-header">' +
+        '<div class="briefing-detail-title">' + escHtml(b.title) + '</div>' +
+        '<div class="briefing-detail-date">' + dateStr + '</div>' +
+        '<span class="briefing-card-badge ' + sentimentClass + '" style="margin-top:0.75rem">' + escHtml(b.sentiment || '') + '</span>' +
+        '<div class="briefing-detail-sentiment">' + escHtml(b.overview || '') + '</div>' +
+        '<div class="briefing-card-topics" style="margin-top:0.75rem">' + topics + '</div>' +
+      '</div>' +
+      storiesHtml;
+  }
+
+  function initBriefings() {
+    const backBtn = document.getElementById('briefingBackBtn');
+    if (backBtn) {
+      backBtn.addEventListener('click', () => {
+        viewingBriefing = null;
+        renderBriefings();
+      });
+    }
+  }
+
   // --- INIT ---
   function init() {
     initNav();
@@ -448,6 +560,7 @@
     initGauge();
     initSparklines();
     initArticles();
+    initBriefings();
     updateFooter();
     loadNews();
     setInterval(updateFooter, 60000);
