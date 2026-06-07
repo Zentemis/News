@@ -230,8 +230,11 @@ a:hover { text-decoration: underline; }
 .sidebar-nav a:hover .nav-count { opacity: 1; }
 
 .sidebar-section {
-  padding: var(--gap-md);
-  border-bottom: 1px solid var(--border);
+  background: var(--bg-card);
+  border: 1px solid rgba(200,169,126,0.06);
+  border-radius: 8px;
+  padding: 1.25rem;
+  margin-bottom: 1.5rem;
 }
 .sidebar-section-title {
   font-size: 0.7rem;
@@ -373,20 +376,22 @@ a:hover { text-decoration: underline; }
 
 /* --- FEATURED STORY --- */
 .featured-story {
-  background: var(--bg-card);
-  border: 1px solid var(--border-light);
-  border-radius: var(--radius-lg);
-  padding: var(--gap-lg);
+  background: linear-gradient(135deg, var(--bg-card) 0%, rgba(200,169,126,0.03) 100%);
+  border: 1px solid rgba(200,169,126,0.08);
+  border-radius: 8px;
+  padding: 2rem;
+  min-height: 200px;
   margin-bottom: var(--gap-lg);
   cursor: pointer;
-  transition: all 0.2s ease;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
   position: relative;
   overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.3), 0 0 1px rgba(200,169,126,0.1);
 }
 .featured-story:hover {
-  border-color: var(--accent);
-  box-shadow: var(--shadow-md);
-  transform: translateY(-1px);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(0,0,0,0.4), 0 0 1px rgba(200,169,126,0.2);
+  border-color: rgba(200,169,126,0.15);
 }
 .featured-story::before {
   content: '';
@@ -445,10 +450,11 @@ a:hover { text-decoration: underline; }
 
 .impact-badge {
   font-size: 0.65rem;
-  padding: 1px 6px;
-  border-radius: 3px;
+  padding: 3px 8px;
+  border-radius: 4px;
   font-weight: 600;
   text-transform: uppercase;
+  letter-spacing: 0.08em;
 }
 .impact-badge.high   { background: rgba(239,68,68,0.15); color: var(--red); }
 .impact-badge.medium { background: rgba(245,158,11,0.15); color: var(--amber); }
@@ -463,19 +469,19 @@ a:hover { text-decoration: underline; }
 }
 .news-card {
   background: var(--bg-card);
-  border: 1px solid var(--border);
-  border-radius: var(--radius-md);
+  border: 1px solid rgba(200,169,126,0.08);
+  border-radius: 8px;
   padding: var(--gap-md);
   cursor: pointer;
-  transition: all 0.2s ease;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
   display: flex;
   flex-direction: column;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.3), 0 0 1px rgba(200,169,126,0.1);
 }
 .news-card:hover {
-  border-color: var(--border-light);
-  background: var(--bg-card-hover);
-  transform: translateY(-1px);
-  box-shadow: var(--shadow-sm);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(0,0,0,0.4), 0 0 1px rgba(200,169,126,0.2);
+  border-color: rgba(200,169,126,0.15);
 }
 .news-card h4 {
   font-family: 'Source Serif 4', 'Georgia', serif;
@@ -523,13 +529,19 @@ a:hover { text-decoration: underline; }
   display: flex;
   align-items: center;
   gap: var(--gap-md);
-  padding: var(--gap-sm) 0;
-  border-bottom: 1px solid var(--border);
+  padding: 1rem 1.25rem;
+  border: 1px solid rgba(200,169,126,0.08);
+  border-radius: 8px;
   cursor: pointer;
-  transition: background 0.15s ease;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  box-shadow: 0 2px 8px rgba(0,0,0,0.3), 0 0 1px rgba(200,169,126,0.1);
+  margin-bottom: 4px;
 }
 .news-row:hover {
-  background: rgba(255,255,255,0.02);
+  background: rgba(200,169,126,0.04);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(0,0,0,0.4), 0 0 1px rgba(200,169,126,0.2);
+  border-color: rgba(200,169,126,0.15);
 }
 .news-row .row-title {
   flex: 1;
@@ -542,6 +554,9 @@ a:hover { text-decoration: underline; }
   color: var(--text-muted);
   flex-shrink: 0;
   min-width: 70px;
+  background: rgba(200,169,126,0.08);
+  padding: 2px 8px;
+  border-radius: 4px;
 }
 .news-row .row-time {
   font-size: 0.72rem;
@@ -564,9 +579,16 @@ a:hover { text-decoration: underline; }
 }
 .stat-card {
   background: var(--bg-card);
-  border: 1px solid var(--border);
-  border-radius: var(--radius-md);
-  padding: var(--gap-md);
+  border: 1px solid rgba(200,169,126,0.08);
+  border-radius: 8px;
+  padding: 1rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.3), 0 0 1px rgba(200,169,126,0.1);
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+.stat-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(0,0,0,0.4), 0 0 1px rgba(200,169,126,0.2);
+  border-color: rgba(200,169,126,0.15);
 }
 .stat-card .stat-label {
   font-size: 0.72rem;
@@ -702,16 +724,18 @@ a:hover { text-decoration: underline; }
   display: flex;
   gap: var(--gap-md);
   padding: var(--gap-md);
-  border-bottom: 1px solid var(--border);
+  border: 1px solid rgba(200,169,126,0.08);
   cursor: pointer;
-  transition: all 0.15s ease;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
   align-items: flex-start;
-  border-radius: var(--radius-sm);
-  margin-bottom: 2px;
+  border-radius: 8px;
+  margin-bottom: 4px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.3), 0 0 1px rgba(200,169,126,0.1);
 }
 .article-entry:hover {
-  background: rgba(255,255,255,0.025);
-  border-color: transparent;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(0,0,0,0.4), 0 0 1px rgba(200,169,126,0.2);
+  border-color: rgba(200,169,126,0.15);
 }
 .article-entry:first-child { padding-top: var(--gap-md); }
 .article-entry.impact-high {
@@ -848,16 +872,17 @@ a:hover { text-decoration: underline; }
 }
 .briefing-card {
   background: var(--bg-card);
-  border: 1px solid var(--border);
-  border-radius: var(--radius-md);
+  border: 1px solid rgba(200,169,126,0.08);
+  border-radius: 8px;
   padding: 1.25rem 1.5rem;
   cursor: pointer;
-  transition: border-color 0.2s, transform 0.15s, box-shadow 0.2s;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  box-shadow: 0 2px 8px rgba(0,0,0,0.3), 0 0 1px rgba(200,169,126,0.1);
 }
 .briefing-card:hover {
-  border-color: var(--accent);
-  transform: translateY(-1px);
-  box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(0,0,0,0.4), 0 0 1px rgba(200,169,126,0.2);
+  border-color: rgba(200,169,126,0.15);
 }
 .briefing-card-header {
   display: flex;
@@ -969,10 +994,18 @@ a:hover { text-decoration: underline; }
 }
 .briefing-story {
   background: var(--bg-card);
-  border: 1px solid var(--border);
-  border-radius: var(--radius-md);
+  border: 1px solid rgba(200,169,126,0.08);
+  border-radius: 8px;
   padding: 1rem 1.25rem;
   border-left: 3px solid var(--accent);
+  box-shadow: 0 2px 8px rgba(0,0,0,0.3), 0 0 1px rgba(200,169,126,0.1);
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+.briefing-story:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(0,0,0,0.4), 0 0 1px rgba(200,169,126,0.2);
+  border-color: rgba(200,169,126,0.15);
+  border-left-color: var(--accent);
 }
 .briefing-story-number {
   font-family: 'JetBrains Mono', monospace;
@@ -1040,4 +1073,52 @@ a:hover { text-decoration: underline; }
 @media (max-width: 768px) {
   .briefing-card-header { flex-direction: column; gap: 0.5rem; }
   .briefing-card-meta { order: -1; }
+  .sidebar-section {
+    margin-bottom: 0.75rem;
+    padding: 1rem;
+  }
+}
+
+/* --- THREE-COLUMN CARDS --- */
+.three-cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: var(--gap-md);
+  margin-bottom: var(--gap-xl);
+}
+.three-cards .card {
+  background: var(--bg-card);
+  border: 1px solid rgba(200,169,126,0.08);
+  border-radius: 8px;
+  padding: var(--gap-md);
+  cursor: pointer;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  box-shadow: 0 2px 8px rgba(0,0,0,0.3), 0 0 1px rgba(200,169,126,0.1);
+}
+.three-cards .card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(0,0,0,0.4), 0 0 1px rgba(200,169,126,0.2);
+  border-color: rgba(200,169,126,0.15);
+}
+.three-cards .card .impact-badge {
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-size: 0.65rem;
+  padding: 3px 8px;
+  border-radius: 4px;
+}
+
+/* --- BRIEFING STORY CARD (alias) --- */
+.briefing-story-card {
+  background: var(--bg-card);
+  border: 1px solid rgba(200,169,126,0.08);
+  border-radius: 8px;
+  padding: 1.25rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.3), 0 0 1px rgba(200,169,126,0.1);
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+.briefing-story-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(0,0,0,0.4), 0 0 1px rgba(200,169,126,0.2);
+  border-color: rgba(200,169,126,0.15);
 }
