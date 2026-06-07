@@ -104,7 +104,7 @@
       const bResp = await fetch('data/briefings.json');
       if (bResp.ok) {
         const bData = await bResp.json();
-        allBriefings = bData.briefings || [];
+        allBriefings = Array.isArray(bData) ? bData : (bData.briefings || []);
         renderBriefings();
       }
     } catch (err) {
@@ -483,7 +483,7 @@
     const sorted = [...allBriefings].sort((a, b) => new Date(b.date) - new Date(a.date));
 
     listEl.innerHTML = sorted.map((b, idx) => {
-      const sentimentClass = b.sentiment === 'Bullish' ? 'bullish' : b.sentiment === 'Bearish' ? 'bearish' : 'neutral';
+      const sentimentClass = b.sentiment && b.sentiment.toLowerCase() === 'bullish' ? 'bullish' : b.sentiment && b.sentiment.toLowerCase() === 'bearish' ? 'bearish' : 'neutral';
       const topics = (b.topics || []).map(t => '<span class="briefing-topic-tag">' + escHtml(t) + '</span>').join('');
       const storyCount = (b.stories || []).length;
       const dateStr = new Date(b.date).toLocaleDateString('en-US', { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' });
@@ -496,7 +496,7 @@
             '<span class="briefing-card-date">' + dateStr + '</span>' +
           '</div>' +
         '</div>' +
-        '<div class="briefing-card-summary">' + escHtml(b.overview || '') + '</div>' +
+        '<div class="briefing-card-summary">' + escHtml(b.summary || b.overview || '') + '</div>' +
         '<div class="briefing-card-topics">' + topics + '</div>' +
         '<div class="briefing-card-stories">' + storyCount + ' stories</div>' +
       '</div>';
@@ -513,7 +513,7 @@
     const el = document.getElementById('briefingDetailContent');
     if (!el) return;
 
-    const sentimentClass = b.sentiment === 'Bullish' ? 'bullish' : b.sentiment === 'Bearish' ? 'bearish' : 'neutral';
+    const sentimentClass = b.sentiment && b.sentiment.toLowerCase() === 'bullish' ? 'bullish' : b.sentiment && b.sentiment.toLowerCase() === 'bearish' ? 'bearish' : 'neutral';
     const dateStr = new Date(b.date).toLocaleDateString('en-US', { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' });
     const topics = (b.topics || []).map(t => '<span class="briefing-topic-tag">' + escHtml(t) + '</span>').join(' ');
 
@@ -521,12 +521,12 @@
     if (b.stories && b.stories.length > 0) {
       storiesHtml = '<div class="briefing-detail-stories">' +
         b.stories.map((s, i) => {
-          const sImpactClass = s.impact === 'Bullish' ? 'bullish' : s.impact === 'Bearish' ? 'bearish' : 'neutral';
+          const sImpactClass = s.sentiment === 'bullish' ? 'bullish' : s.sentiment === 'bearish' ? 'bearish' : 'neutral';
           return '<div class="briefing-story">' +
             '<div class="briefing-story-number">Story ' + (i + 1) + '</div>' +
             '<div class="briefing-story-title">' + escHtml(s.title) + '</div>' +
-            '<div class="briefing-story-body">' + escHtml(s.analysis || s.body || '') + '</div>' +
-            (s.impact ? '<span class="briefing-story-impact ' + sImpactClass + '">' + escHtml(s.impact) + '</span>' : '') +
+            '<div class="briefing-story-body">' + escHtml(s.content || s.analysis || s.body || '') + '</div>' +
+            (s.sentiment ? '<span class="briefing-story-impact ' + sImpactClass + '">' + escHtml(s.sentiment) + '</span>' : '') +
           '</div>';
         }).join('') +
       '</div>';
