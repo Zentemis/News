@@ -1,13 +1,22 @@
-name: Update News
+name: Update News & Deploy
 
 on:
   schedule:
-    # Every 3 hours at :00 UTC
     - cron: '0 */3 * * *'
   workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'docs/**'
 
 permissions:
   contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
 
 jobs:
   update:
@@ -37,3 +46,25 @@ jobs:
             git commit -m "Update news feed — $(date -u '+%Y-%m-%d %H:%M UTC')"
             git push
           fi
+
+  deploy:
+    needs: update
+    runs-on: ubuntu-latest
+    if: github.ref == 'refs/heads/main'
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: 'docs'
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
