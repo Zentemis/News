@@ -103,6 +103,10 @@
       <span class="nav-icon">◉</span>
       <span class="nav-label">Commodities &amp; FX</span>
     </a>
+    <a href="#articles" data-section="articles">
+      <span class="nav-icon">☰</span>
+      <span class="nav-label">All Articles</span>
+    </a>
   </nav>
 
   <div class="sidebar-section">
@@ -338,6 +342,41 @@
     <div class="news-list">
       <div class="news-list-header">More Commodities &amp; FX Stories</div>
       <div id="list-commodities"></div>
+    </div>
+  </section>
+
+  <!-- ALL ARTICLES SECTION -->
+  <section class="section-content" id="section-articles">
+    <div class="section-header">
+      <h2>All Articles</h2>
+      <div class="section-sub">Browse the complete feed across all categories</div>
+    </div>
+
+    <div class="articles-toolbar">
+      <div class="articles-search-wrap">
+        <input type="text" class="articles-search" id="articlesSearch" placeholder="Search articles..." autocomplete="off">
+      </div>
+      <div class="articles-controls">
+        <select class="articles-select" id="articlesCategoryFilter">
+          <option value="all">All Categories</option>
+          <option value="macro">Macro</option>
+          <option value="equities">Equities</option>
+          <option value="crypto">Crypto</option>
+          <option value="commodities">Commodities</option>
+          <option value="geopolitical">Geopolitical</option>
+        </select>
+        <select class="articles-select" id="articlesSortSelect">
+          <option value="newest">Newest First</option>
+          <option value="oldest">Oldest First</option>
+          <option value="impact">Highest Impact</option>
+        </select>
+      </div>
+    </div>
+
+    <div class="articles-count" id="articlesCount"></div>
+    <div class="articles-list" id="articlesList"></div>
+    <div class="articles-load-more" id="articlesLoadMore">
+      <button class="load-more-btn" id="loadMoreBtn">Load More</button>
     </div>
   </section>
 

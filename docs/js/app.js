@@ -10,6 +10,11 @@
   let allArticles = [];
   let activeSection = 'overview';
   let activeSource = 'all';
+  let articlesPage = 1;
+  const articlesPerPage = 25;
+  let articlesSearchQuery = '';
+  let articlesCategoryFilter = 'all';
+  let articlesSortOrder = 'newest';
 
   // --- DOM REFS ---
   const $ = (sel, ctx) => (ctx || document).querySelector(sel);
@@ -45,7 +50,7 @@
 
     // Handle hash on load
     const hash = window.location.hash.replace('#', '');
-    if (hash && ['overview', 'macro', 'equities', 'crypto', 'commodities'].includes(hash)) {
+    if (hash && ['overview', 'macro', 'equities', 'crypto', 'commodities', 'articles'].includes(hash)) {
       switchSection(hash);
     }
   }
@@ -106,6 +111,9 @@
       const sectionArticles = filtered.filter(a => a.category === cat || a.category === 'geopolitical');
       renderSection(section, sectionArticles);
     }
+
+    // Articles section
+    renderArticlesSection();
   }
 
   function filterArticles(articles) {
@@ -312,12 +320,131 @@
     }
   }
 
+  // --- ARTICLES SECTION ---
+  function initArticles() {
+    const searchInput = $('#articlesSearch');
+    const catFilter = $('#articlesCategoryFilter');
+    const sortSelect = $('#articlesSortSelect');
+    const loadMoreBtn = $('#loadMoreBtn');
+
+    if (searchInput) {
+      let debounceTimer;
+      searchInput.addEventListener('input', () => {
+        clearTimeout(debounceTimer);
+        debounceTimer = setTimeout(() => {
+          articlesSearchQuery = searchInput.value.trim().toLowerCase();
+          articlesPage = 1;
+          renderArticlesSection();
+        }, 250);
+      });
+    }
+
+    if (catFilter) {
+      catFilter.addEventListener('change', () => {
+        articlesCategoryFilter = catFilter.value;
+        articlesPage = 1;
+        renderArticlesSection();
+      });
+    }
+
+    if (sortSelect) {
+      sortSelect.addEventListener('change', () => {
+        articlesSortOrder = sortSelect.value;
+        articlesPage = 1;
+        renderArticlesSection();
+      });
+    }
+
+    if (loadMoreBtn) {
+      loadMoreBtn.addEventListener('click', () => {
+        articlesPage++;
+        renderArticlesSection(true);
+      });
+    }
+  }
+
+  function renderArticlesSection(append) {
+    const listEl = $('#articlesList');
+    const countEl = $('#articlesCount');
+    const loadMoreWrap = $('#articlesLoadMore');
+    if (!listEl) return;
+
+    let filtered = [...allArticles];
+
+    // Category filter
+    if (articlesCategoryFilter !== 'all') {
+      filtered = filtered.filter(a => a.category === articlesCategoryFilter);
+    }
+
+    // Source filter (from sidebar)
+    if (activeSource !== 'all') {
+      filtered = filtered.filter(a => a.source && a.source.toLowerCase().includes(activeSource));
+    }
+
+    // Search
+    if (articlesSearchQuery) {
+      filtered = filtered.filter(a =>
+        (a.title && a.title.toLowerCase().includes(articlesSearchQuery)) ||
+        (a.summary && a.summary.toLowerCase().includes(articlesSearchQuery)) ||
+        (a.source && a.source.toLowerCase().includes(articlesSearchQuery))
+      );
+    }
+
+    // Sort
+    if (articlesSortOrder === 'newest') {
+      filtered.sort((a, b) => new Date(b.published) - new Date(a.published));
+    } else if (articlesSortOrder === 'oldest') {
+      filtered.sort((a, b) => new Date(a.published) - new Date(b.published));
+    } else if (articlesSortOrder === 'impact') {
+      const impactOrder = { high: 0, medium: 1, low: 2 };
+      filtered.sort((a, b) => (impactOrder[a.impact] ?? 3) - (impactOrder[b.impact] ?? 3));
+    }
+
+    // Count
+    if (countEl) {
+      countEl.textContent = `Showing ${Math.min(articlesPage * articlesPerPage, filtered.length)} of ${filtered.length} articles`;
+    }
+
+    // Paginate
+    const totalToShow = articlesPage * articlesPerPage;
+    const pageArticles = filtered.slice(0, totalToShow);
+
+    // Render
+    const html = pageArticles.map(a => `
+      <div class="article-entry" onclick="window.open('${a.url}', '_blank')">
+        <div class="article-left">
+          <div class="article-title">${escHtml(a.title)}</div>
+          ${a.summary ? `<div class="article-summary">${escHtml(a.summary)}</div>` : ''}
+          <div class="article-meta">
+            <span class="cat-badge ${a.category || 'macro'}">${a.category || 'general'}</span>
+            ${a.impact ? `<span class="impact-badge ${a.impact}">${a.impact}</span>` : ''}
+            <span class="meta-source">${escHtml(a.source || '')}</span>
+            <span class="meta-time">${formatTime(a.published)}</span>
+          </div>
+        </div>
+      </div>
+    `).join('');
+
+    if (append) {
+      // Only replace the new items (skip already rendered ones)
+      listEl.innerHTML = html;
+    } else {
+      listEl.innerHTML = html;
+    }
+
+    // Show/hide load more
+    if (loadMoreWrap) {
+      loadMoreWrap.classList.toggle('hidden', totalToShow >= filtered.length);
+    }
+  }
+
   // --- INIT ---
   function init() {
     initNav();
     initFilters();
     initGauge();
     initSparklines();
+    initArticles();
     updateFooter();
     loadNews();
     setInterval(updateFooter, 60000);
