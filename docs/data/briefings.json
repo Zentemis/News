@@ -1,70 +1,81 @@
 [
   {
-    "id": "2026-06-07-morning",
-    "title": "Bloodbath After Jobs Report — $390B Wiped From Crypto",
-    "date": "2026-06-07T07:00:00Z",
+    "id": "briefing-2026-06-07-morning",
+    "date": "2026-06-07",
+    "time": "09:00 CEST",
+    "title": "Worst Weekly Rout Since FTX Collapse -- $390 Billion Wiped From Crypto",
     "sentiment": "bearish",
-    "topics": ["Crypto", "Equities", "Macro", "Fed Policy", "Bitcoin", "Ethereum", "ETFs"],
-    "summary": "A hotter-than-expected May jobs report (139K vs 130K) triggered a brutal selloff across crypto and equities. ~$390B was wiped from the crypto market, with ETH collapsing 51% from January highs. The S&P 500 fell 2.6% and the 10Y yield spiked to 4.51%. Fear & Greed Index hit 8 — Extreme Fear.",
+    "summary": "Bitcoin fell 17.3% and ether 22% this week in the largest crypto drawdown since the FTX collapse. $390 billion was wiped from the crypto market. The S&P 500 dropped 2.6% on Friday as strong jobs data raised rate hike fears.",
+    "topics": [
+      "Bitcoin",
+      "Ethereum",
+      "Market Crash",
+      "Fed Policy",
+      "ETF Outflows",
+      "Regulation"
+    ],
     "stories": [
       {
-        "title": "Jobs Report Triggers Selloff",
-        "source": "Bloomberg / Reuters",
+        "title": "Worst Weekly Rout Since FTX: Bitcoin fell 17.3% and ether 22% this week",
+        "category": "crypto",
         "sentiment": "bearish",
-        "content": "May payrolls came in at 139K vs 130K expected, reinforcing the \"higher for longer\" Fed narrative. Markets sold off sharply on the repricing of rate-cut expectations. The strong labor market gives the Fed no urgency to cut."
+        "impact": 5
       },
       {
-        "title": "Bitcoin Drops to $61,400",
-        "source": "CoinDesk / The Block",
-        "sentiment": "bearish",
-        "content": "Bitcoin fell to ~$61,400, down ~5% on the day. BTC dominance surged to 64% as altcoins got hit even harder. Nearly $1B in leveraged positions were liquidated across crypto derivatives markets."
-      },
-      {
-        "title": "Ethereum Collapses 51% From January Highs",
-        "source": "CoinDesk",
-        "sentiment": "bearish",
-        "content": "ETH dropped to ~$1,584, a 51% decline from its January peak. The ratio against BTC continued to deteriorate. DeFi TVL declined alongside, and on-chain activity showed capitulation-level outflows from exchanges."
-      },
-      {
-        "title": "US Spot Bitcoin ETFs See $616M in Outflows",
-        "source": "Bloomberg",
-        "sentiment": "bearish",
-        "content": "Spot Bitcoin ETFs recorded $616M in net outflows — the largest single-day outflow in weeks. This suggests institutional risk-off behavior, not just retail panic. BlackRock's IBIT still holds the bulk of AUM but flows turned sharply negative."
-      },
-      {
-        "title": "Strategy Buys Another 1,045 BTC",
-        "source": "CoinDesk",
-        "sentiment": "bullish",
-        "content": "Strategy (formerly MicroStrategy) purchased an additional 1,045 BTC (~$64M), continuing its aggressive accumulation strategy. They now hold over 580,000 BTC. A contrarian bullish signal amid the panic."
-      },
-      {
-        "title": "Gold Holds $3,310, DXY ~99.1",
-        "source": "Reuters / Bloomberg",
+        "title": "America's Largest Banks Build Digital Currency Network to compete with stablecoins",
+        "category": "crypto",
         "sentiment": "neutral",
-        "content": "Gold held near $3,310 as a safe-haven bid emerged. The DXY was steady around 99.1. Traditional safe havens weren't immune — gold was flat rather than surging, suggesting broad deleveraging rather than a flight to safety."
+        "impact": 3
       },
       {
-        "title": "US Regulatory Clarity Continues to Build",
-        "source": "CoinDesk / Decrypt",
-        "sentiment": "bullish",
-        "content": "Despite the selloff, regulatory progress continued. The SEC dropped cases against Ripple and Coinbase. The GENIUS Act (stablecoin legislation) passed the Senate. Wyoming launched its state-backed stable token. The regulatory environment is structurally improving."
+        "title": "Satoshi-era Bitcoin moves after 14 years at center of $285B lawsuit",
+        "category": "crypto",
+        "sentiment": "neutral",
+        "impact": 3
       },
       {
-        "title": "Macro Outlook: Higher for Longer",
-        "source": "Reuters / Fed watchers",
+        "title": "Arthur Hayes dumps WLD, Worldcoin plunged 20%",
+        "category": "crypto",
         "sentiment": "bearish",
-        "content": "The strong jobs report reinforced the narrative that the Fed will hold rates at 4.50-4.75% through summer. Tariff risks (Trump's latest threats) and Tesla's 14% drop on the Musk-Trump feud added to the risk-off tone. Key week ahead: FOMC on June 18."
+        "impact": 2
+      },
+      {
+        "title": "Polymarket goes mainstream as quant trading firms build prediction market desks",
+        "category": "crypto",
+        "sentiment": "bullish",
+        "impact": 3
+      },
+      {
+        "title": "BlackRock's Securitize heading to NYSE after clearing key hurdle",
+        "category": "crypto",
+        "sentiment": "bullish",
+        "impact": 3
+      },
+      {
+        "title": "Zcash AI bug researcher targets Monero after critical Zcash flaw",
+        "category": "crypto",
+        "sentiment": "bearish",
+        "impact": 2
+      },
+      {
+        "title": "S&P 500 -2.6%, Nasdaq -4.2% in worst sell-off since Oct 2025",
+        "category": "equities",
+        "sentiment": "bearish",
+        "impact": 5
+      },
+      {
+        "title": "Fed rate hike now on the table as strong jobs data shifts expectations",
+        "category": "macro",
+        "sentiment": "bearish",
+        "impact": 4
+      },
+      {
+        "title": "US House circulates seven draft crypto bills for hearing next week",
+        "category": "regulation",
+        "sentiment": "bullish",
+        "impact": 3
       }
     ],
-    "keyPrices": {
-      "BTC": "$61,400",
-      "ETH": "$1,584",
-      "SOL": "$137",
-      "S&P 500": "down 2.6%",
-      "10Y Yield": "4.51%",
-      "Gold": "$3,310",
-      "DXY": "99.1",
-      "Fear & Greed": "8 (Extreme Fear)"
-    }
+    "content": "RIEL'S MORNING CRYPTO & FINANCIAL BRIEFING\nSunday, June 7, 2026 | 9:00 AM CEST\n=============================================\n\nHEADLINE: Worst Weekly Rout Since FTX Collapse -- $390 Billion Wiped From Crypto\n\nGood morning. This has been one of the most brutal weeks for crypto since the FTX collapse in November 2022. Here's your full briefing.\n\n-----------------------------------------------\nCRYPTO PRICE ACTION (Last 24h)\n-----------------------------------------------\n\nBTC: ~$61,400 (+0.7% 24h) | Weekly: -17.3%\n  - Fell as low as $59,227 overnight before recovering above $61,000\n  - Lowest price since October 2024\n  - Strategy (formerly MicroStrategy) sold bitcoin for first time since FTX era\n\nETH: ~$1,584 (-4.9% 24h) | Weekly: -22%\n  - Worst weekly performance since FTX collapse\n\nSOL: ~$63.52 (flat 24h)\nXRP: ~$1.11 (+1.7% 24h)\nBNB: ~$579 (+0.5% 24h)\nDOGE: ~$0.083 (+2.2% 24h) | Fell 9% during the week\nADA: Dropped below $0.20 -- four-year lows. Hoskinson warned of \"wave of failures\"\n\nDeFi sector market cap: $61.1B (down 7.2% weekly)\nTotal crypto market shed: ~$390 billion this week\nLiquidations: ~$1.6 billion in leveraged positions wiped out\n\n-----------------------------------------------\nTOP CRYPTO NEWS STORIES\n-----------------------------------------------\n\n1. WORST WEEKLY ROUT SINCE FTX: Bitcoin fell 17.3% and ether 22% this week in the largest crypto drawdown since November 2022. Strategy's BTC sale, heavy ETF outflows (~$3B), AI investment competition, and Fed rate hike fears all contributed.\n\n2. AMERICA'S LARGEST BANKS BUILD DIGITAL CURRENCY NETWORK: Major US banks are launching tokenized deposits to compete with stablecoins and prevent deposit drain to crypto platforms.\n\n3. SATOSHI-ERA BITCOIN MOVES AFTER 14 YEARS: BTC at the center of a $285 billion lawsuit moved for the first time in 14 years.\n\n4. ARTHUR HAYES DUMPS WLD: Worldcoin plunged 20% after BitMEX co-founder sold his position one day after saying he would keep holding.\n\n5. POLYMARKET GOES MAINSTREAM: Major quant trading firms are building prediction market trading desks, signaling Polymarket and Kalshi are no longer niche.\n\n6. BLACKROCK SECURITIZE HEADING TO NYSE: Tokenization firm Securitize cleared key hurdle to go public via approved merger registration.\n\n7. ZCASH AI BUG RESEARCHER TARGETS MONERO: The researcher who used AI to find a critical Zcash flaw (crashing ZEC 38%) has added Monero to his audit queue.\n\n-----------------------------------------------\nTRADITIONAL FINANCIAL MARKETS\n-----------------------------------------------\n\nFRIDAY SELL-OFF WAS SEVERE:\n- S&P 500: -2.6% (worst since Oct 2025) | $1.8 trillion wipeout\n- Nasdaq: -4.2% (biggest one-day point drop EVER at 1,121 pts)\n- Dow: -695 points (-1.35%)\n- Semiconductors: Worst one-day plunge since March 2020, $1T+ erased\n- Tech sector: -5.8%\n\nCAUSE: Strong May jobs report (172K jobs, 4.3% unemployment) raised expectations that the Fed may RAISE rates. This triggered a broad risk-off rotation across stocks, bonds, crypto, and gold simultaneously. S&P 500 snapped a 9-week winning streak.\n\n-----------------------------------------------\nREGULATORY & MACRO DEVELOPMENTS\n-----------------------------------------------\n\n- US HOUSE TAX COMMITTEE: Seven draft crypto bills circulated for hearing next week, including small-transaction tax relief and mining/staking burden reduction.\n\n- CLARITY ACT: Senator Alsobrooks says bipartisan crypto legislation is close but ethics and illicit finance concerns remain before Senate vote.\n\n- FED RATE HIKE ON THE TABLE: Strong jobs data shifted expectations. Fed easing is \"off the table\" for 2026; a rate hike is now possible later this year.\n\n- Republican senators pressing Fed, FDIC, and OCC to rewrite digital asset capital rules.\n\n-----------------------------------------------\nMARKET SENTIMENT & OUTLOOK\n-----------------------------------------------\n\nSENTIMENT: Deeply bearish short-term. Fear at extreme levels.\n\nKEY FACTORS FOR THE WEEK AHEAD:\n- Fed meeting upcoming -- all eyes on Chair Warsh's response\n- SpaceX IPO trading begins June 12 -- potential crypto capital rotation\n- $3B Bitcoin ETF outflows this week with no reversal signals\n- Spot trading volumes at lowest since November 2023\n- Bitcoin maximalists unfazed, calling this temporary AI-driven rotation\n\nBULL CASE: Weekend bounce above $61K shows buyers stepping in. On-chain data shows no massive capital leaving crypto for SpaceX IPO.\n\nBEAR CASE: Worst weekly decline in 3.5 years. ETF outflows accelerating. Rate hike fears mounting. Altcoins destroyed (ADA 4-year lows, WLD -20%). If BTC breaks $59K, expect further downside toward $55K.\n\nTRADING NOTE: Extreme caution warranted. Not a capitulation bottom yet. Watch $59K BTC support and Sunday evening futures for directional cues.\n\n-----------------------------------------------\nStay sharp. Risk management above all.\n\n-- Riel\nCrypto Trading Intelligence\n============================================="
   }
 ]
