@@ -93,6 +93,9 @@
       if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
       const data = await resp.json();
       allArticles = deriveArticleMeta(data.articles || data || []);
+      // Hide loading skeleton
+      const skeleton = document.getElementById('loadingSkeleton');
+      if (skeleton) { skeleton.classList.add('loaded'); }
       document.getElementById('lastUpdated').textContent = `Updated: ${data.generated || 'recently'}`;
       renderArticles();
       updateMarketPulse();
@@ -412,15 +415,19 @@
     // Crypto: 24/7
     const cryptoOpen = true;
 
+    const dotEl = document.querySelector('.pulse-dot');
     if (nyseOpen) {
       statusEl.textContent = 'US Equities Open';
       statusEl.className = 'pulse-status open';
+      if (dotEl) { dotEl.className = 'pulse-dot open'; }
     } else if (day >= 1 && day <= 5) {
       statusEl.textContent = 'US Markets Closed';
       statusEl.className = 'pulse-status closed';
+      if (dotEl) { dotEl.className = 'pulse-dot closed'; }
     } else {
       statusEl.textContent = 'Weekend — Crypto Active';
       statusEl.className = 'pulse-status amber';
+      if (dotEl) { dotEl.className = 'pulse-dot amber'; }
     }
 
     // Update time
@@ -537,11 +544,10 @@
       </div>
     `}).join('');
 
-    if (append) {
-      // Only replace the new items (skip already rendered ones)
+    if (html) {
       listEl.innerHTML = html;
     } else {
-      listEl.innerHTML = html;
+      listEl.innerHTML = '<div class="empty-state"><div class="empty-state-icon">📭</div><div class="empty-state-title">No articles match</div><div class="empty-state-desc">Try adjusting your search or filters</div></div>';
     }
 
     // Show/hide load more

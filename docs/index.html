@@ -173,6 +173,21 @@
 <!-- ===== MAIN CONTENT ===== -->
 <main class="main-area">
 
+  <!-- Loading skeleton (shown until data loads) -->
+  <div class="loading-skeleton" id="loadingSkeleton">
+    <div class="skeleton-card">
+      <div class="skeleton skeleton-line" style="width:40%;height:10px;margin-bottom:14px"></div>
+      <div class="skeleton skeleton-line"></div>
+      <div class="skeleton skeleton-line"></div>
+      <div class="skeleton skeleton-line" style="width:60%"></div>
+    </div>
+    <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:16px">
+      <div class="skeleton-card"><div class="skeleton skeleton-line"></div><div class="skeleton skeleton-line" style="width:70%"></div></div>
+      <div class="skeleton-card"><div class="skeleton skeleton-line"></div><div class="skeleton skeleton-line" style="width:50%"></div></div>
+      <div class="skeleton-card"><div class="skeleton skeleton-line"></div><div class="skeleton skeleton-line" style="width:80%"></div></div>
+    </div>
+  </div>
+
   <!-- Market Pulse Bar -->
   <div class="market-pulse" id="marketPulse">
     <div class="pulse-dot"></div>
