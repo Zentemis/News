@@ -154,7 +154,8 @@ def parse_date(entry):
             try:
                 dt = datetime(*parsed[:6], tzinfo=timezone.utc)
                 return dt.isoformat()
-            except:
+            except Exception as e:
+                logging.warning(f"Date parse failed: {e}")
                 pass
 
     for field in ['published', 'updated']:
@@ -172,7 +173,8 @@ def parse_date(entry):
                         return datetime.strptime(raw.strip(), fmt).isoformat()
                     except ValueError:
                         continue
-            except:
+            except Exception as e:
+                logging.warning(f"Date parse failed for raw: {e}")
                 pass
 
     return datetime.now(timezone.utc).isoformat()
