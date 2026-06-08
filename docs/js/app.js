@@ -108,7 +108,8 @@
       const bResp = await fetch('data/briefings.json');
       if (bResp.ok) {
         const bData = await bResp.json();
-        allBriefings = Array.isArray(bData) ? bData : (bData.briefings || []);
+        allBriefings = (Array.isArray(bData) ? bData : (bData.briefings || []))
+          .sort((a, b) => new Date(b.date) - new Date(a.date));
         renderBriefings();
       }
     } catch (err) {
@@ -350,25 +351,22 @@ function matchesSource(article, source) {
   }
 
   // --- HELPERS ---
-  function escHtml(str) {
-    if (!str) return '';
-function escHtml(s) { return String(s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;'); }
-function sentimentClass(sentiment) {
+  function escHtml(s) { return String(s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;'); }
+  function sentimentClass(sentiment) {
     if (!sentiment) return 'neutral';
     const s = sentiment.toLowerCase();
     if (s === 'bullish') return 'bullish';
     if (s === 'bearish') return 'bearish';
     return 'neutral';
-}
-function renderTopics(topics) {
+  }
+  function renderTopics(topics) {
     return (topics || []).map(t => '<span class="briefing-topic-tag">' + escHtml(t) + '</span>').join('');
-}
-function formatBriefingDate(dateStr) {
+  }
+  function formatBriefingDate(dateStr) {
     return new Date(dateStr).toLocaleDateString('en-US', { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' });
-}
-function go(url) {
+  }
+  function go(url) {
     if (url) window.open(url, '_blank');
-}
   }
 
   function formatTime(dateStr) {
@@ -599,9 +597,7 @@ filtered = filtered.filter(a => matchesSource(a, activeSource.dataset.source));
       return;
     }
 
-    const sorted = [...allBriefings].sort((a, b) => new Date(b.date) - new Date(a.date));
-
-    listEl.innerHTML = sorted.map((b, idx) => {
+    listEl.innerHTML = allBriefings.map((b, idx) => {
       const sc = sentimentClass(b.sentiment);
       const topics = renderTopics(b.topics);
       const storyCount = (b.stories || []).length;
@@ -623,8 +619,7 @@ filtered = filtered.filter(a => matchesSource(a, activeSource.dataset.source));
   }
 
   window._openBriefing = function(idx) {
-    const sorted = [...allBriefings].sort((a, b) => new Date(b.date) - new Date(a.date));
-    viewingBriefing = sorted[idx];
+    viewingBriefing = allBriefings[idx];
     renderBriefings();
   };
 
