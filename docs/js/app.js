@@ -95,6 +95,7 @@
       allArticles = deriveArticleMeta(data.articles || data || []);
       document.getElementById('lastUpdated').textContent = `Updated: ${data.generated || 'recently'}`;
       renderArticles();
+      updateMarketPulse();
     } catch (err) {
       console.error('Failed to load news:', err);
     }
@@ -198,7 +199,8 @@
             <div class="card-summary">${escHtml(a.summary || a.description || '')}</div>
             <div class="card-meta">
               <span class="cat-badge ${a.category || 'macro'}">${a.category || 'general'}</span>
-              <span>${a.source || ''} · ${formatTime(a.published)}</span>
+              <span class="card-source">${escHtml(a.source || '')}</span>
+              <span class="card-time">${formatTime(a.published)}</span>
             </div>
           </div>
         `).join('');
@@ -212,10 +214,10 @@
     if (listEl) {
       if (list.length > 0) {
         listEl.innerHTML = list.map(a => `
-          <div class="news-row" onclick="window.open('${a.url}', '_blank')">
+          <div class="news-row" style="border-left-color: var(--cat-${a.category || 'macro'})" onclick="window.open('${a.url}', '_blank')">
             <span class="row-title">${escHtml(a.title)}</span>
             <span class="cat-badge ${a.category || 'macro'}" style="flex-shrink:0">${a.category || 'gen'}</span>
-            <span class="row-source">${a.source || ''}</span>
+            <span class="row-source">${escHtml(a.source || '')}</span>
             <span class="row-time">${formatTimeShort(a.published)}</span>
           </div>
         `).join('');
@@ -393,6 +395,40 @@
     }
   }
 
+  // --- MARKET PULSE ---
+  function updateMarketPulse() {
+    const statusEl = $('#pulseStatus');
+    const updateEl = $('#pulseUpdate');
+    if (!statusEl) return;
+
+    const now = new Date();
+    const day = now.getUTCDay();
+    const hour = now.getUTCHours();
+    const min = now.getUTCMinutes();
+    const totalMin = hour * 60 + min;
+
+    // NYSE hours: 9:30-16:00 ET (13:30-20:00 UTC)
+    const nyseOpen = day >= 1 && day <= 5 && totalMin >= 810 && totalMin < 960;
+    // Crypto: 24/7
+    const cryptoOpen = true;
+
+    if (nyseOpen) {
+      statusEl.textContent = 'US Equities Open';
+      statusEl.className = 'pulse-status open';
+    } else if (day >= 1 && day <= 5) {
+      statusEl.textContent = 'US Markets Closed';
+      statusEl.className = 'pulse-status closed';
+    } else {
+      statusEl.textContent = 'Weekend — Crypto Active';
+      statusEl.className = 'pulse-status amber';
+    }
+
+    // Update time
+    if (allArticles.length > 0 && allArticles[0].published) {
+      updateEl.textContent = 'Latest: ' + formatTime(allArticles[0].published);
+    }
+  }
+
   // --- ARTICLES SECTION ---
   function initArticles() {
     const searchInput = $('#articlesSearch');
@@ -494,7 +530,7 @@
           <div class="article-meta">
             <span class="cat-badge ${a.category || 'macro'}">${a.category || 'general'}</span>
             ${a.impact ? `<span class="impact-badge ${a.impact}">${a.impact}</span>` : ''}
-            <span class="meta-source">${escHtml(a.source || '')}</span>
+            <span class="article-source">${escHtml(a.source || '')}</span>
             <span class="meta-time">${formatTime(a.published)}</span>
           </div>
         </div>
@@ -636,8 +672,10 @@
     initArticles();
     initBriefings();
     updateFooter();
+    updateMarketPulse();
     loadNews();
     setInterval(updateFooter, 60000);
+    setInterval(updateMarketPulse, 60000);
   }
 
   if (document.readyState === 'loading') {
