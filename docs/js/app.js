@@ -150,14 +150,17 @@
     // Articles section
     renderArticlesSection();
   }
-
-  function filterArticles(articles) {
-    let filtered = [...articles];
-    if (activeSource !== 'all') {
-      filtered = filtered.filter(a => a.source && a.source.toLowerCase().includes(activeSource));
+function filterArticles() {
+    let filtered = [...allArticles];
+    const activeSource = document.querySelector('.source-filter-pill.active');
+    if (activeSource && activeSource.dataset.source !== 'all') {
+        filtered = filtered.filter(a => matchesSource(a, activeSource.dataset.source));
     }
     return filtered;
-  }
+}
+function matchesSource(article, source) {
+    return article.source && article.source.toLowerCase().includes(source.toLowerCase());
+}
 
   function renderSection(section, articles) {
     // Featured: high impact first, then medium, fallback to first article
@@ -173,7 +176,7 @@
       if (featured.length > 0) {
         const a = featured[0];
         featuredEl.innerHTML = `
-          <div class="featured-story" onclick="window.open('${a.url}', '_blank')">
+          <div class="featured-story" onclick="go('${a.url}')">
             <div class="featured-meta">
               <span class="cat-badge ${a.category || 'macro'}">${a.category || 'general'}</span>
               <span class="impact-badge high">High Impact</span>
@@ -197,7 +200,7 @@
     if (gridEl) {
       if (grid.length > 0) {
         gridEl.innerHTML = grid.map(a => `
-          <div class="news-card" onclick="window.open('${a.url}', '_blank')">
+          <div class="news-card" onclick="go('${a.url}')">
             <h4>${escHtml(a.title)}</h4>
             <div class="card-summary">${escHtml(a.summary || a.description || '')}</div>
             <div class="card-meta">
@@ -217,7 +220,7 @@
     if (listEl) {
       if (list.length > 0) {
         listEl.innerHTML = list.map(a => `
-          <div class="news-row" style="border-left-color: var(--cat-${a.category || 'macro'})" onclick="window.open('${a.url}', '_blank')">
+          <div class="news-row" style="border-left-color: var(--cat-${a.category || 'macro'})" onclick="go('${a.url}')">
             <span class="row-title">${escHtml(a.title)}</span>
             <span class="cat-badge ${a.category || 'macro'}" style="flex-shrink:0">${a.category || 'gen'}</span>
             <span class="row-source">${escHtml(a.source || '')}</span>
@@ -349,7 +352,23 @@
   // --- HELPERS ---
   function escHtml(str) {
     if (!str) return '';
-    return str.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+function escHtml(s) { return String(s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;'); }
+function sentimentClass(sentiment) {
+    if (!sentiment) return 'neutral';
+    const s = sentiment.toLowerCase();
+    if (s === 'bullish') return 'bullish';
+    if (s === 'bearish') return 'bearish';
+    return 'neutral';
+}
+function renderTopics(topics) {
+    return (topics || []).map(t => '<span class="briefing-topic-tag">' + escHtml(t) + '</span>').join('');
+}
+function formatBriefingDate(dateStr) {
+    return new Date(dateStr).toLocaleDateString('en-US', { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' });
+}
+function go(url) {
+    if (url) window.open(url, '_blank');
+}
   }
 
   function formatTime(dateStr) {
@@ -494,7 +513,7 @@
 
     // Source filter (from sidebar)
     if (activeSource !== 'all') {
-      filtered = filtered.filter(a => a.source && a.source.toLowerCase().includes(activeSource));
+filtered = filtered.filter(a => matchesSource(a, activeSource.dataset.source));
     }
 
     // Search
@@ -502,7 +521,7 @@
       filtered = filtered.filter(a =>
         (a.title && a.title.toLowerCase().includes(articlesSearchQuery)) ||
         (a.summary && a.summary.toLowerCase().includes(articlesSearchQuery)) ||
-        (a.source && a.source.toLowerCase().includes(articlesSearchQuery))
+        matchesSource(a, articlesSearchQuery)
       );
     }
 
@@ -530,7 +549,7 @@
       const hasSummary = a.summary && a.summary.trim();
       const impactClass = a.impact === 'high' ? 'impact-high' : a.impact === 'medium' ? 'impact-medium' : '';
       return `
-      <div class="article-entry ${impactClass}" onclick="window.open('${a.url}', '_blank')">
+      <div class="article-entry ${impactClass}" onclick="go('${a.url}')">
         <div class="article-left">
           <div class="article-title">${escHtml(a.title)}</div>
           ${hasSummary ? `<div class="article-summary">${escHtml(a.summary)}</div>` : ''}
@@ -583,16 +602,16 @@
     const sorted = [...allBriefings].sort((a, b) => new Date(b.date) - new Date(a.date));
 
     listEl.innerHTML = sorted.map((b, idx) => {
-      const sentimentClass = b.sentiment && b.sentiment.toLowerCase() === 'bullish' ? 'bullish' : b.sentiment && b.sentiment.toLowerCase() === 'bearish' ? 'bearish' : 'neutral';
-      const topics = (b.topics || []).map(t => '<span class="briefing-topic-tag">' + escHtml(t) + '</span>').join('');
+      const sc = sentimentClass(b.sentiment);
+      const topics = renderTopics(b.topics);
       const storyCount = (b.stories || []).length;
-      const dateStr = new Date(b.date).toLocaleDateString('en-US', { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' });
+      const dateStr = formatBriefingDate(b.date);
 
       return '<div class="briefing-card" onclick="window._openBriefing(' + idx + ')">' +
         '<div class="briefing-card-header">' +
           '<div class="briefing-card-title">' + escHtml(b.title) + '</div>' +
           '<div class="briefing-card-meta">' +
-            '<span class="briefing-card-badge ' + sentimentClass + '">' + escHtml(b.sentiment || '') + '</span>' +
+            '<span class="briefing-card-badge ' + sc + '">' + escHtml(b.sentiment || '') + '</span>' +
             '<span class="briefing-card-date">' + dateStr + '</span>' +
           '</div>' +
         '</div>' +
@@ -613,9 +632,9 @@
     const el = document.getElementById('briefingDetailContent');
     if (!el) return;
 
-    const sentimentClass = b.sentiment && b.sentiment.toLowerCase() === 'bullish' ? 'bullish' : b.sentiment && b.sentiment.toLowerCase() === 'bearish' ? 'bearish' : 'neutral';
-    const dateStr = new Date(b.date).toLocaleDateString('en-US', { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' });
-    const topics = (b.topics || []).map(t => '<span class="briefing-topic-tag">' + escHtml(t) + '</span>').join(' ');
+    const sc = sentimentClass(b.sentiment);
+    const dateStr = formatBriefingDate(b.date);
+    const topics = renderTopics(b.topics);
 
     let storiesHtml = '';
     if (b.stories && b.stories.length > 0) {
@@ -651,7 +670,7 @@
       '<div class="briefing-detail-header">' +
         '<div class="briefing-detail-title">' + escHtml(b.title) + '</div>' +
         '<div class="briefing-detail-date">' + dateStr + '</div>' +
-        '<span class="briefing-card-badge ' + sentimentClass + '" style="margin-top:0.75rem">' + escHtml(b.sentiment || '') + '</span>' +
+        '<span class="briefing-card-badge ' + sc + '" style="margin-top:0.75rem">' + escHtml(b.sentiment || '') + '</span>' +
         '<div class="briefing-detail-sentiment">' + escHtml(b.overview || b.summary || '') + '</div>' +
         '<div class="briefing-card-topics" style="margin-top:0.75rem">' + topics + '</div>' +
       '</div>' +
