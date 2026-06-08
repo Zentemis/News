@@ -1316,3 +1316,181 @@ a:hover { text-decoration: underline; }
   border-color: rgba(200,169,126,0.15);
   filter: brightness(1.02);
 }
+
+
+/* ══════════════════════════════════════════
+   UI POLISH — Batch 2
+   ══════════════════════════════════════════ */
+
+/* ── Ticker Gradient Fade ── */
+.ticker-bar::before,
+.ticker-bar::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 40px;
+  z-index: 2;
+  pointer-events: none;
+}
+.ticker-bar::before {
+  left: 0;
+  background: linear-gradient(90deg, var(--bg-ticker) 0%, transparent 100%);
+}
+.ticker-bar::after {
+  right: 0;
+  background: linear-gradient(270deg, var(--bg-ticker) 0%, transparent 100%);
+}
+
+/* ── Ticker Item Hover ── */
+.ticker-item {
+  transition: opacity 0.2s ease;
+}
+.ticker-item:hover {
+  opacity: 0.8;
+}
+
+/* ── Ticker Change Backgrounds ── */
+.ticker-change.up {
+  background: rgba(38, 210, 130, 0.1);
+  padding: 2px 6px;
+  border-radius: 3px;
+}
+.ticker-change.down {
+  background: rgba(255, 71, 87, 0.1);
+  padding: 2px 6px;
+  border-radius: 3px;
+}
+
+/* ── Sidebar Nav Polish ── */
+.sidebar-nav li {
+  border-left: 3px solid transparent;
+  transition: all 0.2s ease;
+}
+.sidebar-nav li:hover {
+  background: rgba(255,255,255,0.04);
+  border-left-color: rgba(255,255,255,0.1);
+}
+.sidebar-nav li.active {
+  background: rgba(212,175,55,0.08);
+  border-left-color: var(--accent);
+}
+
+/* ── Pulse Animation ── */
+@keyframes pulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.4; }
+}
+.live-dot {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  margin-right: 6px;
+  vertical-align: middle;
+}
+.live-dot.open {
+  background: var(--green);
+  animation: pulse 2s ease-in-out infinite;
+}
+.live-dot.closed {
+  background: var(--red);
+}
+
+/* ── Featured Story Polish ── */
+.featured-story {
+  transition: transform 0.2s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+}
+.featured-story:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 12px 40px rgba(0,0,0,0.4);
+  border-color: var(--accent);
+}
+
+/* ── Card Hover Polish ── */
+.news-card {
+  transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+}
+.news-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(0,0,0,0.3);
+  border-color: var(--accent);
+}
+
+/* ── News Row Hover ── */
+.news-row {
+  transition: background 0.2s ease, border-color 0.2s ease;
+}
+
+/* ── Article Entry Hover ── */
+.article-entry {
+  transition: background 0.15s ease, border-color 0.15s ease;
+}
+
+/* ── Custom Scrollbar ── */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: var(--bg);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--border);
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--text-dim);
+}
+
+/* ── Filter Button Active State ── */
+.filter-btn:active {
+  transform: scale(0.96);
+}
+
+/* ── Mobile Responsiveness ── */
+@media (max-width: 768px) {
+  .main-grid {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+  .sidebar {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: auto;
+    height: auto;
+    z-index: 100;
+    flex-direction: row;
+    overflow-x: auto;
+    padding: 8px 12px;
+    border-right: none;
+    border-top: 1px solid var(--border);
+    background: var(--surface);
+  }
+  .sidebar-brand { display: none; }
+  .sidebar-nav { display: flex; flex-direction: row; gap: 4px; flex-shrink: 0; }
+  .sidebar-nav li { white-space: nowrap; }
+  .sidebar-widgets { display: none; }
+  .main-content { padding-bottom: 80px; }
+  .featured-story-content {
+    flex-direction: column;
+    padding: 16px;
+  }
+  .featured-story-title { font-size: 1.25rem; }
+  .news-cards-grid {
+    grid-template-columns: 1fr;
+  }
+  .ticker-bar { display: none; }
+  .articles-toolbar {
+    flex-direction: column;
+    gap: 8px;
+  }
+  .toolbar-left, .toolbar-right {
+    width: 100%;
+  }
+  .toolbar-left input {
+    width: 100%;
+  }
+}
