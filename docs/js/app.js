@@ -119,6 +119,11 @@
   }
 
   // --- ARTICLE RENDERING ---
+  function filterArticles(articles) {
+    if (!activeSource || activeSource === 'all') return articles;
+    return articles.filter(a => a.source && a.source.toLowerCase().includes(activeSource.toLowerCase()));
+  }
+
   function renderArticles() {
     const filtered = filterArticles(allArticles);
 
