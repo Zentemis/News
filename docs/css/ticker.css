@@ -1,0 +1,91 @@
+/* ============================================================
+   Meridian — Ticker Bar (pinned top)
+   ============================================================ */
+
+/* --- TICKER BAR (pinned top) --- */
+.ticker-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: var(--ticker-height);
+  background: linear-gradient(90deg, var(--bg-ticker) 0%, #10121a 50%, var(--bg-ticker) 100%);
+  border-bottom: 1px solid var(--border);
+  box-shadow: 0 1px 12px rgba(0,0,0,0.5);
+  display: flex;
+  align-items: center;
+  padding: 0 var(--gap-md);
+  gap: var(--gap-lg);
+  overflow-x: auto;
+  z-index: 100;
+  white-space: nowrap;
+  scrollbar-width: none;
+}
+.ticker-bar::-webkit-scrollbar { display: none; }
+
+.ticker-item {
+  display: flex;
+  align-items: center;
+  gap: var(--gap-sm);
+  font-size: 0.82rem;
+  flex-shrink: 0;
+}
+.ticker-item .ticker-name {
+  color: var(--text-secondary);
+  font-weight: 500;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+.ticker-item .ticker-price {
+  color: var(--text-primary);
+  font-family: 'JetBrains Mono', monospace;
+  font-weight: 600;
+  font-size: 0.82rem;
+  font-feature-settings: 'tnum';
+}
+.ticker-item .ticker-change {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.75rem;
+  font-weight: 500;
+  font-feature-settings: 'tnum';
+}
+.ticker-change.up { color: var(--green); }
+.ticker-change.down { color: var(--red); }
+
+.ticker-sparkline {
+  width: 48px;
+  height: 18px;
+  flex-shrink: 0;
+}
+
+.ticker-divider {
+  width: 1px;
+  height: 20px;
+  background: var(--border-light);
+  flex-shrink: 0;
+}
+
+
+/* Ticker edge fade */
+.ticker-bar::before,
+.ticker-bar::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 40px;
+  z-index: 2;
+  pointer-events: none;
+}
+.ticker-bar::before {
+  left: 0;
+  background: linear-gradient(90deg, var(--bg-ticker) 0%, transparent 100%);
+}
+.ticker-bar::after {
+  right: 0;
+  background: linear-gradient(270deg, var(--bg-ticker) 0%, transparent 100%);
+}
+.ticker-item:hover {
+  opacity: 0.8;
+}

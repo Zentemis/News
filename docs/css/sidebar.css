@@ -1,0 +1,230 @@
+/* ============================================================
+   Meridian — Sidebar: Nav, Widgets, Gauge, Calendar
+   ============================================================ */
+
+/* --- SIDEBAR --- */
+.sidebar {
+  position: fixed;
+  top: var(--ticker-height);
+  left: 0;
+  bottom: 0;
+  width: var(--sidebar-width);
+  background: linear-gradient(180deg, #171a22 0%, var(--bg-sidebar) 40%, #121419 100%);
+  border-right: 1px solid var(--border);
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+  z-index: 90;
+  scrollbar-width: thin;
+  scrollbar-color: var(--border-light) transparent;
+}
+
+.sidebar-brand {
+  padding: var(--gap-lg) var(--gap-md) var(--gap-md);
+  border-bottom: none;
+  position: relative;
+}
+.sidebar-brand::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: var(--gap-md);
+  right: var(--gap-md);
+  height: 1px;
+  background: linear-gradient(90deg, transparent, rgba(200,169,126,0.15), var(--border-light), rgba(59,130,246,0.08), transparent);
+}
+.sidebar-brand h1 {
+  font-family: 'Source Serif 4', 'Georgia', serif;
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  letter-spacing: -0.01em;
+}
+.sidebar-brand .tagline {
+  font-size: 0.75rem;
+  color: var(--text-muted);
+  margin-top: 2px;
+}
+
+.sidebar-nav {
+  padding: var(--gap-md) 0;
+  border-bottom: 1px solid var(--border);
+}
+.sidebar-nav a {
+  display: flex;
+  align-items: center;
+  gap: var(--gap-sm);
+  padding: var(--gap-sm) var(--gap-md);
+  color: var(--text-secondary);
+  font-size: 0.85rem;
+  font-weight: 500;
+  transition: all 0.15s ease;
+  border-left: 3px solid transparent;
+  text-decoration: none;
+}
+.sidebar-nav a:hover {
+  color: var(--text-primary);
+  background: rgba(255,255,255,0.03);
+  text-decoration: none;
+}
+.sidebar-nav a.active {
+  color: var(--text-primary);
+  background: linear-gradient(90deg, var(--accent-glow), transparent);
+  border-left-color: var(--accent);
+}
+.sidebar-nav a .nav-icon {
+  width: 18px;
+  text-align: center;
+  font-size: 0.9rem;
+  flex-shrink: 0;
+}
+.sidebar-nav a .nav-label { flex: 1; }
+.nav-count {
+  margin-left: auto;
+  font-size: 0.7rem;
+  color: var(--text-muted);
+  background: var(--bg-card);
+  padding: 0.1rem 0.4rem;
+  border-radius: 8px;
+  min-width: 1.4rem;
+  text-align: center;
+  font-family: var(--font-mono);
+  opacity: 0.7;
+  transition: opacity 0.2s;
+}
+.sidebar-nav a.active .nav-count {
+  color: var(--accent);
+  background: rgba(59, 130, 246, 0.1);
+  opacity: 1;
+}
+.sidebar-nav a:hover .nav-count { opacity: 1; }
+
+.sidebar-section {
+  background: var(--bg-card);
+  border: 1px solid rgba(200,169,126,0.06);
+  border-radius: 8px;
+  padding: 1.25rem;
+  margin-bottom: 1.5rem;
+}
+.sidebar-section-title {
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--text-muted);
+  font-weight: 600;
+  margin-bottom: var(--gap-sm);
+}
+
+/* Fear & Greed Gauge */
+.gauge-container {
+  text-align: center;
+  padding: var(--gap-sm) 0;
+}
+.gauge-ring {
+  position: relative;
+  width: 100px;
+  height: 55px;
+  margin: 0 auto var(--gap-sm);
+  overflow: hidden;
+}
+.gauge-ring svg { width: 100px; height: 100px; }
+.gauge-ring .gauge-bg {
+  fill: none;
+  stroke: var(--border-light);
+  stroke-width: 8;
+}
+.gauge-ring .gauge-fill {
+  fill: none;
+  stroke: var(--red);
+  stroke-width: 8;
+  stroke-linecap: round;
+  transition: stroke-dashoffset 0.6s ease, stroke 0.3s ease;
+}
+.gauge-value {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+.gauge-label {
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+/* Calendar Widget */
+.calendar-event {
+  display: flex;
+  align-items: center;
+  gap: var(--gap-sm);
+  padding: var(--gap-xs) 0;
+  font-size: 0.8rem;
+}
+.calendar-date {
+  font-family: 'JetBrains Mono', monospace;
+  color: var(--text-muted);
+  font-size: 0.72rem;
+  min-width: 48px;
+  flex-shrink: 0;
+  font-feature-settings: 'tnum';
+}
+.calendar-name {
+  color: var(--text-secondary);
+  flex: 1;
+}
+.calendar-impact {
+  font-size: 0.65rem;
+  padding: 1px 6px;
+  border-radius: 3px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+.calendar-impact.high { background: rgba(239,68,68,0.15); color: var(--red); }
+.calendar-impact.medium { background: rgba(245,158,11,0.15); color: var(--amber); }
+.calendar-impact.low { background: rgba(59,130,246,0.15); color: var(--accent); }
+
+/* Filter Pills */
+.filter-pills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--gap-xs);
+}
+.filter-pill {
+  font-size: 0.72rem;
+  padding: 3px 10px;
+  border-radius: 99px;
+  border: 1px solid var(--border-light);
+  color: var(--text-secondary);
+  cursor: pointer;
+  transition: all 0.15s ease;
+  background: transparent;
+  font-family: inherit;
+}
+.filter-pill:hover {
+  border-color: var(--accent);
+  color: var(--text-primary);
+}
+.filter-pill.active {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: #fff;
+}
+
+/* Updated timestamp */
+.updated-ts {
+  font-size: 0.7rem;
+  color: var(--text-muted);
+  padding: var(--gap-sm) var(--gap-md);
+}
+
+
+/* Sidebar responsive */
+@media (max-width: 768px) {
+  .sidebar-section {
+    margin-bottom: 0.75rem;
+    padding: 1rem;
+  }
+}
