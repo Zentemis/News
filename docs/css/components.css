@@ -16,12 +16,6 @@
   overflow: hidden;
   box-shadow: 0 2px 8px rgba(0,0,0,0.3), 0 0 1px rgba(200,169,126,0.1);
 }
-.featured-story:hover {
-  transform: translateY(-1px);
-  box-shadow: 0 8px 24px rgba(0,0,0,0.4), 0 0 1px rgba(200,169,126,0.2);
-  border-color: rgba(200,169,126,0.15);
-  filter: brightness(1.02);
-}
 .featured-story::before {
   content: '';
   position: absolute;
@@ -139,12 +133,6 @@
   border-radius: inherit;
   pointer-events: none;
 }
-.news-card:hover {
-  transform: translateY(-1px);
-  box-shadow: 0 8px 24px rgba(0,0,0,0.4), 0 0 1px rgba(200,169,126,0.2);
-  border-color: rgba(200,169,126,0.15);
-  filter: brightness(1.02);
-}
 .news-card h4 {
   font-family: 'Source Serif 4', 'Georgia', serif;
   font-size: 0.95rem;
@@ -218,11 +206,7 @@
 }
 .news-row:hover {
   background: rgba(200,169,126,0.04);
-  transform: translateY(-1px);
-  box-shadow: 0 8px 24px rgba(0,0,0,0.4), 0 0 1px rgba(200,169,126,0.2);
-  border-color: rgba(200,169,126,0.15);
   border-left-color: var(--accent);
-  filter: brightness(1.02);
 }
 .news-row .row-title {
   flex: 1;
@@ -283,12 +267,6 @@
   height: 2px;
   background: linear-gradient(90deg, transparent, rgba(59,130,246,0.2), transparent);
   border-radius: 1px;
-}
-.stat-card:hover {
-  transform: translateY(-1px);
-  box-shadow: 0 8px 24px rgba(0,0,0,0.4), 0 0 1px rgba(200,169,126,0.2);
-  border-color: rgba(200,169,126,0.15);
-  filter: brightness(1.02);
 }
 .stat-card .stat-label {
   font-size: 0.72rem;
@@ -355,10 +333,6 @@
   width: 40%;
   height: 10px;
   margin-bottom: 14px;
-}
-@keyframes shimmer {
-  0%   { background-position: 200% 0; }
-  100% { background-position: -200% 0; }
 }
 
 

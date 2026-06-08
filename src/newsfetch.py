@@ -6,10 +6,11 @@ Outputs structured JSON for the frontend.
 """
 
 import json
+import logging
 import re
 import sys
 import hashlib
-from datetime import datetime, timezone, timedelta
+from datetime import datetime, timezone
 from pathlib import Path
 
 try:
@@ -230,10 +231,8 @@ def fetch_feeds():
                     auto_category = classify_article(title, description, source_name)
                     impact = assess_impact(title, description)
 
-                    # Use feed category if it's a primary source, otherwise auto-classify
-                    final_category = category if category != "geopolitical" else auto_category
-                    if category == "geopolitical" and auto_category != "geopolitical":
-                        final_category = auto_category
+                    # Use auto-classified category, overriding feed "geopolitical" bucket
+                    final_category = auto_category if category == "geopolitical" else category
 
                     article = {
                         "title": title,

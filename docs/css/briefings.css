@@ -220,7 +220,7 @@
 .briefing-full-text p { margin-bottom: 0.75rem; }
 .briefing-full-text .briefing-hr { border: none; border-top: 1px solid var(--border); margin: 1rem 0; }
 .briefing-full-text::-webkit-scrollbar { width: 6px; }
-.briefing-full-text::-webkit-scrollbar-track { background: var(--bg); }
+.briefing-full-text::-webkit-scrollbar-track { background: var(--bg-base); }
 
 
 /* Briefings responsive */

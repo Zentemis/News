@@ -18,7 +18,6 @@
   --bg-sidebar:    #15171e;
   --bg-ticker:     #0e1015;
   --bg-input:      #1e2129;
-  --bg:            #12141a;
 
   /* Text */
   --text-primary:   #e8eaed;
@@ -68,6 +67,9 @@
   /* Sidebar */
   --sidebar-width: 240px;
   --ticker-height: 40px;
+
+  /* Typography */
+  --font-mono: 'SF Mono', 'Fira Code', 'Cascadia Code', monospace;
 }
 
 html {
@@ -102,6 +104,10 @@ a:hover { text-decoration: underline; }
 
 
 /* Scrollbar */
+::-webkit-scrollbar-thumb {
+  background: var(--border-light);
+  border-radius: 3px;
+}
 ::-webkit-scrollbar-thumb:hover {
   background: var(--text-dim);
 }
@@ -128,4 +134,33 @@ a:hover { text-decoration: underline; }
 @keyframes shimmer {
   0%   { background-position: 200% 0; }
   100% { background-position: -200% 0; }
+}
+
+/* --- SHARED CARD EFFECTS (DRY) --- */
+/* Card hover: lift + glow + brighten */
+.featured-story:hover,
+.news-card:hover,
+.news-row:hover,
+.stat-card:hover,
+.article-entry:hover,
+.briefing-card:hover,
+.briefing-story:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 8px 24px rgba(0,0,0,0.4), 0 0 1px rgba(200,169,126,0.2);
+  border-color: rgba(200,169,126,0.15);
+  filter: brightness(1.02);
+}
+
+/* Card top-edge glow (1px gradient) */
+.news-card::before,
+.stat-card::before,
+.article-entry::before,
+.briefing-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, rgba(255,255,255,0.03), transparent);
 }

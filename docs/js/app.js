@@ -151,17 +151,10 @@
     // Articles section
     renderArticlesSection();
   }
-function filterArticles() {
-    let filtered = [...allArticles];
-    const activeSource = document.querySelector('.source-filter-pill.active');
-    if (activeSource && activeSource.dataset.source !== 'all') {
-        filtered = filtered.filter(a => matchesSource(a, activeSource.dataset.source));
-    }
-    return filtered;
-}
-function matchesSource(article, source) {
+  // matchesSource: check if article source contains the filter string
+  function matchesSource(article, source) {
     return article.source && article.source.toLowerCase().includes(source.toLowerCase());
-}
+  }
 
   function renderSection(section, articles) {
     // Featured: high impact first, then medium, fallback to first article
@@ -177,7 +170,7 @@ function matchesSource(article, source) {
       if (featured.length > 0) {
         const a = featured[0];
         featuredEl.innerHTML = `
-          <div class="featured-story" onclick="go('${a.url}')">
+          <div class="featured-story" data-url="${a.url}">
             <div class="featured-meta">
               <span class="cat-badge ${a.category || 'macro'}">${a.category || 'general'}</span>
               <span class="impact-badge high">High Impact</span>
@@ -201,7 +194,7 @@ function matchesSource(article, source) {
     if (gridEl) {
       if (grid.length > 0) {
         gridEl.innerHTML = grid.map(a => `
-          <div class="news-card" onclick="go('${a.url}')">
+          <div class="news-card" data-url="${a.url}">
             <h4>${escHtml(a.title)}</h4>
             <div class="card-summary">${escHtml(a.summary || a.description || '')}</div>
             <div class="card-meta">
@@ -221,7 +214,7 @@ function matchesSource(article, source) {
     if (listEl) {
       if (list.length > 0) {
         listEl.innerHTML = list.map(a => `
-          <div class="news-row" style="border-left-color: var(--cat-${a.category || 'macro'})" onclick="go('${a.url}')">
+          <div class="news-row" style="border-left-color: var(--cat-${a.category || 'macro'})" data-url="${a.url}">
             <span class="row-title">${escHtml(a.title)}</span>
             <span class="cat-badge ${a.category || 'macro'}" style="flex-shrink:0">${a.category || 'gen'}</span>
             <span class="row-source">${escHtml(a.source || '')}</span>
@@ -353,11 +346,8 @@ function matchesSource(article, source) {
   // --- HELPERS ---
   function escHtml(s) { return String(s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;'); }
   function sentimentClass(sentiment) {
-    if (!sentiment) return 'neutral';
-    const s = sentiment.toLowerCase();
-    if (s === 'bullish') return 'bullish';
-    if (s === 'bearish') return 'bearish';
-    return 'neutral';
+    const s = (sentiment || '').toLowerCase();
+    return ['bullish', 'bearish', 'neutral'].includes(s) ? s : 'neutral';
   }
   function renderTopics(topics) {
     return (topics || []).map(t => '<span class="briefing-topic-tag">' + escHtml(t) + '</span>').join('');
@@ -365,44 +355,34 @@ function matchesSource(article, source) {
   function formatBriefingDate(dateStr) {
     return new Date(dateStr).toLocaleDateString('en-US', { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' });
   }
-  function go(url) {
-    if (url) window.open(url, '_blank');
+  function timeDiff(dateStr) {
+    if (!dateStr) return null;
+    try {
+      const d = new Date(dateStr);
+      const diff = new Date() - d;
+      return {
+        mins: Math.floor(diff / 60000),
+        hours: Math.floor(diff / 3600000),
+        days: Math.floor(diff / 86400000),
+      };
+    } catch { return null; }
   }
 
   function formatTime(dateStr) {
-    if (!dateStr) return '';
-    try {
-      const d = new Date(dateStr);
-      const now = new Date();
-      const diff = now - d;
-      const mins = Math.floor(diff / 60000);
-      const hours = Math.floor(diff / 3600000);
-      const days = Math.floor(diff / 86400000);
-
-      if (mins < 1) return 'just now';
-      if (mins < 60) return `${mins}m ago`;
-      if (hours < 24) return `${hours}h ago`;
-      return `${days}d ago`;
-    } catch {
-      return '';
-    }
+    const t = timeDiff(dateStr);
+    if (!t) return '';
+    if (t.mins < 1) return 'just now';
+    if (t.mins < 60) return `${t.mins}m ago`;
+    if (t.hours < 24) return `${t.hours}h ago`;
+    return `${t.days}d ago`;
   }
 
   function formatTimeShort(dateStr) {
-    if (!dateStr) return '';
-    try {
-      const d = new Date(dateStr);
-      const now = new Date();
-      const diff = now - d;
-      const mins = Math.floor(diff / 60000);
-      const hours = Math.floor(diff / 3600000);
-
-      if (mins < 60) return `${mins}m`;
-      if (hours < 24) return `${hours}h`;
-      return d.toLocaleDateString('en-US', { month: 'short', day: 'numeric' });
-    } catch {
-      return '';
-    }
+    const t = timeDiff(dateStr);
+    if (!t) return '';
+    if (t.mins < 60) return `${t.mins}m`;
+    if (t.hours < 24) return `${t.hours}h`;
+    return `${t.days}d`;
   }
 
   function updateFooter() {
@@ -430,7 +410,6 @@ function matchesSource(article, source) {
     // NYSE hours: 9:30-16:00 ET (13:30-20:00 UTC)
     const nyseOpen = day >= 1 && day <= 5 && totalMin >= 810 && totalMin < 960;
     // Crypto: 24/7
-    const cryptoOpen = true;
 
     const dotEl = document.querySelector('.pulse-dot');
     if (nyseOpen) {
@@ -511,7 +490,7 @@ function matchesSource(article, source) {
 
     // Source filter (from sidebar)
     if (activeSource !== 'all') {
-filtered = filtered.filter(a => matchesSource(a, activeSource.dataset.source));
+      filtered = filtered.filter(a => matchesSource(a, activeSource));
     }
 
     // Search
@@ -547,7 +526,7 @@ filtered = filtered.filter(a => matchesSource(a, activeSource.dataset.source));
       const hasSummary = a.summary && a.summary.trim();
       const impactClass = a.impact === 'high' ? 'impact-high' : a.impact === 'medium' ? 'impact-medium' : '';
       return `
-      <div class="article-entry ${impactClass}" onclick="go('${a.url}')">
+      <div class="article-entry ${impactClass}" data-url="${a.url}">
         <div class="article-left">
           <div class="article-title">${escHtml(a.title)}</div>
           ${hasSummary ? `<div class="article-summary">${escHtml(a.summary)}</div>` : ''}
@@ -603,7 +582,7 @@ filtered = filtered.filter(a => matchesSource(a, activeSource.dataset.source));
       const storyCount = (b.stories || []).length;
       const dateStr = formatBriefingDate(b.date);
 
-      return '<div class="briefing-card" onclick="window._openBriefing(' + idx + ')">' +
+      return '<div class="briefing-card" data-idx="' + idx + '">' +
         '<div class="briefing-card-header">' +
           '<div class="briefing-card-title">' + escHtml(b.title) + '</div>' +
           '<div class="briefing-card-meta">' +
@@ -616,12 +595,16 @@ filtered = filtered.filter(a => matchesSource(a, activeSource.dataset.source));
         '<div class="briefing-card-stories">' + storyCount + ' stories</div>' +
       '</div>';
     }).join('');
-  }
 
-  window._openBriefing = function(idx) {
-    viewingBriefing = allBriefings[idx];
-    renderBriefings();
-  };
+    // Event delegation for briefing card clicks
+    listEl.onclick = function(e) {
+      const card = e.target.closest('.briefing-card');
+      if (card && card.dataset.idx !== undefined) {
+        viewingBriefing = allBriefings[parseInt(card.dataset.idx, 10)];
+        renderBriefings();
+      }
+    };
+  }
 
   function renderBriefingDetail(b) {
     const el = document.getElementById('briefingDetailContent');
@@ -696,6 +679,15 @@ filtered = filtered.filter(a => matchesSource(a, activeSource.dataset.source));
     loadNews();
     setInterval(updateFooter, 60000);
     setInterval(updateMarketPulse, 60000);
+
+    // Delegated click handler for all article cards
+    document.addEventListener('click', function(e) {
+      const card = e.target.closest('[data-url]');
+      if (card) {
+        const url = card.dataset.url;
+        if (url) window.open(url, '_blank');
+      }
+    });
   }
 
   if (document.readyState === 'loading') {
