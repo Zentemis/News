@@ -1,21 +1,624 @@
 {
-  "generated": "2026-06-12T12:36:19.457092+00:00",
-  "count": 155,
+  "generated": "2026-06-12T21:19:01.881332+00:00",
+  "count": 156,
   "sources": [
-    "Decrypt",
-    "CNBC Finance",
-    "CNBC World",
-    "CoinDesk",
-    "The Block",
-    "MarketWatch Top",
-    "Yahoo Finance",
-    "Seeking Alpha",
     "CNBC Economy",
+    "CNBC Finance",
+    "Yahoo Finance",
     "Cointelegraph",
+    "MarketWatch Top",
+    "CNBC World",
+    "Decrypt",
+    "CoinDesk",
     "MarketWatch Economy",
-    "Investing.com Commodities"
+    "Investing.com Commodities",
+    "Seeking Alpha",
+    "The Block"
   ],
   "articles": [
+    {
+      "title": "SpaceX stock jumps 19%, closing near $161 after record IPO: Live updates",
+      "summary": "Follow SpaceX IPO live updates on price, ticker, broker access, valuation and what investors need to know before shares trade.",
+      "url": "https://www.cnbc.com/2026/06/12/spacex-ipo-spcx-live-updates.html",
+      "source": "CNBC World",
+      "category": "equities",
+      "impact": "medium",
+      "published": "2026-06-12T21:09:10+00:00"
+    },
+    {
+      "title": "Binance 'bStocks' twist: Trade these U.S. stocks like crypto; 24/7 access coming",
+      "summary": "",
+      "url": "https://seekingalpha.com/news/4603071-binance-bstocks-twist-trade-these-us-stocks-like-crypto-24-7-access-coming?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+      "source": "Seeking Alpha",
+      "category": "equities",
+      "impact": "low",
+      "published": "2026-06-12T21:07:50+00:00"
+    },
+    {
+      "title": "Stock Market Today: Dow Ends Higher On Iran Deal Hopes; SpaceX Rockets 19% In Debut",
+      "summary": "Stock Market Today: The Dow Jones index rises Friday on U.S.-Iran peace deal hopes. SpaceX stock jumps on its debut.",
+      "url": "https://finance.yahoo.com/m/3ab863ee-d132-3549-8208-e6dd679a6a25/stock-market-today%3A-dow-ends.html?.tsrc=rss",
+      "source": "Yahoo Finance",
+      "category": "macro",
+      "impact": "low",
+      "published": "2026-06-12T21:06:20+00:00"
+    },
+    {
+      "title": "Wall Street ends up on Iran war peace deal hopes, SpaceX\u2019s historic debut",
+      "summary": "",
+      "url": "https://www.investing.com/news/economy-news/wall-st-futures-rise-on-mideast-deal-hopes-spacex-debut-in-focus-4739263",
+      "source": "Investing.com Commodities",
+      "category": "commodities",
+      "impact": "medium",
+      "published": "2026-06-12T21:00:33+00:00"
+    },
+    {
+      "title": "Dow Jones Futures: Market Has Wild Week, 5 Stocks In Buy Areas; SpaceX's Next Test",
+      "summary": "The stock market had a wild but winning week. Comfort Systems and Viavi lead stocks making bullish rebounds. The SpaceX IPO took off.",
+      "url": "https://finance.yahoo.com/m/41879e00-88f3-34d4-8429-39e5c21c3e38/dow-jones-futures%3A-market-has.html?.tsrc=rss",
+      "source": "Yahoo Finance",
+      "category": "macro",
+      "impact": "medium",
+      "published": "2026-06-12T21:00:29+00:00"
+    },
+    {
+      "title": "I\u2019m 55 and earn $100,000. Should I take a $2,900 monthly pension \u2014 or $2,200 with 3% annual hikes?",
+      "summary": "\u201cI plan to continue working until age 60.\u201d",
+      "url": "https://www.marketwatch.com/story/im-55-and-earn-100-000-should-i-take-a-2-900-monthly-pension-or-2-200-with-3-annual-hikes-c02dc525?mod=mw_rss_topstories",
+      "source": "MarketWatch Top",
+      "category": "macro",
+      "impact": "low",
+      "published": "2026-06-12T21:00:00+00:00"
+    },
+    {
+      "title": "Bluerock Homes Trust declares $0.125 dividend",
+      "summary": "",
+      "url": "https://seekingalpha.com/news/4603090-bluerock-homes-trust-declares-0_125-dividend?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+      "source": "Seeking Alpha",
+      "category": "equities",
+      "impact": "low",
+      "published": "2026-06-12T20:59:35+00:00"
+    },
+    {
+      "title": "The Trade Desk, Publicis settle dispute over DSP fees",
+      "summary": "",
+      "url": "https://seekingalpha.com/news/4603083-the-trade-desk-publicis-settle-dispute-over-dsp-fees?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+      "source": "Seeking Alpha",
+      "category": "equities",
+      "impact": "low",
+      "published": "2026-06-12T20:55:57+00:00"
+    },
+    {
+      "title": "Indexes Settle Higher as SpaceX Soars in Trading Debut",
+      "summary": "It wasn\u2019t all SpaceX in markets today. A big gain in financial stocks boosted the Dow Jones Industrial Average. The blue-chip index added 0.7%. The S 500 rose 0.5%. The tech-heavy Nasdaq advanced about 0.3%.",
+      "url": "https://www.wsj.com/finance/stocks/oil-falls-u-s-futures-rise-after-trump-calls-off-iran-strikes-5552ae7f?.tsrc=rss",
+      "source": "Yahoo Finance",
+      "category": "macro",
+      "impact": "low",
+      "published": "2026-06-12T20:55:00+00:00"
+    },
+    {
+      "title": "S&P 500 posts modest weekly gains as sector rotation favors materials and consumer staples",
+      "summary": "",
+      "url": "https://seekingalpha.com/news/4603077-sp-500-posts-modest-weekly-gains-as-sector-rotation-favors-materials-and-consumer-staples?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+      "source": "Seeking Alpha",
+      "category": "equities",
+      "impact": "low",
+      "published": "2026-06-12T20:53:27+00:00"
+    },
+    {
+      "title": "Money Is Quietly Rotating Out of the AI Trade. These 3 Unexpected Stocks Just Hit All-Time Highs.",
+      "summary": "While the market's high-flying tech trade pulls back, a handful of familiar consumer names are quietly setting records that stretch back decades.",
+      "url": "https://www.fool.com/investing/2026/06/12/money-is-quietly-rotating-out-of-the-ai-trade-thes/?.tsrc=rss",
+      "source": "Yahoo Finance",
+      "category": "macro",
+      "impact": "low",
+      "published": "2026-06-12T20:51:00+00:00"
+    },
+    {
+      "title": "Environmental Tectonics GAAP EPS of $0.15, revenue of $62.7M",
+      "summary": "",
+      "url": "https://seekingalpha.com/news/4603088-environmental-tectonics-gaap-eps-of-0_15-revenue-of-62_7m?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+      "source": "Seeking Alpha",
+      "category": "equities",
+      "impact": "low",
+      "published": "2026-06-12T20:45:55+00:00"
+    },
+    {
+      "title": "S&P 500 Posts Weekly Gain Amid Heightened Iran Deal Expectations, Dovish Inflation Prints",
+      "summary": "The Standard & Poor's 500 index rose 0.7% this week as the US edged closer to signing a peace deal w",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/p-500-posts-weekly-gain-204517427.html?.tsrc=rss",
+      "source": "Yahoo Finance",
+      "category": "macro",
+      "impact": "medium",
+      "published": "2026-06-12T20:45:17+00:00"
+    },
+    {
+      "title": "SpaceX 'proxies' plunge as real deal arrives: Here's where traders are buying the dip",
+      "summary": "SpaceX \"proxy stocks,\" whose options volumes were booming ahead of Friday's historic initial public offering, are unwinding gains.",
+      "url": "https://www.cnbc.com/2026/06/12/spacex-proxies-crash-as-real-deal-arrives-heres-where-traders-are-buying-the-dip.html",
+      "source": "CNBC World",
+      "category": "equities",
+      "impact": "low",
+      "published": "2026-06-12T20:43:50+00:00"
+    },
+    {
+      "title": "Freedom Holding launches up to $300M stock offering",
+      "summary": "",
+      "url": "https://seekingalpha.com/news/4603082-freedom-holding-launches-up-to-300m-stock-offering?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+      "source": "Seeking Alpha",
+      "category": "equities",
+      "impact": "low",
+      "published": "2026-06-12T20:43:34+00:00"
+    },
+    {
+      "title": "Update: Equities Rise as SpaceX Soars; Wall Street Logs Weekly Gain Amid Iran Deal Optimism",
+      "summary": "(Updates with market moves at the end of the day.) US equities advanced Friday to lock in a weekl",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/equities-rise-spacex-soars-wall-204325392.html?.tsrc=rss",
+      "source": "Yahoo Finance",
+      "category": "macro",
+      "impact": "low",
+      "published": "2026-06-12T20:43:25+00:00"
+    },
+    {
+      "title": "Star Navigation announces $2M non-brokered private placement",
+      "summary": "",
+      "url": "https://seekingalpha.com/news/4603084-star-navigation-announces-2m-non-brokered-private-placement?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+      "source": "Seeking Alpha",
+      "category": "equities",
+      "impact": "low",
+      "published": "2026-06-12T20:43:25+00:00"
+    },
+    {
+      "title": "Elon Musk becomes world's first trillionaire as SpaceX begins trading on the Nasdaq",
+      "summary": "Elon Musk's stake in SpaceX is worth more than $766 billion. Combined with his Tesla holdings, Musk's net worth as of Friday is roughly $1.05 trillion.",
+      "url": "https://www.cnbc.com/2026/06/12/elon-musk-trillionaire-spacex.html",
+      "source": "CNBC World",
+      "category": "equities",
+      "impact": "low",
+      "published": "2026-06-12T20:42:19+00:00"
+    },
+    {
+      "title": "US Stocks Gain This Week on Iran Deal Progress, Softer Rate Expectations",
+      "summary": "US equity indexes rose this week as Iran signaled that peace-deal terms with the US are in their fin",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/us-stocks-gain-week-iran-204009881.html?.tsrc=rss",
+      "source": "Yahoo Finance",
+      "category": "macro",
+      "impact": "low",
+      "published": "2026-06-12T20:40:09+00:00"
+    },
+    {
+      "title": "CFTC sues New Mexico in latest bid to assert authority over sports betting markets",
+      "summary": "New Mexico is the next state in the CFTC's crosshairs as the fight continues over regulatory jurisdiction over sports betting.",
+      "url": "https://www.theblock.co/post/404674/cftc-sues-new-mexico-latest-bid-assert-authority-sports-betting-markets?utm_source=rss&utm_medium=rss",
+      "source": "The Block",
+      "category": "crypto",
+      "impact": "low",
+      "published": "2026-06-12T20:37:49+00:00"
+    },
+    {
+      "title": "How to decide whether a major splurge \u2014 like spending thousands on Knicks or World Cup tickets \u2014 is worth it",
+      "summary": "Ask yourself these questions when considering an extravagant purchase.",
+      "url": "https://www.marketwatch.com/story/how-to-decide-whether-a-major-splurge-like-spending-thousands-on-knicks-or-world-cup-tickets-is-worth-it-8fb46c18?mod=mw_rss_topstories",
+      "source": "MarketWatch Top",
+      "category": "macro",
+      "impact": "low",
+      "published": "2026-06-12T20:35:00+00:00"
+    },
+    {
+      "title": "MicroVision Announces NASDAQ Capital Market Application, Replaces Registration Statement, And Schedules Shareholder Business Update",
+      "summary": "Company Continues Executing Lidar 2.0 Strategy Following Transformational Acquisitions and Growing Commercial Momentum REDMOND, WA / ACCESS Newswire / June 12, 2026 /MicroVision, Inc., (Nasdaq:MVIS), a leader in advanced perception solutions for automotive, ...",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/microvision-announces-nasdaq-capital-market-203100494.html?.tsrc=rss",
+      "source": "Yahoo Finance",
+      "category": "macro",
+      "impact": "low",
+      "published": "2026-06-12T20:31:00+00:00"
+    },
+    {
+      "title": "How major US stock indexes fared Friday 6/12/2026",
+      "summary": "The Dow added 0.7%, and the Nasdaq composite gained 0.3%.  The Nasdaq composite rose 79.18 points, or 0.3%, to 25,888.84.  The Russell 2000 index of smaller companies rose 22.96 points, or 0.8% to 2,943.99.",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/major-us-stock-indexes-fared-203027763.html?.tsrc=rss",
+      "source": "Yahoo Finance",
+      "category": "macro",
+      "impact": "low",
+      "published": "2026-06-12T20:30:27+00:00"
+    },
+    {
+      "title": "US Justice Department clears Paramount\u2019s acquisition of Warner Bros, Politico reports",
+      "summary": "",
+      "url": "https://www.investing.com/news/economy-news/us-justice-department-approves-paramounts-acquisition-of-warner-bros-politico-reports-4740410",
+      "source": "Investing.com Commodities",
+      "category": "commodities",
+      "impact": "medium",
+      "published": "2026-06-12T20:30:24+00:00"
+    },
+    {
+      "title": "\u2018I feel like he may be taking advantage of us\u2019: Our adviser pushes annuities after we already said no. Do we fire him?",
+      "summary": "\u201cI feel like he may be taking advantage of us.\u201d",
+      "url": "https://www.marketwatch.com/story/our-financial-adviser-keeps-pushing-annuities-even-after-we-said-no-should-we-fire-him-19188c98?mod=mw_rss_topstories",
+      "source": "MarketWatch Top",
+      "category": "macro",
+      "impact": "low",
+      "published": "2026-06-12T20:30:00+00:00"
+    },
+    {
+      "title": "Stocks end higher as SpaceX soars in debut, U.S.-Iran deal nears",
+      "summary": "Stocks rose on Friday as SpaceX's opening pop bolstered sentiment, with investors hoping for the arrival of a potential peace deal between the U.S. and Iran.",
+      "url": "https://www.cnbc.com/2026/06/11/stock-market-today-live-updates.html",
+      "source": "CNBC World",
+      "category": "equities",
+      "impact": "low",
+      "published": "2026-06-12T20:26:39+00:00"
+    },
+    {
+      "title": "Dollar steadies, set for weekly loss on US-Iran deal talks",
+      "summary": "",
+      "url": "https://www.investing.com/news/economy-news/dollar-steadies-on-ceasefire-prospects-ppi-eases-pressure-on-fed-4738778",
+      "source": "Investing.com Commodities",
+      "category": "commodities",
+      "impact": "low",
+      "published": "2026-06-12T20:25:06+00:00"
+    },
+    {
+      "title": "Update: US Equity Indexes Rise After Iran Says Peace Deal With Washington in Final Stage of Discussions",
+      "summary": "(Updates with index/price moves, analyst comment, and other information from the first paragraph.)",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/us-equity-indexes-rise-iran-202141439.html?.tsrc=rss",
+      "source": "Yahoo Finance",
+      "category": "macro",
+      "impact": "low",
+      "published": "2026-06-12T20:21:41+00:00"
+    },
+    {
+      "title": "Trump administration: Iran deal signing likely in coming days, but not '100%' certain",
+      "summary": "A deal to end the Iran war could be signed soon, a senior Trump administration official said, following recent conflicting statements from the warring nations.",
+      "url": "https://www.cnbc.com/2026/06/12/iran-deal-trump-pakistan-sharif.html",
+      "source": "CNBC World",
+      "category": "geopolitical",
+      "impact": "medium",
+      "published": "2026-06-12T20:21:14+00:00"
+    },
+    {
+      "title": "SpaceX closes nearly 20% higher on first trading day post-IPO",
+      "summary": "US stocks (^DJI, ^IXIC, ^GSPC) inch higher to end Friday's session and the trading week with slight gains, as SpaceX (SPCX) closes its first day of trading 19.22% higher at a share price of $160.95. From the Nasdaq, Yahoo Finance Senior Reporter Brooke DiPalma breaks down the post-IPO performance...",
+      "url": "https://finance.yahoo.com/video/spacex-closes-nearly-20-higher-on-first-trading-day-post-ipo-201548528.html?.tsrc=rss",
+      "source": "Yahoo Finance",
+      "category": "macro",
+      "impact": "medium",
+      "published": "2026-06-12T20:15:48+00:00"
+    },
+    {
+      "title": "What's at Stake for Trillionaire Elon Musk and SpaceX After Blockbuster IPO",
+      "summary": "The pressure is on the company\u2014and newly minted trillionaire Elon Musk\u2014to deliver.",
+      "url": "https://time.com/article/2026/06/12/spacex-ipo-elon-musk-trillionaire-whats-at-stake/?.tsrc=rss",
+      "source": "Yahoo Finance",
+      "category": "macro",
+      "impact": "medium",
+      "published": "2026-06-12T20:14:25+00:00"
+    },
+    {
+      "title": "US Equity Markets End Higher After Iran Confirms Progress on Peace Agreement, Crude Oil Prices Fall",
+      "summary": "US equity indexes were higher on Friday after Iran confirmed discussions on a peace treaty and crude",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/us-equity-markets-end-higher-200830674.html?.tsrc=rss",
+      "source": "Yahoo Finance",
+      "category": "macro",
+      "impact": "low",
+      "published": "2026-06-12T20:08:30+00:00"
+    },
+    {
+      "title": "Brazil unveils subsidized motorcycle credit program for app-based delivery drivers",
+      "summary": "",
+      "url": "https://www.investing.com/news/economy-news/brazil-launches-subsidized-motorcycle-credit-program-for-appbased-delivery-drivers-4740154",
+      "source": "Investing.com Commodities",
+      "category": "commodities",
+      "impact": "low",
+      "published": "2026-06-12T20:07:34+00:00"
+    },
+    {
+      "title": "Is it too late to buy SpaceX\u2019s stock? Here\u2019s how Tesla\u2019s did after one day \u2014 and five years.",
+      "summary": "Also in Weekend Reads: A bitcoin-pricing model that looks way ahead, the bear market for gold and retirement-planning advice.",
+      "url": "https://www.marketwatch.com/story/is-it-too-late-to-buy-spacexs-stock-heres-how-teslas-did-after-one-day-and-five-years-9c7564d3?mod=mw_rss_topstories",
+      "source": "MarketWatch Top",
+      "category": "macro",
+      "impact": "medium",
+      "published": "2026-06-12T20:06:00+00:00"
+    },
+    {
+      "title": "4DMT Announces New Employment Inducement Grants",
+      "summary": "EMERYVILLE, Calif., June 12, 2026 (GLOBE NEWSWIRE) -- 4D Molecular Therapeutics (Nasdaq: FDMT, 4DMT or the Company), a leading late-stage biotechnology company advancing durable and disease-targeted therapeutics with potential to transform treatment paradigms and provide unprecedented benefits to...",
+      "url": "https://finance.yahoo.com/sectors/healthcare/articles/4dmt-announces-employment-inducement-grants-200500640.html?.tsrc=rss",
+      "source": "Yahoo Finance",
+      "category": "macro",
+      "impact": "low",
+      "published": "2026-06-12T20:05:00+00:00"
+    },
+    {
+      "title": "Top Cryptocurrencies Mixed; Bitcoin Holds Above $63,000 Level",
+      "summary": "Top cryptocurrencies were mixed on Friday, with Bitcoin (BTC-USD) edging up above the $63,000 level.",
+      "url": "https://finance.yahoo.com/markets/crypto/articles/top-cryptocurrencies-mixed-bitcoin-holds-200416565.html?.tsrc=rss",
+      "source": "Yahoo Finance",
+      "category": "macro",
+      "impact": "medium",
+      "published": "2026-06-12T20:04:16+00:00"
+    },
+    {
+      "title": "Brazil\u2019s inflation accelerates in May, tops target range ahead of rate decision",
+      "summary": "",
+      "url": "https://www.investing.com/news/economy-news/brazils-inflation-accelerates-in-may-tops-target-range-ahead-of-rate-decision-4739766",
+      "source": "Investing.com Commodities",
+      "category": "commodities",
+      "impact": "medium",
+      "published": "2026-06-12T20:00:34+00:00"
+    },
+    {
+      "title": "How Crypto Firms Will Own the Octagon at Trump's White House UFC Event",
+      "summary": "President Trump\u2019s upcoming UFC fight will provide several crypto firms with an unprecedented opportunity for corporate branding.",
+      "url": "https://decrypt.co/370974/how-crypto-firms-own-octagon-trump-white-house-ufc-event",
+      "source": "Decrypt",
+      "category": "crypto",
+      "impact": "low",
+      "published": "2026-06-12T19:56:26+00:00"
+    },
+    {
+      "title": "\u2018It seems too good to be true\u2019: At a steak-dinner retirement seminar, the guy said annuities can outperform the market. Is that true?",
+      "summary": "\u201cHe claimed that fixed-rate annuities are the sparkly, rainbow-fairyland of investments.\u201d",
+      "url": "https://www.marketwatch.com/story/it-seems-too-good-to-be-true-at-a-steak-dinner-retirement-seminar-the-guy-said-annuities-can-outperform-the-market-is-that-true-33e11b0a?mod=mw_rss_topstories",
+      "source": "MarketWatch Top",
+      "category": "macro",
+      "impact": "low",
+      "published": "2026-06-12T19:56:00+00:00"
+    },
+    {
+      "title": "Adobe\u2019s CFO is departing for Marvell. And it\u2019s one more reason for investors to choose chips over software.",
+      "summary": "The software sector has struggled in recent months amid concern that software companies will struggle to survive in the AI era",
+      "url": "https://www.marketwatch.com/story/adobes-cfo-is-departing-for-marvell-and-its-one-more-reason-for-investors-to-choose-chips-over-software-336b9e16?mod=mw_rss_topstories",
+      "source": "MarketWatch Top",
+      "category": "macro",
+      "impact": "medium",
+      "published": "2026-06-12T19:51:00+00:00"
+    },
+    {
+      "title": "There\u2019s a 68% chance the stock market ends the year higher. Why the headlines shouldn\u2019t disrupt your portfolio.",
+      "summary": "Blocking out the daily noise gives you a clear edge over short-term chaos.",
+      "url": "https://www.marketwatch.com/story/theres-a-68-chance-the-stock-market-ends-the-year-higher-why-the-headlines-shouldnt-disrupt-your-portfolio-3d78cfae?mod=mw_rss_topstories",
+      "source": "MarketWatch Top",
+      "category": "macro",
+      "impact": "low",
+      "published": "2026-06-12T19:47:00+00:00"
+    },
+    {
+      "title": "Global oil prices end at 3-month low after Pakistan says a U.S.-Iran peace deal has been reached",
+      "summary": "Brent crude on Friday settled at its lowest level since the early days of the U.S.-Iran conflict. after Pakistan said a peace deal between the nations had been reached.",
+      "url": "https://www.marketwatch.com/story/oil-prices-extend-declines-on-possible-u-s-iran-peace-deal-to-reopen-strait-of-hormuz-6d2822bd?mod=mw_rss_topstories",
+      "source": "MarketWatch Top",
+      "category": "macro",
+      "impact": "low",
+      "published": "2026-06-12T19:39:00+00:00"
+    },
+    {
+      "title": "Stocks rise as oil slides on Gulf peace hopes, SpaceX market debut in focus",
+      "summary": "",
+      "url": "https://www.investing.com/news/economy-news/stocks-extend-rally-on-gulf-breakthrough-hopes-oil-hits-twomonth-lows-4738741",
+      "source": "Investing.com Commodities",
+      "category": "commodities",
+      "impact": "low",
+      "published": "2026-06-12T19:24:44+00:00"
+    },
+    {
+      "title": "AI Agents Still Can't Stop Prompt Injection Attacks, Researchers Warn",
+      "summary": "A new benchmark study found AI agents remain vulnerable to prompt injection attacks as companies increasingly roll out the technology to the public.",
+      "url": "https://decrypt.co/370972/ai-agents-prompt-injection-attacks-research",
+      "source": "Decrypt",
+      "category": "crypto",
+      "impact": "medium",
+      "published": "2026-06-12T19:22:28+00:00"
+    },
+    {
+      "title": "Moonshot AI's Kimi Work Brings 300 AI Agents to Your Desktop",
+      "summary": "Kimi Work lets an AI agent loose on your local files, your browser, and your schedule\u2014without routing everything through the cloud.",
+      "url": "https://decrypt.co/370954/moonshot-ai-kimi-work-300-agents-desktop",
+      "source": "Decrypt",
+      "category": "crypto",
+      "impact": "low",
+      "published": "2026-06-12T18:40:57+00:00"
+    },
+    {
+      "title": "Brazil sovereign yields show mixed moves in Friday trading",
+      "summary": "",
+      "url": "https://www.investing.com/news/economy-news/brazil-sovereign-yields-show-mixed-moves-in-friday-trading-93CH-4740218",
+      "source": "Investing.com Commodities",
+      "category": "commodities",
+      "impact": "low",
+      "published": "2026-06-12T18:40:19+00:00"
+    },
+    {
+      "title": "Trump denies Iran's account of deal terms, decries new drone attack: 'Dishonorable people'",
+      "summary": "\"They better get their act together, and FAST!\" President Donald Trump said of Iran one day after announcing that a deal would be finalized within days.",
+      "url": "https://www.cnbc.com/2026/06/12/iran-us-peace-memo-strait-hormuz-oil-sanctions.html",
+      "source": "CNBC World",
+      "category": "crypto",
+      "impact": "low",
+      "published": "2026-06-12T18:36:48+00:00"
+    },
+    {
+      "title": "Middle East peace deal hopes rise after positive comments from Iran, Pakistan",
+      "summary": "",
+      "url": "https://www.investing.com/news/economy-news/us-iran-trade-airstrikes-for-second-straight-day-as-trump-warns-of-more-attacks-4736486",
+      "source": "Investing.com Commodities",
+      "category": "commodities",
+      "impact": "low",
+      "published": "2026-06-12T18:26:28+00:00"
+    },
+    {
+      "title": "This hidden investing flaw is costing you money. Talking to political opponents fixes it.",
+      "summary": "The stock market doesn\u2019t care about your politics. Insisting on a portfolio that\u2019s red or blue can forfeit a lot of green.",
+      "url": "https://www.marketwatch.com/story/this-hidden-investing-flaw-is-costing-you-money-talking-to-political-opponents-fixes-it-fc1f7be3?mod=mw_rss_topstories",
+      "source": "MarketWatch Top",
+      "category": "macro",
+      "impact": "low",
+      "published": "2026-06-12T18:15:00+00:00"
+    },
+    {
+      "title": "Americans Fear Job Losses Due to AI But Hope for Cancer, Alzheimer\u2019s Cures: Anthropic Survey",
+      "summary": "Anthropic's AI survey showed Americans are afraid of job losses, hopeful for health breakthroughs, and distrustful of firms behind the tech.",
+      "url": "https://decrypt.co/370951/americans-fear-job-losses-ai-hope-cancer-alzheimers-cures-anthropic",
+      "source": "Decrypt",
+      "category": "crypto",
+      "impact": "low",
+      "published": "2026-06-12T18:14:24+00:00"
+    },
+    {
+      "title": "Bitcoin hit bottom at $59,000 marking end to the crypto winter, says Standard Chartered analyst",
+      "summary": "",
+      "url": "https://www.coindesk.com/markets/2026/06/12/bitcoin-hit-bottom-at-usd59-000-marking-end-to-the-crypto-winter-says-standard-chartered-analyst",
+      "source": "CoinDesk",
+      "category": "crypto",
+      "impact": "medium",
+      "published": "2026-06-12T18:09:06+00:00"
+    },
+    {
+      "title": "SpaceX COO Shotwell says Tesla tie-up \u2018might make Elon\u2019s life a little easier\u2019",
+      "summary": "As SpaceX prepared to hit the Nasdaq following its record IPO, Elon Musk's second-in-command didn't dismiss the possibility of a Tesla tie-up.",
+      "url": "https://www.cnbc.com/2026/06/12/spacex-coo-shotwell-tesla-deal-makes-elons-life-a-little-easier.html",
+      "source": "CNBC World",
+      "category": "equities",
+      "impact": "medium",
+      "published": "2026-06-12T17:57:56+00:00"
+    },
+    {
+      "title": "Wright says U.S. refiners can handle more Venezuelan oil",
+      "summary": "",
+      "url": "https://www.investing.com/news/economy-news/wright-says-us-refiners-can-handle-more-venezuelan-oil-93CH-4740174",
+      "source": "Investing.com Commodities",
+      "category": "commodities",
+      "impact": "low",
+      "published": "2026-06-12T17:54:49+00:00"
+    },
+    {
+      "title": "Crypto Firms Scrap Tokenized SpaceX Share Offerings as SPCX Surges After IPO",
+      "summary": "Participants were refunded and did not receive shares in the record-breaking SpaceX IPO from Elon Musk's rocket company.",
+      "url": "https://decrypt.co/370948/crypto-firms-scrap-tokenized-spacex-share-offerings-spcx-surges-ipo",
+      "source": "Decrypt",
+      "category": "crypto",
+      "impact": "medium",
+      "published": "2026-06-12T17:50:06+00:00"
+    },
+    {
+      "title": "Former SEC Chair Gensler rejects CFTC claim of authority over prediction market sports betting",
+      "summary": "Gary Gensler is calling malarkey the claim that the CFTC has jurisdiction over prediction markets, specifically sports bets.",
+      "url": "https://www.theblock.co/post/404662/former-sec-chair-gensler-rejects-cftc-claim-authority-prediction-market-sports-betting?utm_source=rss&utm_medium=rss",
+      "source": "The Block",
+      "category": "crypto",
+      "impact": "low",
+      "published": "2026-06-12T17:49:07+00:00"
+    },
+    {
+      "title": "Tennessee Man Indicted for Alleged Crypto Ponzi Scheme That Stole Millions From Investors",
+      "summary": "Feds indicted a Tennessee man for allegedly running a crypto Ponzi scheme from 2020-2024 and bilking investors out of millions.",
+      "url": "https://decrypt.co/370943/tennessee-man-indicted-crypto-ponzi-scheme-stole-millions-investors",
+      "source": "Decrypt",
+      "category": "crypto",
+      "impact": "medium",
+      "published": "2026-06-12T17:22:37+00:00"
+    },
+    {
+      "title": "SpaceX\u2019s Gwynne Shotwell had IPO doubts for years, now she has a message for investors",
+      "summary": "Gwynne Shotwell, long Elon Musk's second-in-command at SpaceX, spoke exclusively with CNBC ahead of her company's highly anticipated IPO.",
+      "url": "https://www.cnbc.com/2026/06/12/spacex-coo-gwynne-shotwell-spcx-ipo.html",
+      "source": "CNBC World",
+      "category": "equities",
+      "impact": "medium",
+      "published": "2026-06-12T17:20:24+00:00"
+    },
+    {
+      "title": "Bank of Italy trims 2027 growth forecast to 0.4%",
+      "summary": "",
+      "url": "https://www.investing.com/news/economy-news/bank-of-italy-trims-2027-growth-forecast-to-04-93CH-4740140",
+      "source": "Investing.com Commodities",
+      "category": "commodities",
+      "impact": "low",
+      "published": "2026-06-12T17:17:22+00:00"
+    },
+    {
+      "title": "Iran-Linked Group That Hacked Kash Patel's Email Threatens World Cup With Hijacked FBI Drones",
+      "summary": "The Iran-linked hacking group said it accessed footage from FBI-controlled drones and warned World Cup teams that they could be targeted.",
+      "url": "https://decrypt.co/370937/iran-group-hacked-kash-patel-email-threatens-world-cup-hijacked-drones",
+      "source": "Decrypt",
+      "category": "crypto",
+      "impact": "medium",
+      "published": "2026-06-12T17:12:36+00:00"
+    },
+    {
+      "title": "Early Airbnb, DoorDash backer Y Combinator says Clarity Act could bring crypto to \u2018every\u2019 portfolio company",
+      "summary": "Also a backer of companies like Coinbase, OpenAI, Stripe, Reddit, OpenAI and Kalshi, Y Combinator wants to see Congress pass the CLARITY Act.",
+      "url": "https://www.theblock.co/post/404643/early-airbnb-doordash-backer-y-combinator-expects-crypto-to-be-used-by-every-one-of-its-portfolio-companies?utm_source=rss&utm_medium=rss",
+      "source": "The Block",
+      "category": "crypto",
+      "impact": "low",
+      "published": "2026-06-12T16:51:35+00:00"
+    },
+    {
+      "title": "Americans Traded Up to $34 Billion on Offshore Prediction Markets: Study",
+      "summary": "The study estimated Americans could end up wagering up to $133 billion annually on offshore prediction markets by 2030.",
+      "url": "https://decrypt.co/370908/americans-traded-34-billion-offshore-prediction-markets-study",
+      "source": "Decrypt",
+      "category": "crypto",
+      "impact": "low",
+      "published": "2026-06-12T16:44:39+00:00"
+    },
+    {
+      "title": "Sam Bankman-Fried loses appeal to overturn 25-year prison sentence",
+      "summary": "A federal appeals court upheld the former FTX chief\u2019s conviction, while his bid for clemency from President Donald Trump appears to face steep political odds.",
+      "url": "https://cointelegraph.com/news/sam-bankman-fried-loses-appeal-to-overturn-25-year-prison-sentence?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "category": "crypto",
+      "impact": "medium",
+      "published": "2026-06-12T16:39:16+00:00"
+    },
+    {
+      "title": "Here are all the red flags in the SpaceX IPO",
+      "summary": "You have to give Elon Musk credit for his vision  \u2014 and chutzpah.",
+      "url": "https://www.marketwatch.com/story/here-are-all-the-red-flags-in-the-spacex-ipo-7c55b31e?mod=mw_rss_topstories",
+      "source": "MarketWatch Top",
+      "category": "macro",
+      "impact": "medium",
+      "published": "2026-06-12T16:28:00+00:00"
+    },
+    {
+      "title": "Bitcoin surfs SpaceX IPO at $64K as trader warns key BTC price support may crumble",
+      "summary": "Bitcoin hit $64,000 as SpaceX launched a record-breaking IPO and US-Iran peace deal hopes continued to grow, but doubts over BTC price support remained.",
+      "url": "https://cointelegraph.com/markets/bitcoin-surfs-spacex-ipo-iran-peace-cues-as-trader-warns-62k-may-crumble?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "category": "crypto",
+      "impact": "high",
+      "published": "2026-06-12T16:17:33+00:00"
+    },
+    {
+      "title": "Bybit, Binance, Bitget cancel tokenized SpaceX IPO allocations after share shortage",
+      "summary": "All three providers are issuing full refunds and additional compensation to affected users.",
+      "url": "https://www.theblock.co/post/404644/bybit-binance-bitget-cancel-tokenized-spacex-ipo-allocations-share-shortage?utm_source=rss&utm_medium=rss",
+      "source": "The Block",
+      "category": "crypto",
+      "impact": "medium",
+      "published": "2026-06-12T16:12:10+00:00"
+    },
+    {
+      "title": "Crypto Biz: SpaceX fuels tokenization\u2019s next boom",
+      "summary": "Tokenized RWAs surge despite crypto volatility, Kraken launches SpaceX IPO xStocks, prediction markets outpace onchain gambling and Sam Bankman-Fried seeks a Trump pardon.",
+      "url": "https://cointelegraph.com/news/tokenized-rwas-kraken-spacex-ipo-prediction-markets-sbf-trump-pardon?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "category": "crypto",
+      "impact": "medium",
+      "published": "2026-06-12T16:07:08+00:00"
+    },
+    {
+      "title": "VanEck bets BNB\u2019s real-world usage can stand out in a crowded crypto ETF market",
+      "summary": "",
+      "url": "https://www.coindesk.com/markets/2026/06/12/vaneck-bets-bnb-s-real-world-usage-can-stand-out-in-a-crowded-crypto-etf-market",
+      "source": "CoinDesk",
+      "category": "crypto",
+      "impact": "low",
+      "published": "2026-06-12T16:05:31+00:00"
+    },
     {
       "title": "The S&P 500 already made a big call on SpaceX stock and index fund investors need to know it",
       "summary": "The S&amp;P 500 index, where trillions in retirement savings are invested, said no to the SpaceX IPO, the biggest in history. Here's what that means for portfolios.",
@@ -23,16 +626,196 @@
       "source": "CNBC Finance",
       "category": "equities",
       "impact": "medium",
-      "published": "2026-06-12T12:35:55+00:00"
+      "published": "2026-06-12T15:59:09+00:00"
     },
     {
-      "title": "Proposed Iran-U.S. deal would reopen Hormuz strait and lift oil sanctions, Iran state media says",
-      "summary": "U.S. President Donald Trump said Thursday that the Strait of Hormuz would be reopened as soon as a deal is signed.",
-      "url": "https://www.cnbc.com/2026/06/12/iran-us-peace-memo-strait-hormuz-oil-sanctions.html",
-      "source": "CNBC World",
-      "category": "commodities",
+      "title": "Elon Musk's SpaceX soars 20% in blockbuster Nasdaq debut",
+      "summary": "",
+      "url": "https://www.coindesk.com/markets/2026/06/12/spacex-opens-at-usdtk-in-blockbuster-nasdaq-debut",
+      "source": "CoinDesk",
+      "category": "crypto",
+      "impact": "low",
+      "published": "2026-06-12T15:55:42+00:00"
+    },
+    {
+      "title": "Bloomberg Analyst: Most Bitcoin ETF Investors Have Stayed Put Despite Outflows",
+      "summary": "",
+      "url": "https://www.coindesk.com/markets/2026/06/08/bloomberg-analyst-most-bitcoin-etf-investors-have-stayed-put-despite-outflows",
+      "source": "CoinDesk",
+      "category": "crypto",
       "impact": "medium",
-      "published": "2026-06-12T12:34:16+00:00"
+      "published": "2026-06-12T15:49:36+00:00"
+    },
+    {
+      "title": "Kalshi\u2019s crypto perpetuals spark debate over whether they\u2019re futures or swaps",
+      "summary": "",
+      "url": "https://www.coindesk.com/policy/2026/06/12/kalshi-s-crypto-perpetuals-spark-debate-over-whether-they-re-futures-or-swaps",
+      "source": "CoinDesk",
+      "category": "crypto",
+      "impact": "low",
+      "published": "2026-06-12T15:37:08+00:00"
+    },
+    {
+      "title": "The U.S. government is betting $2 Billion on quantum computing, and the defense side can't keep up",
+      "summary": "",
+      "url": "https://www.coindesk.com/opinion/2026/06/12/the-u-s-government-is-betting-usd2-billion-on-quantum-computing-and-the-defense-side-can-t-keep-up",
+      "source": "CoinDesk",
+      "category": "crypto",
+      "impact": "low",
+      "published": "2026-06-12T15:31:00+00:00"
+    },
+    {
+      "title": "'Winter Is Over': Standard Chartered Calls Crypto Bottom as Bitcoin Recovers From $60K Fall",
+      "summary": "Standard Chartered analyst Geoff Kendrick suggests the crypto market has hit its lowest point following Bitcoin's recent drop below $60,000.",
+      "url": "https://decrypt.co/370907/winter-over-standard-chartered-calls-crypto-bottom-bitcoin-recovers-60k-fall",
+      "source": "Decrypt",
+      "category": "crypto",
+      "impact": "medium",
+      "published": "2026-06-12T15:16:08+00:00"
+    },
+    {
+      "title": "Sam Bankman-Fried Loses Appeal as Federal Court Upholds 'Robust' Fraud Conviction",
+      "summary": "Disgraced FTX founder Sam Bankman-Fried has applied for a pardon from President Trump, which is now his one remaining path out of prison.",
+      "url": "https://decrypt.co/370909/sam-bankman-fried-loses-appeal-federal-court-upholds-fraud",
+      "source": "Decrypt",
+      "category": "crypto",
+      "impact": "medium",
+      "published": "2026-06-12T15:05:24+00:00"
+    },
+    {
+      "title": "GameStop Renews Bitcoin Deal That Did Little for Its Record Quarter",
+      "summary": "The retailer rolled its Coinbase options deal forward in late May, keeping nearly all its Bitcoin tied up for upfront cash.",
+      "url": "https://decrypt.co/370905/gamestop-renews-bitcoin-deal-that-did-little-for-its-record-quarter",
+      "source": "Decrypt",
+      "category": "crypto",
+      "impact": "high",
+      "published": "2026-06-12T15:02:28+00:00"
+    },
+    {
+      "title": "SpaceX cuts retail IPO allocation to low 20% range, source says",
+      "summary": "The Elon Musk-led company plans to direct a percentage in the low 20s of the offering to retail buyers, according to a person familiar with the matter.",
+      "url": "https://www.cnbc.com/2026/06/11/spacex-cuts-retail-ipo-allocation-to-low-20percent-range-source-says.html",
+      "source": "CNBC Finance",
+      "category": "equities",
+      "impact": "medium",
+      "published": "2026-06-12T14:50:28+00:00"
+    },
+    {
+      "title": "Former Tesla board member says SpaceX needs to achieve 2 of its 3 moonshots to keep its valuation",
+      "summary": "SpaceX has achieved its goal of becoming the largest IPO on record.",
+      "url": "https://www.cnbc.com/2026/06/12/spacex-moonshots-valuation-westly-tesla.html",
+      "source": "CNBC World",
+      "category": "equities",
+      "impact": "medium",
+      "published": "2026-06-12T14:48:01+00:00"
+    },
+    {
+      "title": "From startup to $1.8 trillion: The investors who took a chance on SpaceX now reap the rewards",
+      "summary": "With SpaceX seeking an IPO valuation of nearly $1.8 trillion, early bets are poised to generate some of the biggest paper gains in venture capital history.",
+      "url": "https://www.cnbc.com/2026/06/11/spacex-investors-reap-rewards-1-8-trillion-valuation.html",
+      "source": "CNBC Finance",
+      "category": "equities",
+      "impact": "high",
+      "published": "2026-06-12T14:46:10+00:00"
+    },
+    {
+      "title": "FTX's Sam Bankman-Fried loses appeal of criminal conviction on fraud, conspiracy charges",
+      "summary": "",
+      "url": "https://www.coindesk.com/policy/2026/06/12/ftx-s-sam-bankman-fried-loses-appeal-of-criminal-conviction-on-fraud-conspiracy-charges",
+      "source": "CoinDesk",
+      "category": "crypto",
+      "impact": "low",
+      "published": "2026-06-12T14:13:40+00:00"
+    },
+    {
+      "title": "XRP sentiment falls to 8-month low, and that has been a buy signal before",
+      "summary": "",
+      "url": "https://www.coindesk.com/markets/2026/06/12/xrp-sentiment-falls-to-an-eight-month-low-and-that-has-been-a-buy-signal-before",
+      "source": "CoinDesk",
+      "category": "crypto",
+      "impact": "low",
+      "published": "2026-06-12T14:08:03+00:00"
+    },
+    {
+      "title": "Here\u2019s what happened in crypto today",
+      "summary": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
+      "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "category": "crypto",
+      "impact": "medium",
+      "published": "2026-06-12T14:05:58+00:00"
+    },
+    {
+      "title": "Appeals court rejects Sam Bankman-Fried\u2019s bid for new trial in FTX fraud case",
+      "summary": "Sam Bankman-Fried lost his appeal to overturn his 25-year sentence after accusing the original court of not giving him a fair chance.",
+      "url": "https://www.theblock.co/post/404637/appeals-court-rejects-sam-bankman-frieds-bid-for-new-trial-in-ftx-fraud-case?utm_source=rss&utm_medium=rss",
+      "source": "The Block",
+      "category": "crypto",
+      "impact": "low",
+      "published": "2026-06-12T13:47:54+00:00"
+    },
+    {
+      "title": "Exodus, Ondo launch tokenized markets with 200-plus stocks and ETFs on Solana",
+      "summary": "Exodus partnered with Ondo on to launch tokenized trading of 200+ stocks and ETFs directly on the Solana blockchain.",
+      "url": "https://www.theblock.co/post/404622/exodus-launches-tokenized-markets-200-plus-stocks-etfs-on-solana?utm_source=rss&utm_medium=rss",
+      "source": "The Block",
+      "category": "crypto",
+      "impact": "low",
+      "published": "2026-06-12T13:26:25+00:00"
+    },
+    {
+      "title": "Polish president vetoes crypto bill for third time ahead of MiCA deadline",
+      "summary": "Polish President Karol Nawrocki vetoed a bill to implement MiCA for the third time, just weeks before the end of the EU crypto framework's transitional period.",
+      "url": "https://cointelegraph.com/news/polish-president-vetoes-crypto-bill-third-time-mica-deadline?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "category": "crypto",
+      "impact": "low",
+      "published": "2026-06-12T13:25:53+00:00"
+    },
+    {
+      "title": "CoinDesk 20 performance update: Ethereum (ETH) falls 1% as index trades lower",
+      "summary": "",
+      "url": "https://www.coindesk.com/coindesk-indices/2026/06/12/coindesk-20-performance-update-ethereum-eth-falls-1-as-index-trades-lower",
+      "source": "CoinDesk",
+      "category": "crypto",
+      "impact": "medium",
+      "published": "2026-06-12T13:11:26+00:00"
+    },
+    {
+      "title": "KuCoin has not paid $2M award tied to delisted token dispute, investor says",
+      "summary": "A Seychelles court said KuCoin can\u2019t treat unwithdrawn tokens as \u201cabandoned,\u201d and awarded a Swiss investor over $2 million. He says the exchange still hasn\u2019t paid and plans to sue again.",
+      "url": "https://cointelegraph.com/news/kucoin-yet-pay-seychelles-court-order-2m-token-case?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "category": "crypto",
+      "impact": "medium",
+      "published": "2026-06-12T13:03:23+00:00"
+    },
+    {
+      "title": "Ethena Labs to allocate $250 million to Securitize\u2019s Tokenized AAA CLO Fund as it deploys on Solana",
+      "summary": "STAC is one of Securitize\u2019s in-house offerings that provides onchain access to institutional-grade, floating-rate structured credit.",
+      "url": "https://www.theblock.co/post/404602/ethena-labs-to-allocate-250-million-to-securitizes-tokenized-aaa-clo-fund-as-it-deploys-on-solana?utm_source=rss&utm_medium=rss",
+      "source": "The Block",
+      "category": "crypto",
+      "impact": "low",
+      "published": "2026-06-12T13:00:00+00:00"
+    },
+    {
+      "title": "US spot Bitcoin ETFs set to hit $2 trillion cumulative trading volume milestone amid mounting outflows",
+      "summary": "BlackRock's IBIT dominates spot Bitcoin exchange-traded funds by trading volume, with a current 73.7% market share.",
+      "url": "https://www.theblock.co/post/404584/bitcoin-etfs-2-trillion-usd-cumulative-trading-volume?utm_source=rss&utm_medium=rss",
+      "source": "The Block",
+      "category": "crypto",
+      "impact": "medium",
+      "published": "2026-06-12T12:52:38+00:00"
+    },
+    {
+      "title": "Metaplanet Acquires Japanese Securities Firm for $13M to Launch Bitcoin Yield Products",
+      "summary": "The Siiibo Securities deal positions Metaplanet to tap $7.4 trillion in household savings as the country shifts from deflation to inflation.",
+      "url": "https://decrypt.co/370891/metaplanet-acquires-japanese-securities-firm-for-13m-to-launch-bitcoin-yield-products",
+      "source": "Decrypt",
+      "category": "crypto",
+      "impact": "high",
+      "published": "2026-06-12T12:45:39+00:00"
     },
     {
       "title": "Morning Minute: SpaceX Prices Largest IPO Ever at $135",
@@ -44,87 +827,6 @@
       "published": "2026-06-12T12:31:52+00:00"
     },
     {
-      "title": "Microsoft, Singapore's IMDA sign MOU to advance joint AI safety research",
-      "summary": "",
-      "url": "https://seekingalpha.com/news/4602934-microsoft-singapores-imda-sign-mou-to-advance-joint-ai-safety-research?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
-      "source": "Seeking Alpha",
-      "category": "equities",
-      "impact": "low",
-      "published": "2026-06-12T12:30:41+00:00"
-    },
-    {
-      "title": "Jazz Pharma announces late-stage trial setback for lung cancer therapy",
-      "summary": "",
-      "url": "https://seekingalpha.com/news/4602940-jazz-pharma-lung-cancer-drug-fails-late-stage-trial?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
-      "source": "Seeking Alpha",
-      "category": "equities",
-      "impact": "low",
-      "published": "2026-06-12T12:30:36+00:00"
-    },
-    {
-      "title": "Dividend Roundup: Microsoft, Philip Morris, Coca-Cola, Target, and more",
-      "summary": "",
-      "url": "https://seekingalpha.com/news/4602911-dividend-roundup-microsoft-philip-morris-coca-cola-target-and-more?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
-      "source": "Seeking Alpha",
-      "category": "equities",
-      "impact": "low",
-      "published": "2026-06-12T12:29:45+00:00"
-    },
-    {
-      "title": "Rezolve AI approves share buyback program of up to $300M",
-      "summary": "",
-      "url": "https://seekingalpha.com/news/4602936-rezolve-ai-approves-share-buyback-program-of-up-to-300m?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
-      "source": "Seeking Alpha",
-      "category": "equities",
-      "impact": "low",
-      "published": "2026-06-12T12:29:45+00:00"
-    },
-    {
-      "title": "GraniteShares YieldBOOST TSLA ETF declares $0.2171 dividend",
-      "summary": "",
-      "url": "https://seekingalpha.com/news/4602942-graniteshares-yieldboost-tsla-etf-declares-0_2171-dividend?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
-      "source": "Seeking Alpha",
-      "category": "equities",
-      "impact": "medium",
-      "published": "2026-06-12T12:28:53+00:00"
-    },
-    {
-      "title": "GraniteShares YieldBOOST SPY ETF declares $0.0513 dividend",
-      "summary": "",
-      "url": "https://seekingalpha.com/news/4602941-graniteshares-yieldboost-spy-etf-declares-0_0513-dividend?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
-      "source": "Seeking Alpha",
-      "category": "equities",
-      "impact": "medium",
-      "published": "2026-06-12T12:28:15+00:00"
-    },
-    {
-      "title": "GraniteShares YieldBOOST NVDA ETF declares $0.1258 dividend",
-      "summary": "",
-      "url": "https://seekingalpha.com/news/4602939-graniteshares-yieldboost-nvda-etf-declares-0_1258-dividend?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
-      "source": "Seeking Alpha",
-      "category": "equities",
-      "impact": "medium",
-      "published": "2026-06-12T12:27:48+00:00"
-    },
-    {
-      "title": "Stock Market Today: Dow Rises On Iran Peace Deal Hopes; SpaceX IPO To Start Trading (Live Coverage)",
-      "summary": "Stock Market Today: The Dow Jones index rose Friday on U.S.-Iran peace deal hopes. The SpaceX stock IPO will start trading shortly.",
-      "url": "https://finance.yahoo.com/m/3ab863ee-d132-3549-8208-e6dd679a6a25/stock-market-today%3A-dow-rises.html?.tsrc=rss",
-      "source": "Yahoo Finance",
-      "category": "macro",
-      "impact": "medium",
-      "published": "2026-06-12T12:25:38+00:00"
-    },
-    {
-      "title": "Oil prices fall as investors weigh reports of peace-deal progress between the U.S. and Iran",
-      "summary": "West Texas Intermediate and Brent crude fell on Friday on reports that a potential deal would lift oil sanctions on Iran.",
-      "url": "https://www.marketwatch.com/story/oil-prices-extend-declines-on-possible-u-s-iran-peace-deal-to-reopen-strait-of-hormuz-6d2822bd?mod=mw_rss_topstories",
-      "source": "MarketWatch Top",
-      "category": "macro",
-      "impact": "medium",
-      "published": "2026-06-12T12:25:00+00:00"
-    },
-    {
       "title": "Elon Musk's SpaceX IPO: The Bull and Bear Case for Bitcoin",
       "summary": "SpaceX\u2019s $75 billion IPO has already drained crypto liquidity, but a strong first-day pop could help rotate profits back, analysts argue.",
       "url": "https://decrypt.co/370886/elon-musks-spacex-ipo-the-bull-and-bear-case-for-bitcoin",
@@ -134,121 +836,13 @@
       "published": "2026-06-12T12:25:00+00:00"
     },
     {
-      "title": "Trump\u2019s allies have another plan to pay \u2019weaponization\u2019 victims",
-      "summary": "",
-      "url": "https://www.investing.com/news/economy-news/trumps-allies-have-another-way-to-pay-weaponization-victims-4739194",
-      "source": "Investing.com Commodities",
-      "category": "commodities",
-      "impact": "low",
-      "published": "2026-06-12T12:24:34+00:00"
-    },
-    {
-      "title": "U.S. stock futures rise on signs of a potential U.S.-Iran peace deal; traders await SpaceX IPO: Live updates",
-      "summary": "The draft version of the Iran-U.S. memorandum of understanding also includes a commitment from the U.S. to lift oil sanctions, according to reports.",
-      "url": "https://www.cnbc.com/2026/06/11/stock-market-today-live-updates.html",
-      "source": "CNBC World",
-      "category": "equities",
-      "impact": "high",
-      "published": "2026-06-12T12:21:36+00:00"
-    },
-    {
-      "title": "Balance of Fed policy risks shifting to firmer inflation, Morgan Stanley says",
-      "summary": "",
-      "url": "https://www.investing.com/news/economy-news/balance-of-fed-policy-risks-shifting-to-firmer-inflation-morgan-stanley-says-4739572",
-      "source": "Investing.com Commodities",
-      "category": "commodities",
-      "impact": "high",
-      "published": "2026-06-12T12:21:25+00:00"
-    },
-    {
-      "title": "Dollar firm as traders weigh prospects for Iran ceasefire",
-      "summary": "",
-      "url": "https://www.investing.com/news/economy-news/dollar-steadies-on-ceasefire-prospects-ppi-eases-pressure-on-fed-4738778",
-      "source": "Investing.com Commodities",
-      "category": "commodities",
-      "impact": "low",
-      "published": "2026-06-12T12:19:03+00:00"
-    },
-    {
-      "title": "Here\u2019s what could be SpaceX\u2019s biggest upside surprise, according to a leading Silicon Valley investor",
-      "summary": "Brad Gerstner and Gavin Baker discussed the SpaceX IPO as well as a possible pivot for Nvidia.",
-      "url": "https://www.marketwatch.com/story/heres-what-could-be-spacexs-biggest-upside-surprise-according-to-a-leading-silicon-valley-investor-e6cab034?mod=mw_rss_topstories",
-      "source": "MarketWatch Top",
-      "category": "macro",
+      "title": "Metaplanet to form securities arm through Siiibo acquisition",
+      "summary": "Metaplanet will acquire Siiibo Securities and rename it Metaplanet Securities as it builds out Project Nova, its Bitcoin-centric finance strategy in Japan.",
+      "url": "https://cointelegraph.com/news/metaplanet-to-form-securities-arm-through-siiibo-acquisition?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "category": "crypto",
       "impact": "medium",
-      "published": "2026-06-12T12:16:00+00:00"
-    },
-    {
-      "title": "Elon Musk becomes the world's first trillionaire with SpaceX's IPO",
-      "summary": "The SpaceX CEO's fortune on paper now rivals the annual economic output of many countries, according to World Bank data.",
-      "url": "https://www.cbsnews.com/news/elon-musk-spacex-ipo-trillionaire-wealth/?.tsrc=rss",
-      "source": "Yahoo Finance",
-      "category": "macro",
-      "impact": "medium",
-      "published": "2026-06-12T12:11:49+00:00"
-    },
-    {
-      "title": "Dow Jones Futures Rise, Oil Skids On Iran Deal Hopes; SpaceX IPO Indicated Higher",
-      "summary": "Futures rose and oil prices dived on Iran deal hopes, extending Thursday's big moves. The SpaceX IPO is set to begin trading.",
-      "url": "https://finance.yahoo.com/m/a36f8689-b00f-3005-9ea1-acc708b5267d/dow-jones-futures-rise%2C-oil.html?.tsrc=rss",
-      "source": "Yahoo Finance",
-      "category": "macro",
-      "impact": "medium",
-      "published": "2026-06-12T12:11:14+00:00"
-    },
-    {
-      "title": "My elderly mother and I own a home together. Will Medicaid force its sale?",
-      "summary": "\u201cMy sister thinks Medicaid will take the house my mom and I own together.\u201d",
-      "url": "https://www.marketwatch.com/story/my-elderly-mother-and-i-own-a-home-together-will-medicaid-force-its-sale-fdfbad4a?mod=mw_rss_topstories",
-      "source": "MarketWatch Top",
-      "category": "macro",
-      "impact": "low",
-      "published": "2026-06-12T12:00:00+00:00"
-    },
-    {
-      "title": "Dow Jones expected to lead gains on peace-deal hopes as SpaceX prepares for take-off",
-      "summary": "8am: US stock futures rise Wall Street is heading for a firmer open on Friday, with futures ticking higher as investors weigh President Donald Trump\u2019s sudden shift on Iran and turn attention to a blockbuster market debut. Dow futures are up 0.6%, while those for the S&amp;P 500 and the...",
-      "url": "https://www.proactiveinvestors.com/companies/news/1093828/dow-jones-expected-to-lead-gains-on-peace-deal-hopes-as-spacex-prepares-for-take-off-1093828.html?.tsrc=rss",
-      "source": "Yahoo Finance",
-      "category": "macro",
-      "impact": "low",
-      "published": "2026-06-12T12:00:00+00:00"
-    },
-    {
-      "title": "US Equity Futures Rise Pre-Bell on Higher Optimism for Middle East Peace Deal",
-      "summary": "US equity futures were higher pre-bell Friday as traders anticipated a peace deal between the US and",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/us-equity-futures-rise-pre-115110740.html?.tsrc=rss",
-      "source": "Yahoo Finance",
-      "category": "macro",
-      "impact": "low",
-      "published": "2026-06-12T11:51:10+00:00"
-    },
-    {
-      "title": "Stocks Rise Pre-Bell Amid Media Reports of US-Iran Peace Deal Progress",
-      "summary": "The benchmark US stock measures were pointing higher before the open Friday amid media reports that",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/stocks-rise-pre-bell-amid-114357507.html?.tsrc=rss",
-      "source": "Yahoo Finance",
-      "category": "macro",
-      "impact": "low",
-      "published": "2026-06-12T11:43:57+00:00"
-    },
-    {
-      "title": "China\u2019s new loans miss forecasts in May as property slump curbs demand",
-      "summary": "",
-      "url": "https://www.investing.com/news/economy-news/chinas-new-loans-miss-forecasts-in-may-as-property-slump-curbs-demand-4739295",
-      "source": "Investing.com Commodities",
-      "category": "commodities",
-      "impact": "low",
-      "published": "2026-06-12T11:43:42+00:00"
-    },
-    {
-      "title": "Bank of England to hold interest rates this year but strong minority see a hike: Reuters poll",
-      "summary": "",
-      "url": "https://www.investing.com/news/economy-news/bank-of-england-to-hold-interest-rates-this-year-but-strong-minority-see-a-hike-reuters-poll-4739462",
-      "source": "Investing.com Commodities",
-      "category": "commodities",
-      "impact": "low",
-      "published": "2026-06-12T11:43:27+00:00"
+      "published": "2026-06-12T12:05:09+00:00"
     },
     {
       "title": "Stocks making the biggest moves premarket: Adobe, Rocket Lab, AMD, Carnival & more",
@@ -260,15 +854,6 @@
       "published": "2026-06-12T11:41:30+00:00"
     },
     {
-      "title": "SpaceX IPO debuts as Iran peace deal lifts markets",
-      "summary": "The rocket maker's $75 billion offering \u2014 the largest IPO in history \u2014 hits the Nasdaq as oil prices fall on reports of a U.S.-Iran agreement",
-      "url": "https://qz.com/spacex-ipo-iran-peace-deal-markets-061226?.tsrc=rss",
-      "source": "Yahoo Finance",
-      "category": "macro",
-      "impact": "medium",
-      "published": "2026-06-12T11:40:49+00:00"
-    },
-    {
       "title": "South Korea finance ministry says tokenized stocks are securities, not crypto assets, opening door to taxes: report",
       "summary": "South Korea\u2019s finance ministry said tokenized stocks are securities, opening potential taxation as early as H2 2026 if regulators agree.",
       "url": "https://www.theblock.co/post/404580/south-korea-finance-ministry-says-tokenized-stocks-are-securities-not-crypto-assets-opening-door-to-taxes-report?utm_source=rss&utm_medium=rss",
@@ -276,42 +861,6 @@
       "category": "crypto",
       "impact": "low",
       "published": "2026-06-12T11:38:22+00:00"
-    },
-    {
-      "title": "Oil slides on Gulf peace hopes, all eyes on SpaceX debut",
-      "summary": "",
-      "url": "https://www.investing.com/news/economy-news/stocks-extend-rally-on-gulf-breakthrough-hopes-oil-hits-twomonth-lows-4738741",
-      "source": "Investing.com Commodities",
-      "category": "commodities",
-      "impact": "low",
-      "published": "2026-06-12T11:37:52+00:00"
-    },
-    {
-      "title": "Wall St futures rise on Mideast deal optimism; SpaceX debut in focus",
-      "summary": "",
-      "url": "https://www.investing.com/news/economy-news/wall-st-futures-rise-on-mideast-deal-hopes-spacex-debut-in-focus-4739263",
-      "source": "Investing.com Commodities",
-      "category": "commodities",
-      "impact": "low",
-      "published": "2026-06-12T11:37:31+00:00"
-    },
-    {
-      "title": "U.S. equity funds record first weekly outflow in three weeks",
-      "summary": "",
-      "url": "https://www.investing.com/news/economy-news/us-equity-funds-record-first-weekly-outflow-in-three-weeks-4739454",
-      "source": "Investing.com Commodities",
-      "category": "commodities",
-      "impact": "low",
-      "published": "2026-06-12T11:36:42+00:00"
-    },
-    {
-      "title": "Down 37%, Is Nu Holdings Stock Finally a Bargain?",
-      "summary": "Management is telling investors yes.",
-      "url": "https://www.fool.com/investing/2026/06/12/down-37-is-nu-holdings-stock-finally-a-bargain/?.tsrc=rss",
-      "source": "Yahoo Finance",
-      "category": "macro",
-      "impact": "low",
-      "published": "2026-06-12T11:35:00+00:00"
     },
     {
       "title": "SpaceX raising $75 billion in record-setting IPO as Nasdaq debut awaits",
@@ -323,67 +872,13 @@
       "published": "2026-06-12T11:34:46+00:00"
     },
     {
-      "title": "India\u2019s May inflation rises to 3.93%, stays below target",
-      "summary": "",
-      "url": "https://www.investing.com/news/economy-news/indias-may-inflation-rises-to-393-stays-below-target-93CH-4739453",
-      "source": "Investing.com Commodities",
-      "category": "commodities",
-      "impact": "medium",
-      "published": "2026-06-12T11:34:23+00:00"
-    },
-    {
       "title": "SpaceX tokenized IPO campaign draws $557M on Binance ahead of debut",
-      "summary": "Crypto markets are becoming a new venue for pre-IPO price discovery ahead of SpaceX's highly anticipated debut on June 12.",
+      "summary": "Crypto markets are becoming a new venue for pre-IPO price discovery ahead of SpaceX's highly anticipated debut today.",
       "url": "https://cointelegraph.com/news/spacex-ipo-550m-binance-crypto-rails-front-run-wall-street-pre-ipo-price-discovery?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
       "source": "Cointelegraph",
       "category": "crypto",
       "impact": "medium",
       "published": "2026-06-12T11:32:44+00:00"
-    },
-    {
-      "title": "We asked AI to predict the 2026 World Cup winner. It picked a country that\u2019s never won.",
-      "summary": "Some 2026 World Cup predictions from AI models are going against tradition to pick the underdogs. Here\u2019s why.",
-      "url": "https://www.marketwatch.com/story/we-asked-ai-to-predict-the-2026-world-cup-winner-it-picked-something-that-has-never-happened-53231520?mod=mw_rss_topstories",
-      "source": "MarketWatch Top",
-      "category": "macro",
-      "impact": "low",
-      "published": "2026-06-12T11:32:00+00:00"
-    },
-    {
-      "title": "Batteries Beat the S&P 500: BATT Is Up 25% While SPY Hugs 11%",
-      "summary": "The headline number you may have seen is generous. Through the close on June 10, 2026, the Amplify Lithium & Battery Technology ETF (NYSEARCA:BATT) is up about 10% year to date, while the SPDR S&amp;P 500 ETF Trust (NYSEARCA:SPY) has returned about 6%. That is a real gap, though smaller than the ...",
-      "url": "https://247wallst.com/investing/2026/06/12/batteries-beat-the-sp-500-batt-is-up-25-while-spy-hugs-11/?.tsrc=rss",
-      "source": "Yahoo Finance",
-      "category": "macro",
-      "impact": "low",
-      "published": "2026-06-12T11:30:02+00:00"
-    },
-    {
-      "title": "Exclusive-South Korea's SK Hynix to opt for Nasdaq for planned US listing, sources say",
-      "summary": "South Korean memory chipmaker SK Hynix is looking to choose the Nasdaq for its planned U.S. listing, two sources familiar with the matter \u200csaid, opting for the technology-heavy bourse to capitalize on investor appetite for AI-linked stocks.  The planned listing \u200cas early as August comes after a 2...",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/exclusive-south-koreas-sk-hynix-112739431.html?.tsrc=rss",
-      "source": "Yahoo Finance",
-      "category": "macro",
-      "impact": "low",
-      "published": "2026-06-12T11:27:39+00:00"
-    },
-    {
-      "title": "3 Industrials Stocks on Our Watchlist",
-      "summary": "Industrials businesses quietly power the physical things we depend on, from cars and homes to e-commerce infrastructure. Their momentum is also rising as lower interest rates have incentivized higher capital spending. As a result, the industry has posted a 16.4% gain over the past six months, bea...",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/3-industrials-stocks-watchlist-112520932.html?.tsrc=rss",
-      "source": "Yahoo Finance",
-      "category": "macro",
-      "impact": "low",
-      "published": "2026-06-12T11:25:20+00:00"
-    },
-    {
-      "title": "Jakarta plans to issue Indonesia\u2019s first municipal bond",
-      "summary": "",
-      "url": "https://www.investing.com/news/economy-news/jakarta-plans-to-issue-indonesias-first-municipal-bond-93CH-4739435",
-      "source": "Investing.com Commodities",
-      "category": "commodities",
-      "impact": "low",
-      "published": "2026-06-12T11:24:22+00:00"
     },
     {
       "title": "For crypto, SpaceX's stock market debut could go either way",
@@ -395,67 +890,13 @@
       "published": "2026-06-12T11:23:25+00:00"
     },
     {
-      "title": "Former Tesla board member says SpaceX needs to achieve 2 of its 3 moonshots to keep its valuation",
-      "summary": "SpaceX has achieved its goal of becoming the largest IPO on record.",
-      "url": "https://www.cnbc.com/2026/06/12/spacex-moonshots-valuation-westly-tesla.html",
-      "source": "CNBC World",
-      "category": "equities",
-      "impact": "medium",
-      "published": "2026-06-12T11:22:37+00:00"
-    },
-    {
-      "title": "Is Tesla Stock More Valuable Than SpaceX?",
-      "summary": "SpaceX  trading is set to begin, officially making  Tesla  and SpaceX CEO Elon Musk a trillionaire.  SpaceX is worth more to Musk than Tesla, but which company will turn out more valuable to investors is harder to say.  Tesla stock was up 0.2% in premarket trading at $399.86 Friday, while  and  f...",
-      "url": "https://finance.yahoo.com/m/13b2ad4a-f09b-389c-a002-83c0055ef9b8/is-tesla-stock-more-valuable.html?.tsrc=rss",
-      "source": "Yahoo Finance",
-      "category": "macro",
-      "impact": "low",
-      "published": "2026-06-12T11:19:00+00:00"
-    },
-    {
-      "title": "2 S&P 500 Stocks Worth Investigating and 1 Facing Headwinds",
-      "summary": "The S&amp;P 500 (^GSPC) is often seen as a benchmark for strong businesses, but that doesn\u2019t mean every stock is worth owning. Some companies face significant challenges, whether it\u2019s stagnating growth, heavy debt, or disruptive new competitors.",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/2-p-500-stocks-worth-111720760.html?.tsrc=rss",
-      "source": "Yahoo Finance",
-      "category": "macro",
-      "impact": "low",
-      "published": "2026-06-12T11:17:20+00:00"
-    },
-    {
-      "title": "JPMorgan says investors are overlooking the upside to Wall Street banks that comes from SpaceX and other mega IPOs",
-      "summary": "Bumper IPO issuance and crazy market volatility should generate very straong trading income for the largst investment banks in the second quarter. JPMorgan makes a short-term trading call on both Goldman and Morgan Stanley",
-      "url": "https://www.marketwatch.com/story/jpmorgan-says-investors-are-overlooking-the-upside-to-wall-street-banks-that-comes-from-spacex-and-other-mega-ipos-bcea99f4?mod=mw_rss_topstories",
-      "source": "MarketWatch Top",
-      "category": "macro",
-      "impact": "medium",
-      "published": "2026-06-12T11:14:00+00:00"
-    },
-    {
-      "title": "FNCL vs. KBWB: Broad Financial Exposure vs. a Concentrated Bank ETF -- Which Is the Better Buy?",
-      "summary": "Compare fees, risk profiles, and sector coverage between these two funds to see how their strategies could impact your investment approach.",
-      "url": "https://www.fool.com/coverage/etfs/2026/06/12/fncl-vs-kbwb-broad-financial-exposure-vs-a-concentrated-bank-etf-which-is-the-better-buy/?.tsrc=rss",
-      "source": "Yahoo Finance",
-      "category": "macro",
-      "impact": "low",
-      "published": "2026-06-12T11:11:26+00:00"
-    },
-    {
-      "title": "Monero prices rocket to $438 amid $120 million onchain laundering maze",
+      "title": "Monero price rockets 33% to $438 amid $120 million onchain laundering maze",
       "summary": "",
       "url": "https://www.coindesk.com/markets/2026/06/12/monero-spiked-to-usd430-as-usd120-million-moved-through-it-then-tether-froze-usd72-million",
       "source": "CoinDesk",
       "category": "crypto",
       "impact": "low",
       "published": "2026-06-12T11:10:51+00:00"
-    },
-    {
-      "title": "Persian Gulf, Oil, SpaceX Lift Wall Street Pre-Bell; Asia Europe Up",
-      "summary": "Wall Street futures pointed moderately higher pre-bell Friday, as traders weighed easing oil prices,",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/persian-gulf-oil-spacex-lift-110340856.html?.tsrc=rss",
-      "source": "Yahoo Finance",
-      "category": "macro",
-      "impact": "low",
-      "published": "2026-06-12T11:03:40+00:00"
     },
     {
       "title": "Gary Gensler Backs States in Fight Over Prediction Market Regulation",
@@ -465,42 +906,6 @@
       "category": "crypto",
       "impact": "medium",
       "published": "2026-06-12T11:02:05+00:00"
-    },
-    {
-      "title": "The Tech Download: Mistral's Arthur Mensch on agentic AI, chips and enterprise adoption",
-      "summary": "CNBC's Arjun Kharpal sat down with the chief of one of Europe's leading AI companies.",
-      "url": "https://www.cnbc.com/2026/06/12/tech-download-mistral-mensch-agentic-ai-chips.html",
-      "source": "CNBC World",
-      "category": "commodities",
-      "impact": "low",
-      "published": "2026-06-12T11:00:01+00:00"
-    },
-    {
-      "title": "\u2018I have no experience with investing\u2019: I inherited $2,000. I\u2019m 42 with two children. What should I do with this money?",
-      "summary": "\u201cI would like the money to grow.\u201d",
-      "url": "https://www.marketwatch.com/story/i-have-no-experience-with-investing-i-inherited-2-000-im-42-with-two-children-what-should-i-do-with-this-money-7b0de230?mod=mw_rss_topstories",
-      "source": "MarketWatch Top",
-      "category": "macro",
-      "impact": "low",
-      "published": "2026-06-12T11:00:00+00:00"
-    },
-    {
-      "title": "Why a Fed communications \u2018blackout\u2019 isn\u2019t coming to markets under new Warsh regime",
-      "summary": "\u2018There\u2019s a First Amendment,\u2019 says Pimco\u2019s Richard Clarida, a former vice chairman of the Fed\u2019s board of governors",
-      "url": "https://www.marketwatch.com/story/why-a-fed-communications-blackout-isnt-coming-to-markets-under-new-warsh-regime-4cfcff68?mod=mw_rss_topstories",
-      "source": "MarketWatch Top",
-      "category": "macro",
-      "impact": "high",
-      "published": "2026-06-12T11:00:00+00:00"
-    },
-    {
-      "title": "SpaceX\u2019s Gwynne Shotwell had IPO doubts for years, now she has a message for investors",
-      "summary": "Gwynne Shotwell, long Elon Musk's second-in-command at SpaceX, spoke exclusively with CNBC ahead of her company's highly anticipated IPO.",
-      "url": "https://www.cnbc.com/2026/06/12/spacex-coo-gwynne-shotwell-spcx-ipo.html",
-      "source": "CNBC World",
-      "category": "equities",
-      "impact": "medium",
-      "published": "2026-06-12T10:59:16+00:00"
     },
     {
       "title": "Bitcoin miner 'capitulation' comes as trader sees later 2026 bear-market bottom",
@@ -521,15 +926,6 @@
       "published": "2026-06-12T10:41:24+00:00"
     },
     {
-      "title": "\u2018It seems too good to be true\u2019: At a steak-dinner retirement seminar, the guy said annuities can outperform the market. Is that true?",
-      "summary": "\u201cHe claimed that fixed-rate annuities are the sparkly, rainbow-fairyland of investments.\u201d",
-      "url": "https://www.marketwatch.com/story/it-seems-too-good-to-be-true-at-a-steak-dinner-retirement-seminar-the-guy-said-annuities-can-outperform-the-market-is-that-true-33e11b0a?mod=mw_rss_topstories",
-      "source": "MarketWatch Top",
-      "category": "macro",
-      "impact": "low",
-      "published": "2026-06-12T10:36:00+00:00"
-    },
-    {
       "title": "There is a \u2018fundamental clash\u2019 between bitcoin and institutionalization, says BTC circular economy project founder",
       "summary": "Bitcoin Ekasi's Hermann Vivier emphasized that bitcoin's store-of-value narrative does not exist without usage as a medium of exchange.",
       "url": "https://www.theblock.co/post/404563/bitcoin-ekasi-btc-prague?utm_source=rss&utm_medium=rss",
@@ -539,15 +935,6 @@
       "published": "2026-06-12T10:30:53+00:00"
     },
     {
-      "title": "LG Electronics Teams With Arbitrum for Blockchain-Based Ad Platform",
-      "summary": "The South Korean tech giant built a custom layer-2 network with Arbitrum for an advertising platform set to launch this year.",
-      "url": "https://decrypt.co/370866/lg-electronics-teams-with-arbitrum-for-blockchain-based-ad-platform",
-      "source": "Decrypt",
-      "category": "crypto",
-      "impact": "low",
-      "published": "2026-06-12T10:23:39+00:00"
-    },
-    {
       "title": "SpaceX IPO update: Whale opens $22.3M SPCX long as synthetic price hits 30% premium",
       "summary": "SpaceX\u2019s IPO hype may fuel a strong debut, but history shows richly valued listings often struggle after the first-day pop fades.",
       "url": "https://cointelegraph.com/markets/spacex-ipo-update-whale-opens-223m-spcx-long-as-synthetic-price-hits-30-premium?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
@@ -555,15 +942,6 @@
       "category": "crypto",
       "impact": "medium",
       "published": "2026-06-12T10:18:58+00:00"
-    },
-    {
-      "title": "\u2018We are comfortable financially\u2019: My husband is in his 60s and has $500,000 life insurance. Is this a good time to cancel?",
-      "summary": "\u201cOur kids are grown and independent.\u201d",
-      "url": "https://www.marketwatch.com/story/we-pay-100-per-month-my-husband-is-in-his-mid-60s-and-has-a-500-000-life-insurance-policy-is-it-time-to-cancel-it-4cc49ffe?mod=mw_rss_topstories",
-      "source": "MarketWatch Top",
-      "category": "macro",
-      "impact": "low",
-      "published": "2026-06-12T10:06:00+00:00"
     },
     {
       "title": "Bitwise\u2019s Dragosch sees up to 20% further downside for bitcoin, puts \u2018max pain\u2019 scenario at $48,000",
@@ -593,15 +971,6 @@
       "published": "2026-06-12T09:52:36+00:00"
     },
     {
-      "title": "From startup to $1.8 trillion: The investors who took a chance on SpaceX now reap the rewards",
-      "summary": "With SpaceX seeking an IPO valuation of nearly $1.8 trillion, early bets are poised to generate some of the biggest paper gains in venture capital history.",
-      "url": "https://www.cnbc.com/2026/06/11/spacex-investors-reap-rewards-1-8-trillion-valuation.html",
-      "source": "CNBC Finance",
-      "category": "equities",
-      "impact": "high",
-      "published": "2026-06-12T09:49:53+00:00"
-    },
-    {
       "title": "Metaplanet to acquire Siiibo Securities for $13 million to develop bitcoin-linked yield products",
       "summary": "Metaplanet CEO Simon Gerovich said the deal is expected to close in July, and the company plans to rename the business Metaplanet Securities.",
       "url": "https://www.theblock.co/post/404564/metaplanet-siiibo-securities-acquisition?utm_source=rss&utm_medium=rss",
@@ -611,15 +980,6 @@
       "published": "2026-06-12T09:39:38+00:00"
     },
     {
-      "title": "Luxury stocks spike on proposed U.S.-Iran peace deal; LVMH up 5%",
-      "summary": "Luxury stocks have been hard hit by the Iran war, as the Middle East had been a fast-growing market for the otherwise largely muted sector.",
-      "url": "https://www.cnbc.com/2026/06/12/luxury-stocks-lvmh-hermes-burberry-iran-war-peace-deal.html",
-      "source": "CNBC World",
-      "category": "equities",
-      "impact": "medium",
-      "published": "2026-06-12T09:15:13+00:00"
-    },
-    {
       "title": "AI buildout weighs on bitcoin demand but future gains could reverse trend, Relai CEO says",
       "summary": "Julian Liniger, CEO of Relai, said the current bitcoin bear market is driven in part by liquidity absorbed by AI investments.",
       "url": "https://www.theblock.co/post/404554/ai-buildout-weighs-on-bitcoin-demand-relai-ceo?utm_source=rss&utm_medium=rss",
@@ -627,15 +987,6 @@
       "category": "crypto",
       "impact": "medium",
       "published": "2026-06-12T09:00:55+00:00"
-    },
-    {
-      "title": "Did Justin Trudeau buy his $3.1 million Montreal mansion in hopes Katy Perry would move in?",
-      "summary": "Former Canadian PM Justin Trudeau is reportedly taking a big step in his romance with singer Katy Perry after sources claimed that he hopes she will move into his new $3.1 million Montreal home at least \u201cpart\u201d of the year.",
-      "url": "https://www.marketwatch.com/story/did-justin-trudeau-buy-his-3-1-million-montreal-mansion-in-hopes-katy-perry-would-move-in-504d8cc2?mod=mw_rss_topstories",
-      "source": "MarketWatch Top",
-      "category": "macro",
-      "impact": "low",
-      "published": "2026-06-12T08:59:00+00:00"
     },
     {
       "title": "Why Nokia is betting on AI-powered networks",
@@ -654,24 +1005,6 @@
       "category": "crypto",
       "impact": "medium",
       "published": "2026-06-12T07:57:47+00:00"
-    },
-    {
-      "title": "Jewelry giant Chow Tai Fook's shares rise 15% as higher gold price boosts profits",
-      "summary": "Chow Tai Fook surged after posting a record high profit in its latest financial year.",
-      "url": "https://www.cnbc.com/2026/06/12/chow-tai-fooks-shares-rise-15percent-as-higher-gold-price-boosts-profits.html",
-      "source": "CNBC World",
-      "category": "equities",
-      "impact": "medium",
-      "published": "2026-06-12T07:49:22+00:00"
-    },
-    {
-      "title": "Meta reportedly begins dismantling $2 billion Manus deal on Beijing's orders",
-      "summary": "Meta has reportedly begun dismantling its acquisition of Manus, moving to comply with Beijing's unprecedented order to hand back the Chinese-founded AI startup.",
-      "url": "https://www.cnbc.com/2026/06/12/meta-reportedly-begins-dismantling-2-billion-manus-deal-on-beijings-orders.html",
-      "source": "CNBC World",
-      "category": "equities",
-      "impact": "low",
-      "published": "2026-06-12T07:41:11+00:00"
     },
     {
       "title": "International sting shuts down $390M crypto money-laundering ring",
@@ -701,9 +1034,18 @@
       "published": "2026-06-12T07:01:15+00:00"
     },
     {
-      "title": "Here\u2019s what happened in crypto today",
-      "summary": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
-      "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "title": "Blockworks acquires Messari in crypto data consolidation push",
+      "summary": "The acquisition follows leadership changes and layoffs at Messari and adds one of crypto's largest data and analytics platforms to Blockworks' growing research business.",
+      "url": "https://cointelegraph.com/news/blockworks-buys-rival-messari-at-fraction-of-2022-valuation?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "category": "crypto",
+      "impact": "low",
+      "published": "2026-06-12T07:00:00+00:00"
+    },
+    {
+      "title": "Exodus launches tokenized stock marketplace with Ondo, adds 200-plus onchain equities",
+      "summary": "The launch comes as tokenized equities surge in popularity, with crypto exchanges and wallets racing to offer onchain access to stocks and pre-IPO companies.",
+      "url": "https://cointelegraph.com/news/exodus-launches-tokenized-stock-marketplace-with-ondo-adds-200-onchain-equities?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
       "source": "Cointelegraph",
       "category": "crypto",
       "impact": "medium",
@@ -719,42 +1061,6 @@
       "published": "2026-06-12T06:44:20+00:00"
     },
     {
-      "title": "XRP jumps 3% above $1.14 as institutional buying meets key resistance test",
-      "summary": "",
-      "url": "https://www.coindesk.com/markets/2026/06/12/xrp-jumps-3-above-usd1-14-as-institutional-buying-meets-key-resistance-test",
-      "source": "CoinDesk",
-      "category": "crypto",
-      "impact": "low",
-      "published": "2026-06-12T06:38:32+00:00"
-    },
-    {
-      "title": "Live updates: Bitcoin traders eye rally to $75,000, Japan set to hike rate to 31-year high",
-      "summary": "",
-      "url": "https://www.coindesk.com/tech/2026/06/12/live-updates-bitcoin-in-volatile-trading-above-usd63-000-doge-unchanged",
-      "source": "CoinDesk",
-      "category": "crypto",
-      "impact": "medium",
-      "published": "2026-06-12T06:32:02+00:00"
-    },
-    {
-      "title": "Former SEC, CFTC Chair Gary Gensler argues that prediction markets don't overrule state regulations",
-      "summary": "",
-      "url": "https://www.coindesk.com/policy/2026/06/12/former-sec-cftc-chair-gary-gensler-argues-that-prediction-markets-don-t-overrule-state-regulations",
-      "source": "CoinDesk",
-      "category": "crypto",
-      "impact": "low",
-      "published": "2026-06-12T06:27:20+00:00"
-    },
-    {
-      "title": "SpaceX's crypto-traded IPO was sharply falling. It now points upward to a $2.4 trillion valuation",
-      "summary": "",
-      "url": "https://www.coindesk.com/markets/2026/06/12/spacex-s-crypto-traded-ipo-was-sharply-falling-it-now-points-upward-to-a-usd2-4-trillion-valuation",
-      "source": "CoinDesk",
-      "category": "crypto",
-      "impact": "high",
-      "published": "2026-06-12T06:13:44+00:00"
-    },
-    {
       "title": "BlackRock files 8-A for yield-bearing bitcoin ETF; analyst expects launch next week",
       "summary": "Bloomberg Analyst Eric Balchunas said the filing signals an imminent launch, adding that he expects it to start trading next week.",
       "url": "https://www.theblock.co/post/404530/blackrock-8a-yield-bearing-bitcoin-etf?utm_source=rss&utm_medium=rss",
@@ -762,24 +1068,6 @@
       "category": "crypto",
       "impact": "medium",
       "published": "2026-06-12T05:39:00+00:00"
-    },
-    {
-      "title": "The company that makes your TV is taking ads onchain. Arbitrum helped",
-      "summary": "",
-      "url": "https://www.coindesk.com/markets/2026/06/12/the-company-that-makes-your-tv-is-taking-ads-onchain-arbitrum-helped",
-      "source": "CoinDesk",
-      "category": "crypto",
-      "impact": "low",
-      "published": "2026-06-12T05:35:25+00:00"
-    },
-    {
-      "title": "Bitcoin climbs back into the green as Trump signals an end to the Iran war",
-      "summary": "",
-      "url": "https://www.coindesk.com/markets/2026/06/12/bitcoin-climbs-back-into-the-green-as-trump-signals-an-end-to-the-iran-war",
-      "source": "CoinDesk",
-      "category": "crypto",
-      "impact": "high",
-      "published": "2026-06-12T05:14:33+00:00"
     },
     {
       "title": "Avalanche Treasury shares fall 38% on Nasdaq debut after $675 million merger",
@@ -791,42 +1079,6 @@
       "published": "2026-06-12T05:14:10+00:00"
     },
     {
-      "title": "LG, Arbitrum launch blockchain-based bid in $679B ad market",
-      "summary": "LG is building a blockchain focused on buying and selling ads, joining a wave of companies launching their own blockchains in recent years.",
-      "url": "https://cointelegraph.com/news/lg-arbitrum-launch-blockchain-based-bid-for-679b-ad-market?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "category": "crypto",
-      "impact": "low",
-      "published": "2026-06-12T04:32:04+00:00"
-    },
-    {
-      "title": "Coinbase launches tool letting AI agents make payments and trade crypto",
-      "summary": "Coinbase for Agents will allow users of the crypto exchange to manage their holdings without \"constant manual oversight,\u201d autonomously performing a range of tasks.",
-      "url": "https://cointelegraph.com/news/coinbase-launches-tool-letting-ai-agents-make-payments-and-trade-crypto?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "category": "crypto",
-      "impact": "low",
-      "published": "2026-06-12T04:19:03+00:00"
-    },
-    {
-      "title": "Avalanche Treasury falls 16% as it debuts on Nasdaq",
-      "summary": "Avalanche Treasury holds about 15 million of the blockchain\u2019s native token, AVAX, which is trading at a five-year low.",
-      "url": "https://cointelegraph.com/news/avalanche-treasury-starts-trading-on-nasdaq-but-shares-fall-16-on-debut?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "category": "crypto",
-      "impact": "low",
-      "published": "2026-06-12T04:16:51+00:00"
-    },
-    {
-      "title": "SEC\u2019s proposal to scrap key NMS rules a major unlock for tokenized US stocks: analysts",
-      "summary": "Galaxy's Thorn said this would remove barriers that prevented DeFi automated market makers from trading tokenized US equities at scale.",
-      "url": "https://www.theblock.co/post/404515/sec-proposal-major-unlock-tokenized-stocks?utm_source=rss&utm_medium=rss",
-      "source": "The Block",
-      "category": "crypto",
-      "impact": "low",
-      "published": "2026-06-12T04:15:13+00:00"
-    },
-    {
       "title": "A Chinese start-up's unfolding dilemma exposes cracks in Beijing's tech funding machine",
       "summary": "While the U.S. channels support to tech winners indirectly via incentives, Chinese governments at every level take direct equity stakes.",
       "url": "https://www.cnbc.com/2026/06/12/a-chinese-start-ups-dilemma-exposes-cracks-in-beijings-tech-funding.html",
@@ -834,51 +1086,6 @@
       "category": "macro",
       "impact": "low",
       "published": "2026-06-12T01:21:00+00:00"
-    },
-    {
-      "title": "\u2018Anarchistic neobanks\u2019 are bitcoin\u2019s next frontier, says Blockrise CEO",
-      "summary": "Blockrise CEO Jos Lazet sees bitcoin-native institutions evolving into alternatives to banks, in an interview at BTC Prague.",
-      "url": "https://www.theblock.co/post/404469/anarchistic-neobanks-bitcoins-next-frontier-says-blockrise-ceo?utm_source=rss&utm_medium=rss",
-      "source": "The Block",
-      "category": "crypto",
-      "impact": "medium",
-      "published": "2026-06-12T00:01:02+00:00"
-    },
-    {
-      "title": "Big Tech crash, oil volatility rattles markets: Will Bitcoin hold above $60K?",
-      "summary": "With $1.9 billion exiting the spot Bitcoin ETFs and tech stocks under pressure, BTC is failing as a hedge and at risk of falling below the $60,000 support.",
-      "url": "https://cointelegraph.com/markets/big-tech-crash-oil-volatility-rattles-markets-will-bitcoin-hold-above-60k?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "category": "crypto",
-      "impact": "high",
-      "published": "2026-06-11T22:58:52+00:00"
-    },
-    {
-      "title": "OpenAI Wants a Price War With Anthropic\u2014Is It Proving DeepSeek Right?",
-      "summary": "Sam Altman is weighing drastic token price cuts to fight Anthropic. The problem is DeepSeek already made that argument for him\u2014and for free.",
-      "url": "https://decrypt.co/370854/openai-price-war-anthropic-deepseek-china",
-      "source": "Decrypt",
-      "category": "crypto",
-      "impact": "medium",
-      "published": "2026-06-11T22:31:03+00:00"
-    },
-    {
-      "title": "SpaceX cuts retail IPO allocation to low 20% range, source says",
-      "summary": "The Elon Musk-led company plans to direct a percentage in the low 20s of the offering to retail buyers, according to a person familiar with the matter.",
-      "url": "https://www.cnbc.com/2026/06/11/spacex-cuts-retail-ipo-allocation-to-low-20percent-range-source-says.html",
-      "source": "CNBC Finance",
-      "category": "equities",
-      "impact": "medium",
-      "published": "2026-06-11T22:21:47+00:00"
-    },
-    {
-      "title": "Bitcoin Must Prepare for Quantum Threat Now, Coinbase Says",
-      "summary": "Coinbase's quantum advisory council says crypto developers should begin post-quantum migration work now, warning that unresolved questions around abandoned and vulnerable coins could become one of Bitcoin's biggest battles.",
-      "url": "https://decrypt.co/370851/bitcoin-quantum-threat-now-coinbase",
-      "source": "Decrypt",
-      "category": "crypto",
-      "impact": "high",
-      "published": "2026-06-11T21:50:06+00:00"
     },
     {
       "title": "SpaceX to close above $2 trillion market cap on its debut, prediction market traders say",
@@ -890,105 +1097,6 @@
       "published": "2026-06-11T21:44:43+00:00"
     },
     {
-      "title": "Citi launches blockchain marketplace for shares of private companies: Report",
-      "summary": "The US banking giant's blockchain marketplace will offer tokenized depositary receipts of private company shares amid Wall Street's broad embrace of tokenized assets.",
-      "url": "https://cointelegraph.com/news/citi-launches-blockchain-marketplace-private-company-shares?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "category": "crypto",
-      "impact": "low",
-      "published": "2026-06-11T21:24:56+00:00"
-    },
-    {
-      "title": "Man who spent 1,500 BTC on graphics card now helps insure bitcoin holders",
-      "summary": "Bitsurance, insures clients' bitcoin against \"physical attacks\" like fire, water, robbery and the \"$5 Wrench Attack.\"",
-      "url": "https://www.theblock.co/post/404438/man-who-spent-1500-btc-graphics-card-now-helps-insure-bitcoin-holders?utm_source=rss&utm_medium=rss",
-      "source": "The Block",
-      "category": "crypto",
-      "impact": "medium",
-      "published": "2026-06-11T21:01:02+00:00"
-    },
-    {
-      "title": "Ripple CEO Takes Aim at JPMorgan's Jamie Dimon Over Clarity Act Crypto Bill Criticism",
-      "summary": "Ripple's Brad Garlinghouse spoke out against JPMorgan CEO Jamie Dimon and his comments on the key piece of crypto legislation.",
-      "url": "https://decrypt.co/370840/ripple-ceo-takes-aim-jpmorgan-jamie-dimon-clarity-act-comments",
-      "source": "Decrypt",
-      "category": "crypto",
-      "impact": "low",
-      "published": "2026-06-11T20:44:14+00:00"
-    },
-    {
-      "title": "Microsoft President Asks Graduates to Stop Fearing AI and Start Adapting",
-      "summary": "Brad Smith published a 3,000-word essay urging empathy for graduates booing AI at commencements. The same week, Microsoft's CFO confirmed headcount will keep shrinking.",
-      "url": "https://decrypt.co/370843/microsoft-graduates-stop-fearing-ai-start-adapting",
-      "source": "Decrypt",
-      "category": "crypto",
-      "impact": "low",
-      "published": "2026-06-11T20:25:11+00:00"
-    },
-    {
-      "title": "Nasdaq-Listed Bitcoin Firm Nakamoto Sells BTC, Cuts Debt and Authorizes Share Buyback",
-      "summary": "Nakamoto, the Nasdaq-listed Bitcoin services and treasury firm, sold about $48 million worth of BTC and derivatives to help reduce debt.",
-      "url": "https://decrypt.co/370842/nasdaq-listed-bitcoin-firm-nakamoto-sells-btc-cuts-debt-share-buyback",
-      "source": "Decrypt",
-      "category": "crypto",
-      "impact": "medium",
-      "published": "2026-06-11T20:19:46+00:00"
-    },
-    {
-      "title": "Americans secretly drove as much as $34 billion in offshore prediction market bets, new report claims",
-      "summary": "A new report from a boutique consulting firm claims that nearly a third of U.S. prediction market volume occurs on offshore platforms.",
-      "url": "https://www.theblock.co/post/404505/americans-secretly-drove-34-billion-offshore-prediction-market-bets-report-claims?utm_source=rss&utm_medium=rss",
-      "source": "The Block",
-      "category": "crypto",
-      "impact": "low",
-      "published": "2026-06-11T20:15:54+00:00"
-    },
-    {
-      "title": "Elon Musk's SpaceX prices shares at $135, raising $75 billion in largest-ever IPO",
-      "summary": "",
-      "url": "https://www.coindesk.com/markets/2026/06/11/spacex-prices-shares-at-usd135-in-largest-ipo-ever",
-      "source": "CoinDesk",
-      "category": "crypto",
-      "impact": "medium",
-      "published": "2026-06-11T20:12:46+00:00"
-    },
-    {
-      "title": "ETH futures traders lean into $1.6K range lows: Will Ether lead market recovery?",
-      "summary": "ETH traders increased their long positions as Ether price traded near 2026 lows. Will ETH\u2019s rebound eclipse the BTC recovery?",
-      "url": "https://cointelegraph.com/markets/ether-bulls-ramp-up-risk-above-16k-can-buyers-regain-control?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "category": "crypto",
-      "impact": "low",
-      "published": "2026-06-11T19:37:41+00:00"
-    },
-    {
-      "title": "Coinbase Launches Tool That Lets AI Agents Trade Crypto and Make Payments for Users",
-      "summary": "Coinbase's new product allows AI agents to execute crypto trades, payments, and portfolio management tasks within user-defined limits.",
-      "url": "https://decrypt.co/370835/coinbase-tool-ai-agents-trade-crypto-make-payments",
-      "source": "Decrypt",
-      "category": "crypto",
-      "impact": "low",
-      "published": "2026-06-11T19:29:44+00:00"
-    },
-    {
-      "title": "Crypto Platforms Broaden Access to Elon Musk's SpaceX Ahead of $1.75 Trillion IPO",
-      "summary": "With the help of crypto rails, retail investors have a variety of ways to bypass traditional Wall Street gatekeepers to get SpaceX exposure.",
-      "url": "https://decrypt.co/370828/crypto-platforms-broaden-access-elon-musks-spacex-1-75-trillion-ipo",
-      "source": "Decrypt",
-      "category": "crypto",
-      "impact": "medium",
-      "published": "2026-06-11T19:16:34+00:00"
-    },
-    {
-      "title": "Arbitrum token jumps 5% on news LG Electronics is building a new blockchain",
-      "summary": "LG\u2019s new Arbitrum-based blockchain will serve as a platform for placing, buying, selling, and managing digital ads.",
-      "url": "https://www.theblock.co/post/404494/arbitrum-token-jumps-5-news-lg-electronics-building-new-blockchain?utm_source=rss&utm_medium=rss",
-      "source": "The Block",
-      "category": "crypto",
-      "impact": "low",
-      "published": "2026-06-11T19:15:42+00:00"
-    },
-    {
       "title": "Gold slumps to 6-month low even as inflation fears rise. Here's why bullion is out of favor",
       "summary": "The yellow metal is at its lowest level of the year as potential interest rate increases and faltering technical signals weigh on prices.",
       "url": "https://www.cnbc.com/2026/06/11/gold-slumps-to-6-month-low-even-as-inflation-fears-rise-heres-why-bullion-is-out-of-favor.html",
@@ -998,96 +1106,6 @@
       "published": "2026-06-11T19:06:17+00:00"
     },
     {
-      "title": "Anthropic Apologizes for Claude Fable 5 Secret Censorship\u2014But the Fix Has a Catch",
-      "summary": "One day after the AI community erupted over invisible performance sabotage, Anthropic reversed course. Visible safeguards are coming\u2014and so are more false positives.",
-      "url": "https://decrypt.co/370831/anthropic-apologizes-claude-fable-5-secret-censorship",
-      "source": "Decrypt",
-      "category": "crypto",
-      "impact": "low",
-      "published": "2026-06-11T18:55:48+00:00"
-    },
-    {
-      "title": "Three signs that XRP price risks falling below $1 in June",
-      "summary": "XRP is forming head-and-shoulders and bear flag setups on its shorter-timeframe chart, both indicating a dip below $1 in the coming days.",
-      "url": "https://cointelegraph.com/markets/three-signs-that-xrp-price-risks-falling-below-1-in-june?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "category": "crypto",
-      "impact": "low",
-      "published": "2026-06-11T18:29:54+00:00"
-    },
-    {
-      "title": "Whistleblower Sues Elon Musk's xAI, Claiming He Was Fired After Raising Grok Safety Concerns",
-      "summary": "Devin Kim alleged he was terminated after repeatedly warning about bias, misinformation, and dangerous outputs from Elon Musk's Grok chatbot.",
-      "url": "https://decrypt.co/370825/whistleblower-sues-elon-musk-xai-fired-raising-grok-safety-concerns",
-      "source": "Decrypt",
-      "category": "crypto",
-      "impact": "medium",
-      "published": "2026-06-11T18:11:44+00:00"
-    },
-    {
-      "title": "Coinbase eyes World Cup boost as prediction markets surge: Bernstein",
-      "summary": "Bernstein says the 2026 FIFA World Cup could inject billions into prediction markets, with Coinbase and Robinhood positioned to capture a wave of new users.",
-      "url": "https://cointelegraph.com/news/coinbase-world-cup-prediction-market-boost-bernstein?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "category": "crypto",
-      "impact": "low",
-      "published": "2026-06-11T17:57:06+00:00"
-    },
-    {
-      "title": "JPMorgan says debasement trade retreat has \u2018accelerated\u2019 for bitcoin",
-      "summary": "The retreat from the debasement trade has continued for gold and accelerated for bitcoin in recent weeks, JPMorgan analysts said.",
-      "url": "https://www.theblock.co/post/404471/jpmorgan-debasement-trade-retreat-bitcoin-gold?utm_source=rss&utm_medium=rss",
-      "source": "The Block",
-      "category": "crypto",
-      "impact": "medium",
-      "published": "2026-06-11T17:54:56+00:00"
-    },
-    {
-      "title": "Coinbase for Agents sets up dedicated accounts for AI bots to trade and pay for users",
-      "summary": "AI agents will get access to trade, manage money, and make payments on behalf of Coinbase users via dedicated accounts.",
-      "url": "https://www.theblock.co/post/404458/coinbase-agents-dedicated-accounts-ai-bots-trade-pay-users?utm_source=rss&utm_medium=rss",
-      "source": "The Block",
-      "category": "crypto",
-      "impact": "low",
-      "published": "2026-06-11T17:11:22+00:00"
-    },
-    {
-      "title": "Coinbase launches AI agent accounts that can trade and spend on your behalf",
-      "summary": "",
-      "url": "https://www.coindesk.com/tech/2026/06/11/coinbase-launches-ai-agent-accounts-that-can-trade-and-spend-on-your-behalf",
-      "source": "CoinDesk",
-      "category": "crypto",
-      "impact": "low",
-      "published": "2026-06-11T17:00:00+00:00"
-    },
-    {
-      "title": "Authorities Take Down 'AudiA6' Group That Allegedly Laundered $389 Million in Bitcoin",
-      "summary": "Authorities are seeking extradition to the U.S. of two arrested individuals for allegedly laundering $389 million in Bitcoin.",
-      "url": "https://decrypt.co/370812/authorities-take-down-audia6-allegedly-laundered-389-million-bitcoin",
-      "source": "Decrypt",
-      "category": "crypto",
-      "impact": "medium",
-      "published": "2026-06-11T16:52:07+00:00"
-    },
-    {
-      "title": "\u2018You sell what you can, not what you want\u2019: Jack Mallers says bitcoin is pricing a global liquidity crisis",
-      "summary": "Strike CEO Jack Mallers says Bitcoin at $63,000 reflects a liquidity-starved world, and questions Strategy's perpetual stock capital dynamic.",
-      "url": "https://www.theblock.co/post/404453/sell-what-you-can-not-what-you-want-jack-mallers-bitcoin-pricing-global-liquidity-crisis?utm_source=rss&utm_medium=rss",
-      "source": "The Block",
-      "category": "crypto",
-      "impact": "high",
-      "published": "2026-06-11T16:46:52+00:00"
-    },
-    {
-      "title": "Banking rails are moving past the 'stablecoin winner' narrative: Sygnum",
-      "summary": "",
-      "url": "https://www.coindesk.com/business/2026/06/11/big-banks-are-ditching-private-blockchains-to-build-tokenized-cash-networks-on-public-infrastructure",
-      "source": "CoinDesk",
-      "category": "crypto",
-      "impact": "low",
-      "published": "2026-06-11T16:37:53+00:00"
-    },
-    {
       "title": "Wholesale prices rose 1.1% in May, more than expected, on surge in energy",
       "summary": "The producer price index was expected to increase 0.7% in May, according to the Dow Jones consensus forecast.",
       "url": "https://www.cnbc.com/2026/06/11/producer-price-index-may-2026-.html",
@@ -1095,15 +1113,6 @@
       "category": "macro",
       "impact": "low",
       "published": "2026-06-11T16:25:00+00:00"
-    },
-    {
-      "title": "World Cup Could Bring Billions in Volume to Prediction Markets in 'Watershed Moment': Bernstein",
-      "summary": "The 48-team FIFA World Cup tournament is expected to be the single largest catalyst for online sports betting in history, Bernstein said.",
-      "url": "https://decrypt.co/370786/world-cup-billions-volume-prediction-markets-watershed-moment-bernstein",
-      "source": "Decrypt",
-      "category": "crypto",
-      "impact": "low",
-      "published": "2026-06-11T16:20:01+00:00"
     },
     {
       "title": "Citigroup shares outperform down market after Trump endorsement",
