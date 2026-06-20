@@ -66,6 +66,12 @@
   display: flex;
   flex-direction: column;
   gap: 18px;
+  transition: opacity 0.4s ease;
+}
+
+.loading-skeleton.loaded {
+  display: none;
+  opacity: 0;
 }
 
 .skeleton-card {

@@ -93,14 +93,15 @@
       if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
       const data = await resp.json();
       allArticles = deriveArticleMeta(data.articles || data || []);
-      // Hide loading skeleton
-      const skeleton = document.getElementById('loadingSkeleton');
-      if (skeleton) { skeleton.classList.add('loaded'); }
       document.getElementById('lastUpdated').textContent = `Updated: ${data.generated || 'recently'}`;
       renderArticles();
       updateMarketPulse();
     } catch (err) {
       console.error('Failed to load news:', err);
+    } finally {
+      // Hide loading skeleton regardless of success/failure
+      const skeleton = document.getElementById('loadingSkeleton');
+      if (skeleton) { skeleton.classList.add('loaded'); }
     }
 
     // Load briefings
