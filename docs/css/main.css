@@ -1,7 +1,5 @@
-/* ============================================================
-   Meridian — Master CSS (imports all modules)
-   ============================================================ */
-
+/* Meridian — Master CSS
+   @import all modules in dependency order */
 @import url('base.css');
 @import url('ticker.css');
 @import url('sidebar.css');
