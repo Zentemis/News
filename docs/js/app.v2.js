@@ -21,6 +21,7 @@ let articlesCategoryFilter = 'all';
 let articlesSortOrder = 'newest';
 let viewingBriefing = null;
 let bookmarks = [];
+let activeSection = 'overview';
 
 // ===== DOM REFS =====
 const $ = (sel, ctx) => (ctx || document).querySelector(sel);
