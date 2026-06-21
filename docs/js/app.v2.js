@@ -6,6 +6,8 @@
 import { init as initRouter, register, navigate, onRouteChange, getCurrentRoute } from './router.js';
 import { startAutoRefresh, updateTickerBar, onUpdate as onTickerUpdate } from './data/scheduler.js';
 import { getCachedTickers, getTickerInfo, getSparkData } from './data/tickers.js';
+import { createHeroCarousel } from './components/hero-carousel.js';
+import { initAllCharts, SECTION_CHART_CONFIG } from './components/charts.js';
 
 // ===== STATE =====
 let allArticles = [];
@@ -343,35 +345,73 @@ function renderArticles() {
 }
 
 function renderSection(section, articles) {
-  let featured = articles.filter(a => a.impact === 'high').slice(0, 1);
-  if (featured.length === 0) featured = articles.filter(a => a.impact === 'medium').slice(0, 1);
-  if (featured.length === 0 && articles.length > 0) featured = articles.slice(0, 1);
-  const grid = articles.filter(a => !featured.includes(a)).slice(0, 6);
-  const list = articles.filter(a => !featured.includes(a) && !grid.includes(a)).slice(0, 12);
+  // Overview gets the hero carousel
+  if (section === 'overview') {
+    const featuredEl = document.getElementById('featured-overview');
+    if (featuredEl) {
+      const carouselArticles = articles.filter(a => a.impact === 'high' || a.impact === 'medium').slice(0, 5);
+      if (carouselArticles.length < 3) {
+        // Fallback: just use top articles
+        carouselArticles.push(...articles.slice(0, 5 - carouselArticles.length));
+      }
+      if (carouselArticles.length >= 2) {
+        createHeroCarousel(featuredEl, carouselArticles);
+      } else if (carouselArticles.length === 1) {
+        // Single article fallback to original featured style
+        const a = carouselArticles[0];
+        featuredEl.innerHTML = `
+          <div class="featured-story" data-url="${a.url}">
+            <div class="featured-meta">
+              <span class="cat-badge ${a.category || 'macro'}">${a.category || 'general'}</span>
+              <span class="impact-badge high">High Impact</span>
+              <span style="font-size:0.75rem;color:var(--text-muted)">${a.source || ''}</span>
+            </div>
+            <h3>${escHtml(a.title)}</h3>
+            <div class="featured-summary">${escHtml(a.summary || a.description || '')}</div>
+            <div class="featured-bottom">
+              <span>${formatTime(a.published)}</span>
+              <span>Read more →</span>
+            </div>
+          </div>
+        `;
+      } else {
+        featuredEl.innerHTML = '';
+      }
+    }
+  } else {
+    // Sub-sections keep the original single featured story
+    let featured = articles.filter(a => a.impact === 'high').slice(0, 1);
+    if (featured.length === 0) featured = articles.filter(a => a.impact === 'medium').slice(0, 1);
+    if (featured.length === 0 && articles.length > 0) featured = articles.slice(0, 1);
 
-  const featuredEl = document.getElementById(`featured-${section}`);
-  if (featuredEl) {
-    if (featured.length > 0) {
-      const a = featured[0];
-      featuredEl.innerHTML = `
-        <div class="featured-story" data-url="${a.url}">
-          <div class="featured-meta">
-            <span class="cat-badge ${a.category || 'macro'}">${a.category || 'general'}</span>
-            <span class="impact-badge high">High Impact</span>
-            <span style="font-size:0.75rem;color:var(--text-muted)">${a.source || ''}</span>
+    const featuredEl = document.getElementById(`featured-${section}`);
+    if (featuredEl) {
+      if (featured.length > 0) {
+        const a = featured[0];
+        featuredEl.innerHTML = `
+          <div class="featured-story" data-url="${a.url}">
+            <div class="featured-meta">
+              <span class="cat-badge ${a.category || 'macro'}">${a.category || 'general'}</span>
+              ${a.impact === 'high' ? '<span class="impact-badge high">High Impact</span>' : ''}
+              <span style="font-size:0.75rem;color:var(--text-muted)">${a.source || ''}</span>
+            </div>
+            <h3>${escHtml(a.title)}</h3>
+            <div class="featured-summary">${escHtml(a.summary || a.description || '')}</div>
+            <div class="featured-bottom">
+              <span>${formatTime(a.published)}</span>
+              <span>Read more →</span>
+            </div>
           </div>
-          <h3>${escHtml(a.title)}</h3>
-          <div class="featured-summary">${escHtml(a.summary || a.description || '')}</div>
-          <div class="featured-bottom">
-            <span>${formatTime(a.published)}</span>
-            <span>Read more →</span>
-          </div>
-        </div>
-      `;
-    } else {
-      featuredEl.innerHTML = '';
+        `;
+      } else {
+        featuredEl.innerHTML = '';
+      }
     }
   }
+
+  // Grid and list rendering (shared between all sections)
+  const grid = articles.slice(0, 6);
+  const list = articles.slice(6, 18);
 
   const gridEl = document.getElementById(`grid-${section}`);
   if (gridEl) {
@@ -729,6 +769,11 @@ function init() {
   updateMarketPulse();
   loadNews();
   loadBookmarks();
+
+  // Initialize interactive charts in section headers
+  initAllCharts().then(instances => {
+    console.log(`Meridian: ${Object.keys(instances).length} charts initialized`);
+  });
 
   setInterval(updateFooter, 60000);
   setInterval(updateMarketPulse, 60000);
