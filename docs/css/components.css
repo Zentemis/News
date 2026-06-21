@@ -571,17 +571,6 @@
   border-radius: 5px;
 }
 
-.badge-crypto { background: rgba(247, 147, 26, 0.1); color: #f7931a; }
-.badge-macro { background: var(--blue-dim); color: var(--blue); }
-.badge-equities { background: var(--green-dim); color: var(--green); }
-.badge-geopolitical { background: var(--red-dim); color: var(--red); }
-.badge-bonds { background: var(--yellow-dim); color: var(--yellow); }
-.badge-commodities { background: var(--purple-dim); color: var(--purple); }
-.badge-forex { background: var(--cyan-dim); color: var(--cyan); }
-.badge-tech { background: rgba(129, 140, 248, 0.1); color: #818cf8; }
-.badge-defi { background: var(--pink-dim); color: var(--pink); }
-.badge-policy { background: var(--orange-dim); color: var(--orange); }
-
 /* Empty state */
 .empty-state {
   text-align: center;
@@ -603,48 +592,6 @@
 
 .empty-state .empty-hint {
   font-size: 0.8rem;
-}
-
-/* Loading indicator */
-.loading-indicator {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 10px;
-  padding: 28px;
-  color: var(--text-muted);
-  font-size: 0.85rem;
-}
-
-/* View toggle */
-.view-toggle {
-  display: flex;
-  gap: 2px;
-  background: rgba(255, 255, 255, 0.025);
-  border: 1px solid var(--glass-border);
-  border-radius: 10px;
-  padding: 3px;
-}
-
-.view-btn {
-  background: transparent;
-  border: none;
-  color: var(--text-muted);
-  font-size: 0.85rem;
-  padding: 6px 14px;
-  border-radius: 7px;
-  cursor: pointer;
-  transition: all var(--transition-fast);
-  font-family: var(--font-body);
-}
-
-.view-btn:hover {
-  color: var(--text-primary);
-}
-
-.view-btn.active {
-  background: rgba(255, 255, 255, 0.05);
-  color: var(--accent);
 }
 
 /* Load more button */
@@ -678,16 +625,4 @@
   display: flex;
   justify-content: center;
   padding: 24px;
-}
-
-/* API error */
-.api-error {
-  background: var(--red-dim);
-  border: 1px solid rgba(248, 113, 113, 0.12);
-  border-radius: 14px;
-  padding: 18px 22px;
-  color: var(--red);
-  font-size: 0.85rem;
-  margin-bottom: 18px;
-  backdrop-filter: blur(10px);
 }
