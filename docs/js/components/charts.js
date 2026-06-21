@@ -202,7 +202,7 @@ function loadLightweightCharts() {
       chartsLoaded = true;
       const script = document.createElement('script');
       script.src = 'https://unpkg.com/lightweight-charts@4.2.1/dist/lightweight-charts.standalone.production.js';
-      script.integrity = 'sha384-6n/4qKJZVyam+evJbBhOB09fYwJMt69Cug3xETzPrIF7+kb1+JXUQq2RxRjSVTo';
+      script.integrity = 'sha384-6pZys+XyCH0tACkmBDDBmI3cqbXjHWKKPtaZLx45PUShrKwmpQljmRsBkU58Ln1F';
       script.crossOrigin = 'anonymous';
       script.onload = () => {
         loadQueue.forEach(q => q.resolve(window.LightweightCharts));
@@ -212,6 +212,10 @@ function loadLightweightCharts() {
         const err = new Error('Failed to load lightweight-charts');
         loadQueue.forEach(q => q.reject(err));
         loadQueue.length = 0;
+        // Collapse empty chart containers gracefully
+        document.querySelectorAll('.chart-mini').forEach(el => {
+          el.style.display = 'none';
+        });
       };
       document.head.appendChild(script);
     }
@@ -229,21 +233,23 @@ export const SECTION_CHART_CONFIG = {
 };
 
 /**
- * Initialize all section charts
+ * Initialize all section charts. Returns empty object on failure.
  */
-export function initAllCharts() {
+export async function initAllCharts() {
   const instances = {};
-  const promises = [];
-
-  for (const [section, cfg] of Object.entries(SECTION_CHART_CONFIG)) {
-    const container = document.getElementById(`chart-${section}`);
-    if (container) {
-      const p = createMiniChart(container, cfg).then(instance => {
-        instances[section] = instance;
-      });
-      promises.push(p);
+  try {
+    const promises = [];
+    for (const [section, cfg] of Object.entries(SECTION_CHART_CONFIG)) {
+      const container = document.getElementById(`chart-${section}`);
+      if (container) {
+        promises.push(
+          createMiniChart(container, cfg).then(inst => { instances[section] = inst; })
+        );
+      }
     }
+    await Promise.all(promises);
+  } catch (e) {
+    console.warn('Chart initialization failed:', e);
   }
-
-  return Promise.all(promises).then(() => instances);
+  return instances;
 }

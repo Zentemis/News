@@ -69,16 +69,17 @@ export function createHeroCarousel(container, articles, options = {}) {
     const out = els[currentIndex];
     const inc = els[index];
 
+    // Simple crossfade — no weird scale/slide artifacts
     inc.style.transition = 'none';
-    inc.style.transform = dir === 'next' ? 'translateX(100%)' : 'translateX(-100%)';
+    inc.style.opacity = '0';
+    inc.style.transform = '';
     inc.classList.add('active');
     inc.offsetHeight; // force reflow
 
-    const curve = 'transform 0.55s cubic-bezier(0.65,0,0.35,1)';
-    out.style.transition = curve;
-    inc.style.transition = curve;
-    out.style.transform = dir === 'next' ? 'translateX(-50%) scale(0.97)' : 'translateX(50%) scale(0.97)';
-    inc.style.transform = 'translateX(0)';
+    out.style.transition = 'opacity 0.45s cubic-bezier(0.65,0,0.35,1)';
+    out.style.opacity = '0';
+    inc.style.transition = 'opacity 0.45s cubic-bezier(0.65,0,0.35,1)';
+    inc.style.opacity = '1';
 
     currentIndex = index;
     dots.forEach((d, i) => d.classList.toggle('active', i === index));
@@ -86,11 +87,12 @@ export function createHeroCarousel(container, articles, options = {}) {
 
     setTimeout(() => {
       out.style.transition = '';
+      out.style.opacity = '';
       out.style.transform = '';
       out.classList.remove('active');
       inc.style.transition = '';
       isTransitioning = false;
-    }, 600);
+    }, 500);
   }
 
   const next = () => { if (!isTransitioning) goTo((currentIndex + 1) % slides.length); };
