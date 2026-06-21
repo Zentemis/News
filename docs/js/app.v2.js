@@ -449,7 +449,14 @@ function renderBriefings() {
     const sc = sentimentClass(b.sentiment);
     const topics = renderTopics(b.topics);
     const dateStr = formatBriefingDate(b.date);
-    return `<div class="briefing-card" data-href="#/briefing/${idx}">
+    const storyCount = (b.stories || []).length;
+    // Mini market callout — inferred from sentiment
+    const marketNote = b.sentiment === 'bearish'
+      ? 'Markets were down'
+      : b.sentiment === 'bullish'
+        ? 'Markets were up'
+        : 'Mixed markets';
+    return `<div class="briefing-card" data-href="#/briefing/${idx}" data-sentiment="${sc}">
       <div class="briefing-card-header">
         <div class="briefing-card-title">${escHtml(b.title)}</div>
         <div class="briefing-card-meta">
@@ -459,7 +466,14 @@ function renderBriefings() {
       </div>
       <div class="briefing-card-summary">${escHtml(b.summary || b.overview || '')}</div>
       <div class="briefing-card-topics">${topics}</div>
-      <div class="briefing-card-stories">${(b.stories || []).length} stories</div>
+      <div class="briefing-card-footer">
+        <span class="briefing-card-stories">${storyCount} story${storyCount !== 1 ? 'ies' : 'y'}</span>
+        <span class="briefing-market-callout">
+          <span class="callout-label">⏱</span>
+          ${marketNote}
+        </span>
+        <span class="briefing-card-expand">Read briefing →</span>
+      </div>
     </div>`;
   }).join('');
 
@@ -482,7 +496,7 @@ function renderBriefingDetail(b) {
     storiesHtml = '<div class="briefing-detail-stories">' +
       b.stories.map((s, i) => {
         const cls = s.sentiment === 'bullish' ? 'bullish' : s.sentiment === 'bearish' ? 'bearish' : 'neutral';
-        return `<div class="briefing-story">
+        return `<div class="briefing-story" data-sentiment="${cls}">
           <div class="briefing-story-number">Story ${i + 1}</div>
           <div class="briefing-story-title">${escHtml(s.title)}</div>
           <div class="briefing-story-body">${escHtml(s.content || s.analysis || s.body || '')}</div>
@@ -504,10 +518,10 @@ function renderBriefingDetail(b) {
     </div>`;
   }
 
-  el.innerHTML = `<div class="briefing-detail-header">
+  el.innerHTML = `<div class="briefing-detail-header" data-sentiment="${sc}">
     <div class="briefing-detail-title">${escHtml(b.title)}</div>
     <div class="briefing-detail-date">${dateStr}</div>
-    <span class="briefing-card-badge ${sc}" style="margin-top:0.75rem">${escHtml(b.sentiment || '')}</span>
+    <span class="briefing-card-badge ${sc}" style="margin-top:0.75rem;display:inline-block">${escHtml(b.sentiment || '')}</span>
     <div class="briefing-detail-sentiment">${escHtml(b.overview || b.summary || '')}</div>
     <div class="briefing-card-topics" style="margin-top:0.75rem">${topics}</div>
   </div>${storiesHtml}${fullContentHtml}`;
