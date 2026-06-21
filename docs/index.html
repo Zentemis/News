@@ -8,9 +8,11 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Playfair+Display:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/main.css?v=4">
 </head>
 <body>
+
+<div class="page-wrapper" id="pageWrapper">
 
 <!-- Mobile Nav Toggle -->
 <button class="mobile-nav-toggle" id="mobileNavToggle" aria-label="Toggle navigation">☰</button>
@@ -21,56 +23,63 @@
     <span class="ticker-name">S&P 500</span>
     <span class="ticker-price" id="ticker-spx">6,215</span>
     <span class="ticker-change up" id="ticker-spx-chg">+0.3%</span>
-    <canvas class="ticker-sparkline" id="spark-spx"></canvas>
+    <canvas class="ticker-sparkline" id="spark-spx" width="52" height="18"></canvas>
   </div>
   <div class="ticker-divider"></div>
   <div class="ticker-item">
     <span class="ticker-name">NASDAQ</span>
     <span class="ticker-price" id="ticker-ndx">22,450</span>
     <span class="ticker-change up" id="ticker-ndx-chg">+0.5%</span>
-    <canvas class="ticker-sparkline" id="spark-ndx"></canvas>
+    <canvas class="ticker-sparkline" id="spark-ndx" width="52" height="18"></canvas>
   </div>
   <div class="ticker-divider"></div>
   <div class="ticker-item">
     <span class="ticker-name">10Y</span>
     <span class="ticker-price" id="ticker-tnx">4.35%</span>
     <span class="ticker-change down" id="ticker-tnx-chg">-2bp</span>
-    <canvas class="ticker-sparkline" id="spark-tnx"></canvas>
+    <canvas class="ticker-sparkline" id="spark-tnx" width="52" height="18"></canvas>
   </div>
   <div class="ticker-divider"></div>
   <div class="ticker-item">
     <span class="ticker-name">DXY</span>
     <span class="ticker-price" id="ticker-dxy">104.2</span>
     <span class="ticker-change up" id="ticker-dxy-chg">+0.1%</span>
-    <canvas class="ticker-sparkline" id="spark-dxy"></canvas>
+    <canvas class="ticker-sparkline" id="spark-dxy" width="52" height="18"></canvas>
   </div>
   <div class="ticker-divider"></div>
   <div class="ticker-item">
     <span class="ticker-name">GOLD</span>
     <span class="ticker-price" id="ticker-gold">3,310</span>
     <span class="ticker-change up" id="ticker-gold-chg">+0.8%</span>
-    <canvas class="ticker-sparkline" id="spark-gold"></canvas>
+    <canvas class="ticker-sparkline" id="spark-gold" width="52" height="18"></canvas>
   </div>
   <div class="ticker-divider"></div>
   <div class="ticker-item">
     <span class="ticker-name">OIL</span>
     <span class="ticker-price" id="ticker-oil">72.50</span>
     <span class="ticker-change down" id="ticker-oil-chg">-0.4%</span>
-    <canvas class="ticker-sparkline" id="spark-oil"></canvas>
+    <canvas class="ticker-sparkline" id="spark-oil" width="52" height="18"></canvas>
   </div>
   <div class="ticker-divider"></div>
   <div class="ticker-item">
     <span class="ticker-name">BTC</span>
     <span class="ticker-price" id="ticker-btc">60,922</span>
     <span class="ticker-change down" id="ticker-btc-chg">-4.5%</span>
-    <canvas class="ticker-sparkline" id="spark-btc"></canvas>
+    <canvas class="ticker-sparkline" id="spark-btc" width="52" height="18"></canvas>
   </div>
   <div class="ticker-divider"></div>
   <div class="ticker-item">
     <span class="ticker-name">ETH</span>
     <span class="ticker-price" id="ticker-eth">1,558</span>
     <span class="ticker-change down" id="ticker-eth-chg">-2.8%</span>
-    <canvas class="ticker-sparkline" id="spark-eth"></canvas>
+    <canvas class="ticker-sparkline" id="spark-eth" width="52" height="18"></canvas>
+  </div>
+  <div class="ticker-divider"></div>
+  <div class="ticker-item">
+    <span class="ticker-name">SOL</span>
+    <span class="ticker-price" id="ticker-sol">128.50</span>
+    <span class="ticker-change down" id="ticker-sol-chg">-1.2%</span>
+    <canvas class="ticker-sparkline" id="spark-sol" width="52" height="18"></canvas>
   </div>
 </div>
 
@@ -82,37 +91,37 @@
   </div>
 
   <nav class="sidebar-nav">
-    <a href="#overview" class="active" data-section="overview">
+    <a href="#/overview" class="active" data-section="overview">
       <span class="nav-icon">◎</span>
       <span class="nav-label">Overview</span>
       <span class="nav-count">0</span>
     </a>
-    <a href="#macro" data-section="macro">
+    <a href="#/macro" data-section="macro">
       <span class="nav-icon">⚑</span>
       <span class="nav-label">Macro</span>
       <span class="nav-count">0</span>
     </a>
-    <a href="#equities" data-section="equities">
+    <a href="#/equities" data-section="equities">
       <span class="nav-icon">⊞</span>
       <span class="nav-label">Equities</span>
       <span class="nav-count">0</span>
     </a>
-    <a href="#crypto" data-section="crypto">
+    <a href="#/crypto" data-section="crypto">
       <span class="nav-icon">◈</span>
       <span class="nav-label">Crypto</span>
       <span class="nav-count">0</span>
     </a>
-    <a href="#commodities" data-section="commodities">
+    <a href="#/commodities" data-section="commodities">
       <span class="nav-icon">◉</span>
       <span class="nav-label">Commodities &amp; FX</span>
       <span class="nav-count">0</span>
     </a>
-    <a href="#articles" data-section="articles">
+    <a href="#/articles" data-section="articles">
       <span class="nav-icon">☰</span>
       <span class="nav-label">All Articles</span>
       <span class="nav-count">0</span>
     </a>
-    <a href="#briefings" data-section="briefings">
+    <a href="#/briefings" data-section="briefings">
       <span class="nav-icon">✒</span>
       <span class="nav-label">Briefings</span>
     </a>
@@ -166,11 +175,17 @@
     </div>
   </div>
 
+  <!-- Bookmarks section (Phase 3) -->
+  <div class="sidebar-section" id="bookmarksSection" style="display:none;">
+    <div class="sidebar-section-title">Reading Queue</div>
+    <div id="bookmarksList"></div>
+  </div>
+
   <div class="updated-ts" id="lastUpdated">Updated: loading...</div>
 </aside>
 
 <!-- ===== MAIN CONTENT ===== -->
-<main class="main-area">
+<main class="main-area" id="mainArea">
 
   <!-- Loading skeleton (shown until data loads) -->
   <div class="loading-skeleton" id="loadingSkeleton">
@@ -196,241 +211,268 @@
     <span class="pulse-update" id="pulseUpdate">Updated just now</span>
   </div>
 
-  <!-- OVERVIEW SECTION -->
-  <section class="section-content active" id="section-overview">
-    <div class="section-header">
-      <h2>Overview</h2>
-      <div class="section-sub">Your daily briefing on what matters in global markets</div>
-    </div>
+  <!-- Main content area: left feed + right panel -->
+  <div class="content-canvas" id="contentCanvas">
+    <!-- LEFT FEED -->
+    <div class="feed-column" id="feedColumn">
 
-    <div class="stats-row" id="stats-overview">
-      <div class="stat-card">
-        <div class="stat-label">Fear &amp; Greed</div>
-        <div class="stat-value" id="stat-fng">8</div>
-        <div class="stat-change down" id="stat-fng-label">Extreme Fear</div>
-      </div>
-      <div class="stat-card">
-        <div class="stat-label">BTC Dominance</div>
-        <div class="stat-value" id="stat-btcdom">58.2%</div>
-        <div class="stat-change up">+1.3%</div>
-      </div>
-      <div class="stat-card">
-        <div class="stat-label">Total Stories Today</div>
-        <div class="stat-value" id="stat-stories">27</div>
-        <div class="stat-change neutral">across 8 sources</div>
-      </div>
-      <div class="stat-card">
-        <div class="stat-label">Top Impact</div>
-        <div class="stat-value" id="stat-topimpact" style="font-size:1rem;">Jobs Report</div>
-        <div class="stat-change neutral">macro · high impact</div>
-      </div>
-    </div>
+      <!-- OVERVIEW SECTION -->
+      <section class="section-content active" id="section-overview">
+        <div class="section-header">
+          <h2>Overview</h2>
+          <div class="section-sub">Your daily briefing on what matters in global markets</div>
+        </div>
 
-    <div id="featured-overview"></div>
-    <div class="news-grid" id="grid-overview"></div>
-    <div class="news-list">
-      <div class="news-list-header">More Stories</div>
-      <div id="list-overview"></div>
-    </div>
-  </section>
+        <div class="stats-row" id="stats-overview">
+          <div class="stat-card">
+            <div class="stat-label">Fear &amp; Greed</div>
+            <div class="stat-value" id="stat-fng">8</div>
+            <div class="stat-change down" id="stat-fng-label">Extreme Fear</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-label">BTC Dominance</div>
+            <div class="stat-value" id="stat-btcdom">58.2%</div>
+            <div class="stat-change up">+1.3%</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-label">Total Stories Today</div>
+            <div class="stat-value" id="stat-stories">27</div>
+            <div class="stat-change neutral">across 8 sources</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-label">Top Impact</div>
+            <div class="stat-value" id="stat-topimpact" style="font-size:1rem;">Jobs Report</div>
+            <div class="stat-change neutral">macro · high impact</div>
+          </div>
+        </div>
 
-  <!-- MACRO SECTION -->
-  <section class="section-content" id="section-macro">
-    <div class="section-header">
-      <h2>Macro</h2>
-      <div class="section-sub">Central banks, rates, inflation, employment, GDP, bonds</div>
-    </div>
-    <div class="stats-row" id="stats-macro">
-      <div class="stat-card">
-        <div class="stat-label">Fed Funds Rate</div>
-        <div class="stat-value">3.50–3.75%</div>
-        <div class="stat-change neutral">unchanged</div>
-      </div>
-      <div class="stat-card">
-        <div class="stat-label">10Y Treasury</div>
-        <div class="stat-value">4.35%</div>
-        <div class="stat-change down">-2bp</div>
-      </div>
-      <div class="stat-card">
-        <div class="stat-label">CPI (May)</div>
-        <div class="stat-value">2.4%</div>
-        <div class="stat-change up">+0.1%</div>
-      </div>
-      <div class="stat-card">
-        <div class="stat-label">Unemployment</div>
-        <div class="stat-value">4.1%</div>
-        <div class="stat-change down">-0.1%</div>
-      </div>
-    </div>
-    <div id="featured-macro"></div>
-    <div class="news-grid" id="grid-macro"></div>
-    <div class="news-list">
-      <div class="news-list-header">More Macro Stories</div>
-      <div id="list-macro"></div>
-    </div>
-  </section>
+        <div id="featured-overview"></div>
+        <div class="news-grid" id="grid-overview"></div>
+        <div class="news-list">
+          <div class="news-list-header">More Stories</div>
+          <div id="list-overview"></div>
+        </div>
+      </section>
 
-  <!-- EQUITIES SECTION -->
-  <section class="section-content" id="section-equities">
-    <div class="section-header">
-      <h2>Equities</h2>
-      <div class="section-sub">Stocks, indices, earnings, sectors, IPOs</div>
-    </div>
-    <div class="stats-row" id="stats-equities">
-      <div class="stat-card">
-        <div class="stat-label">S&P 500</div>
-        <div class="stat-value">6,215</div>
-        <div class="stat-change up">+0.3%</div>
-      </div>
-      <div class="stat-card">
-        <div class="stat-label">Nasdaq</div>
-        <div class="stat-value">22,450</div>
-        <div class="stat-change up">+0.5%</div>
-      </div>
-      <div class="stat-card">
-        <div class="stat-label">Dow Jones</div>
-        <div class="stat-value">42,300</div>
-        <div class="stat-change down">-0.1%</div>
-      </div>
-      <div class="stat-card">
-        <div class="stat-label">VIX</div>
-        <div class="stat-value">15.2</div>
-        <div class="stat-change down">-3.5%</div>
-      </div>
-    </div>
-    <div id="featured-equities"></div>
-    <div class="news-grid" id="grid-equities"></div>
-    <div class="news-list">
-      <div class="news-list-header">More Equity Stories</div>
-      <div id="list-equities"></div>
-    </div>
-  </section>
+      <!-- MACRO SECTION -->
+      <section class="section-content" id="section-macro">
+        <div class="section-header">
+          <h2>Macro</h2>
+          <div class="section-sub">Central banks, rates, inflation, employment, GDP, bonds</div>
+        </div>
+        <div class="chart-mini" id="chart-macro"></div>
+        <div class="stats-row" id="stats-macro">
+          <div class="stat-card">
+            <div class="stat-label">Fed Funds Rate</div>
+            <div class="stat-value">3.50–3.75%</div>
+            <div class="stat-change neutral">unchanged</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-label">10Y Treasury</div>
+            <div class="stat-value">4.35%</div>
+            <div class="stat-change down">-2bp</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-label">CPI (May)</div>
+            <div class="stat-value">2.4%</div>
+            <div class="stat-change up">+0.1%</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-label">Unemployment</div>
+            <div class="stat-value">4.1%</div>
+            <div class="stat-change down">-0.1%</div>
+          </div>
+        </div>
+        <div id="featured-macro"></div>
+        <div class="news-grid" id="grid-macro"></div>
+        <div class="news-list">
+          <div class="news-list-header">More Macro Stories</div>
+          <div id="list-macro"></div>
+        </div>
+      </section>
 
-  <!-- CRYPTO SECTION -->
-  <section class="section-content" id="section-crypto">
-    <div class="section-header">
-      <h2>Crypto</h2>
-      <div class="section-sub">Bitcoin, Ethereum, DeFi, regulation, on-chain</div>
-    </div>
-    <div class="stats-row" id="stats-crypto">
-      <div class="stat-card">
-        <div class="stat-label">Bitcoin</div>
-        <div class="stat-value" id="stat-btc">~$60,922</div>
-        <div class="stat-change down" id="stat-btc-chg">-4.5%</div>
-      </div>
-      <div class="stat-card">
-        <div class="stat-label">Ethereum</div>
-        <div class="stat-value" id="stat-eth">~$1,558</div>
-        <div class="stat-change down" id="stat-eth-chg">-2.8%</div>
-      </div>
-      <div class="stat-card">
-        <div class="stat-label">Crypto Market Cap</div>
-        <div class="stat-value">$2.1T</div>
-        <div class="stat-change down">-3.2%</div>
-      </div>
-      <div class="stat-card">
-        <div class="stat-label">DeFi TVL</div>
-        <div class="stat-value">$89B</div>
-        <div class="stat-change down">-5.1%</div>
-      </div>
-    </div>
-    <div id="featured-crypto"></div>
-    <div class="news-grid" id="grid-crypto"></div>
-    <div class="news-list">
-      <div class="news-list-header">More Crypto Stories</div>
-      <div id="list-crypto"></div>
-    </div>
-  </section>
+      <!-- EQUITIES SECTION -->
+      <section class="section-content" id="section-equities">
+        <div class="section-header">
+          <h2>Equities</h2>
+          <div class="section-sub">Stocks, indices, earnings, sectors, IPOs</div>
+        </div>
+        <div class="chart-mini" id="chart-equities"></div>
+        <div class="stats-row" id="stats-equities">
+          <div class="stat-card">
+            <div class="stat-label">S&P 500</div>
+            <div class="stat-value">6,215</div>
+            <div class="stat-change up">+0.3%</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-label">Nasdaq</div>
+            <div class="stat-value">22,450</div>
+            <div class="stat-change up">+0.5%</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-label">Dow Jones</div>
+            <div class="stat-value">42,300</div>
+            <div class="stat-change down">-0.1%</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-label">VIX</div>
+            <div class="stat-value">15.2</div>
+            <div class="stat-change down">-3.5%</div>
+          </div>
+        </div>
+        <div id="featured-equities"></div>
+        <div class="news-grid" id="grid-equities"></div>
+        <div class="news-list">
+          <div class="news-list-header">More Equity Stories</div>
+          <div id="list-equities"></div>
+        </div>
+      </section>
 
-  <!-- COMMODITIES & FX SECTION -->
-  <section class="section-content" id="section-commodities">
-    <div class="section-header">
-      <h2>Commodities &amp; FX</h2>
-      <div class="section-sub">Oil, gold, metals, agriculture, currencies</div>
-    </div>
-    <div class="stats-row" id="stats-commodities">
-      <div class="stat-card">
-        <div class="stat-label">Gold</div>
-        <div class="stat-value">$3,310</div>
-        <div class="stat-change up">+0.8%</div>
-      </div>
-      <div class="stat-card">
-        <div class="stat-label">Crude Oil (WTI)</div>
-        <div class="stat-value">$72.50</div>
-        <div class="stat-change down">-0.4%</div>
-      </div>
-      <div class="stat-card">
-        <div class="stat-label">DXY</div>
-        <div class="stat-value">104.2</div>
-        <div class="stat-change up">+0.1%</div>
-      </div>
-      <div class="stat-card">
-        <div class="stat-label">EUR/USD</div>
-        <div class="stat-value">1.082</div>
-        <div class="stat-change down">-0.2%</div>
-      </div>
-    </div>
-    <div id="featured-commodities"></div>
-    <div class="news-grid" id="grid-commodities"></div>
-    <div class="news-list">
-      <div class="news-list-header">More Commodities &amp; FX Stories</div>
-      <div id="list-commodities"></div>
-    </div>
-  </section>
+      <!-- CRYPTO SECTION -->
+      <section class="section-content" id="section-crypto">
+        <div class="section-header">
+          <h2>Crypto</h2>
+          <div class="section-sub">Bitcoin, Ethereum, DeFi, regulation, on-chain</div>
+        </div>
+        <div class="chart-mini" id="chart-crypto"></div>
+        <div class="stats-row" id="stats-crypto">
+          <div class="stat-card">
+            <div class="stat-label">Bitcoin</div>
+            <div class="stat-value" id="stat-btc">~$60,922</div>
+            <div class="stat-change down" id="stat-btc-chg">-4.5%</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-label">Ethereum</div>
+            <div class="stat-value" id="stat-eth">~$1,558</div>
+            <div class="stat-change down" id="stat-eth-chg">-2.8%</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-label">Crypto Market Cap</div>
+            <div class="stat-value">$2.1T</div>
+            <div class="stat-change down">-3.2%</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-label">DeFi TVL</div>
+            <div class="stat-value">$89B</div>
+            <div class="stat-change down">-5.1%</div>
+          </div>
+        </div>
+        <div id="featured-crypto"></div>
+        <div class="news-grid" id="grid-crypto"></div>
+        <div class="news-list">
+          <div class="news-list-header">More Crypto Stories</div>
+          <div id="list-crypto"></div>
+        </div>
+      </section>
 
-  <!-- ALL ARTICLES SECTION -->
-  <section class="section-content" id="section-articles">
-    <div class="section-header">
-      <h2>All Articles</h2>
-      <div class="section-sub">Browse the complete feed across all categories</div>
-    </div>
+      <!-- COMMODITIES & FX SECTION -->
+      <section class="section-content" id="section-commodities">
+        <div class="section-header">
+          <h2>Commodities &amp; FX</h2>
+          <div class="section-sub">Oil, gold, metals, agriculture, currencies</div>
+        </div>
+        <div class="chart-mini" id="chart-commodities"></div>
+        <div class="stats-row" id="stats-commodities">
+          <div class="stat-card">
+            <div class="stat-label">Gold</div>
+            <div class="stat-value">$3,310</div>
+            <div class="stat-change up">+0.8%</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-label">Crude Oil (WTI)</div>
+            <div class="stat-value">$72.50</div>
+            <div class="stat-change down">-0.4%</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-label">DXY</div>
+            <div class="stat-value">104.2</div>
+            <div class="stat-change up">+0.1%</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-label">EUR/USD</div>
+            <div class="stat-value">1.082</div>
+            <div class="stat-change down">-0.2%</div>
+          </div>
+        </div>
+        <div id="featured-commodities"></div>
+        <div class="news-grid" id="grid-commodities"></div>
+        <div class="news-list">
+          <div class="news-list-header">More Commodities &amp; FX Stories</div>
+          <div id="list-commodities"></div>
+        </div>
+      </section>
 
-    <div class="articles-toolbar">
-      <div class="articles-search-wrap">
-        <input type="text" class="articles-search" id="articlesSearch" placeholder="Search articles..." autocomplete="off">
+      <!-- ALL ARTICLES SECTION -->
+      <section class="section-content" id="section-articles">
+        <div class="section-header">
+          <h2>All Articles</h2>
+          <div class="section-sub">Browse the complete feed across all categories</div>
+        </div>
+
+        <div class="articles-toolbar">
+          <div class="articles-search-wrap">
+            <input type="text" class="articles-search" id="articlesSearch" placeholder="Search articles..." autocomplete="off">
+          </div>
+          <div class="articles-controls">
+            <select class="articles-select" id="articlesCategoryFilter">
+              <option value="all">All Categories</option>
+              <option value="macro">Macro</option>
+              <option value="equities">Equities</option>
+              <option value="crypto">Crypto</option>
+              <option value="commodities">Commodities</option>
+              <option value="geopolitical">Geopolitical</option>
+            </select>
+            <select class="articles-select" id="articlesSortSelect">
+              <option value="newest">Newest First</option>
+              <option value="oldest">Oldest First</option>
+              <option value="impact">Highest Impact</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="articles-count" id="articlesCount"></div>
+        <div class="articles-list" id="articlesList"></div>
+        <div class="articles-load-more" id="articlesLoadMore">
+          <button class="load-more-btn" id="loadMoreBtn">Load More</button>
+        </div>
+      </section>
+
+      <!-- BRIEFINGS SECTION -->
+      <section class="section-content" id="section-briefings">
+        <div class="section-header">
+          <h2>Market Briefings</h2>
+          <div class="section-sub">Riel's curated market summaries and analysis</div>
+        </div>
+
+        <!-- Detail view (hidden by default) -->
+        <div class="briefing-detail" id="briefingDetail" style="display:none;">
+          <button class="briefing-back-btn" id="briefingBackBtn">← Back to all briefings</button>
+          <div id="briefingDetailContent"></div>
+        </div>
+
+        <!-- List view -->
+        <div id="briefingsListView">
+          <div class="briefings-list" id="briefingsList"></div>
+        </div>
+      </section>
+
+    </div><!-- /feed-column -->
+
+    <!-- RIGHT READING PANEL -->
+    <aside class="reading-panel" id="readingPanel">
+      <div class="reading-panel-header">
+        <span class="reading-panel-title">Article</span>
+        <button class="reading-panel-close" id="readingPanelClose">✕</button>
       </div>
-      <div class="articles-controls">
-        <select class="articles-select" id="articlesCategoryFilter">
-          <option value="all">All Categories</option>
-          <option value="macro">Macro</option>
-          <option value="equities">Equities</option>
-          <option value="crypto">Crypto</option>
-          <option value="commodities">Commodities</option>
-          <option value="geopolitical">Geopolitical</option>
-        </select>
-        <select class="articles-select" id="articlesSortSelect">
-          <option value="newest">Newest First</option>
-          <option value="oldest">Oldest First</option>
-          <option value="impact">Highest Impact</option>
-        </select>
+      <div class="reading-panel-content" id="readingPanelContent">
+        <div class="reading-panel-empty">
+          <div class="empty-state-icon">📖</div>
+          <div class="empty-state-title">Select an article</div>
+          <div class="empty-state-desc">Click any story to read it here</div>
+        </div>
       </div>
-    </div>
-
-    <div class="articles-count" id="articlesCount"></div>
-    <div class="articles-list" id="articlesList"></div>
-    <div class="articles-load-more" id="articlesLoadMore">
-      <button class="load-more-btn" id="loadMoreBtn">Load More</button>
-    </div>
-  </section>
-
-  <!-- BRIEFINGS SECTION -->
-  <section class="section-content" id="section-briefings">
-    <div class="section-header">
-      <h2>Market Briefings</h2>
-      <div class="section-sub">Riel's curated market summaries and analysis</div>
-    </div>
-
-    <!-- Detail view (hidden by default) -->
-    <div class="briefing-detail" id="briefingDetail" style="display:none;">
-      <button class="briefing-back-btn" id="briefingBackBtn">← Back to all briefings</button>
-      <div id="briefingDetailContent"></div>
-    </div>
-
-    <!-- List view -->
-    <div id="briefingsListView">
-      <div class="briefings-list" id="briefingsList"></div>
-    </div>
-  </section>
+    </aside>
+  </div><!-- /content-canvas -->
 
   <footer class="footer">
     <span>Meridian · Personal financial intelligence</span>
@@ -438,6 +480,8 @@
   </footer>
 </main>
 
-<script src="js/app.js?v=3"></script>
+</div><!-- /page-wrapper -->
+
+<script type="module" src="js/app.v2.js?v=1"></script>
 </body>
 </html>
