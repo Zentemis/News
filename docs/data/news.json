@@ -1,47 +1,578 @@
 {
-  "generated": "2026-07-29T13:43:37.757467+00:00",
-  "count": 156,
+  "generated": "2026-07-29T16:15:12.159423+00:00",
+  "count": 157,
   "sources": [
+    "MarketWatch Economy",
     "The Block",
-    "CNBC World",
-    "Investing.com Commodities",
+    "Seeking Alpha",
+    "MarketWatch Top",
     "CoinDesk",
     "Cointelegraph",
-    "MarketWatch Top",
     "CNBC Economy",
-    "MarketWatch Economy",
-    "CNBC Finance",
-    "Seeking Alpha",
     "Decrypt",
-    "Yahoo Finance"
+    "Investing.com Commodities",
+    "Yahoo Finance",
+    "CNBC Finance",
+    "CNBC World"
   ],
   "articles": [
     {
-      "title": "Oil prices jump more than 6% after Trump says U.S. will hit Iran hard",
+      "title": "Dow tumbles 900 points as losses accelerate ahead of Fed decision: Live updates",
+      "summary": "The Dow is coming off its third straight winning day.",
+      "url": "https://www.cnbc.com/2026/07/28/stock-market-today-live-updates.html",
+      "source": "CNBC World",
+      "category": "macro",
+      "impact": "medium",
+      "published": "2026-07-29T16:11:50+00:00"
+    },
+    {
+      "title": "Analysts recommend buying Procter & Gamble on the post-earnings dip",
+      "summary": "",
+      "url": "https://seekingalpha.com/news/4620271-analysts-recommend-buying-procter-gamble-on-the-post-earnings-dip?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+      "source": "Seeking Alpha",
+      "category": "equities",
+      "impact": "low",
+      "published": "2026-07-29T16:11:25+00:00"
+    },
+    {
+      "title": "Oracle leads record widening in hyperscaler CDS spreads",
+      "summary": "",
+      "url": "https://seekingalpha.com/news/4620575-oracle-leads-record-widening-in-hyperscaler-cds-spreads?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+      "source": "Seeking Alpha",
+      "category": "equities",
+      "impact": "low",
+      "published": "2026-07-29T16:10:45+00:00"
+    },
+    {
+      "title": "SEC Ready to Provide Crypto Rules if Clarity Act Flounders: Chair Atkins",
+      "summary": "Passed by the House a year ago, the bill cleared Senate Banking in May and still awaits a floor vote.",
+      "url": "https://decrypt.co/374643/sec-ready-to-provide-crypto-rules-if-clarity-act-flounders-chair-atkins",
+      "source": "Decrypt",
+      "category": "crypto",
+      "impact": "low",
+      "published": "2026-07-29T16:09:34+00:00"
+    },
+    {
+      "title": "The traditional 9-to-5 banking day is officially dying, says Morgan Stanley execs",
+      "summary": "",
+      "url": "https://www.coindesk.com/markets/2026/07/29/morgan-stanley-execs-admit-the-traditional-9-to-5-banking-day-is-officially-dying",
+      "source": "CoinDesk",
+      "category": "crypto",
+      "impact": "low",
+      "published": "2026-07-29T16:09:32+00:00"
+    },
+    {
+      "title": "Most undervalued U.S. consumer discretionary stocks during Q2 earnings season",
+      "summary": "",
+      "url": "https://seekingalpha.com/news/4620578-most-undervalued-us-consumer-discretionary-stocks-during-q2-earnings-season?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+      "source": "Seeking Alpha",
+      "category": "equities",
+      "impact": "low",
+      "published": "2026-07-29T16:09:11+00:00"
+    },
+    {
+      "title": "Wall Street slides ahead of Fed decision, oil rises amid U.S.-Iran hostilities",
+      "summary": "",
+      "url": "https://seekingalpha.com/news/4620378-sp500-nasdaq-composite-dow-jones-stock-market-news?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+      "source": "Seeking Alpha",
+      "category": "equities",
+      "impact": "medium",
+      "published": "2026-07-29T16:07:20+00:00"
+    },
+    {
+      "title": "Microsoft is set to report earnings after the bell, and all eyes are on its spending plans",
+      "summary": "Investors are looking to see if Microsoft follows Alphabet in raising its capital spending plans",
+      "url": "https://www.cnbc.com/2026/07/29/microsoft-msft-q4-earnings-report-2026.html",
+      "source": "CNBC World",
+      "category": "equities",
+      "impact": "low",
+      "published": "2026-07-29T16:05:34+00:00"
+    },
+    {
+      "title": "Scotts Miracle-Gro signals fiscal 2026 non-GAAP EPS of $4.30-$4.45 while targeting leverage below 3.5x",
+      "summary": "",
+      "url": "https://seekingalpha.com/news/4620577-scotts-miracle-gro-signals-fiscal-2026-non-gaap-eps-of-4_30-4_45-while-targeting-leverage?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+      "source": "Seeking Alpha",
+      "category": "equities",
+      "impact": "low",
+      "published": "2026-07-29T16:05:17+00:00"
+    },
+    {
+      "title": "Boston Scientific expects 2026 organic revenue growth of 5%-6% and outlines $500M run-rate savings exiting 2029",
+      "summary": "",
+      "url": "https://seekingalpha.com/news/4620576-boston-scientific-expects-2026-organic-revenue-growth-of-5-percentminus-6-percent-and?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+      "source": "Seeking Alpha",
+      "category": "equities",
+      "impact": "low",
+      "published": "2026-07-29T16:04:28+00:00"
+    },
+    {
+      "title": "Airbus posts higher H1 profit on aircraft deliveries, keeps 2026 guidance",
+      "summary": "",
+      "url": "https://seekingalpha.com/news/4620572-airbus-posts-higher-h1-profit-on-aircraft-deliveries-keeps-2026-guidance?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+      "source": "Seeking Alpha",
+      "category": "equities",
+      "impact": "low",
+      "published": "2026-07-29T16:03:42+00:00"
+    },
+    {
+      "title": "Warren, Schiff urge SEC to probe Trump Media's paid service giving faster access to Trump's posts",
+      "summary": "Trump has frequently posted policy announcements or other newsworthy information on Truth Social that have sent global markets hurtling up or down.",
+      "url": "https://www.cnbc.com/2026/07/29/trump-media-djt-warren-schiff-wall-street-api.html",
+      "source": "CNBC World",
+      "category": "geopolitical",
+      "impact": "medium",
+      "published": "2026-07-29T16:03:07+00:00"
+    },
+    {
+      "title": "A key cryptocurrency bill could flop because of Trump\u2019s crypto ventures and banks\u2019 objections",
+      "summary": "The Clarity Act\u2019s progress in May helped lift the price of bitcoin, but now the measure is facing obstacles in the full Senate.",
+      "url": "https://www.marketwatch.com/story/a-key-cryptocurrency-bill-could-flop-because-of-trumps-crypto-ventures-and-banks-objections-76b7445b?mod=mw_rss_topstories",
+      "source": "MarketWatch Top",
+      "category": "macro",
+      "impact": "medium",
+      "published": "2026-07-29T16:03:00+00:00"
+    },
+    {
+      "title": "Meta reports second-quarter results after the close",
+      "summary": "Meta continues to see healthy growth from online ads, but investors are looking for more clarity on the company's plans to diversify.",
+      "url": "https://www.cnbc.com/2026/07/29/meta-q2-earnings-report-2026.html",
+      "source": "CNBC World",
+      "category": "equities",
+      "impact": "low",
+      "published": "2026-07-29T16:00:01+00:00"
+    },
+    {
+      "title": "Oil prices jump 7% after Trump says U.S. will hit Iran hard",
       "summary": "Oil rose sharply amid renewed tensions in the Middle East after Iran launched an attack on U.S. forces using ballistic missiles.",
       "url": "https://www.cnbc.com/2026/07/29/oil-prices-today-brent-wti-iran-us-hormuz.html",
       "source": "CNBC World",
       "category": "commodities",
       "impact": "low",
-      "published": "2026-07-29T13:42:33+00:00"
+      "published": "2026-07-29T15:55:31+00:00"
     },
     {
-      "title": "Forget oil. A surging El Ni\u00f1o could kill Fed rate cuts \u2014 and these stocks stand to win.",
-      "summary": "Climate disruption could prolong inflation. Look to refiners, tanker operators and agricultural stocks.",
-      "url": "https://www.marketwatch.com/story/forget-oil-a-surging-el-nino-could-kill-fed-rate-cuts-and-these-stocks-stand-to-win-41f8e67f?mod=mw_rss_topstories",
+      "title": "Las Vegas home prices post largest drop in the nation",
+      "summary": "Among the largest U.S. cities, Las Vegas saw the biggest drop in home prices, while Chicago saw the biggest increase.",
+      "url": "https://www.marketwatch.com/story/las-vegas-home-prices-post-largest-drop-in-the-nation-d39d6ecd?mod=mw_rss_topstories",
+      "source": "MarketWatch Top",
+      "category": "macro",
+      "impact": "low",
+      "published": "2026-07-29T15:45:00+00:00"
+    },
+    {
+      "title": "Will they or won\u2019t they? The case for and against a Fed rate hike",
+      "summary": "",
+      "url": "https://www.investing.com/news/economy-news/will-they-or-wont-they-the-case-for-and-against-a-fed-rate-hike-4821114",
+      "source": "Investing.com Commodities",
+      "category": "commodities",
+      "impact": "high",
+      "published": "2026-07-29T15:42:36+00:00"
+    },
+    {
+      "title": "European bank rally rolls on as Deutsche Bank, UBS report profit jump",
+      "summary": "",
+      "url": "https://www.investing.com/news/economy-news/european-bank-rally-rolls-on-as-deutsche-bank-ubs-report-profit-jump-4821100",
+      "source": "Investing.com Commodities",
+      "category": "commodities",
+      "impact": "low",
+      "published": "2026-07-29T15:36:41+00:00"
+    },
+    {
+      "title": "\u2018She is on Medicaid\u2019: My sick friend pleaded with me to be her executor. Can I decline after she dies?",
+      "summary": "\u201cShe is in poor health and owns a home with a reverse mortgage that has been used to help pay for her caregivers.\u201d",
+      "url": "https://www.marketwatch.com/story/she-is-on-medicaid-my-sick-friend-pleaded-with-me-to-be-her-executor-can-i-decline-after-she-dies-135129d3?mod=mw_rss_topstories",
+      "source": "MarketWatch Top",
+      "category": "macro",
+      "impact": "low",
+      "published": "2026-07-29T15:31:00+00:00"
+    },
+    {
+      "title": "Stablecoin firm Brale says new protocol can remove a major hurdle to scaling custom tokens",
+      "summary": "",
+      "url": "https://www.coindesk.com/business/2026/07/29/stablecoin-firm-brale-says-new-protocol-can-remove-a-major-hurdle-to-scaling-custom-tokens",
+      "source": "CoinDesk",
+      "category": "crypto",
+      "impact": "low",
+      "published": "2026-07-29T15:27:30+00:00"
+    },
+    {
+      "title": "SpaceX stock back under pressure as Q2 earnings approach",
+      "summary": "SpaceX stock came back under pressure Wednesday, reversing yesterday's bounce, as a broader market and tech selloff adds to investor caution ahead of SpaceX's first earnings report.",
+      "url": "https://finance.yahoo.com/markets/stocks/article/spacex-stock-back-under-pressure-as-q2-earnings-approach-152137218.html?.tsrc=rss",
+      "source": "Yahoo Finance",
+      "category": "macro",
+      "impact": "low",
+      "published": "2026-07-29T15:21:37+00:00"
+    },
+    {
+      "title": "Stock Market Today: Dow Dives 800 Points As Fed Rate Call Looms; GE HealthCare Soars (Live Coverage)",
+      "summary": "Stock Market Today: The Dow Jones index drops Wednesday ahead of the Fed decision and Fed Chair Warsh's comments. SK Hynix sells off.",
+      "url": "https://finance.yahoo.com/m/031fc95b-4216-3fa9-93d3-0f98e7121d16/stock-market-today%3A-dow-dives.html?.tsrc=rss",
+      "source": "Yahoo Finance",
+      "category": "macro",
+      "impact": "high",
+      "published": "2026-07-29T15:20:22+00:00"
+    },
+    {
+      "title": "SpaceX Is Worth More Than Most S&P 500 Companies. Is That Valuation Rational?",
+      "summary": "The company's mission to establish humanity on other planets has fired up the investment community.",
+      "url": "https://www.fool.com/investing/2026/07/29/spacex-is-worth-more-than-most-sp-500-companies-is/?.tsrc=rss",
+      "source": "Yahoo Finance",
+      "category": "macro",
+      "impact": "low",
+      "published": "2026-07-29T15:20:00+00:00"
+    },
+    {
+      "title": "SoFi crypto transaction revenue grows 10% to $134 million in Q2",
+      "summary": "Crypto remains a small part of SoFi's $1.2 billion quarterly adjusted net revenue but shows sustained growth.",
+      "url": "https://www.theblock.co/post/410053/sofi-crypto-transaction-revenue-grows-to-134-million-second-quarter?utm_source=rss&utm_medium=rss",
+      "source": "The Block",
+      "category": "crypto",
+      "impact": "low",
+      "published": "2026-07-29T15:19:04+00:00"
+    },
+    {
+      "title": "Coinbase hit by spot trading slump: Wall Street trims expectations ahead of earnings",
+      "summary": "",
+      "url": "https://www.coindesk.com/markets/2026/07/29/investors-look-past-expected-weak-q2-earnings-to-focus-on-coinbase-s-political-future",
+      "source": "CoinDesk",
+      "category": "crypto",
+      "impact": "low",
+      "published": "2026-07-29T15:15:08+00:00"
+    },
+    {
+      "title": "Raymond James Puts New Breakout Into Gear. Now This Grind Looms.",
+      "summary": "As banks and other financial stocks rise, Raymond James launches a breakout. But this challenge looms.",
+      "url": "https://finance.yahoo.com/m/2db4c33b-aa95-3031-9910-1887099d2974/raymond-james-puts-new.html?.tsrc=rss",
+      "source": "Yahoo Finance",
+      "category": "macro",
+      "impact": "low",
+      "published": "2026-07-29T15:14:50+00:00"
+    },
+    {
+      "title": "Crypto Long & Short: What this year's $972 million crypto hacks actually tell us about security",
+      "summary": "",
+      "url": "https://www.coindesk.com/coindesk-indices/2026/07/29/crypto-long-and-short-what-this-year-s-usd972-million-crypto-hacks-actually-tell-us-about-security",
+      "source": "CoinDesk",
+      "category": "crypto",
+      "impact": "low",
+      "published": "2026-07-29T15:13:07+00:00"
+    },
+    {
+      "title": "Cyclosporiasis outbreak in Michigan surpasses 10,000 cases",
+      "summary": "",
+      "url": "https://www.investing.com/news/economy-news/cyclosporiasis-outbreak-in-michigan-surpasses-10000-cases-93CH-4821002",
+      "source": "Investing.com Commodities",
+      "category": "commodities",
+      "impact": "low",
+      "published": "2026-07-29T15:12:32+00:00"
+    },
+    {
+      "title": "Dow Tumbles Over 850 Points \u2013 Trump's Latest Iran Warning Sends Crude Oil Prices Soaring Ahead Of Fed Decision",
+      "summary": "During an interview with Fox News on Wednesday, Trump warned that the United States will be \u201chitting Iran hard\u201d following the attack on U.S. bases in Jordan.",
+      "url": "https://stocktwits.com/news-articles/markets/equity/dow-tumbles-trump-latest-iran-warning-crude-oil-prices-soaring-fed-decision/cZNRyqIRJT5?.tsrc=rss",
+      "source": "Yahoo Finance",
+      "category": "macro",
+      "impact": "high",
+      "published": "2026-07-29T15:11:30+00:00"
+    },
+    {
+      "title": "I got an unexpected $1,000 medical bill. Here\u2019s why I\u2019m not paying it yet.",
+      "summary": "Before you pay any medical bill, take these steps to check it \u2014 and possibly lower it.",
+      "url": "https://www.marketwatch.com/story/i-got-an-unexpected-1-000-medical-bill-heres-why-im-not-paying-it-yet-67265caf?mod=mw_rss_topstories",
+      "source": "MarketWatch Top",
+      "category": "macro",
+      "impact": "low",
+      "published": "2026-07-29T15:07:00+00:00"
+    },
+    {
+      "title": "How Far Tesla Stock Needs to Fall to Lose Trillion-Dollar Status",
+      "summary": "The shares dropped for five consecutive days, including a four-day losing streak since the car maker reported weaker-than-expected second-quarter earnings.",
+      "url": "https://finance.yahoo.com/m/20b7db84-ba0b-39b3-8dec-9f60052331ab/how-far-tesla-stock-needs-to.html?.tsrc=rss",
+      "source": "Yahoo Finance",
+      "category": "macro",
+      "impact": "low",
+      "published": "2026-07-29T15:07:00+00:00"
+    },
+    {
+      "title": "S&P 500 Stocks: GEHC Revives, Humana Fades On Earnings",
+      "summary": "GE HealthCare Technologies ran at the top of the S&amp;P 500 Wednesday morning, while Humana was among major laggards after both companies posted better-than-expected Q2 earnings signaling a return to profit growth.  GEHC broke above its recent trading range that followed its dive on Q1 results. ...",
+      "url": "https://finance.yahoo.com/m/07037201-9882-3e89-b4fa-1f7145c7776d/s%26p-500-stocks%3A-gehc-revives%2C.html?.tsrc=rss",
+      "source": "Yahoo Finance",
+      "category": "macro",
+      "impact": "low",
+      "published": "2026-07-29T15:05:36+00:00"
+    },
+    {
+      "title": "Mozambique central bank holds rates steady at 9.25% amid inflation",
+      "summary": "",
+      "url": "https://www.investing.com/news/economy-news/mozambique-central-bank-holds-rates-steady-at-925-amid-inflation-93CH-4820982",
+      "source": "Investing.com Commodities",
+      "category": "commodities",
+      "impact": "medium",
+      "published": "2026-07-29T15:05:06+00:00"
+    },
+    {
+      "title": "There's a big rotation happening in the market. Two stocks to watch with attractive charts",
+      "summary": "Todd Gordon breaks down the rotation taking place in the market along with the technicals of two names.",
+      "url": "https://www.cnbc.com/2026/07/29/theres-a-big-rotation-happening-in-the-market-two-stocks-to-watch-with-attractive-charts.html",
+      "source": "CNBC World",
+      "category": "equities",
+      "impact": "low",
+      "published": "2026-07-29T15:00:01+00:00"
+    },
+    {
+      "title": "\u2018We already have wills\u2019: We\u2019re in our 60s with $1.5 million. Should we set up a trust to prevent conflict among our heirs?",
+      "summary": "\u201cI realize that probate can be lengthy, public and expensive.\u201d",
+      "url": "https://www.marketwatch.com/story/we-already-have-wills-were-in-our-60s-with-1-5-million-how-do-we-prevent-family-drama-among-our-heirs-bf7b0eb1?mod=mw_rss_topstories",
+      "source": "MarketWatch Top",
+      "category": "macro",
+      "impact": "low",
+      "published": "2026-07-29T15:00:00+00:00"
+    },
+    {
+      "title": "Why the Dow Is Having an Especially Bad Day",
+      "summary": "The stock market was a sea of red Wednesday morning, but the Dow was having an especially bad day.  The Dow Jones Industrial Average was down 820 points, or 1.6%, while the S&amp;P 500 was down 0.8%.  The Nasdaq Composite was down 1.1%.",
+      "url": "https://finance.yahoo.com/m/9843eb24-fa68-33bf-96b2-06b44230f21f/why-the-dow-is-having-an.html?.tsrc=rss",
+      "source": "Yahoo Finance",
+      "category": "macro",
+      "impact": "low",
+      "published": "2026-07-29T14:59:35+00:00"
+    },
+    {
+      "title": "FIFA is embroiled in a $20 billion World Cup controversy. Here's what's going on",
+      "summary": "UEFA \u2013 European soccer's governing body \u2013 accused FIFA of \"crossing a line\" and said the tournament is not its to sell.",
+      "url": "https://www.cnbc.com/2026/07/29/world-cup-fifa-stake-sales-uefa-soccer.html",
+      "source": "CNBC World",
+      "category": "commodities",
+      "impact": "low",
+      "published": "2026-07-29T14:54:57+00:00"
+    },
+    {
+      "title": "GE HealthCare Stock Soars After Earnings\u2014and It\u2019s Suddenly the Best Performing GE",
+      "summary": "GE HealthCare reports earnings per share of $1.13 from sales of $5.3 billion. Wall Street was looking for $1.04 a share and $5.3 billion, respectively.",
+      "url": "https://finance.yahoo.com/m/919c0d8d-f872-3409-92fd-f91d0effd0f6/ge-healthcare-stock-soars.html?.tsrc=rss",
+      "source": "Yahoo Finance",
+      "category": "macro",
+      "impact": "low",
+      "published": "2026-07-29T14:53:00+00:00"
+    },
+    {
+      "title": "Nike was once China's sneaker king. Here's why its sales have fallen 30%",
+      "summary": "China was once Nike's fastest-growing region but the company has lost relevance among young consumers and ceded market share to smaller, domestic brands.",
+      "url": "https://www.cnbc.com/2026/07/29/nike-china-sales-decline.html",
+      "source": "CNBC World",
+      "category": "macro",
+      "impact": "low",
+      "published": "2026-07-29T14:49:45+00:00"
+    },
+    {
+      "title": "Investors Await Fed Decision Today",
+      "summary": "A quarter-points rate hike has been bandied about as a possibility today.",
+      "url": "https://finance.yahoo.com/economy/policy/articles/investors-await-fed-decision-today-144500078.html?.tsrc=rss",
+      "source": "Yahoo Finance",
+      "category": "macro",
+      "impact": "high",
+      "published": "2026-07-29T14:45:00+00:00"
+    },
+    {
+      "title": "Uncertainty creeps into Fed\u2019s rate decision as Warsh keeps his cards hidden",
+      "summary": "",
+      "url": "https://www.investing.com/news/economy-news/uncertainty-creeps-into-feds-rate-decision-as-warsh-keeps-his-cards-hidden-4819204",
+      "source": "Investing.com Commodities",
+      "category": "commodities",
+      "impact": "high",
+      "published": "2026-07-29T14:37:02+00:00"
+    },
+    {
+      "title": "Nasdaq 100 Back on Correction Watch",
+      "summary": "The Nasdaq 100 is on correction watch, and the Nasdaq Composite isn't far behind.  When an index closes down 10% from a recent high, it enters a correction.  To exit correction, the index would need to establish a recent low and then close up 10% from that level.",
+      "url": "https://finance.yahoo.com/m/6c83d408-f6b9-37fe-93d6-232a9f14b415/nasdaq-100-back-on-correction.html?.tsrc=rss",
+      "source": "Yahoo Finance",
+      "category": "macro",
+      "impact": "low",
+      "published": "2026-07-29T14:35:44+00:00"
+    },
+    {
+      "title": "\u2018The moment to act is now\u2019: Solana Policy Institute urges Senate to move on crypto bill as time dwindles",
+      "summary": "As the clock ticks on Congress, the Solana Policy Institute is mounting an urgent push for Senate leaders to take up crypto legislation.",
+      "url": "https://www.theblock.co/post/410041/the-moment-to-act-is-now-solana-policy-institute-urges-senate-to-move-on-crypto-bill-as-time-dwindles?utm_source=rss&utm_medium=rss",
+      "source": "The Block",
+      "category": "crypto",
+      "impact": "low",
+      "published": "2026-07-29T14:35:02+00:00"
+    },
+    {
+      "title": "Better Artificial Intelligence (AI) Memory Buy: Micron Technology vs. Sandisk After the July 2026 Sell-off",
+      "summary": "July has been a rough month for some AI stocks.",
+      "url": "https://www.fool.com/investing/2026/07/29/better-artificial-intelligence-memory-buy-micron/?.tsrc=rss",
+      "source": "Yahoo Finance",
+      "category": "macro",
+      "impact": "low",
+      "published": "2026-07-29T14:35:00+00:00"
+    },
+    {
+      "title": "What a Credit Downturn Would Do to Ares Capital's Big Dividend",
+      "summary": "Ares Capital has a 10% yield and a volatile dividend history, with recessions being particularly difficult.",
+      "url": "https://www.fool.com/investing/2026/07/29/what-a-credit-downturn-would-do-to-ares-capitals-b/?.tsrc=rss",
+      "source": "Yahoo Finance",
+      "category": "macro",
+      "impact": "medium",
+      "published": "2026-07-29T14:35:00+00:00"
+    },
+    {
+      "title": "Is ROL Stock Worth Buying After Its Sharp Six-Month Valuation Reset?",
+      "summary": "Rollins' 38% six-month slide improved its entry price, but earnings misses, margin pressure and a premium valuation still argue for caution.",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/rol-stock-worth-buying-sharp-143300870.html?.tsrc=rss",
+      "source": "Yahoo Finance",
+      "category": "macro",
+      "impact": "low",
+      "published": "2026-07-29T14:33:00+00:00"
+    },
+    {
+      "title": "Semiconductor stocks are going up in smoke. But the S&P 500 is holding strong.",
+      "summary": "Score one for the bulls.",
+      "url": "https://finance.yahoo.com/markets/article/semiconductor-stocks-are-going-up-in-smoke-but-the-sp-500-is-holding-strong-143223884.html?.tsrc=rss",
+      "source": "Yahoo Finance",
+      "category": "macro",
+      "impact": "low",
+      "published": "2026-07-29T14:32:23+00:00"
+    },
+    {
+      "title": "Medicare is about to change a drug program that held down the cost of premiums. Here\u2019s what to know.",
+      "summary": "Experts say this could mean that more seniors will switch to Medicare Advantage plans",
+      "url": "https://www.marketwatch.com/story/medicare-is-about-to-change-a-program-that-held-down-the-cost-of-premiums-heres-what-to-know-42c0612e?mod=mw_rss_topstories",
+      "source": "MarketWatch Top",
+      "category": "macro",
+      "impact": "low",
+      "published": "2026-07-29T14:31:00+00:00"
+    },
+    {
+      "title": "Wall St falls before Fed verdict; chip stocks wobble",
+      "summary": "",
+      "url": "https://www.investing.com/news/economy-news/sp-500-nasdaq-futures-inch-up-before-fed-decision-chip-stocks-wobble-4819267",
+      "source": "Investing.com Commodities",
+      "category": "commodities",
+      "impact": "medium",
+      "published": "2026-07-29T14:30:36+00:00"
+    },
+    {
+      "title": "My girlfriend is 62. Can she claim her late husband\u2019s full Social Security benefit \u2014 or does she have to wait?",
+      "summary": "\u201cHer husband passed away 10 years ago. They had been married for more than 20 years.\u201d",
+      "url": "https://www.marketwatch.com/story/my-girlfriend-is-62-can-she-claim-her-late-husbands-full-social-security-benefit-or-does-she-have-to-wait-315c0fa1?mod=mw_rss_topstories",
+      "source": "MarketWatch Top",
+      "category": "macro",
+      "impact": "low",
+      "published": "2026-07-29T14:27:00+00:00"
+    },
+    {
+      "title": "This country is buying up the most homes in America right now, even as international sales dry up",
+      "summary": "International buyers only bought about 67,000 homes in the U.S. over the last 12 months ending in March, a near-record low, according to the National Association of Realtors.",
+      "url": "https://www.marketwatch.com/story/this-country-is-buying-up-the-most-homes-in-america-right-now-even-as-international-sales-dry-up-c8b2afbb?mod=mw_rss_topstories",
+      "source": "MarketWatch Top",
+      "category": "macro",
+      "impact": "medium",
+      "published": "2026-07-29T14:20:00+00:00"
+    },
+    {
+      "title": "Trump says U.S. will give Iran a 'beating' after surprise attack",
+      "summary": "Centcom in a post on X said that the attack originated from Iran, but all missiles were intercepted.",
+      "url": "https://www.cnbc.com/2026/07/29/us-iran-war-hormuz-centcom.html",
+      "source": "CNBC World",
+      "category": "geopolitical",
+      "impact": "low",
+      "published": "2026-07-29T14:18:42+00:00"
+    },
+    {
+      "title": "My stepdad is in the military and dying of cancer. Will my mom automatically get his money?",
+      "summary": "\u201cMy worry is that one of his kids from his other marriage or one of his siblings will pop up and say they deserve his assets.\u201d",
+      "url": "https://www.marketwatch.com/story/my-stepdad-is-dying-from-cancer-how-can-i-help-my-mom-find-out-if-shell-get-his-assets-8a10bad2?mod=mw_rss_topstories",
+      "source": "MarketWatch Top",
+      "category": "macro",
+      "impact": "low",
+      "published": "2026-07-29T14:12:00+00:00"
+    },
+    {
+      "title": "Ethereum Foundation names pcaversaccio to board amid leadership changes",
+      "summary": "",
+      "url": "https://www.coindesk.com/tech/2026/07/29/ethereum-foundation-names-pcaversaccio-to-board-amid-leadership-changes",
+      "source": "CoinDesk",
+      "category": "crypto",
+      "impact": "medium",
+      "published": "2026-07-29T14:11:21+00:00"
+    },
+    {
+      "title": "Economy is poised to show strong second-quarter growth \u2014 but only after a look under the hood",
+      "summary": "The U.S. economy churned out another robust rate of growth in the second  quarter even as the Iran war boosted inflation, but that might not be so readily apparent in the latest report on gross domestic product.",
+      "url": "https://www.marketwatch.com/story/economy-is-poised-to-show-strong-second-quarter-growth-but-only-after-a-look-under-the-hood-8fd3615d?mod=mw_rss_topstories",
       "source": "MarketWatch Top",
       "category": "macro",
       "impact": "high",
-      "published": "2026-07-29T13:41:00+00:00"
+      "published": "2026-07-29T14:09:00+00:00"
     },
     {
-      "title": "Fed likely to keep rates on hold, but Warsh to face some strong dissension. What to watch: Live coverage",
-      "summary": "Fed Chairman Kevin Warsh presides over his second meeting with dissent in the air.",
-      "url": "https://www.cnbc.com/2026/07/29/fed-meeting-today-live-updates.html",
+      "title": "Tether\u2019s GENIUS-compliant USAT stablecoin launches on Celo, marking first expansion beyond Ethereum",
+      "summary": "USAT can be used to pay for gas on the blockchain, meaning users will not have to hold multiple tokens to make USAT transactions.",
+      "url": "https://www.theblock.co/post/410048/tethers-genius-compliant-usat-stablecoin-launches-on-celo-marking-first-expansion-beyond-ethereum?utm_source=rss&utm_medium=rss",
+      "source": "The Block",
+      "category": "crypto",
+      "impact": "medium",
+      "published": "2026-07-29T14:06:34+00:00"
+    },
+    {
+      "title": "US mortgage rates climb again in latest week, many at year high",
+      "summary": "",
+      "url": "https://www.investing.com/news/economy-news/us-mortgage-rates-climb-again-in-latest-week-many-at-year-high-4820676",
+      "source": "Investing.com Commodities",
+      "category": "commodities",
+      "impact": "low",
+      "published": "2026-07-29T14:06:33+00:00"
+    },
+    {
+      "title": "JPMorgan, Schwab and UBS manage millions in Trump's $858 million investment portfolio",
+      "summary": "JPMorgan, Schwab, UBS and Stephens Inc. are among the firms that have managed Trump's fortune in accounts worth at least $858 million, a CNBC analysis found.",
+      "url": "https://www.cnbc.com/2026/07/29/trump-banking-investments-jpmorgan-schwab-ubs-financial-disclosure.html",
       "source": "CNBC World",
       "category": "macro",
-      "impact": "high",
-      "published": "2026-07-29T13:37:03+00:00"
+      "impact": "low",
+      "published": "2026-07-29T14:03:23+00:00"
+    },
+    {
+      "title": "Ukraine has found a new pressure point in Russia\u2019s wartime economy",
+      "summary": "Ukraine's drone attacks on Russia's biggest online retailer, Wildberries, have ratcheted up the pressure on Moscow's wartime economy.",
+      "url": "https://www.cnbc.com/2026/07/29/ukraine-russia-wildberries-putin-trump.html",
+      "source": "CNBC World",
+      "category": "geopolitical",
+      "impact": "medium",
+      "published": "2026-07-29T13:59:54+00:00"
+    },
+    {
+      "title": "The inside story of how a hike in Hong Kong changed crypto trading forever",
+      "summary": "",
+      "url": "https://www.coindesk.com/business/2026/07/29/the-inside-story-of-how-a-hike-in-hong-kong-changed-crypto-trading-forever",
+      "source": "CoinDesk",
+      "category": "crypto",
+      "impact": "low",
+      "published": "2026-07-29T13:53:01+00:00"
+    },
+    {
+      "title": "Here\u2019s what happened in crypto today",
+      "summary": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
+      "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "category": "crypto",
+      "impact": "medium",
+      "published": "2026-07-29T13:47:35+00:00"
+    },
+    {
+      "title": "Wall St opens lower ahead of Fed decision; chip stocks wobble",
+      "summary": "",
+      "url": "https://www.investing.com/news/economy-news/wall-st-opens-lower-ahead-of-fed-decision-chip-stocks-wobble-4820516",
+      "source": "Investing.com Commodities",
+      "category": "commodities",
+      "impact": "medium",
+      "published": "2026-07-29T13:36:30+00:00"
     },
     {
       "title": "BNY to bring transfer agency records onchain in blockchain push",
@@ -53,94 +584,13 @@
       "published": "2026-07-29T13:36:18+00:00"
     },
     {
-      "title": "Golden Matrix Group GAAP EPS of $0.17 beats by $0.03, revenue of $50.2M misses by $2.22M",
-      "summary": "",
-      "url": "https://seekingalpha.com/news/4620377-golden-matrix-group-gaap-eps-of-0_17-beats-by-0_03-revenue-of-50_2m-misses-by-2_22m?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
-      "source": "Seeking Alpha",
-      "category": "equities",
-      "impact": "low",
-      "published": "2026-07-29T13:35:43+00:00"
-    },
-    {
-      "title": "Fannie Mae signals additional multifamily delinquencies as net worth tops $116B",
-      "summary": "",
-      "url": "https://seekingalpha.com/news/4620374-fannie-mae-signals-additional-multifamily-delinquencies-as-net-worth-tops-116b?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
-      "source": "Seeking Alpha",
-      "category": "equities",
-      "impact": "low",
-      "published": "2026-07-29T13:34:37+00:00"
-    },
-    {
-      "title": "Amphenol surges after Q2 results, Q3 outlook beat estimates",
-      "summary": "",
-      "url": "https://seekingalpha.com/news/4620320-amphenol-surges-after-q2-results-q3-outlook-beat-estimates?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
-      "source": "Seeking Alpha",
-      "category": "equities",
-      "impact": "low",
-      "published": "2026-07-29T13:33:23+00:00"
-    },
-    {
-      "title": "The Fed isn\u2019t your biggest worry. The central-bank decision that actually impacts your 401(k) lands in Tokyo.",
-      "summary": "Japan is edging toward the exit on buying America\u2019s debt. Here is why this matters to your retirement plans.",
-      "url": "https://www.marketwatch.com/story/the-fed-isnt-your-biggest-worry-the-central-bank-decision-that-actually-impacts-your-401-k-lands-in-tokyo-fc9d22c8?mod=mw_rss_topstories",
-      "source": "MarketWatch Top",
-      "category": "macro",
-      "impact": "high",
-      "published": "2026-07-29T13:33:00+00:00"
-    },
-    {
-      "title": "About $80 million ZEC crosses into Zcash's new 'Ironwood' pool in the first day",
+      "title": "About $80 million ZEC crosses into Zcash's new Ironwood pool in the first day",
       "summary": "",
       "url": "https://www.coindesk.com/tech/2026/07/29/about-usd80-million-zec-crosses-into-zcash-s-new-ironwood-pool-in-the-first-day",
       "source": "CoinDesk",
       "category": "crypto",
       "impact": "low",
       "published": "2026-07-29T13:32:37+00:00"
-    },
-    {
-      "title": "Alphabet and Tesla took a hit from soaring AI spending. Will Microsoft, Meta and Amazon be next?",
-      "summary": "Big Tech\u2019s binge is draining free cash flow \u2014 and the bond markets are taking notice.",
-      "url": "https://www.marketwatch.com/story/alphabet-and-tesla-took-a-hit-from-soaring-ai-spending-will-microsoft-meta-and-amazon-be-next-80ecb30b?mod=mw_rss_topstories",
-      "source": "MarketWatch Top",
-      "category": "macro",
-      "impact": "low",
-      "published": "2026-07-29T13:32:00+00:00"
-    },
-    {
-      "title": "Stock market slips ahead of Fed decision",
-      "summary": "",
-      "url": "https://seekingalpha.com/news/4620066-sp500-nasdaq-dow-jones-outlook-stock-market?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
-      "source": "Seeking Alpha",
-      "category": "equities",
-      "impact": "medium",
-      "published": "2026-07-29T13:31:33+00:00"
-    },
-    {
-      "title": "GE HealthCare gains as services sales drive Q2 beat amid tariff refunds",
-      "summary": "",
-      "url": "https://seekingalpha.com/news/4620371-ge-healthcare-stock-gains-q2-2026-beat?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
-      "source": "Seeking Alpha",
-      "category": "equities",
-      "impact": "medium",
-      "published": "2026-07-29T13:30:40+00:00"
-    },
-    {
-      "title": "OpenAI's rogue agent compromised a customer at a second tech firm: Reuters",
-      "summary": "The intrusion at Hugging Face, carried out by an agent OpenAI was testing, drew global attention and evoked science-fiction scenarios of AI run amok.",
-      "url": "https://www.cnbc.com/2026/07/29/openais-rogue-agent-compromised-a-customer-at-a-second-tech-firm.html",
-      "source": "CNBC World",
-      "category": "macro",
-      "impact": "low",
-      "published": "2026-07-29T13:30:11+00:00"
-    },
-    {
-      "title": "A profit squeeze is coming for tech. This manager is betting on these unglamorous stocks instead.",
-      "summary": "MFS Investment Management\u2019s chief global investment strategist, Robert Almeida, says investors are focusing too much on the Federal Reserve, when their attention should be on a major shift in the capital cycle.",
-      "url": "https://www.marketwatch.com/story/a-profit-squeeze-is-coming-for-tech-this-manager-is-betting-on-these-unglamorous-stocks-instead-ea19a2ab?mod=mw_rss_topstories",
-      "source": "MarketWatch Top",
-      "category": "macro",
-      "impact": "high",
-      "published": "2026-07-29T13:30:00+00:00"
     },
     {
       "title": "The 100x obsession: Fundamentals grow in importance as crypto matures",
@@ -152,24 +602,6 @@
       "published": "2026-07-29T13:30:00+00:00"
     },
     {
-      "title": "Qualcomm options traders prices 9% swing ahead of earnings",
-      "summary": "",
-      "url": "https://seekingalpha.com/news/4620333-qualcomm-options-traders-prices-9-swing-ahead-of-earnings?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
-      "source": "Seeking Alpha",
-      "category": "equities",
-      "impact": "low",
-      "published": "2026-07-29T13:29:05+00:00"
-    },
-    {
-      "title": "Tiptree GAAP EPS of $10.30",
-      "summary": "",
-      "url": "https://seekingalpha.com/news/4620370-tiptree-gaap-eps-of-10_30?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
-      "source": "Seeking Alpha",
-      "category": "equities",
-      "impact": "low",
-      "published": "2026-07-29T13:28:33+00:00"
-    },
-    {
       "title": "Fauci invokes Fifth Amendment at Senate Covid hearing",
       "summary": "",
       "url": "https://www.investing.com/news/economy-news/fauci-invokes-fifth-amendment-at-senate-covid-hearing-93CH-4820446",
@@ -179,15 +611,6 @@
       "published": "2026-07-29T13:20:42+00:00"
     },
     {
-      "title": "State Street vs. First Trust: Is a Broad Healthcare or Biotech Focus Better for Your Portfolio?",
-      "summary": "FBT delivered 48.5% returns over one year but carries a 0.55% expense ratio and experiences greater volatility. XLV offers lower costs, with an 0.08% expense ratio, as well as broader diversification across 60 healthcare stocks.",
-      "url": "https://www.fool.com/coverage/etfs/2026/07/29/state-street-vs-first-trust-is-a-broad-healthcare-or-biotech-focus-better-for-your-portfolio/?.tsrc=rss",
-      "source": "Yahoo Finance",
-      "category": "macro",
-      "impact": "low",
-      "published": "2026-07-29T13:20:01+00:00"
-    },
-    {
       "title": "Uzbekistan\u2019s natural gas output falls 18% in first half",
       "summary": "",
       "url": "https://www.investing.com/news/economy-news/uzbekistans-natural-gas-output-falls-18-in-first-half-93CH-4820396",
@@ -195,42 +618,6 @@
       "category": "commodities",
       "impact": "low",
       "published": "2026-07-29T13:12:46+00:00"
-    },
-    {
-      "title": "Why shareholders are suing Novo Nordisk over next-generation weight-loss drug",
-      "summary": "Investors claim Novo Nordisk misled the market about CagriSema's tolerability, after disappointing clinical trial results wiped billions off its market cap.",
-      "url": "https://www.cnbc.com/2026/07/29/novo-nordisk-lawsuit-cagrisema-weight-loss-drug.html",
-      "source": "CNBC World",
-      "category": "macro",
-      "impact": "low",
-      "published": "2026-07-29T13:11:19+00:00"
-    },
-    {
-      "title": "Trump Says US Will \u2018Hit Iran Hard\u2019 If Negotiations Fail \u2013 Stock Futures Fall, Oil Prices Start Climbing Again",
-      "summary": "Trump\u2019s comments come after CENTCOM said Iranian forces launched multiple ballistic missiles at U.S. bases.",
-      "url": "https://stocktwits.com/news-articles/markets/equity/trump-us-hit-iran-hard-if-negotiations-fail-stock-futures-fall-oil-climbs/cZNRvKIRJRD?.tsrc=rss",
-      "source": "Yahoo Finance",
-      "category": "macro",
-      "impact": "low",
-      "published": "2026-07-29T13:09:18+00:00"
-    },
-    {
-      "title": "S&P 500, Nasdaq set for subdued open ahead of Fed decision; chip stocks wobble",
-      "summary": "",
-      "url": "https://www.investing.com/news/economy-news/sp-500-nasdaq-futures-inch-up-before-fed-decision-chip-stocks-wobble-4819267",
-      "source": "Investing.com Commodities",
-      "category": "commodities",
-      "impact": "medium",
-      "published": "2026-07-29T13:08:01+00:00"
-    },
-    {
-      "title": "Gen Z stays home almost every weekend because going out isn\u2019t worth the money",
-      "summary": "Forget FOMO: Fear of financial regret is keeping younger Americans at home on Saturday night.",
-      "url": "https://www.marketwatch.com/story/gen-z-stays-home-almost-every-weekend-because-going-out-isnt-worth-the-money-64f03227?mod=mw_rss_topstories",
-      "source": "MarketWatch Top",
-      "category": "macro",
-      "impact": "low",
-      "published": "2026-07-29T13:01:00+00:00"
     },
     {
       "title": "The systemic-risk debate over perpetual futures is aimed at the wrong target",
@@ -251,15 +638,6 @@
       "published": "2026-07-29T13:00:00+00:00"
     },
     {
-      "title": "Stock Market Today: Dow Falls As Iran Hostilities Spark Up Again; SK Hynix Slides On Earnings News (Live Coverage)",
-      "summary": "Stock Market Today: The Dow Jones index dropped Wednesday ahead of the Fed decision and Fed Chair Warsh's comments. SK Hynix sold off.",
-      "url": "https://finance.yahoo.com/m/031fc95b-4216-3fa9-93d3-0f98e7121d16/stock-market-today%3A-dow-falls.html?.tsrc=rss",
-      "source": "Yahoo Finance",
-      "category": "macro",
-      "impact": "high",
-      "published": "2026-07-29T12:58:22+00:00"
-    },
-    {
       "title": "Bernstein cuts Circle price target to $140, says Open USD threat will fade",
       "summary": "Bernstein cuts Circle price target to $140 from $190, keeps Outperform, and says the Open USD threat fades as USDC supply holds near ATH.",
       "url": "https://www.theblock.co/post/410029/bernstein-cuts-circle-price-target-to-140-says-open-usd-threat-will-fade?utm_source=rss&utm_medium=rss",
@@ -267,24 +645,6 @@
       "category": "crypto",
       "impact": "low",
       "published": "2026-07-29T12:55:18+00:00"
-    },
-    {
-      "title": "Update: US Equity Futures Lower Pre-Bell as Middle East Hostilities Resume, Oil Prices Rise",
-      "summary": "(Updates with economic data, recent oil price movement, world markets' overview and corporate stock",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/us-equity-futures-lower-pre-125355415.html?.tsrc=rss",
-      "source": "Yahoo Finance",
-      "category": "macro",
-      "impact": "low",
-      "published": "2026-07-29T12:53:55+00:00"
-    },
-    {
-      "title": "MarineMax (HZO): Ace River Exit Driven by Opportunity Cost, Not Fundamentals",
-      "summary": "Ace River Capital, an investment management company, released its second-quarter 2026 investor letter. A copy of the letter can be downloaded here. Ace River Capital Partners reported a +6.25% return in the first half of 2026, trailing the S&amp;P 500\u2019s +9.55% and Russell 2000\u2019s +22.57% returns. ...",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/marinemax-hzo-ace-river-exit-125006674.html?.tsrc=rss",
-      "source": "Yahoo Finance",
-      "category": "macro",
-      "impact": "low",
-      "published": "2026-07-29T12:50:06+00:00"
     },
     {
       "title": "Safe smart accounts process nearly 130 million transactions in record quarter",
@@ -296,51 +656,6 @@
       "published": "2026-07-29T12:50:02+00:00"
     },
     {
-      "title": "Is RCI Hospitality Holdings (RICK) a Mispriced Opportunity?",
-      "summary": "Ace River Capital, an investment management company, released its second-quarter 2026 investor letter. A copy of the letter can be downloaded here. Ace River Capital Partners reported a +6.25% return in the first half of 2026, trailing the S&amp;P 500\u2019s +9.55% and Russell 2000\u2019s +22.57% returns. ...",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/rci-hospitality-holdings-rick-mispriced-124709637.html?.tsrc=rss",
-      "source": "Yahoo Finance",
-      "category": "macro",
-      "impact": "low",
-      "published": "2026-07-29T12:47:09+00:00"
-    },
-    {
-      "title": "What Makes Vox Royalty Corp. (VOXR) an Attractive Long-Term Compounder?",
-      "summary": "Ace River Capital, an investment management company, released its second-quarter 2026 investor letter. A copy of the letter can be downloaded here. Ace River Capital Partners reported a +6.25% return in the first half of 2026, trailing the S&amp;P 500\u2019s +9.55% and Russell 2000\u2019s +22.57% returns. ...",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/makes-vox-royalty-corp-voxr-124248645.html?.tsrc=rss",
-      "source": "Yahoo Finance",
-      "category": "macro",
-      "impact": "low",
-      "published": "2026-07-29T12:42:48+00:00"
-    },
-    {
-      "title": "Treasury yields rise as Wall Street awaits Fed interest rate decision",
-      "summary": "Investors awaited the Federal Reserve's latest interest rate decision.",
-      "url": "https://www.cnbc.com/2026/07/29/treasury-yields-fed-interest-rates.html",
-      "source": "CNBC World",
-      "category": "macro",
-      "impact": "high",
-      "published": "2026-07-29T12:40:18+00:00"
-    },
-    {
-      "title": "If a Bear Market Is Coming, History Says This 1 Thing Is How Investors Can Still Win",
-      "summary": "The stock market is trading at historically expensive levels right now.",
-      "url": "https://www.fool.com/investing/2026/07/29/if-a-bear-market-is-coming-history-says-this-1-thi/?.tsrc=rss",
-      "source": "Yahoo Finance",
-      "category": "macro",
-      "impact": "low",
-      "published": "2026-07-29T12:40:00+00:00"
-    },
-    {
-      "title": "Exchange-Traded Funds Lower, Equity Futures Mixed Pre-Bell Wednesday Ahead of Fed's Interest Rate Announcement",
-      "summary": "The broad market exchange-traded fund SPDR S&amp;P 500 ETF Trust (SPY) was down 0.1%, and the actively t",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-lower-equity-123842313.html?.tsrc=rss",
-      "source": "Yahoo Finance",
-      "category": "macro",
-      "impact": "medium",
-      "published": "2026-07-29T12:38:42+00:00"
-    },
-    {
       "title": "Stocks making the biggest moves premarket: Biogen, Vertiv, GE HealthCare, Generac & more",
       "summary": "These are the stocks posting the largest moves premarket.",
       "url": "https://www.cnbc.com/2026/07/29/stocks-making-the-biggest-moves-premarket-biib-vrt-gehc-gnrc.html",
@@ -350,42 +665,6 @@
       "published": "2026-07-29T12:31:06+00:00"
     },
     {
-      "title": "Dow Jones Futures Fall, Oil Jumps On Iran News; Seagate, SK Hynix, KLA, Bloom Energy Are AI Earnings Movers",
-      "summary": "Futures were mixed as oil prices jumped on Iran news while Seagate, SK Hynix, KLA, Bloom Energy led AI earnings. Will the Fed surprise?",
-      "url": "https://finance.yahoo.com/m/0eb51c4d-da78-36ad-bd11-f37d9adcc2f8/dow-jones-futures-fall%2C-oil.html?.tsrc=rss",
-      "source": "Yahoo Finance",
-      "category": "macro",
-      "impact": "medium",
-      "published": "2026-07-29T12:30:03+00:00"
-    },
-    {
-      "title": "Two rival AI super PACs are backing the same congressman. What gives?",
-      "summary": "The artificial-intelligence industry is following in the crypto sector\u2019s footsteps in working to influence elections.",
-      "url": "https://www.marketwatch.com/story/two-rival-ai-super-pacs-are-backing-the-same-congressman-what-gives-dbc93094?mod=mw_rss_topstories",
-      "source": "MarketWatch Top",
-      "category": "macro",
-      "impact": "low",
-      "published": "2026-07-29T12:30:00+00:00"
-    },
-    {
-      "title": "Can Stocks Defy the Upcoming Bearish Seasonality?",
-      "summary": "Despite bearish seasonality, the SPX's year-to-date gain could bode well for August",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/stocks-defy-upcoming-bearish-seasonality-122702596.html?.tsrc=rss",
-      "source": "Yahoo Finance",
-      "category": "macro",
-      "impact": "low",
-      "published": "2026-07-29T12:27:02+00:00"
-    },
-    {
-      "title": "S&P says El Ni\u00f1o alone unlikely to trigger rating downgrades",
-      "summary": "",
-      "url": "https://www.investing.com/news/economy-news/sp-says-el-nino-alone-unlikely-to-trigger-rating-downgrades-93CH-4820060",
-      "source": "Investing.com Commodities",
-      "category": "commodities",
-      "impact": "low",
-      "published": "2026-07-29T12:26:58+00:00"
-    },
-    {
       "title": "BNY targets $8.6 trillion transfer agency market on blockchain rails",
       "summary": "",
       "url": "https://www.coindesk.com/business/2026/07/29/bny-targets-usd8-6-trillion-transfer-agency-market-on-blockchain-rails",
@@ -393,15 +672,6 @@
       "category": "crypto",
       "impact": "low",
       "published": "2026-07-29T12:18:58+00:00"
-    },
-    {
-      "title": "Here Are Wednesday\u2019s Top Wall Street Analyst Research Calls: Bloom Energy, Caesars Entertainment, CarMax, Caterpillar, Ford, MPLX LP, Noble, Reddit, Texas Instruments, and More",
-      "summary": "Wall Street analysts reshuffled their bets on Wednesday with a wave of upgrades, downgrades, and fresh initiations spanning energy, autos, crypto infrastructure, and quantum computing. Find out which names got boosted and which got cut before the market opens.",
-      "url": "https://247wallst.com/investing/2026/07/29/here-are-wednesdays-top-wall-street-analyst-research-calls-bloom-energy-caesars-entertainment-carmax-caterpillar-ford-mplx-lp-noble-reddit-texas-instruments-and-more/?.tsrc=rss",
-      "source": "Yahoo Finance",
-      "category": "macro",
-      "impact": "medium",
-      "published": "2026-07-29T12:16:36+00:00"
     },
     {
       "title": "Morning Minute: Claude Mythos Breaks Post-Quantum Cryptography",
@@ -422,24 +692,6 @@
       "published": "2026-07-29T12:14:31+00:00"
     },
     {
-      "title": "Wall Street\u2019s \u2018Big Wednesday\u2019 Offers Big Test to Summer Rotation Trade",
-      "summary": "Wall Street faces a twin set of risks on Wednesday, tied to Big Tech earnings and a Federal Reserve interest-rate decision, as stocks undergo a rare change of leadership ahead of the summer market doldrums.  \u201cThe market\u2019s response to both should provide a clearer indication of whether the current...",
-      "url": "https://finance.yahoo.com/m/9762fccb-922e-364c-93c4-367e492b6c7c/wall-street%E2%80%99s-%E2%80%98big-wednesday%E2%80%99.html?.tsrc=rss",
-      "source": "Yahoo Finance",
-      "category": "macro",
-      "impact": "high",
-      "published": "2026-07-29T12:14:00+00:00"
-    },
-    {
-      "title": "Dow and Nasdaq stock set for another mixed open ahead of Fed decision",
-      "summary": "US market liveblog: stocks set for mixed open ahead of Fed decision US stocks are set for a mixed open on Wednesday as investors look ahead to the Federal Reserve's latest interest-rate decision, while renewed tensions in the Middle East and continued pressure on semiconductor stocks cloud...",
-      "url": "https://www.proactiveinvestors.com/companies/news/1096206/dow-and-nasdaq-stock-set-for-another-mixed-open-ahead-of-fed-decision-1096206.html?.tsrc=rss",
-      "source": "Yahoo Finance",
-      "category": "macro",
-      "impact": "high",
-      "published": "2026-07-29T12:13:00+00:00"
-    },
-    {
       "title": "Crypto Scams Cost Americans an Estimated $80.7B in 2025: Report",
       "summary": "The figure is seven times that of the $11.4 billion in reported losses, a rate drawn from a 2017 survey on how rarely fraud is reported.",
       "url": "https://decrypt.co/374638/crypto-scams-cost-americans-an-estimated-80-7b-in-2025-report",
@@ -447,60 +699,6 @@
       "category": "crypto",
       "impact": "low",
       "published": "2026-07-29T12:10:26+00:00"
-    },
-    {
-      "title": "Germany\u2019s Uniper finalizes 20-year LNG deal with Canada",
-      "summary": "",
-      "url": "https://www.investing.com/news/economy-news/germanys-uniper-finalizes-20year-lng-deal-with-canada-93CH-4819979",
-      "source": "Investing.com Commodities",
-      "category": "commodities",
-      "impact": "low",
-      "published": "2026-07-29T12:09:51+00:00"
-    },
-    {
-      "title": "How will the S&P 500 react to today\u2019s FOMC? JPM lays out the playbook",
-      "summary": "Investing.com -- JPMorgan told clients in a note that today\u2019s Federal Reserve decision is the most important catalyst during regular trading hours, mapping out how the S&amp;P 500 could move across a range of outcomes.",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/p-500-react-today-fomc-120532459.html?.tsrc=rss",
-      "source": "Yahoo Finance",
-      "category": "macro",
-      "impact": "high",
-      "published": "2026-07-29T12:05:32+00:00"
-    },
-    {
-      "title": "BMW to cut several thousand jobs in latest blow to German auto sector",
-      "summary": "BMW said on \u2060Wednesday it will cut several thousand jobs in Germany by the end of 2027 under \u200ba voluntary redundancy program.",
-      "url": "https://www.cnbc.com/2026/07/29/bmw-to-cut-several-thousand-jobs-in-latest-blow-to-german-auto-sector.html",
-      "source": "CNBC World",
-      "category": "macro",
-      "impact": "low",
-      "published": "2026-07-29T11:57:56+00:00"
-    },
-    {
-      "title": "Think a 1% advisory fee sounds cheap? It is actually eating 15% of your investment returns.",
-      "summary": "Investing legend Charles Ellis says that most stock pickers are playing a \u201closer\u2019s game.\u201d",
-      "url": "https://www.marketwatch.com/story/think-a-1-advisory-fee-sounds-cheap-it-is-actually-eating-15-of-your-investment-returns-ceead305?mod=mw_rss_topstories",
-      "source": "MarketWatch Top",
-      "category": "macro",
-      "impact": "low",
-      "published": "2026-07-29T11:43:00+00:00"
-    },
-    {
-      "title": "Oil prices rise after U.S. and Saudi Arabia attack Iran-backed militias in Iraq",
-      "summary": "West Texas Intermediate and Brent crude\u2019s front-month contracts climbed on Wednesday on the risk of more fighting.",
-      "url": "https://www.marketwatch.com/story/oil-prices-rise-after-u-s-and-saudi-arabia-attack-iran-backed-militias-in-iraq-f0f409ea?mod=mw_rss_topstories",
-      "source": "MarketWatch Top",
-      "category": "macro",
-      "impact": "low",
-      "published": "2026-07-29T11:32:00+00:00"
-    },
-    {
-      "title": "Chip stocks shed more than $1 trillion as selloff hits companies powering AI boom",
-      "summary": "Nvidia, SK Hynix and Samsung Electronics have led the selloff since market close on Friday.",
-      "url": "https://www.cnbc.com/2026/07/29/chip-selloff-sk-hynix-samsung-softbank.html",
-      "source": "CNBC World",
-      "category": "equities",
-      "impact": "low",
-      "published": "2026-07-29T11:25:02+00:00"
     },
     {
       "title": "Telegram founder Pavel Durov internationally wanted, Russia\u2019s FSB says",
@@ -512,24 +710,6 @@
       "published": "2026-07-29T11:18:19+00:00"
     },
     {
-      "title": "\u2018Nothing seems to shake this market.\u2019 Why it\u2019s time to go all-in on stocks, according to these bullish strategists.",
-      "summary": "Strategists at the bank, led by Max Kettner, are betting on equities as they have remained resilient despite geopolitical volatility and pullbacks in the technology sector.",
-      "url": "https://www.marketwatch.com/story/oil-is-up-40-and-tech-is-tumbling-why-its-time-to-go-all-in-on-stocks-according-to-these-bullish-strategists-41d812f7?mod=mw_rss_topstories",
-      "source": "MarketWatch Top",
-      "category": "macro",
-      "impact": "medium",
-      "published": "2026-07-29T11:17:00+00:00"
-    },
-    {
-      "title": "Saudi Arabia has a new, and pricier, workaround to export its oil",
-      "summary": "Loadings at a Mediterranean port have picked up as Saudi Arabia races to offer its oil to buyers through a lengthier \u2014 and more expensive \u2014 backdoor.",
-      "url": "https://www.marketwatch.com/story/saudi-arabia-has-a-new-and-pricier-workaround-to-export-its-oil-fb5085a5?mod=mw_rss_topstories",
-      "source": "MarketWatch Top",
-      "category": "macro",
-      "impact": "low",
-      "published": "2026-07-29T11:16:00+00:00"
-    },
-    {
       "title": "3 reasons Wednesday's Fed meeting is pivotal for BTC",
       "summary": "",
       "url": "https://www.coindesk.com/daybook-us/2026/07/29/3-reasons-wednesday-s-fed-meeting-is-pivotal-for-btc",
@@ -537,24 +717,6 @@
       "category": "crypto",
       "impact": "medium",
       "published": "2026-07-29T11:15:00+00:00"
-    },
-    {
-      "title": "SoFi lifts 2026 revenue forecast as member growth, new loans hit records",
-      "summary": "",
-      "url": "https://www.investing.com/news/economy-news/sofi-lifts-2026-revenue-forecast-as-member-growth-new-loans-hit-records-4819635",
-      "source": "Investing.com Commodities",
-      "category": "commodities",
-      "impact": "low",
-      "published": "2026-07-29T11:07:09+00:00"
-    },
-    {
-      "title": "Binance disappears from Google Play in certain EU countries",
-      "summary": "Binance\u2019s Android app is unavailable on Google Play in some EU markets amid scrutiny over MiCA compliance.",
-      "url": "https://cointelegraph.com/news/binance-disappears-android-google-play-certain-eu-countries?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "category": "crypto",
-      "impact": "low",
-      "published": "2026-07-29T11:00:04+00:00"
     },
     {
       "title": "\u2018Sleepy July\u2019: K33 says bitcoin spot volume on track for weakest month since late 2023",
@@ -566,33 +728,6 @@
       "published": "2026-07-29T10:59:48+00:00"
     },
     {
-      "title": "Uncertainty creeps into Fed\u2019s rate decision as Warsh keeps his cards hidden",
-      "summary": "",
-      "url": "https://www.investing.com/news/economy-news/uncertainty-creeps-into-feds-rate-decision-as-warsh-keeps-his-cards-hidden-4819204",
-      "source": "Investing.com Commodities",
-      "category": "commodities",
-      "impact": "high",
-      "published": "2026-07-29T10:54:55+00:00"
-    },
-    {
-      "title": "Explainer-What are leveraged ETFs and how are they driving South Korean markets?",
-      "summary": "",
-      "url": "https://www.investing.com/news/economy-news/explainerwhat-are-leveraged-etfs-and-how-are-they-driving-south-korean-markets-4819169",
-      "source": "Investing.com Commodities",
-      "category": "commodities",
-      "impact": "low",
-      "published": "2026-07-29T10:42:34+00:00"
-    },
-    {
-      "title": "Portugal\u2019s unemployment rate holds steady at 5.6% in June",
-      "summary": "",
-      "url": "https://www.investing.com/news/economy-news/portugals-unemployment-rate-holds-steady-at-56-in-june-93CH-4819426",
-      "source": "Investing.com Commodities",
-      "category": "commodities",
-      "impact": "low",
-      "published": "2026-07-29T10:41:22+00:00"
-    },
-    {
       "title": "Bitcoin steadies above $64,000 as crypto looks to Fed interest-rate decision",
       "summary": "",
       "url": "https://www.coindesk.com/markets/2026/07/29/bitcoin-steadies-above-usd64-000-as-crypto-looks-to-fed-interest-rate-decision",
@@ -602,15 +737,6 @@
       "published": "2026-07-29T10:34:18+00:00"
     },
     {
-      "title": "Ukraine has found a new pressure point in Russia\u2019s wartime economy",
-      "summary": "Ukraine's drone attacks on Russia's biggest online retailer Wildberries have ratcheted up the pressure on Moscow's wartime economy.",
-      "url": "https://www.cnbc.com/2026/07/29/ukraine-russia-wildberries-putin-trump.html",
-      "source": "CNBC World",
-      "category": "geopolitical",
-      "impact": "medium",
-      "published": "2026-07-29T10:33:29+00:00"
-    },
-    {
       "title": "Apple Sued After Fake iPhone Wallet App Drained $1.8M in Bitcoin",
       "summary": "The suit claims Apple ranked a fake Sparrow Wallet app and put it in curated crypto collections alongside legitimate ones.",
       "url": "https://decrypt.co/374628/apple-sued-after-fake-iphone-wallet-app-drained-1-8m-in-bitcoin",
@@ -618,15 +744,6 @@
       "category": "crypto",
       "impact": "medium",
       "published": "2026-07-29T10:22:57+00:00"
-    },
-    {
-      "title": "'PR problem' is standing in the way of China's humanoid robot boom, says Morgan Stanley",
-      "summary": "Its analysts have tempered optimism on the sector, writing that the robot industry faces several headwinds that could slow growth.",
-      "url": "https://www.cnbc.com/2026/07/29/morgan-stanley-humanoid-robots-pr-problem.html",
-      "source": "CNBC World",
-      "category": "equities",
-      "impact": "low",
-      "published": "2026-07-29T10:21:41+00:00"
     },
     {
       "title": "Binance offers gold and silver options after commodity futures pull in billions in daily volume",
@@ -645,15 +762,6 @@
       "category": "crypto",
       "impact": "low",
       "published": "2026-07-29T10:00:00+00:00"
-    },
-    {
-      "title": "UBS CEO says the AI pullback is healthy \u2014 but there\u2019s a bigger risk investors should watch",
-      "summary": "The Swiss banking gian reported pre-tax profits of $3.6 billion for the quarter, as CEO Sergio Ermotti warned of geopolitical volatility ahead.",
-      "url": "https://www.cnbc.com/2026/07/29/ubs-earnings-ai-correction-stocks-swiss-bank.html",
-      "source": "CNBC World",
-      "category": "geopolitical",
-      "impact": "high",
-      "published": "2026-07-29T09:40:12+00:00"
     },
     {
       "title": "Russia Charges Telegram's Pavel Durov With Aiding Terrorism",
@@ -764,51 +872,6 @@
       "published": "2026-07-29T07:11:27+00:00"
     },
     {
-      "title": "Minister apologizes as Korean leveraged ETF investors nurse heavy losses amid chip stock rout",
-      "summary": "Korean retail investors have racked up heavy losses from leveraged bets on stocks, following rule changes earlier this year.",
-      "url": "https://www.cnbc.com/2026/07/29/korea-leveraged-etf-kodex-sk-hynix.html",
-      "source": "CNBC World",
-      "category": "equities",
-      "impact": "low",
-      "published": "2026-07-29T07:01:28+00:00"
-    },
-    {
-      "title": "Live updates: Bitcoin rises above $64,000 ahead of Fed rate decision",
-      "summary": "",
-      "url": "https://www.coindesk.com/tech/2026/07/29/live-updates-bitcoin-clears-usd64-000-in-asia-hours-ahead-of-fed-decision",
-      "source": "CoinDesk",
-      "category": "crypto",
-      "impact": "high",
-      "published": "2026-07-29T06:25:21+00:00"
-    },
-    {
-      "title": "Company behind AI trade that caused $60 million crypto liquidations to cover all losses",
-      "summary": "",
-      "url": "https://www.coindesk.com/markets/2026/07/29/company-behind-ai-trade-that-caused-usd60-million-crypto-liquidations-to-cover-all-losses",
-      "source": "CoinDesk",
-      "category": "crypto",
-      "impact": "low",
-      "published": "2026-07-29T06:03:28+00:00"
-    },
-    {
-      "title": "Citadel bets on a Fed rate hike Wednesday as bitcoin analysts call a hold. Someone will be wrong.",
-      "summary": "",
-      "url": "https://www.coindesk.com/markets/2026/07/29/citadel-bets-on-a-fed-rate-hike-wednesday-as-bitcoin-analysts-call-a-hold-someone-will-be-wrong",
-      "source": "CoinDesk",
-      "category": "crypto",
-      "impact": "high",
-      "published": "2026-07-29T05:37:38+00:00"
-    },
-    {
-      "title": "Bitcoin rises toward $64,000 as Korea's record chip crash leaves crypto untouched",
-      "summary": "",
-      "url": "https://www.coindesk.com/markets/2026/07/29/bitcoin-rises-toward-usd64-000-as-korea-s-record-chip-crash-leaves-crypto-untouched",
-      "source": "CoinDesk",
-      "category": "crypto",
-      "impact": "high",
-      "published": "2026-07-29T05:32:27+00:00"
-    },
-    {
       "title": "Britain tried war bonds before \u2014 and savers paid the price",
       "summary": "Proposals for the U.K. to finance extra spending on defense by issuing \"war bonds\" may bring back some unhappy memories.",
       "url": "https://www.cnbc.com/2026/07/29/britains-ww1-war-bonds-a-warning-for-todays-investors.html",
@@ -872,15 +935,6 @@
       "published": "2026-07-29T02:50:51+00:00"
     },
     {
-      "title": "Coinbase wants to be Canada\u2019s \u2018everything exchange,\u2019 but says clearer rules are needed first",
-      "summary": "",
-      "url": "https://www.coindesk.com/policy/2026/07/28/coinbase-wants-to-be-canada-s-everything-exchange-but-says-clearer-rules-are-needed-first",
-      "source": "CoinDesk",
-      "category": "crypto",
-      "impact": "low",
-      "published": "2026-07-28T23:50:38+00:00"
-    },
-    {
       "title": "Markets Don\u2019t Buy the US Ceasefire Against Iran Will Last",
       "summary": "The odds that a ceasefire lasts at least 14 consecutive days dropped by 10% today on Polymarket, and traders on Myriad believe peace talks won't happen until next month.",
       "url": "https://decrypt.co/374611/us-iran-ceasefire-prediction-market-odds",
@@ -915,15 +969,6 @@
       "category": "crypto",
       "impact": "medium",
       "published": "2026-07-28T20:45:38+00:00"
-    },
-    {
-      "title": "'Anything remotely dovish' from Fed could be good for bitcoin, says analyst",
-      "summary": "",
-      "url": "https://www.coindesk.com/markets/2026/07/28/remotely-dovish-fed-could-be-good-for-bitcoin-says-analyst",
-      "source": "CoinDesk",
-      "category": "crypto",
-      "impact": "high",
-      "published": "2026-07-28T20:23:31+00:00"
     },
     {
       "title": "Ionic Digital jumps 25% in Nasdaq debut after expanding Celsius bitcoin mining assets into AI infrastructure",
@@ -1043,15 +1088,6 @@
       "published": "2026-07-28T16:54:11+00:00"
     },
     {
-      "title": "Why the Bitcoin Rally Seems More Like a Bull Trap",
-      "summary": "The Bitcoin bounce looked promising. The charts now say it wasn't.",
-      "url": "https://decrypt.co/374539/bitcoin-price-rally-bull-trap",
-      "source": "Decrypt",
-      "category": "crypto",
-      "impact": "medium",
-      "published": "2026-07-28T16:22:18+00:00"
-    },
-    {
       "title": "The future of Wall Street is here as startups and brokers build AI agents to trade 24/7",
       "summary": "Brokerages, startups and even retail investors are building AI agents that can help oversee portfolios and automate investing tasks once handled by humans.",
       "url": "https://www.cnbc.com/2026/07/28/ai-agents-build-to-trade-24/7-the-future-of-wall-street.html",
@@ -1077,33 +1113,6 @@
       "category": "equities",
       "impact": "low",
       "published": "2026-07-28T15:35:48+00:00"
-    },
-    {
-      "title": "Galaxy Digital buys 500 acres in McGregor for second Texas AI data center campus",
-      "summary": "The \u201cprivately funded\" Texas campus is expected to generate a minimum of $130 million for McGregor's local tax base, Galaxy said.",
-      "url": "https://www.theblock.co/post/409911/galaxy-digital-buys-500-acres-in-mcgregor-for-second-texas-ai-data-center-campus?utm_source=rss&utm_medium=rss",
-      "source": "The Block",
-      "category": "crypto",
-      "impact": "low",
-      "published": "2026-07-28T15:31:00+00:00"
-    },
-    {
-      "title": "Nansen CEO bets on AI agents to overtake human traders within 2 years",
-      "summary": "Nansen CEO Alex Svanevik says AI agents will overtake human traders in two years as the platform pivots from analytics to agentic trading.",
-      "url": "https://www.theblock.co/post/409914/nansen-ceo-bets-on-ai-agents-to-overtake-human-traders-within-two-years?utm_source=rss&utm_medium=rss",
-      "source": "The Block",
-      "category": "crypto",
-      "impact": "low",
-      "published": "2026-07-28T15:22:12+00:00"
-    },
-    {
-      "title": "Barry Silbert-backed Zcash miner Fortitude brings Nebraska facility online to cut its ZEC production costs",
-      "summary": "Fortitude expects its new 12-megawatt mining facility to cut its direct cash mining cost from about $70 to roughly $40 per ZEC.",
-      "url": "https://www.theblock.co/post/409899/barry-silbert-zcash-miner-fortitude-nebraska-facility-online-cut-zec-mining-costs?utm_source=rss&utm_medium=rss",
-      "source": "The Block",
-      "category": "crypto",
-      "impact": "low",
-      "published": "2026-07-28T15:13:41+00:00"
     },
     {
       "title": "Stocks making the biggest moves premarket: Coca-Cola, Sherwin-Williams, Johnson & Johnson & more",
