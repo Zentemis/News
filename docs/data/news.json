@@ -1,29 +1,353 @@
 {
-  "generated": "2026-07-31T05:55:19.526233+00:00",
-  "count": 155,
+  "generated": "2026-07-31T08:32:46.981108+00:00",
+  "count": 157,
   "sources": [
-    "Decrypt",
+    "CoinDesk",
+    "CNBC Finance",
+    "MarketWatch Top",
+    "CNBC World",
+    "CNBC Economy",
+    "Investing.com Commodities",
+    "The Block",
+    "MarketWatch Economy",
     "Cointelegraph",
     "Yahoo Finance",
-    "Investing.com Commodities",
     "Seeking Alpha",
-    "CNBC World",
-    "The Block",
-    "MarketWatch Top",
-    "MarketWatch Economy",
-    "CNBC Economy",
-    "CoinDesk",
-    "CNBC Finance"
+    "Decrypt"
   ],
   "articles": [
     {
-      "title": "BoJ holds policy rate at 1.0% peak, tweaks economic growth and price outlook",
+      "title": "Bitcoin\u2019s calm is back and so is the setup for a volatility explosion",
       "summary": "",
-      "url": "https://seekingalpha.com/news/4622413-boj-holds-policy-rate-at-10-peak-tweaks-economic-growth-and-price-outlook?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+      "url": "https://www.coindesk.com/markets/2026/07/31/bitcoin-s-calm-is-back-and-so-is-the-setup-for-a-volatility-explosion",
+      "source": "CoinDesk",
+      "category": "crypto",
+      "impact": "medium",
+      "published": "2026-07-31T08:30:31+00:00"
+    },
+    {
+      "title": "RWA perpetual futures volume nears Bitcoin on Hyperliquid, Binance",
+      "summary": "RWA perpetual futures reached 99.2% of Bitcoin perpetual volume on Hyperliquid and Binance as tokenized equities led trading.",
+      "url": "https://cointelegraph.com/markets/rwa-perpetual-futures-bitcoin-hyperliquid-binance?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "category": "crypto",
+      "impact": "medium",
+      "published": "2026-07-31T08:29:51+00:00"
+    },
+    {
+      "title": "Apple drops 7%, Amazon surges 12% as investors pick AI winners after earnings",
+      "summary": "Shares of Amazon jumped sharply in premarket trading on Friday while Apple dropped as investors digest earnings.",
+      "url": "https://www.cnbc.com/2026/07/31/apple-aapl-amazon-amzn-stock-today.html",
+      "source": "CNBC World",
+      "category": "equities",
+      "impact": "low",
+      "published": "2026-07-31T08:25:49+00:00"
+    },
+    {
+      "title": "Dow Jones Futures: Apple, Amazon Diverge Late; What To Do After AI Stocks Surge",
+      "summary": "The stock market jumped Thursday as Microsoft powered a big AI rebound. Apple and Amazon led earnings late.",
+      "url": "https://finance.yahoo.com/m/410b5188-fada-3c74-b2e7-6fb6f4fcea6e/dow-jones-futures%3A-apple%2C.html?.tsrc=rss",
+      "source": "Yahoo Finance",
+      "category": "macro",
+      "impact": "low",
+      "published": "2026-07-31T08:16:45+00:00"
+    },
+    {
+      "title": "Oil prices ease as recovering Hormuz Strait traffic tempers war premium",
+      "summary": "Commonwealth Bank of Australia said in a note on Friday that stronger oil flows through the Strait of Hormuz had eased market concerns after U.S.-Iran strikes earlier this week.",
+      "url": "https://www.cnbc.com/2026/07/31/oil-prices-today-brent-wti-hormuz-trump-iran-.html",
+      "source": "CNBC World",
+      "category": "commodities",
+      "impact": "medium",
+      "published": "2026-07-31T08:12:35+00:00"
+    },
+    {
+      "title": "Stock market today: Nasdaq, Dow, S&P 500, Nasdaq set for more gains as Big Tech's AI spending shows no sign of letting up",
+      "summary": "Stocks were on track to end the week on an upbeat note after Big Tech earnings revived optimism in the artificial intelligence trade.",
+      "url": "https://finance.yahoo.com/markets/live/stock-market-today-friday-july-31-dow-sp-500-nasdaq-081227738.html?.tsrc=rss",
+      "source": "Yahoo Finance",
+      "category": "macro",
+      "impact": "low",
+      "published": "2026-07-31T08:12:27+00:00"
+    },
+    {
+      "title": "US Stock Market Today: S&P 500 Futures Inch Higher As Inflation Data Looms",
+      "summary": "The Morning Bull - US Market Morning Update Friday, Jul, 31 2026 US stock futures are pointing higher this morning, with E-mini S&amp;P 500 contracts up about 0.3% and Nasdaq-100 futures ahead roughly 0.5%. The focus is on the June US PCE price index, which is expected to dip 0.1% month on month,...",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/us-stock-market-today-p-080901259.html?.tsrc=rss",
+      "source": "Yahoo Finance",
+      "category": "macro",
+      "impact": "medium",
+      "published": "2026-07-31T08:09:01+00:00"
+    },
+    {
+      "title": "German unemployment rises slightly more than expected in July",
+      "summary": "",
+      "url": "https://www.investing.com/news/economy-news/german-unemployment-rises-slightly-more-than-expected-in-july-4826939",
+      "source": "Investing.com Commodities",
+      "category": "commodities",
+      "impact": "low",
+      "published": "2026-07-31T08:08:19+00:00"
+    },
+    {
+      "title": "Rare Japan-Korea joint intervention shakes up yen and won",
+      "summary": "",
+      "url": "https://www.investing.com/news/economy-news/rare-japankorea-joint-intervention-shakes-up-yen-and-won-4826726",
+      "source": "Investing.com Commodities",
+      "category": "commodities",
+      "impact": "low",
+      "published": "2026-07-31T08:06:40+00:00"
+    },
+    {
+      "title": "Germany Q2 GDP rises 0.9% Y/Y, beating estimates",
+      "summary": "",
+      "url": "https://seekingalpha.com/news/4622448-germany-q2-gdp-rises-09-yy-beating-estimates?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
       "source": "Seeking Alpha",
       "category": "equities",
       "impact": "low",
-      "published": "2026-07-31T05:45:06+00:00"
+      "published": "2026-07-31T08:03:20+00:00"
+    },
+    {
+      "title": "Holcim AG GAAP EPS of CHF 1.69, revenue of CHF 7.92B; upgrades FY 2026 outlook",
+      "summary": "",
+      "url": "https://seekingalpha.com/news/4622451-holcim-ag-gaap-eps-of-chf-169-revenue-of-chf-792b-upgrades-fy-2026-outlook?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+      "source": "Seeking Alpha",
+      "category": "equities",
+      "impact": "low",
+      "published": "2026-07-31T08:00:59+00:00"
+    },
+    {
+      "title": "Umicore Non-GAAP EPS of \u20ac1.14, revenue of \u20ac13.92B; upgrades FY 2026 outlook",
+      "summary": "",
+      "url": "https://seekingalpha.com/news/4622449-umicore-non-gaap-eps-of-114-revenue-of-1392b-upgrades-fy-2026-outlook?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+      "source": "Seeking Alpha",
+      "category": "equities",
+      "impact": "low",
+      "published": "2026-07-31T07:57:55+00:00"
+    },
+    {
+      "title": "Castle Biosciences raises 2026 revenue guidance to $365M-$375M as TissueCypher volume trends toward 50%-52% growth",
+      "summary": "",
+      "url": "https://seekingalpha.com/news/4622447-castle-biosciences-raises-2026-revenue-guidance-to-365m-375m-as-tissuecypher-volume-trends?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+      "source": "Seeking Alpha",
+      "category": "equities",
+      "impact": "medium",
+      "published": "2026-07-31T07:54:47+00:00"
+    },
+    {
+      "title": "Murata Manufacturing GAAP EPS of \u00a544.70, revenue of \u00a5502.26B; updates FY 2027 outlook",
+      "summary": "",
+      "url": "https://seekingalpha.com/news/4622446-murata-manufacturing-gaap-eps-of-4470-revenue-of-50226b-updates-fy-2027-outlook?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+      "source": "Seeking Alpha",
+      "category": "equities",
+      "impact": "low",
+      "published": "2026-07-31T07:54:16+00:00"
+    },
+    {
+      "title": "Siemens Healthineers Non-GAAP EPS of \u20ac0.70, revenue of \u20ac5.76B; updates FY 2026 outlook",
+      "summary": "",
+      "url": "https://seekingalpha.com/news/4622445-siemens-healthineers-non-gaap-eps-of-070-revenue-of-576b-updates-fy-2026-outlook?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+      "source": "Seeking Alpha",
+      "category": "equities",
+      "impact": "low",
+      "published": "2026-07-31T07:51:34+00:00"
+    },
+    {
+      "title": "BOJ Governor Ueda\u2019s comments at news conference",
+      "summary": "",
+      "url": "https://www.investing.com/news/economy-news/boj-governor-uedas-comments-at-news-conference-4826822",
+      "source": "Investing.com Commodities",
+      "category": "commodities",
+      "impact": "low",
+      "published": "2026-07-31T07:49:36+00:00"
+    },
+    {
+      "title": "Sumitomo GAAP EPS of \u00a539.92, revenue of \u00a51949.36B; reaffirms FY 2027 outlook",
+      "summary": "",
+      "url": "https://seekingalpha.com/news/4622444-sumitomo-gaap-eps-of-3992-revenue-of-194936b-reaffirms-fy-2027-outlook?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+      "source": "Seeking Alpha",
+      "category": "equities",
+      "impact": "low",
+      "published": "2026-07-31T07:49:05+00:00"
+    },
+    {
+      "title": "Explainer-What is AI model distillation and why is it becoming a US-China flashpoint?",
+      "summary": "",
+      "url": "https://www.investing.com/news/economy-news/explainerwhat-is-ai-model-distillation-and-why-is-it-becoming-a-uschina-flashpoint-4826784",
+      "source": "Investing.com Commodities",
+      "category": "commodities",
+      "impact": "low",
+      "published": "2026-07-31T07:48:34+00:00"
+    },
+    {
+      "title": "Chipmakers Samsung and SK Hynix soar nearly 30% as Amazon sparks relief rally",
+      "summary": "Samsung Electronics (KRX:005930, LSE:BC94) and SK Hynix surged by almost 30% on Friday as strong results from Amazon and Microsoft were the catalyst for investors to rush back into semiconductor shares. Samsung jumped 28% to \u20a9265,000, while memory-chip rival SK Hynix climbed 30% to \u20a91.7...",
+      "url": "https://www.proactiveinvestors.com/companies/news/1096349/chipmakers-samsung-and-sk-hynix-soar-nearly-30-as-amazon-sparks-relief-rally-1096349.html?.tsrc=rss",
+      "source": "Yahoo Finance",
+      "category": "macro",
+      "impact": "low",
+      "published": "2026-07-31T07:47:00+00:00"
+    },
+    {
+      "title": "Live updates: Bitcoin steady as Japan holds rates at 1%, keeping the yen carry trade alive",
+      "summary": "",
+      "url": "https://www.coindesk.com/markets/2026/07/31/live-updates-bitcoin-steady-as-japan-holds-rates-at-1-keeping-the-yen-carry-trade-alive",
+      "source": "CoinDesk",
+      "category": "crypto",
+      "impact": "medium",
+      "published": "2026-07-31T07:46:10+00:00"
+    },
+    {
+      "title": "Futures higher after chip rally; Apple, Amazon report - what\u2019s moving markets",
+      "summary": "",
+      "url": "https://www.investing.com/news/economy-news/futures-higher-after-chip-rally-apple-amazon-report--whats-moving-markets-4826899",
+      "source": "Investing.com Commodities",
+      "category": "commodities",
+      "impact": "low",
+      "published": "2026-07-31T07:44:27+00:00"
+    },
+    {
+      "title": "SK Hynix, Samsung shares skyrocket to clock best days as AI rally roars back",
+      "summary": "South Korea's chip heavyweights SK Hynix and Samsung Electronics soared more than 20% on Friday, tracking a sharp rally in U.S. technology stocks.",
+      "url": "https://www.cnbc.com/2026/07/31/sk-hynix-samsung-ai-rally-chipmakers.html",
+      "source": "CNBC World",
+      "category": "equities",
+      "impact": "low",
+      "published": "2026-07-31T07:41:35+00:00"
+    },
+    {
+      "title": "New York sues Kalshi over illegal gambling claims, seeks $36 billion in damages",
+      "summary": "New York State is seeking at least $36 billion in compensatory damages from Kalshi, pending a full accounting.",
+      "url": "https://www.theblock.co/post/410247/new-york-sues-kalshi?utm_source=rss&utm_medium=rss",
+      "source": "The Block",
+      "category": "crypto",
+      "impact": "low",
+      "published": "2026-07-31T07:34:48+00:00"
+    },
+    {
+      "title": "A portfolio manager says investors are looking overseas as Magnificent Seven worries grow. Here are the stocks and sectors he favors",
+      "summary": "Janus Henderson\u2019s Julian McManus says investors are looking overseas as Magnificent Seven concentration worries revive diversification.",
+      "url": "https://www.cnbc.com/2026/07/31/janus-henderson-overseas-stocks.html",
+      "source": "CNBC World",
+      "category": "equities",
+      "impact": "low",
+      "published": "2026-07-31T07:16:47+00:00"
+    },
+    {
+      "title": "Deadly storms and a global supply squeeze are sending copper prices soaring",
+      "summary": "Deadly storms in Chile have disrupted mining operations, further straining supply and potentially driving prices higher, strategists say.",
+      "url": "https://www.cnbc.com/2026/07/31/copper-prices-chile-storms-mines-ai.html",
+      "source": "CNBC World",
+      "category": "crypto",
+      "impact": "low",
+      "published": "2026-07-31T07:13:23+00:00"
+    },
+    {
+      "title": "Most Australian teens still on social media three months after under-16 ban began, study finds",
+      "summary": "",
+      "url": "https://www.investing.com/news/economy-news/most-australian-teens-still-on-social-media-three-months-after-under16-ban-began-study-finds-4826720",
+      "source": "Investing.com Commodities",
+      "category": "commodities",
+      "impact": "low",
+      "published": "2026-07-31T07:12:55+00:00"
+    },
+    {
+      "title": "The Nasdaq Just Entered Its Second Correction of 2026. Here's What Investors Need to Know.",
+      "summary": "The semiconductor and memory stock crash is taking a sledgehammer to the Nasdaq Composite.",
+      "url": "https://www.fool.com/investing/2026/07/31/the-nasdaq-just-entered-second-correction-of-2026/?.tsrc=rss",
+      "source": "Yahoo Finance",
+      "category": "macro",
+      "impact": "medium",
+      "published": "2026-07-31T07:05:00+00:00"
+    },
+    {
+      "title": "BOJ keeps rates steady, delivers hawkish signal as government props up yen",
+      "summary": "",
+      "url": "https://www.investing.com/news/economy-news/boj-to-keep-rates-steady-deliver-hawkish-signal-as-price-pressures-mount-4826275",
+      "source": "Investing.com Commodities",
+      "category": "commodities",
+      "impact": "low",
+      "published": "2026-07-31T07:00:44+00:00"
+    },
+    {
+      "title": "CNBC Daily Open: Iran-U.S. tensions, China's factory data and a steady Bank of Japan",
+      "summary": "U.S. President\u00a0Donald Trump\u00a0called on Congress to\u00a0add tariffs on Iran to a\u00a0sanctions bill\u00a0against Russia and Tehran that has bipartisan support. However duties would have little effect, as the U.S. imports nearly nothing from Iran.",
+      "url": "https://www.cnbc.com/2026/07/31/-cnbc-daily-open-iran-us-tensions-chinas-factory-data-and-a-steady-bank-of-japan.html",
+      "source": "CNBC World",
+      "category": "geopolitical",
+      "impact": "high",
+      "published": "2026-07-31T06:56:36+00:00"
+    },
+    {
+      "title": "French preliminary inflation at 2.1% in July, in line with estimates",
+      "summary": "",
+      "url": "https://www.investing.com/news/economy-news/french-preliminary-inflation-at-21-in-july-in-line-with-estimates-4826829",
+      "source": "Investing.com Commodities",
+      "category": "commodities",
+      "impact": "medium",
+      "published": "2026-07-31T06:54:28+00:00"
+    },
+    {
+      "title": "Bitcoin ETFs post $233M inflows, pushing week back into the green",
+      "summary": "BlackRock\u2019s IBIT led $233.1 million in daily inflows as US spot Bitcoin ETFs turned positive for the week and July stayed on track to end in the green.",
+      "url": "https://cointelegraph.com/markets/bitcoin-etfs-inflows-week-back-green?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "category": "crypto",
+      "impact": "medium",
+      "published": "2026-07-31T06:46:23+00:00"
+    },
+    {
+      "title": "Iran targets strategic U.S. assets in Kuwait, Bahrain after Egypt drone attack",
+      "summary": "Iran's army said it launched attacks on strategic U.S. assets and military bases in Kuwait and Bahrain.",
+      "url": "https://www.cnbc.com/2026/07/31/us-iran-war-trump-hormuz.html",
+      "source": "CNBC World",
+      "category": "geopolitical",
+      "impact": "low",
+      "published": "2026-07-31T06:44:06+00:00"
+    },
+    {
+      "title": "Fast-fashion retailer Shein\u2019s 3-year IPO odyssey may have cost it the \u2018golden time\u2019 to go public",
+      "summary": "Investors are questioning whether Beijing's blessing can carry a $40-billion-plus valuation for a clothing retailer whose growth engine is stalling.",
+      "url": "https://www.cnbc.com/2026/07/31/shein-ipo-hong-kong-ftc-investigation-tariffs-fast-fashion-.html",
+      "source": "CNBC World",
+      "category": "equities",
+      "impact": "medium",
+      "published": "2026-07-31T06:33:30+00:00"
+    },
+    {
+      "title": "CXMT's blockbuster debut in Shanghai sets stage for next test against global memory giants",
+      "summary": "The company faces a challenge as it does not have access to the latest extreme ultraviolet, or EUV, lithography machines, essential for manufacturing advanced chips.",
+      "url": "https://www.cnbc.com/2026/07/31/cxmts-sk-hynix-samsung-micron-memory-chip.html",
+      "source": "CNBC World",
+      "category": "macro",
+      "impact": "low",
+      "published": "2026-07-31T06:20:14+00:00"
+    },
+    {
+      "title": "The Stock Market Just Did Something for the 2nd Time in 100 Years, and History Says What Comes Next",
+      "summary": "The CAPE ratio just hit a level we've only seen once before -- right before the dot-com crash. Here's why this time might (or might not) be different, and what it means for your portfolio.",
+      "url": "https://www.fool.com/investing/2026/07/31/cape-ratio-40-dot-com-bubble-ai-stocks/?.tsrc=rss",
+      "source": "Yahoo Finance",
+      "category": "macro",
+      "impact": "medium",
+      "published": "2026-07-31T06:20:00+00:00"
+    },
+    {
+      "title": "Yen remains under pressure after BOJ keeps rates unchanged",
+      "summary": "",
+      "url": "https://www.investing.com/news/economy-news/yen-weakens-after-interventionled-surge-ahead-of-boj-policy-decision-4826616",
+      "source": "Investing.com Commodities",
+      "category": "commodities",
+      "impact": "low",
+      "published": "2026-07-31T06:18:35+00:00"
+    },
+    {
+      "title": "Stocks surge, yen awaits BOJ presser after intervention boost",
+      "summary": "",
+      "url": "https://www.investing.com/news/economy-news/asia-stocks-surge-yen-in-the-spotlight-after-suspected-intervention-4826666",
+      "source": "Investing.com Commodities",
+      "category": "commodities",
+      "impact": "low",
+      "published": "2026-07-31T05:54:44+00:00"
     },
     {
       "title": "Bitcoin flat near $64,000 as Kospi's record 17% surge leaves crypto untouched",
@@ -35,49 +359,13 @@
       "published": "2026-07-31T05:43:39+00:00"
     },
     {
-      "title": "Myriad outlines $770M-$790M 2026 revenue and 66%-67% gross margin ranges while suspending adjusted EBITDA guidance",
-      "summary": "",
-      "url": "https://seekingalpha.com/news/4622422-myriad-outlines-770m-790m-2026-revenue-and-66-percentminus-67-percent-gross-margin-ranges?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
-      "source": "Seeking Alpha",
-      "category": "equities",
-      "impact": "low",
-      "published": "2026-07-31T05:34:03+00:00"
-    },
-    {
-      "title": "Apnimed prices upsized IPO at $16 per share, raising $192M",
-      "summary": "",
-      "url": "https://seekingalpha.com/news/4622404-apnimed-prices-upsized-ipo-at-16-per-share-raising-192m?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
-      "source": "Seeking Alpha",
-      "category": "equities",
+      "title": "Why Is The Crypto Market Down Today?",
+      "summary": "The crypto market slipped to $2.18 trillion as cash rotated into a rebounding S&amp;P 500 and Strategy signaled more Bitcoin selling ahead.",
+      "url": "https://beincrypto.com/why-is-the-crypto-market-down-today/?.tsrc=rss",
+      "source": "Yahoo Finance",
+      "category": "macro",
       "impact": "medium",
-      "published": "2026-07-31T05:33:18+00:00"
-    },
-    {
-      "title": "Japan\u2019s June Snapshot: Factory output beats expectations, retail growth softens, Tokyo inflation picks up to 1.9%",
-      "summary": "",
-      "url": "https://seekingalpha.com/news/4622415-japans-june-snapshot-factory-output-beats-expectations-retail-growth-softens-tokyo-inflation-picks-up-to-19?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
-      "source": "Seeking Alpha",
-      "category": "equities",
-      "impact": "medium",
-      "published": "2026-07-31T05:29:47+00:00"
-    },
-    {
-      "title": "Microsoft\u2019s new Xbox head aims to outpace competitors on profitability by mid-2030",
-      "summary": "",
-      "url": "https://seekingalpha.com/news/4622416-microsofts-new-xbox-head-aims-to-outpace-competitors-on-profitability-by-mid-2030?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
-      "source": "Seeking Alpha",
-      "category": "equities",
-      "impact": "low",
-      "published": "2026-07-31T05:23:09+00:00"
-    },
-    {
-      "title": "CACI lands $500M drone defense award",
-      "summary": "",
-      "url": "https://seekingalpha.com/news/4622403-caci-lands-500m-drone-defense-award?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
-      "source": "Seeking Alpha",
-      "category": "equities",
-      "impact": "medium",
-      "published": "2026-07-31T05:19:31+00:00"
+      "published": "2026-07-31T05:37:53+00:00"
     },
     {
       "title": "Major bitcoin wallet flaw drains 594 BTC in 25-minute sweep",
@@ -89,15 +377,6 @@
       "published": "2026-07-31T05:12:55+00:00"
     },
     {
-      "title": "Sony GAAP EPS of \u00a557.82, revenue of \u00a52837.77B beats by \u00a5120.26B; updates FY2027 outlook",
-      "summary": "",
-      "url": "https://seekingalpha.com/news/4622421-sony-gaap-eps-of-5782-revenue-of-283777b-beats-by-12026b-updates-fy2027-outlook?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
-      "source": "Seeking Alpha",
-      "category": "equities",
-      "impact": "low",
-      "published": "2026-07-31T05:12:50+00:00"
-    },
-    {
       "title": "Vanguard VONG vs. iShares IWO: Is Large-Cap or Small-Cap Growth the Better Buy for Investors?",
       "summary": "VONG targets large-cap tech leaders, while IWO offers well-diversified exposure to small-cap stocks. Which fits your portfolio?",
       "url": "https://www.fool.com/coverage/etfs/2026/07/31/vanguard-vong-vs-ishares-iwo-is-large-cap-or-small-cap-growth-the-better-buy-for-investors/?.tsrc=rss",
@@ -105,24 +384,6 @@
       "category": "macro",
       "impact": "low",
       "published": "2026-07-31T04:58:20+00:00"
-    },
-    {
-      "title": "Japan\u2019s FX reserve account logs $31 billion surplus in FY2025",
-      "summary": "",
-      "url": "https://www.investing.com/news/economy-news/japans-fx-reserve-account-logs-31-billion-surplus-in-fy2025-4826686",
-      "source": "Investing.com Commodities",
-      "category": "commodities",
-      "impact": "low",
-      "published": "2026-07-31T04:55:32+00:00"
-    },
-    {
-      "title": "Morning Bid: Yen sinks as BOJ holds - and it\u2019s the KOSPI\u2019s best day",
-      "summary": "",
-      "url": "https://www.investing.com/news/economy-news/morning-bid-yen-sinks-as-boj-holds--and-its-the-kospis-best-day-4826736",
-      "source": "Investing.com Commodities",
-      "category": "commodities",
-      "impact": "low",
-      "published": "2026-07-31T04:48:31+00:00"
     },
     {
       "title": "Crypto\u2019s next altseason may have fewer winners: Wintermute",
@@ -134,69 +395,6 @@
       "published": "2026-07-31T04:46:14+00:00"
     },
     {
-      "title": "Rare Japan-Korea joint intervention shakes up yen and won",
-      "summary": "",
-      "url": "https://www.investing.com/news/economy-news/rare-japankorea-joint-intervention-shakes-up-yen-and-won-4826726",
-      "source": "Investing.com Commodities",
-      "category": "commodities",
-      "impact": "low",
-      "published": "2026-07-31T04:36:49+00:00"
-    },
-    {
-      "title": "CXMT's blockbuster debut in Shanghai sets stage for next test against global memory giants",
-      "summary": "The company faces a challenge as it does not have access to the latest extreme ultraviolet, or EUV, lithography machines, essential for manufacturing advanced chips.",
-      "url": "https://www.cnbc.com/2026/07/31/cxmts-sk-hynix-samsung-micron-memory-chip.html",
-      "source": "CNBC World",
-      "category": "macro",
-      "impact": "low",
-      "published": "2026-07-31T04:31:37+00:00"
-    },
-    {
-      "title": "BOJ keeps rates steady, delivers hawkish signal as government props up yen",
-      "summary": "",
-      "url": "https://www.investing.com/news/economy-news/boj-to-keep-rates-steady-deliver-hawkish-signal-as-price-pressures-mount-4826275",
-      "source": "Investing.com Commodities",
-      "category": "commodities",
-      "impact": "low",
-      "published": "2026-07-31T04:31:03+00:00"
-    },
-    {
-      "title": "BOJ keeps rates steady, signals further rate hikes",
-      "summary": "",
-      "url": "https://www.investing.com/news/economy-news/boj-keeps-rates-steady-signals-further-rate-hikes-4826717",
-      "source": "Investing.com Commodities",
-      "category": "commodities",
-      "impact": "medium",
-      "published": "2026-07-31T04:30:45+00:00"
-    },
-    {
-      "title": "Oil prices ease as recovering Hormuz Strait traffic tempers war premium",
-      "summary": "Commonwealth Bank of Australia said in a note on Friday that stronger oil flows through the Strait of Hormuz had eased market concerns after U.S.-Iran strikes earlier this week.",
-      "url": "https://www.cnbc.com/2026/07/31/oil-prices-today-brent-wti-hormuz-trump-iran-.html",
-      "source": "CNBC World",
-      "category": "commodities",
-      "impact": "medium",
-      "published": "2026-07-31T04:25:53+00:00"
-    },
-    {
-      "title": "BOJ holds rates at 1%, warns of core inflation exceeding 2% target",
-      "summary": "The decision comes as speculation continues to swirl around whether the Bank of Japan will hike rates at a faster pace.",
-      "url": "https://www.cnbc.com/2026/07/31/boj-rates-yen-intervention-inflation-japan.html",
-      "source": "CNBC World",
-      "category": "macro",
-      "impact": "high",
-      "published": "2026-07-31T04:19:06+00:00"
-    },
-    {
-      "title": "Asia stocks surge, yen awaits Ueda\u2019s presser after intervention boost",
-      "summary": "",
-      "url": "https://www.investing.com/news/economy-news/asia-stocks-surge-yen-in-the-spotlight-after-suspected-intervention-4826666",
-      "source": "Investing.com Commodities",
-      "category": "commodities",
-      "impact": "low",
-      "published": "2026-07-31T04:06:29+00:00"
-    },
-    {
       "title": "China's factory activity unexpectedly contracts in July on demand slump, typhoons",
       "summary": "China's factory activity unexpectedly contracted in July, as the export rush that powered a second-quarter rebound began to unwind.",
       "url": "https://www.cnbc.com/2026/07/31/china-pmi-factory-activity-economic-growth-exports-.html",
@@ -206,15 +404,6 @@
       "published": "2026-07-31T03:49:55+00:00"
     },
     {
-      "title": "Yen remains under pressure after BOJ kept rates unchanged",
-      "summary": "",
-      "url": "https://www.investing.com/news/economy-news/yen-weakens-after-interventionled-surge-ahead-of-boj-policy-decision-4826616",
-      "source": "Investing.com Commodities",
-      "category": "commodities",
-      "impact": "low",
-      "published": "2026-07-31T03:49:04+00:00"
-    },
-    {
       "title": "South Korea's 'bipolar' stock market: meltdowns, a record rally and what's to come",
       "summary": "South Korea's stock market staged its sharpest reversal on record on Friday, capping a month of wild swings.",
       "url": "https://www.cnbc.com/2026/07/31/south-korea-kospi-samsung-sk-hynix-meltdown-record-rebound.html",
@@ -222,42 +411,6 @@
       "category": "equities",
       "impact": "medium",
       "published": "2026-07-31T03:47:31+00:00"
-    },
-    {
-      "title": "BOJ leaves rates unchanged as expected, trims inflation forecast",
-      "summary": "",
-      "url": "https://www.investing.com/news/economy-news/bank-of-japan-leaves-rates-unchanged-as-expected-trims-inflation-forecast-4826721",
-      "source": "Investing.com Commodities",
-      "category": "commodities",
-      "impact": "medium",
-      "published": "2026-07-31T03:44:18+00:00"
-    },
-    {
-      "title": "Most Australian teens still on social media three months after under-16 ban began, study finds",
-      "summary": "",
-      "url": "https://www.investing.com/news/economy-news/most-australian-teens-still-on-social-media-three-months-after-under16-ban-began-study-finds-4826720",
-      "source": "Investing.com Commodities",
-      "category": "commodities",
-      "impact": "low",
-      "published": "2026-07-31T03:37:16+00:00"
-    },
-    {
-      "title": "Investors react to BOJ\u2019s decision to hold rates",
-      "summary": "",
-      "url": "https://www.investing.com/news/economy-news/investors-react-to-bojs-decision-to-hold-rates-4826718",
-      "source": "Investing.com Commodities",
-      "category": "commodities",
-      "impact": "low",
-      "published": "2026-07-31T03:36:57+00:00"
-    },
-    {
-      "title": "Dow Jones Futures: Apple, Amazon Diverge Late; What To Do After AI Stocks Surge",
-      "summary": "The stock market jumped Thursday as Microsoft powered a big AI rebound. Apple and Amazon led earnings late.",
-      "url": "https://finance.yahoo.com/m/410b5188-fada-3c74-b2e7-6fb6f4fcea6e/dow-jones-futures%3A-apple%2C.html?.tsrc=rss",
-      "source": "Yahoo Finance",
-      "category": "macro",
-      "impact": "low",
-      "published": "2026-07-31T03:04:56+00:00"
     },
     {
       "title": "\u2018Funds may be at risk\u2019: Coinkite issues warning for Coldcard Mk3 users amid 594 BTC theft reports",
@@ -341,24 +494,6 @@
       "published": "2026-07-31T01:11:49+00:00"
     },
     {
-      "title": "CNBC Daily Open: Potential Iran tariffs, data centers and tech comments",
-      "summary": "U.S. President\u00a0Donald Trump wants Congress to add tariffs on Iran to a\u00a0sanctions bill\u00a0against Russia and Tehran that has bipartisan support.",
-      "url": "https://www.cnbc.com/2026/07/31/cnbc-daily-open-potential-iran-tariffs-data-centers-and-tech-talk.html",
-      "source": "CNBC World",
-      "category": "geopolitical",
-      "impact": "high",
-      "published": "2026-07-31T01:02:01+00:00"
-    },
-    {
-      "title": "SK Hynix shares surge 25%, while Samsung soars over 20% as AI rally roars back",
-      "summary": "South Korea's chip heavyweights SK Hynix and Samsung Electronics soared more than 20% on Friday, tracking a sharp rally in U.S. technology stocks.",
-      "url": "https://www.cnbc.com/2026/07/31/sk-hynix-samsung-ai-rally-chipmakers.html",
-      "source": "CNBC World",
-      "category": "equities",
-      "impact": "low",
-      "published": "2026-07-31T00:52:26+00:00"
-    },
-    {
       "title": "RSP Nears $100 Billion as Equal Weight Finally Has Its Year",
       "summary": "The Invesco S&amp;P 500 Equal Weight ETF is closing in on a milestone it has never hit, helped by a rare stretch of the megacaps lagging the rest of the market.",
       "url": "http://www.etf.com/sections/features/rsp-nears-100-billion-equal-weight-finally-has-its-year?utm_source=yahoo-finance&utm_medium=rss&utm_campaign=yahoo-finance-rss&.tsrc=rss",
@@ -440,76 +575,13 @@
       "published": "2026-07-31T00:03:36+00:00"
     },
     {
-      "title": "Review & Preview: Microsoft\u2019s $450 Billion Cushion",
-      "summary": "Massive single-day market cap gains prove once again that a few heavyweights can carry the entire market on their back.",
-      "url": "https://finance.yahoo.com/m/c1dc67b6-9756-3152-b922-6b9e162ae5b5/review-%26-preview%3A-microsoft%E2%80%99s.html?.tsrc=rss",
-      "source": "Yahoo Finance",
-      "category": "macro",
-      "impact": "low",
-      "published": "2026-07-30T23:55:00+00:00"
-    },
-    {
-      "title": "The Quiet Repricing Of ROAD Stock",
-      "summary": "A road builder delivered record growth and a large backlog, yet its stock went nowhere. The market is quietly pricing in a problem that has not yet appeared in the numbers.",
-      "url": "https://www.trefis.com/articles/609485/the-quiet-repricing-of-road-stock-2/2026-07-30?.tsrc=rss",
-      "source": "Yahoo Finance",
-      "category": "macro",
-      "impact": "low",
-      "published": "2026-07-30T23:38:48+00:00"
-    },
-    {
-      "title": "Fast-fashion retailer Shein\u2019s 3-year IPO odyssey cost it the \u2018golden time\u2019 to go public",
-      "summary": "Investors are questioning whether Beijing's blessing can carry a $40-billion-plus valuation for a clothing retailer whose growth engine is stalling.",
-      "url": "https://www.cnbc.com/2026/07/31/shein-ipo-hong-kong-ftc-investigation-tariffs-fast-fashion-.html",
+      "title": "Amazon got $600 million in Trump tariff refunds and will pass return along to some customers",
+      "summary": "The company previously hadn't disclosed whether it would recoup tariff costs after the Supreme Court ruled many of President Donald Trump's levies were illegal.",
+      "url": "https://www.cnbc.com/2026/07/30/amazon-trump-tariff-refunds.html",
       "source": "CNBC World",
       "category": "equities",
       "impact": "medium",
-      "published": "2026-07-30T23:30:34+00:00"
-    },
-    {
-      "title": "Indonesian state telecom said to weigh sale of venture arm managing $830 million",
-      "summary": "Indonesia's state-owned telecom giant is exploring a sale of MDI Ventures, according to people familiar with the matter.",
-      "url": "https://www.cnbc.com/2026/07/31/indonesia-venture-capital-corruption-danantara-mdi-ventures-tanihub.html",
-      "source": "CNBC World",
-      "category": "macro",
-      "impact": "low",
-      "published": "2026-07-30T22:50:12+00:00"
-    },
-    {
-      "title": "Wall Street ends sharply higher, lifted by soaring Microsoft",
-      "summary": "STORY: U.S. stocks ended sharply higher on Thursday, with the Dow gaining more than one percent, the S&amp;P 500 climbing one-and-two-thirds percent and the Nasdaq rallying more than two-and-three-quarters percent.:: MicrosoftShares of Microsoft soared more than 15% to log their biggest daily per...",
-      "url": "https://finance.yahoo.com/video/wall-street-ends-sharply-higher-224515470.html?.tsrc=rss",
-      "source": "Yahoo Finance",
-      "category": "macro",
-      "impact": "low",
-      "published": "2026-07-30T22:45:15+00:00"
-    },
-    {
-      "title": "The biggest myth about the S&P 500 run just got debunked",
-      "summary": "The S&amp;P 500 has spent much of the year under scrutiny as elevated valuations and signs of overextension fueled expectations of a market correction. After the index broke through 7,000 for the first time and kept climbing to new records, those fears intensified across financial media. The ...",
-      "url": "https://www.thestreet.com/investing/sp-500-putnam-earnings-drove-rally-volatility-2026?.tsrc=rss",
-      "source": "Yahoo Finance",
-      "category": "macro",
-      "impact": "low",
-      "published": "2026-07-30T22:33:00+00:00"
-    },
-    {
-      "title": "Amazon & Apple Beat Earnings, Head Separate Ways",
-      "summary": "Despite plenty of uncertainty on some of the bigger economic issues, Q2 earnings season rolls along quite successfully to this point.",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/amazon-apple-beat-earnings-head-223100755.html?.tsrc=rss",
-      "source": "Yahoo Finance",
-      "category": "macro",
-      "impact": "low",
-      "published": "2026-07-30T22:31:00+00:00"
-    },
-    {
-      "title": "Inno Holdings Inc. Updates Trading Time for the Resumption of Trading on Nasdaq",
-      "summary": "Hong Kong, July 30, 2026 (GLOBE NEWSWIRE) -- INNO HOLDINGS INC. (Nasdaq: INHD) (\u201cINNO\u201d or the \u201cCompany\u201d), a Texas holding company, today announced that its common stock will resume trading on The Nasdaq Capital Market. As previously disclosed in a Current Report on Form 8-K filed with the U.S. Se...",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/inno-holdings-inc-updates-trading-223000903.html?.tsrc=rss",
-      "source": "Yahoo Finance",
-      "category": "macro",
-      "impact": "low",
-      "published": "2026-07-30T22:30:00+00:00"
+      "published": "2026-07-30T22:46:47+00:00"
     },
     {
       "title": "Jersey Mike\u2019s spent almost \u2018zero dollars\u2019 on digital marketing. That\u2019s now changing.",
@@ -582,15 +654,6 @@
       "category": "crypto",
       "impact": "medium",
       "published": "2026-07-30T21:36:39+00:00"
-    },
-    {
-      "title": "Amazon hikes 2026 capex to $220 billion due to higher memory costs",
-      "summary": "AWS sales expanded 37% year over year, which trounced analysts' expectations for 31% growth.",
-      "url": "https://www.cnbc.com/2026/07/30/amazon-amzn-q2-earnings-report-2026.html",
-      "source": "CNBC World",
-      "category": "equities",
-      "impact": "low",
-      "published": "2026-07-30T21:31:31+00:00"
     },
     {
       "title": "Software stocks are fading \u2014 but these 4 could shine through the rest of the year",
@@ -681,6 +744,15 @@
       "category": "crypto",
       "impact": "medium",
       "published": "2026-07-30T20:10:16+00:00"
+    },
+    {
+      "title": "UEFA threatens World Cup boycott over FIFA private equity investment plan",
+      "summary": "FIFA has faced backlash from global soccer governing bodies over the proposal to allow private investment.",
+      "url": "https://www.cnbc.com/2026/07/30/uefa-threatens-world-cup-boycott-over-fifa-investment-plan.html",
+      "source": "CNBC World",
+      "category": "equities",
+      "impact": "low",
+      "published": "2026-07-30T19:59:12+00:00"
     },
     {
       "title": "Telegram\u2019s Pavel Durov responds to Russia\u2019s terrorism designation",
@@ -845,33 +917,6 @@
       "published": "2026-07-30T16:04:16+00:00"
     },
     {
-      "title": "Ferrari CEO says he 'would not change anything' about polarizing Luce EV debut",
-      "summary": "Ferrari is pleased with the launch of the Luce all-electric vehicle despite significant criticism upon the car's spring debut, according to CEO Benedetto Vigna.",
-      "url": "https://www.cnbc.com/2026/07/30/ferrari-ceo-luce-ev-debut.html",
-      "source": "CNBC World",
-      "category": "macro",
-      "impact": "low",
-      "published": "2026-07-30T15:56:08+00:00"
-    },
-    {
-      "title": "Hyperscale Data sells 100 BTC to fund Michigan AI data center",
-      "summary": "The Bitcoin miner is using part of its treasury and a BTC-backed credit facility to fund an AI campus tied to a potential multi-billion-dollar infrastructure contract.",
-      "url": "https://cointelegraph.com/news/hyperscale-data-taps-bitcoin-treasury-btc-backed-credit-to-fund-ai-data-center?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "category": "crypto",
-      "impact": "medium",
-      "published": "2026-07-30T15:53:16+00:00"
-    },
-    {
-      "title": "Tokenized gold passes DeFi stress test, but less than 2% is used as collateral",
-      "summary": "A RedStone report found tokenized bullion held up during gold\u2019s sharp sell-off, but DeFi lending adoption remains limited despite surging market growth and trading volumes.",
-      "url": "https://cointelegraph.com/news/tokenized-gold-defi-stress-test-collateral-adoption-redstone?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "category": "crypto",
-      "impact": "low",
-      "published": "2026-07-30T15:48:37+00:00"
-    },
-    {
       "title": "Elon Musk's xAI Sues Minnesota to Kill the US's First AI Nudification Law",
       "summary": "The company argues the law's definition of \"nudification\" is so broad it would make shirtless men and swimwear photos illegal\u2014and wants a federal court to stop it before Saturday.",
       "url": "https://decrypt.co/374728/elon-musk-xai-sues-minnesota-ai-nudification-law",
@@ -1023,33 +1068,6 @@
       "category": "crypto",
       "impact": "medium",
       "published": "2026-07-30T13:10:16+00:00"
-    },
-    {
-      "title": "Everything is becoming a perp",
-      "summary": "",
-      "url": "https://www.coindesk.com/opinion/2026/07/28/everything-is-becoming-a-perp",
-      "source": "CoinDesk",
-      "category": "crypto",
-      "impact": "low",
-      "published": "2026-07-30T13:00:00+00:00"
-    },
-    {
-      "title": "Bernstein says Core Scientific\u2019s AMD partnership could generate $14B over 15 years",
-      "summary": "Bernstein values Core Scientific's AMD deal at $14B over 15 years, with AMD backstopping a neocloud lease and holding warrants for 30M CORZ shares.",
-      "url": "https://www.theblock.co/post/410140/bernstein-says-core-scientifics-amd-partnership-could-generate-14b-over-15-years?utm_source=rss&utm_medium=rss",
-      "source": "The Block",
-      "category": "crypto",
-      "impact": "medium",
-      "published": "2026-07-30T12:15:01+00:00"
-    },
-    {
-      "title": "Telegram faces terror-related legal action in Australia one day after founder is charged by Russia",
-      "summary": "",
-      "url": "https://www.coindesk.com/policy/2026/07/30/telegram-faces-terror-related-legal-action-in-australia-one-day-after-founder-is-charged-by-russia",
-      "source": "CoinDesk",
-      "category": "crypto",
-      "impact": "low",
-      "published": "2026-07-30T12:09:18+00:00"
     },
     {
       "title": "Stocks making the biggest moves premarket: Meta, Microsoft, Teladoc, Norwegian Cruise Line & more",
