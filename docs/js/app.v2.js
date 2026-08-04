@@ -9,6 +9,8 @@ import { getCachedTickers } from './data/tickers.js';
 import { createHeroCarousel } from './components/hero-carousel.js';
 import { initAllCharts } from './components/charts.js';
 import { initBoard } from './components/board.js';
+import { toast } from './components/toast.js';
+import { configurePalette, openPalette, closePalette, isPaletteOpen, initPalette } from './components/command-palette.js';
 import { escHtml, timeAgo, timeAgoShort, formatBriefingDate, sentimentClass, renderTopics, formatTime, formatTimeShort } from './data/helpers.js';
 
 // ===== STATE =====
@@ -23,6 +25,7 @@ let articlesSortOrder = 'newest';
 let viewingBriefing = null;
 let bookmarks = [];
 let activeSection = 'overview';
+let readingSavedScroll = 0;
 
 // ===== DOM REFS =====
 const $ = (sel, ctx) => (ctx || document).querySelector(sel);
@@ -193,6 +196,8 @@ function openReadingPanel(article) {
   panel.classList.add('open');
 
   const isBookmarked = bookmarks.some(b => b.title === article.title);
+  const body = buildReaderBody(article);
+  const related = buildRelatedChips(article);
 
   content.innerHTML = `
     <div class="reading-article">
@@ -205,6 +210,8 @@ function openReadingPanel(article) {
                 data-source="${escHtml(article.source || '')}">
           ${isBookmarked ? '★' : '☆'}
         </button>
+        <button class="reading-action-btn" data-action="copy" title="Copy link" aria-label="Copy link">⧉</button>
+        <button class="reading-action-btn" data-action="share" title="Share" aria-label="Share">↗</button>
       </div>
       <h2 class="reading-article-title">${escHtml(article.title)}</h2>
       <div class="reading-article-meta">
@@ -214,24 +221,139 @@ function openReadingPanel(article) {
         <span>·</span>
         <span>${Math.ceil((article.summary || article.description || '').split(' ').length / 200) || 1} min read</span>
       </div>
+      <div class="reading-progress" aria-hidden="true"><div class="reading-progress-fill" id="readingProgressFill"></div></div>
       <div class="reading-article-body">
-        ${article.summary ? `<p>${escHtml(article.summary)}</p>` : ''}
-        ${article.description ? `<p>${escHtml(article.description)}</p>` : ''}
+        ${body}
       </div>
+      ${related}
       <div class="reading-article-footer">
-        <a href="${article.url}" target="_blank" class="reading-read-original">Read original →</a>
+        <a href="${article.url}" target="_blank" rel="noopener noreferrer" class="reading-read-original">Read original →</a>
       </div>
     </div>
   `;
 
   content.querySelector('.reading-bookmark-btn')?.addEventListener('click', (e) => {
     const btn = e.currentTarget;
-    toggleBookmark({ title: btn.dataset.title, url: btn.dataset.url, source: btn.dataset.source }, btn);
+    const added = toggleBookmark({ title: btn.dataset.title, url: btn.dataset.url, source: btn.dataset.source }, btn);
+    toast(added ? 'Bookmarked' : 'Removed from bookmarks', added ? 'success' : 'info');
   });
+
+  content.querySelector('[data-action="copy"]')?.addEventListener('click', () => copyArticleLink(article));
+  content.querySelector('[data-action="share"]')?.addEventListener('click', () => shareArticle(article));
+
+  // Restore scroll position from last time this panel was open
+  content.scrollTop = readingSavedScroll;
+
+  // Wire the reading progress bar to panel scroll
+  content.addEventListener('scroll', updateReadingProgress, { passive: true });
+  updateReadingProgress();
+}
+
+/**
+ * Build the reading body with drop-cap, pull-quote, and paragraph flow.
+ */
+function buildReaderBody(article) {
+  const paragraphs = [
+    article.summary,
+    article.description,
+    article.content,
+  ].filter(Boolean);
+
+  if (paragraphs.length === 0) return '<p>No content available for this article.</p>';
+
+  // Render paragraphs; first gets a drop-cap, and if there are 3+ paragraphs
+  // we insert a pull-quote mid-way through.
+  const html = paragraphs.map((p, i) => {
+    const cls = i === 0 ? 'drop-cap' : '';
+    return `<p class="${cls}">${escHtml(p)}</p>`;
+  });
+
+  if (paragraphs.length >= 3) {
+    const quote = pickPullQuote(article, paragraphs);
+    html.splice(Math.ceil(paragraphs.length / 2), 0,
+      `<blockquote class="reading-pullquote">${escHtml(quote)}</blockquote>`);
+  }
+
+  return html.join('');
+}
+
+/**
+ * Choose a short phrase for the pull-quote (lead sentence or first topic).
+ */
+function pickPullQuote(article, paragraphs) {
+  const first = paragraphs[0] || '';
+  const sentence = first.split(/(?<=[.!?])\s+/)[0] || first;
+  if (sentence.length > 20 && sentence.length <= 160) return sentence;
+  return (article.topics && article.topics[0]) || sentence.slice(0, 160);
+}
+
+/**
+ * Find 2–3 related articles by shared category/topic and render as chips.
+ */
+function buildRelatedChips(article) {
+  const related = allArticles
+    .filter(a => a.url !== article.url)
+    .map(a => ({ a, score: relatedScore(a, article) }))
+    .filter(x => x.score > 0)
+    .sort((x, y) => y.score - x.score)
+    .slice(0, 3)
+    .map(x => x.a);
+
+  if (!related.length) return '';
+
+  return `<div class="reading-related">
+    <div class="reading-related-title">Related</div>
+    <div class="reading-related-chips">
+      ${related.map(a => `<button class="related-chip" data-url="${escHtml(a.url)}">${escHtml(a.title)}</button>`).join('')}
+    </div>
+  </div>`;
+}
+
+/** Score relatedness: category match + shared words in title. */
+function relatedScore(candidate, base) {
+  let score = 0;
+  if (candidate.category === base.category) score += 3;
+  const baseWords = new Set((base.title || '').toLowerCase().split(/\W+/).filter(w => w.length > 3));
+  for (const w of (candidate.title || '').toLowerCase().split(/\W+/)) {
+    if (w.length > 3 && baseWords.has(w)) score += 1;
+  }
+  return score;
+}
+
+/** Copy the article's direct URL to clipboard and toast. */
+async function copyArticleLink(article) {
+  try {
+    await navigator.clipboard.writeText(article.url);
+    toast('Link copied', 'success');
+  } catch {
+    toast('Copy not available', 'error');
+  }
+}
+
+/** Share via native share sheet, else copy URL. */
+async function shareArticle(article) {
+  const data = { title: article.title, url: article.url };
+  if (navigator.share) {
+    try { await navigator.share(data); return; } catch { /* cancelled */ }
+  }
+  copyArticleLink(article);
+}
+
+/** Update reading progress bar based on panel scroll position. */
+function updateReadingProgress() {
+  const content = $('#readingPanelContent');
+  const fill = $('#readingProgressFill');
+  if (!content || !fill) return;
+  const max = content.scrollHeight - content.clientHeight;
+  const pct = max > 0 ? (content.scrollTop / max) * 100 : 0;
+  fill.style.width = `${Math.min(100, Math.max(0, pct))}%`;
 }
 
 function closeReadingPanel() {
   window._readingActive = false;
+  const content = $('#readingPanelContent');
+  // Persist scroll position so it survives panel close/reopen
+  if (content) readingSavedScroll = content.scrollTop;
   $('#readingPanel').classList.remove('open');
 }
 
@@ -239,6 +361,15 @@ function initReadingPanel() {
   $('#readingPanelClose')?.addEventListener('click', closeReadingPanel);
 
   document.addEventListener('click', (e) => {
+    // Related article chips inside the reading panel
+    const chip = e.target.closest('.related-chip');
+    if (chip) {
+      const url = chip.dataset.url;
+      const article = allArticles.find(a => a.url === url);
+      if (article) openReadingPanel(article);
+      return;
+    }
+
     const card = e.target.closest('[data-url]');
     if (!card || card.closest('.sidebar') || card.closest('.filter-pill') ||
         card.closest('.reading-panel') || card.closest('.sidebar-nav')) return;
@@ -270,14 +401,18 @@ function saveBookmarks() {
 
 function toggleBookmark(article, btn) {
   const idx = bookmarks.findIndex(b => b.title === article.title);
+  let added;
   if (idx >= 0) {
     bookmarks.splice(idx, 1);
+    added = false;
     if (btn) { btn.textContent = '☆'; btn.classList.remove('bookmarked'); }
   } else {
     bookmarks.unshift(article);
+    added = true;
     if (btn) { btn.textContent = '★'; btn.classList.add('bookmarked'); }
   }
   saveBookmarks();
+  return added;
 }
 
 function renderBookmarks() {
@@ -640,6 +775,80 @@ function initArticles() {
   });
 }
 
+// ===== COMMAND PALETTE =====
+function setupCommandPalette() {
+  configurePalette({
+    articles: () => allArticles,
+    briefings: () => allBriefings,
+    tickers: () => getCachedTickersSync(),
+    navigate: (path) => navigate(path),
+    openArticle: (a) => openReadingPanel(a),
+    setDensity: (density) => {
+      applyDensity(density);
+      localStorage.setItem('meridian-density', density);
+      $$('#densityToggle .density-btn').forEach(b =>
+        b.classList.toggle('active', b.dataset.density === density));
+    },
+  });
+  initPalette();
+}
+
+// Tickers may not be cached yet; read from the live bar as fallback.
+function getCachedTickersSync() {
+  const out = {};
+  const keys = ['spx', 'ndx', 'tnx', 'dxy', 'gold', 'oil', 'btc', 'eth', 'sol'];
+  for (const k of keys) {
+    const priceEl = document.getElementById(`ticker-${k}`);
+    const chgEl = document.getElementById(`ticker-${k}-chg`);
+    if (priceEl) {
+      const match = (chgEl?.textContent || '').match(/([+-]?[\d.]+)%/);
+      const changePct = match ? parseFloat(match[1]) : 0;
+      // Approximate change from pct; used only for color/direction in palette
+      out[k] = { price: parseFloat(priceEl.textContent.replace(/[$,%]/g, '')) || 0, changePct, change: changePct };
+    }
+  }
+  return out;
+}
+
+// ===== KEYBOARD NAVIGATION =====
+function initKeyboardNav() {
+  document.addEventListener('keydown', (e) => {
+    // Cmd/Ctrl+K — open command palette
+    if ((e.metaKey || e.ctrlKey) && e.key.toLowerCase() === 'k') {
+      e.preventDefault();
+      if (isPaletteOpen()) closePalette();
+      else openPalette();
+      return;
+    }
+
+    // Esc always dismisses the palette
+    if (e.key === 'Escape' && isPaletteOpen()) {
+      closePalette();
+      return;
+    }
+
+    // Ignore shortcuts while typing in inputs/selects/textareas
+    const tag = (e.target.tagName || '').toLowerCase();
+    if (['input', 'textarea', 'select'].includes(tag) || e.target.isContentEditable) return;
+
+    // '?' toggles the palette like a help clue
+    if (e.key === '?' && !e.shiftKey) e.preventDefault();
+
+    // Number shortcuts 1..7 to jump between sections
+    const sectionByNumber = ['', 'overview', 'macro', 'equities', 'crypto', 'commodities', 'articles', 'briefings'];
+    if (e.key >= '1' && e.key <= '7') {
+      const target = sectionByNumber[Number(e.key)];
+      if (target) navigate(`#/${target}`);
+      return;
+    }
+
+    // Escape closes the reading panel
+    if (e.key === 'Escape' && window._readingActive) {
+      closeReadingPanel();
+    }
+  });
+}
+
 // ===== INIT =====
 function init() {
   setupRoutes();
@@ -655,6 +864,8 @@ function init() {
   initArticles();
   initBriefings();
   initReadingPanel();
+  setupCommandPalette();
+  initKeyboardNav();
   updateFooter();
   updateMarketPulse();
   loadNews();
