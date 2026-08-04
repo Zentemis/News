@@ -7,9 +7,21 @@
   margin-left: 270px;
   margin-top: 48px;
   min-height: calc(100vh - 48px);
-  padding: 28px 36px;
+  padding: calc(28px * var(--density-pad)) calc(36px * var(--density-pad));
   max-width: 100%;
   animation: fadeIn 0.5s var(--ease-out);
+}
+
+/* Sidebar collapsed to icon rail (44px) — frees 270px for content */
+.main-area.sidebar-collapsed {
+  margin-left: 44px;
+}
+
+/* Sidebar collapsed on mobile — ignore */
+@media (max-width: 900px) {
+  .main-area.sidebar-collapsed {
+    margin-left: 0;
+  }
 }
 
 /* Content canvas — two-column layout */
@@ -22,8 +34,13 @@
 .feed-column {
   flex: 1;
   min-width: 0;
-  max-width: 860px;
-  transition: flex 0.4s var(--ease-out);
+  transition: flex 0.4s var(--ease-out), max-width 0.4s var(--ease-out);
+  max-width: 100%;
+}
+
+/* When reading panel is open, shrink feed to make room */
+.content-canvas:has(.reading-panel.open) .feed-column {
+  max-width: 680px;
 }
 
 /* Reading panel — right slide-in */
@@ -215,10 +232,9 @@
 /* Chart mini containers */
 .chart-mini {
   background: var(--glass);
-  backdrop-filter: blur(14px) saturate(1.2);
   border: 1px solid var(--glass-border);
-  border-radius: 14px;
-  padding: 14px;
+  border-radius: var(--radius-card);
+  padding: calc(14px * var(--density-pad));
   margin-bottom: 22px;
   height: 140px;
   position: relative;
@@ -368,7 +384,7 @@
 
 .section-header h2 {
   font-family: var(--font-display);
-  font-size: 2.1rem;
+  font-size: 1.5rem;
   color: var(--text-primary);
   margin-bottom: 6px;
   background: linear-gradient(135deg, var(--text-primary) 0%, var(--text-secondary) 100%);
@@ -388,7 +404,7 @@
 .stats-row {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(155px, 1fr));
-  gap: 14px;
+  gap: calc(14px * var(--density-gap));
   margin-bottom: 32px;
 }
 

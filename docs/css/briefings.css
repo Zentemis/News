@@ -79,7 +79,7 @@
 .briefing-card[data-sentiment="neutral"]::before {
   border-color: var(--accent);
   background: var(--accent-glow);
-  box-shadow: 0 0 10px rgba(212, 170, 78, 0.2);
+  box-shadow: 0 0 10px var(--accent-glow);
 }
 
 /* Sentiment color bar (left edge of card) */
@@ -103,7 +103,7 @@
 }
 
 .briefing-card[data-sentiment="neutral"]::after {
-  background: linear-gradient(180deg, var(--accent), rgba(212, 170, 78, 0.3));
+  background: linear-gradient(180deg, var(--accent), var(--accent-dim));
 }
 
 /* Card header — title + meta row */

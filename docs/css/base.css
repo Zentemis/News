@@ -1,19 +1,21 @@
 /* ============================================================
    BASE — Design system, variables, reset, typography, effects
+   v3 Phase A: precision instrument over gold luxury
    ============================================================ */
 
-/* Ambient background with animated gradient mesh */
+/* Ambient background with animated gradient mesh — cool, neutral */
 body::before {
   content: '';
   position: fixed;
   inset: 0;
   z-index: -1;
   background:
-    radial-gradient(ellipse 120% 80% at 0% 0%, rgba(201, 168, 76, 0.06) 0%, transparent 50%),
-    radial-gradient(ellipse 80% 120% at 100% 100%, rgba(96, 165, 250, 0.04) 0%, transparent 50%),
-    radial-gradient(ellipse 60% 60% at 50% 50%, rgba(201, 168, 76, 0.02) 0%, transparent 60%),
+    radial-gradient(ellipse 120% 80% at 0% 0%, rgba(77, 163, 255, 0.05) 0%, transparent 50%),
+    radial-gradient(ellipse 80% 120% at 100% 100%, rgba(96, 165, 250, 0.03) 0%, transparent 50%),
+    radial-gradient(ellipse 60% 60% at 50% 50%, rgba(77, 163, 255, 0.02) 0%, transparent 60%),
     var(--bg-base);
   pointer-events: none;
+  transition: background 1.2s var(--ease-out);
 }
 
 /* Noise texture overlay for depth */
@@ -28,33 +30,33 @@ body::after {
 }
 
 :root {
-  /* Surface hierarchy — cinematic depth */
-  --bg-base: #06080d;
-  --bg-surface: rgba(12, 14, 22, 0.9);
-  --bg-elevated: rgba(18, 22, 34, 0.75);
-  --bg-hover: rgba(28, 33, 50, 0.85);
-  --bg-overlay: rgba(6, 8, 13, 0.95);
+  /* Surface hierarchy — flat, near-opaque, crisp */
+  --bg-base: #0a0c10;
+  --bg-surface: rgba(14, 17, 24, 0.96);
+  --bg-elevated: rgba(20, 24, 33, 0.97);
+  --bg-hover: rgba(30, 35, 48, 0.9);
+  --bg-overlay: rgba(10, 12, 16, 0.97);
 
-  /* Glass surfaces — frosted panels */
-  --glass: rgba(16, 20, 32, 0.5);
-  --glass-border: rgba(255, 255, 255, 0.05);
-  --glass-border-hover: rgba(255, 255, 255, 0.1);
-  --glass-highlight: rgba(255, 255, 255, 0.025);
+  /* Flat surfaces — minimal blur, crisp 1px borders */
+  --glass: rgba(16, 20, 30, 0.92);
+  --glass-border: rgba(255, 255, 255, 0.06);
+  --glass-border-hover: rgba(255, 255, 255, 0.12);
+  --glass-highlight: rgba(255, 255, 255, 0.02);
 
-  /* Text — warm ivory hierarchy */
-  --text-primary: #f0ece4;
-  --text-secondary: #9a9eb4;
-  --text-muted: #555972;
-  --text-inverse: #06080d;
+  /* Text — cool neutral hierarchy */
+  --text-primary: #eef1f6;
+  --text-secondary: #a4aabf;
+  --text-muted: #5a6072;
+  --text-inverse: #0a0c10;
 
-  /* Accent — warm gold with glow */
-  --accent: #d4aa4e;
-  --accent-bright: #f0c85c;
-  --accent-dim: #a8842e;
-  --accent-glow: rgba(212, 170, 78, 0.1);
-  --accent-glow-strong: rgba(212, 170, 78, 0.22);
+  /* Accent — cool electric signal blue */
+  --accent: #4da3ff;
+  --accent-bright: #7cc0ff;
+  --accent-dim: #2f7fd6;
+  --accent-glow: rgba(77, 163, 255, 0.1);
+  --accent-glow-strong: rgba(77, 163, 255, 0.2);
 
-  /* Semantic — vibrant, saturated */
+  /* Semantic — vibrant but desaturated for data legibility */
   --green: #34d399;
   --green-dim: rgba(52, 211, 153, 0.1);
   --red: #f87171;
@@ -76,29 +78,49 @@ body::after {
   --surface: #0e111a;
 
   /* Borders */
-  --border: rgba(255, 255, 255, 0.04);
-  --border-subtle: rgba(255, 255, 255, 0.02);
-  --border-accent: rgba(212, 170, 78, 0.18);
+  --border: rgba(255, 255, 255, 0.05);
+  --border-subtle: rgba(255, 255, 255, 0.025);
+  --border-accent: rgba(77, 163, 255, 0.25);
 
-  /* Typography — editorial hierarchy */
-  --font-display: 'Playfair Display', Georgia, serif;
+  /* Typography — Newsreader display, DM Sans body, JetBrains mono */
+  --font-display: 'Newsreader', Georgia, serif;
   --font-body: 'DM Sans', -apple-system, BlinkMacSystemFont, sans-serif;
   --font-mono: 'JetBrains Mono', 'Fira Code', monospace;
 
-  /* Shadows — cinematic depth layers */
-  --shadow-sm: 0 1px 3px rgba(0,0,0,0.5), 0 1px 2px rgba(0,0,0,0.3);
-  --shadow-md: 0 4px 20px rgba(0,0,0,0.5), 0 2px 8px rgba(0,0,0,0.35);
-  --shadow-lg: 0 12px 48px rgba(0,0,0,0.6), 0 4px 16px rgba(0,0,0,0.4);
-  --shadow-xl: 0 24px 72px rgba(0,0,0,0.65), 0 8px 28px rgba(0,0,0,0.45);
-  --shadow-glow: 0 0 32px rgba(212, 170, 78, 0.08);
+  /* Radius — unified scale */
+  --radius-card: 10px;
+  --radius-chip: 8px;
+
+  /* Shadows — soft ambient depth, no hard drops */
+  --shadow-sm: 0 1px 2px rgba(0,0,0,0.35);
+  --shadow-md: 0 6px 24px rgba(0,0,0,0.4);
+  --shadow-lg: 0 16px 48px rgba(0,0,0,0.45);
+  --shadow-xl: 0 28px 80px rgba(0,0,0,0.5);
+  --shadow-glow: 0 0 24px rgba(77, 163, 255, 0.06);
   --shadow-inset: inset 0 1px 0 var(--glass-highlight);
 
   /* Transitions — smooth, organic */
   --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
   --ease-spring: cubic-bezier(0.34, 1.56, 0.64, 1);
-  --transition-fast: 180ms var(--ease-out);
-  --transition-base: 320ms var(--ease-out);
-  --transition-slow: 500ms var(--ease-out);
+  --transition-fast: 160ms var(--ease-out);
+  --transition-base: 300ms var(--ease-out);
+  --transition-slow: 480ms var(--ease-out);
+
+  /* Density scale — toggled via data-density on <html> */
+  --density-pad: 1;
+  --density-gap: 1;
+}
+
+/* Density modes — Comfortable (default) / Compact / Dense */
+html[data-density='compact'] {
+  --density-pad: 0.82;
+  --density-gap: 0.8;
+  font-size: 15px;
+}
+html[data-density='dense'] {
+  --density-pad: 0.68;
+  --density-gap: 0.62;
+  font-size: 14px;
 }
 
 * {
@@ -123,21 +145,21 @@ body {
   overflow-x: hidden;
 }
 
-/* Typography scale — editorial emphasis */
+/* Typography scale — tighter, editorial emphasis */
 h1, h2, h3 {
   font-family: var(--font-display);
-  font-weight: 700;
-  line-height: 1.12;
-  letter-spacing: -0.025em;
+  font-weight: 600;
+  line-height: 1.15;
+  letter-spacing: -0.02em;
 }
 
-h1 { font-size: 2.75rem; }
-h2 { font-size: 2rem; }
-h3 { font-size: 1.35rem; }
+h1 { font-size: 2rem; }
+h2 { font-size: 1.5rem; }
+h3 { font-size: 1.1rem; }
 
 p {
   color: var(--text-secondary);
-  line-height: 1.8;
+  line-height: 1.75;
 }
 
 a {
@@ -150,7 +172,7 @@ a:hover {
   color: var(--accent-bright);
 }
 
-/* Monospace for numbers */
+/* Monospace for numbers — tabular figures everywhere */
 .mono, .ticker-price, .ticker-change, .metric-value, .price, .index-value,
 .stat-value, .gauge-value, .cal-date, .pulse-value,
 .index-change, .percentage, .stat, .calendar-date,
@@ -159,16 +181,14 @@ a:hover {
   font-variant-numeric: tabular-nums;
 }
 
-/* Glass card base */
+/* Glass card base — flat, crisp border */
 .glass {
   background: var(--glass);
-  backdrop-filter: blur(16px) saturate(1.2);
-  -webkit-backdrop-filter: blur(16px) saturate(1.2);
   border: 1px solid var(--glass-border);
   box-shadow: var(--shadow-sm), var(--shadow-inset);
 }
 
-/* Interactive card hover — unified for all cards */
+/* Interactive card hover — confident border + subtle lift, no shimmer */
 .card-hover {
   transition: transform var(--transition-base), box-shadow var(--transition-base),
               border-color var(--transition-fast), background var(--transition-fast);
@@ -176,13 +196,13 @@ a:hover {
 }
 
 .card-hover:hover {
-  transform: translateY(-4px) scale(1.008);
-  box-shadow: var(--shadow-lg), var(--shadow-glow);
+  transform: translateY(-3px);
+  box-shadow: var(--shadow-lg);
   border-color: var(--glass-border-hover);
-  background: rgba(24, 28, 44, 0.75);
+  background: var(--bg-hover);
 }
 
-/* Card glow — animated top accent line */
+/* Card glow — animated top accent line (kept, recolored via var) */
 .card-glow {
   position: relative;
   overflow: hidden;
@@ -205,24 +225,6 @@ a:hover {
   opacity: 1;
 }
 
-/* Card shimmer sweep on hover */
-.card-glow::after {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: -100%;
-  width: 100%;
-  height: 100%;
-  background: linear-gradient(90deg, transparent, rgba(255,255,255,0.018), transparent);
-  transition: left 0.7s var(--ease-out);
-  pointer-events: none;
-  z-index: 1;
-}
-
-.card-glow:hover::after {
-  left: 100%;
-}
-
 /* Scrollbar — minimal, dark */
 ::-webkit-scrollbar {
   width: 4px;
@@ -232,27 +234,34 @@ a:hover {
   background: transparent;
 }
 ::-webkit-scrollbar-thumb {
-  background: rgba(255,255,255,0.05);
+  background: rgba(255,255,255,0.06);
   border-radius: 2px;
 }
 ::-webkit-scrollbar-thumb:hover {
-  background: rgba(255,255,255,0.1);
+  background: rgba(255,255,255,0.12);
 }
 
-/* Selection — gold tint */
+/* Selection — signal blue tint */
 ::selection {
-  background: rgba(212, 170, 78, 0.25);
+  background: rgba(77, 163, 255, 0.28);
   color: var(--text-primary);
+}
+
+/* Focus — visible, consistent ring (accessibility) */
+:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+  border-radius: 4px;
 }
 
 /* Keyframes */
 @keyframes fadeIn {
-  from { opacity: 0; transform: translateY(16px); }
+  from { opacity: 0; transform: translateY(12px); }
   to { opacity: 1; transform: translateY(0); }
 }
 
 @keyframes fadeInUp {
-  from { opacity: 0; transform: translateY(24px); }
+  from { opacity: 0; transform: translateY(20px); }
   to { opacity: 1; transform: translateY(0); }
 }
 
@@ -272,8 +281,8 @@ a:hover {
 }
 
 @keyframes glow {
-  0%, 100% { box-shadow: 0 0 8px rgba(212, 170, 78, 0.06); }
-  50% { box-shadow: 0 0 24px rgba(212, 170, 78, 0.15); }
+  0%, 100% { box-shadow: 0 0 8px rgba(77, 163, 255, 0.06); }
+  50% { box-shadow: 0 0 24px rgba(77, 163, 255, 0.14); }
 }
 
 @keyframes float {
@@ -282,11 +291,38 @@ a:hover {
 }
 
 @keyframes borderGlow {
-  0%, 100% { border-color: rgba(212, 170, 78, 0.12); }
-  50% { border-color: rgba(212, 170, 78, 0.3); }
+  0%, 100% { border-color: rgba(77, 163, 255, 0.12); }
+  50% { border-color: rgba(77, 163, 255, 0.3); }
 }
 
 @keyframes scanline {
   0% { transform: translateY(-100%); }
   100% { transform: translateY(100vh); }
+}
+
+/* Market-moving flash — brief border glow on high-impact cards */
+@keyframes marketFlash {
+  0% { border-color: var(--accent); box-shadow: 0 0 0 rgba(77,163,255,0); }
+  30% { box-shadow: 0 0 24px rgba(77,163,255,0.35); }
+  100% { border-color: var(--glass-border); box-shadow: 0 0 0 rgba(77,163,255,0); }
+}
+
+.market-flash {
+  animation: marketFlash 1.5s var(--ease-out);
+}
+
+/* Staggered card entrance */
+.stagger-in {
+  opacity: 0;
+  animation: fadeIn 0.5s var(--ease-out) forwards;
+}
+
+/* Respect reduced motion — kill all entrance/flash animation */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
 }

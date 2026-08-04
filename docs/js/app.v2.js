@@ -72,6 +72,45 @@ function initNav() {
       sidebar.classList.remove('open');
     }
   });
+
+  // Sidebar collapse toggle (icon rail)
+  const collapseBtn = $('#sidebarCollapseBtn');
+  const mainArea = $('#mainArea');
+  if (collapseBtn) {
+    collapseBtn.addEventListener('click', () => {
+      const collapsed = sidebar.classList.toggle('collapsed');
+      mainArea.classList.toggle('sidebar-collapsed', collapsed);
+      collapseBtn.textContent = collapsed ? '›' : '‹';
+      collapseBtn.setAttribute('aria-label', collapsed ? 'Expand sidebar' : 'Collapse sidebar');
+    });
+  }
+
+  // Density toggle (Comfortable / Compact / Dense)
+  initDensityToggle();
+}
+
+function initDensityToggle() {
+  const toggleGroup = $('#densityToggle');
+  if (!toggleGroup) return;
+
+  // Load persisted preference (default comfortable)
+  const saved = localStorage.getItem('meridian-density') || 'comfortable';
+  applyDensity(saved);
+
+  toggleGroup.querySelectorAll('.density-btn').forEach(btn => {
+    btn.classList.toggle('active', btn.dataset.density === saved);
+    btn.addEventListener('click', () => {
+      const density = btn.dataset.density;
+      applyDensity(density);
+      localStorage.setItem('meridian-density', density);
+      toggleGroup.querySelectorAll('.density-btn').forEach(b =>
+        b.classList.toggle('active', b === btn));
+    });
+  });
+}
+
+function applyDensity(density) {
+  document.documentElement.setAttribute('data-density', density);
 }
 
 // ===== DATA LOADING =====

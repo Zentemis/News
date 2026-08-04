@@ -58,7 +58,7 @@ function generateAreaData(basePrice, volatility, count = 60) {
  * @param {string} config.type — 'candlestick' or 'area' (default: 'candlestick')
  * @param {number} config.basePrice — starting price for demo data
  * @param {number} config.volatility — price volatility factor (default: 0.02)
- * @param {string} config.color — accent color for lines (default: '#d4aa4e')
+ * @param {string} config.color — accent color for lines (default: '#4da3ff')
  * @param {boolean} config.interactive — enable crosshair/tooltips (default: true)
  * @returns {Object} chart API: { update, resize, destroy }
  */
@@ -69,7 +69,7 @@ export function createMiniChart(container, config = {}) {
     type = 'candlestick',
     basePrice = 100,
     volatility = 0.02,
-    color = '#d4aa4e',
+    color = '#4da3ff',
     interactive = true,
     upColor = '#34d399',
     downColor = '#f87171',
@@ -91,8 +91,8 @@ export function createMiniChart(container, config = {}) {
       },
       crosshair: {
         mode: interactive ? 0 : 2, // 0 = normal crosshair, 2 = hidden
-        vertLine: { color: 'rgba(212,170,78,0.25)', width: 1, style: LineStyle.Dashed, labelBackgroundColor: '#d4aa4e' },
-        horzLine: { color: 'rgba(212,170,78,0.25)', width: 1, style: LineStyle.Dashed, labelBackgroundColor: '#d4aa4e' },
+        vertLine: { color: 'rgba(77,163,255,0.25)', width: 1, style: LineStyle.Dashed, labelBackgroundColor: '#4da3ff' },
+        horzLine: { color: 'rgba(77,163,255,0.25)', width: 1, style: LineStyle.Dashed, labelBackgroundColor: '#4da3ff' },
       },
       rightPriceScale: {
         borderColor: 'rgba(255,255,255,0.04)',

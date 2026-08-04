@@ -7,8 +7,8 @@
   <meta name="description" content="Personal financial intelligence dashboard covering macro, equities, crypto, commodities, and geopolitics.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Playfair+Display:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/main.css?v=4">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;0,6..72,700;1,6..72,400&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/main.css?v=7">
 </head>
 <body>
 
@@ -85,6 +85,7 @@
 
 <!-- ===== SIDEBAR ===== -->
 <aside class="sidebar" id="sidebar">
+  <button class="sidebar-collapse-btn" id="sidebarCollapseBtn" aria-label="Collapse sidebar">‹</button>
   <div class="sidebar-brand">
     <h1>Meridian</h1>
     <div class="tagline">Financial Intelligence</div>
@@ -179,6 +180,15 @@
   <div class="sidebar-section" id="bookmarksSection" style="display:none;">
     <div class="sidebar-section-title">Reading Queue</div>
     <div id="bookmarksList"></div>
+  </div>
+
+  <div class="sidebar-section">
+    <div class="sidebar-section-title">Density</div>
+    <div class="density-toggle" id="densityToggle" role="group" aria-label="Density">
+      <button class="density-btn" data-density="comfortable">Comfortable</button>
+      <button class="density-btn" data-density="compact">Compact</button>
+      <button class="density-btn" data-density="dense">Dense</button>
+    </div>
   </div>
 
   <div class="updated-ts" id="lastUpdated">Updated: loading...</div>
