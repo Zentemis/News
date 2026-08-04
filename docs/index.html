@@ -233,30 +233,67 @@
           <div class="section-sub">Your daily briefing on what matters in global markets</div>
         </div>
 
-        <div class="stats-row" id="stats-overview">
-          <div class="stat-card">
-            <div class="stat-label">Fear &amp; Greed</div>
-            <div class="stat-value" id="stat-fng">8</div>
-            <div class="stat-change down" id="stat-fng-label">Extreme Fear</div>
+        <!-- THE BOARD: 2x2 live instrument panels -->
+        <div class="market-board" id="marketBoard">
+          <div class="instrument-panel" data-instrument="spx">
+            <div class="instrument-head">
+              <span class="instrument-name">S&amp;P 500</span>
+              <div class="instrument-tf"></div>
+            </div>
+            <div class="instrument-price-row">
+              <span class="instrument-price" id="ins-spx-price">—</span>
+              <span class="instrument-change flat" id="ins-spx-change">—</span>
+            </div>
+            <div class="instrument-chart" id="ins-spx-chart"></div>
           </div>
-          <div class="stat-card">
-            <div class="stat-label">BTC Dominance</div>
-            <div class="stat-value" id="stat-btcdom">58.2%</div>
-            <div class="stat-change up">+1.3%</div>
+
+          <div class="instrument-panel" data-instrument="ndx">
+            <div class="instrument-head">
+              <span class="instrument-name">NASDAQ</span>
+              <div class="instrument-tf"></div>
+            </div>
+            <div class="instrument-price-row">
+              <span class="instrument-price" id="ins-ndx-price">—</span>
+              <span class="instrument-change flat" id="ins-ndx-change">—</span>
+            </div>
+            <div class="instrument-chart" id="ins-ndx-chart"></div>
           </div>
-          <div class="stat-card">
-            <div class="stat-label">Total Stories Today</div>
-            <div class="stat-value" id="stat-stories">27</div>
-            <div class="stat-change neutral">across 8 sources</div>
+
+          <div class="instrument-panel" data-instrument="btc">
+            <div class="instrument-head">
+              <span class="instrument-name">Bitcoin</span>
+              <div class="instrument-tf"></div>
+            </div>
+            <div class="instrument-price-row">
+              <span class="instrument-price" id="ins-btc-price">—</span>
+              <span class="instrument-change flat" id="ins-btc-change">—</span>
+            </div>
+            <div class="instrument-chart" id="ins-btc-chart"></div>
           </div>
-          <div class="stat-card">
-            <div class="stat-label">Top Impact</div>
-            <div class="stat-value" id="stat-topimpact" style="font-size:1rem;">Jobs Report</div>
-            <div class="stat-change neutral">macro · high impact</div>
+
+          <div class="instrument-panel" data-instrument="gold">
+            <div class="instrument-head">
+              <span class="instrument-name">Gold</span>
+              <div class="instrument-tf"></div>
+            </div>
+            <div class="instrument-price-row">
+              <span class="instrument-price" id="ins-gold-price">—</span>
+              <span class="instrument-change flat" id="ins-gold-change">—</span>
+            </div>
+            <div class="instrument-chart" id="ins-gold-chart"></div>
           </div>
         </div>
 
-        <div id="featured-overview"></div>
+        <!-- HEATMAP: where the money is moving -->
+        <div class="heatmap">
+          <div class="heatmap-head">
+            <span class="heatmap-title">Market Pulse</span>
+            <span class="heatmap-legend" style="font-size:0.6rem;color:var(--text-muted);letter-spacing:0.05em;">24h change</span>
+          </div>
+          <div class="heatmap-grid" id="heatmapGrid"></div>
+        </div>
+
+        <div class="featured-banner" id="featured-overview"></div>
         <div class="news-grid" id="grid-overview"></div>
         <div class="news-list">
           <div class="news-list-header">More Stories</div>

@@ -1,0 +1,200 @@
+/* ============================================================
+   BOARD — The unified market board (Phase B)
+   Replaces the flat stat-card row on Overview with a living
+   2x2 grid of instrument panels + heatmap.
+   ============================================================ */
+
+/* --- Instrument panel grid (2x2) --- */
+.market-board {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: calc(14px * var(--density-gap));
+  margin-bottom: calc(28px * var(--density-gap));
+}
+
+.instrument-panel {
+  position: relative;
+  background: var(--glass);
+  border: 1px solid var(--glass-border);
+  border-radius: var(--radius-card);
+  padding: calc(16px * var(--density-pad)) calc(18px * var(--density-pad));
+  overflow: hidden;
+  transition: border-color var(--transition-fast), transform var(--transition-base);
+}
+
+.instrument-panel:hover {
+  border-color: var(--glass-border-hover);
+  transform: translateY(-2px);
+}
+
+.instrument-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.instrument-name {
+  font-size: 0.62rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--text-muted);
+}
+
+.instrument-tf {
+  display: flex;
+  gap: 2px;
+  background: rgba(255, 255, 255, 0.03);
+  border-radius: 6px;
+  padding: 2px;
+}
+
+.instrument-tf button {
+  background: transparent;
+  border: none;
+  color: var(--text-muted);
+  font-size: 0.6rem;
+  font-weight: 700;
+  font-family: inherit;
+  padding: 2px 7px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background var(--transition-fast), color var(--transition-fast);
+}
+
+.instrument-tf button.active {
+  background: var(--accent-dim);
+  color: var(--accent);
+}
+
+.instrument-price-row {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+  margin-bottom: 4px;
+}
+
+.instrument-price {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  font-family: 'JetBrains Mono', monospace;
+  font-variant-numeric: tabular-nums;
+  line-height: 1.1;
+}
+
+.instrument-change {
+  font-size: 0.72rem;
+  font-weight: 700;
+  font-family: 'JetBrains Mono', monospace;
+}
+
+.instrument-change.up { color: var(--green); }
+.instrument-change.down { color: var(--red); }
+.instrument-change.flat { color: var(--text-muted); }
+
+.instrument-chart {
+  height: 120px;
+  margin-top: 8px;
+  position: relative;
+}
+
+.instrument-chart canvas { display: block; }
+
+/* Chart container for lightweight-charts */
+.instrument-chart .lc-chart {
+  width: 100%;
+  height: 100%;
+}
+
+/* --- Featured editorial banner --- */
+.featured-banner {
+  margin-bottom: calc(28px * var(--density-gap));
+}
+
+/* --- Heatmap --- */
+.heatmap {
+  margin-bottom: calc(28px * var(--density-gap));
+}
+
+.heatmap-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.heatmap-title {
+  font-size: 0.62rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--text-muted);
+}
+
+.heatmap-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+  gap: 8px;
+}
+
+.heatmap-cell {
+  border-radius: 8px;
+  padding: 10px 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  transition: transform var(--transition-fast);
+}
+
+.heatmap-cell:hover {
+  transform: translateY(-1px);
+}
+
+.heatmap-cell .hm-name {
+  font-size: 0.62rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--text-primary);
+}
+
+.heatmap-cell .hm-price {
+  font-size: 0.78rem;
+  font-weight: 700;
+  font-family: 'JetBrains Mono', monospace;
+  font-variant-numeric: tabular-nums;
+}
+
+.heatmap-cell .hm-change {
+  font-size: 0.66rem;
+  font-weight: 700;
+  font-family: 'JetBrains Mono', monospace;
+}
+
+/* Directional fills (green/red intensity) */
+.heatmap-cell.up-strong { background: rgba(52, 211, 153, 0.16); }
+.heatmap-cell.up-mid    { background: rgba(52, 211, 153, 0.10); }
+.heatmap-cell.up-weak   { background: rgba(52, 211, 153, 0.05); }
+.heatmap-cell.down-weak { background: rgba(248, 113, 113, 0.05); }
+.heatmap-cell.down-mid  { background: rgba(248, 113, 113, 0.10); }
+.heatmap-cell.down-strong { background: rgba(248, 113, 113, 0.16); }
+.heatmap-cell.flat      { background: rgba(255, 255, 255, 0.03); }
+
+.heatmap-cell .hm-change.up { color: var(--green); }
+.heatmap-cell .hm-change.down { color: var(--red); }
+.heatmap-cell .hm-change.flat { color: var(--text-muted); }
+
+/* --- Responsive --- */
+@media (max-width: 900px) {
+  .market-board {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 600px) {
+  .instrument-chart { height: 90px; }
+  .heatmap-grid { grid-template-columns: repeat(2, 1fr); }
+}

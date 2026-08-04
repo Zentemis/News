@@ -8,6 +8,7 @@ import { startAutoRefresh, updateTickerBar, onUpdate as onTickerUpdate } from '.
 import { getCachedTickers } from './data/tickers.js';
 import { createHeroCarousel } from './components/hero-carousel.js';
 import { initAllCharts } from './components/charts.js';
+import { initBoard } from './components/board.js';
 import { escHtml, timeAgo, timeAgoShort, formatBriefingDate, sentimentClass, renderTopics, formatTime, formatTimeShort } from './data/helpers.js';
 
 // ===== STATE =====
@@ -612,14 +613,6 @@ function updateMarketPulse() {
   if (allArticles[0]?.published) updateEl.textContent = 'Latest: ' + timeAgo(allArticles[0].published);
 }
 
-function initGauge() {
-  const value = 8;
-  const fill = $('#gaugeFill');
-  if (!fill) return;
-  fill.style.strokeDashoffset = 125.6 - (value / 100) * 125.6;
-  fill.style.stroke = value <= 25 ? 'var(--red)' : value <= 45 ? 'var(--amber)' : 'var(--text-muted)';
-}
-
 function initArticles() {
   const debounce = (fn, ms) => { let t; return (...a) => { clearTimeout(t); t = setTimeout(() => fn(...a), ms); }; };
 
@@ -652,8 +645,13 @@ function init() {
   setupRoutes();
   initNav();
   initFilters();
-  initGauge();
   initTickers();
+  // Initialize the unified market board (panels + heatmap + gauge). Its
+  // returned update() revives panel prices and the heatmap from live tickers.
+  initBoard().then(board => {
+    board.wired = true;
+    onTickerUpdate(tickers => { if (board) board.update(tickers); });
+  });
   initArticles();
   initBriefings();
   initReadingPanel();
