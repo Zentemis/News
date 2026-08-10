@@ -1,29 +1,398 @@
 {
-  "generated": "2026-08-10T07:07:59.460766+00:00",
+  "generated": "2026-08-10T10:07:39.233486+00:00",
   "count": 157,
   "sources": [
-    "CNBC Economy",
-    "Decrypt",
+    "The Block",
     "CNBC World",
+    "Seeking Alpha",
+    "CNBC Finance",
+    "MarketWatch Economy",
+    "Decrypt",
+    "CNBC Economy",
     "Investing.com Commodities",
     "CoinDesk",
-    "MarketWatch Economy",
-    "CNBC Finance",
-    "Cointelegraph",
     "MarketWatch Top",
-    "Seeking Alpha",
-    "The Block",
-    "Yahoo Finance"
+    "Yahoo Finance",
+    "Cointelegraph"
   ],
   "articles": [
     {
-      "title": "Australian rare earth miner surges as much as 29% after U.S. Department of War investment",
+      "title": "S&P 500 futures inch higher as traders watch for Strait of Hormuz deal, inflation data: Live updates",
+      "summary": "The three major indexes are coming off their best weeks since April, and the S&amp;P 500 finished Friday at an all-time closing high.",
+      "url": "https://www.cnbc.com/2026/08/09/stock-market-today-live-updates.html",
+      "source": "CNBC World",
+      "category": "macro",
+      "impact": "medium",
+      "published": "2026-08-10T10:04:54+00:00"
+    },
+    {
+      "title": "Barrick Mining declares $0.175 dividend",
+      "summary": "",
+      "url": "https://seekingalpha.com/news/4629735-barrick-mining-declares-0_175-dividend?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+      "source": "Seeking Alpha",
+      "category": "equities",
+      "impact": "low",
+      "published": "2026-08-10T10:01:45+00:00"
+    },
+    {
+      "title": "This is the hottest ZIP Code where homes are selling fast",
+      "summary": "This housing market is not for the weak, observes one buyer in America\u2019s hottest ZIP Code.",
+      "url": "https://www.marketwatch.com/story/this-is-the-hottest-zip-code-where-homes-are-selling-fast-2c642716?mod=mw_rss_topstories",
+      "source": "MarketWatch Top",
+      "category": "macro",
+      "impact": "low",
+      "published": "2026-08-10T10:01:00+00:00"
+    },
+    {
+      "title": "S&P 500 dividend yield falls to record low as stock prices outpace payouts",
+      "summary": "",
+      "url": "https://seekingalpha.com/news/4629732-sp-500-dividend-yield-falls-to-record-low-as-stock-prices-outpace-payouts?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+      "source": "Seeking Alpha",
+      "category": "equities",
+      "impact": "medium",
+      "published": "2026-08-10T09:59:23+00:00"
+    },
+    {
+      "title": "Cathie Wood loads up SpaceX, AI infra names, continues trimming Roblox, Palantir",
+      "summary": "",
+      "url": "https://seekingalpha.com/news/4629692-cathie-wood-loads-up-spacex-ai-infra-names-continues-trimming-roblox-palantir?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+      "source": "Seeking Alpha",
+      "category": "equities",
+      "impact": "low",
+      "published": "2026-08-10T09:55:52+00:00"
+    },
+    {
+      "title": "Jeff Bezos nears deal to buy stake in Liverpool FC: Sky",
+      "summary": "",
+      "url": "https://seekingalpha.com/news/4629730-jeff-bezos-nears-deal-to-buy-stake-in-liverpool-fc-sky?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+      "source": "Seeking Alpha",
+      "category": "equities",
+      "impact": "low",
+      "published": "2026-08-10T09:52:05+00:00"
+    },
+    {
+      "title": "Slower AI payoff could put hyperscaler cash flows and stocks at risk, Slok says",
+      "summary": "",
+      "url": "https://seekingalpha.com/news/4629731-slower-ai-payoff-could-put-hyperscaler-cash-flows-stocks-at-risk-slok-says?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+      "source": "Seeking Alpha",
+      "category": "equities",
+      "impact": "low",
+      "published": "2026-08-10T09:50:55+00:00"
+    },
+    {
+      "title": "These technology stocks face the heaviest short bets",
+      "summary": "",
+      "url": "https://seekingalpha.com/news/4629724-these-technology-stocks-face-the-heaviest-short-bets?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+      "source": "Seeking Alpha",
+      "category": "equities",
+      "impact": "low",
+      "published": "2026-08-10T09:40:53+00:00"
+    },
+    {
+      "title": "Trump signals shift to economic pressure as Iran hardens stance over Strait of Hormuz",
+      "summary": "The escalating tally underscores how far the two sides remain from resolving a crisis that has choked the Strait of Hormuz for more than five months.",
+      "url": "https://www.cnbc.com/2026/08/10/us-iran-war-trump-hormuz-oman-ships-blockade-shipping.html",
+      "source": "CNBC World",
+      "category": "crypto",
+      "impact": "medium",
+      "published": "2026-08-10T09:33:31+00:00"
+    },
+    {
+      "title": "Turkey says Egypt may join Mecca defense pact\u00a0as regional hostilities escalate",
+      "summary": "",
+      "url": "https://seekingalpha.com/news/4629708-turkey-says-egypt-may-join-mecca-defense-pact?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+      "source": "Seeking Alpha",
+      "category": "equities",
+      "impact": "low",
+      "published": "2026-08-10T09:27:52+00:00"
+    },
+    {
+      "title": "These analysts say Elon Musk\u2019s ambitious AI plans for SpaceX should be taken seriously, thanks to Microsoft",
+      "summary": "If Elon Musk can expand its compute capacity swiftly, Microsoft could be perfectly positioned to monetize this \u201cone-in-a-generation opportunity\u201d",
+      "url": "https://www.marketwatch.com/story/these-analysts-say-elon-musks-ambitious-ai-plans-for-spacex-should-be-taken-seriously-thanks-to-microsoft-2c9aa472?mod=mw_rss_topstories",
+      "source": "MarketWatch Top",
+      "category": "macro",
+      "impact": "low",
+      "published": "2026-08-10T09:26:00+00:00"
+    },
+    {
+      "title": "European stocks steady as investors weigh Hormuz risks, data calendar",
+      "summary": "",
+      "url": "https://www.investing.com/news/economy-news/european-stocks-steady-as-investors-weigh-hormuz-risks-data-calendar-4847963",
+      "source": "Investing.com Commodities",
+      "category": "commodities",
+      "impact": "low",
+      "published": "2026-08-10T09:24:35+00:00"
+    },
+    {
+      "title": "Wall Street\u2019s biggest bank just raised its expectations for the stock market",
+      "summary": "JPMorgan lifted its year-end price target for the S&amp;P 500 from 7,800 to 8,000.",
+      "url": "https://www.marketwatch.com/story/wall-streets-biggest-bank-just-raised-its-expectations-for-the-stock-market-cac6d311?mod=mw_rss_topstories",
+      "source": "MarketWatch Top",
+      "category": "macro",
+      "impact": "low",
+      "published": "2026-08-10T09:19:00+00:00"
+    },
+    {
+      "title": "\u2018I unexpectedly came into some money\u2019: Is putting $20,000 into CDs a smart move?",
+      "summary": "\u201cI want to make the process as straightforward as possible for my beneficiaries to access the funds.\u201d",
+      "url": "https://www.marketwatch.com/story/i-unexpectedly-came-into-some-money-is-putting-20-000-into-cds-a-smart-move-6c410458?mod=mw_rss_topstories",
+      "source": "MarketWatch Top",
+      "category": "macro",
+      "impact": "medium",
+      "published": "2026-08-10T09:15:00+00:00"
+    },
+    {
+      "title": "A rare CME shift: Hedge funds abandon structural shorts to bet on a bitcoin rally",
+      "summary": "",
+      "url": "https://www.coindesk.com/markets/2026/08/10/a-rare-cme-shift-hedge-funds-abandon-structural-shorts-to-bet-on-a-bitcoin-rally",
+      "source": "CoinDesk",
+      "category": "crypto",
+      "impact": "medium",
+      "published": "2026-08-10T09:09:32+00:00"
+    },
+    {
+      "title": "Iran demands, Berkshire Hathaway results and U.S. inflation shape market sentiment: Dow Jones, S&P, Nasdaq, Wall Street Futures",
+      "summary": "U. S. stock futures were mixed but generally positive on Monday as investors weighed diminishing prospects for a rapid resolution to the Iran conflict against expectations for important U.",
+      "url": "https://investorshub.advfn.com/market-news/article/33804/iran-demands-berkshire-hathaway-results-and-u-s-inflation-shape-market-sentiment-dow-jones-sp-nasdaq-wall-street-futures?.tsrc=rss",
+      "source": "Yahoo Finance",
+      "category": "macro",
+      "impact": "medium",
+      "published": "2026-08-10T09:06:05+00:00"
+    },
+    {
+      "title": "How \u2018Ted Lasso\u2019 turned an affluent London neighborhood into a tourist hotspot",
+      "summary": "One of London\u2019s most charming residential enclaves has recently gained international renown thanks to Jason Sudeikis\u2019 fictional soccer coach character Ted Lasso.",
+      "url": "https://www.marketwatch.com/story/how-ted-lasso-turned-an-affluent-london-neighborhood-into-a-tourist-hotspot-a7cbf0eb?mod=mw_rss_topstories",
+      "source": "MarketWatch Top",
+      "category": "macro",
+      "impact": "low",
+      "published": "2026-08-10T09:04:00+00:00"
+    },
+    {
+      "title": "If a Stock Market Crash Is Coming, History Says Investors Who Do This Will Turn a Big Profit",
+      "summary": "Buying the dip during stock market corrections has historically been a surefire way to turn a profit.",
+      "url": "https://www.fool.com/investing/2026/08/10/stock-market-crash-investors-do-this-big-profit/?.tsrc=rss",
+      "source": "Yahoo Finance",
+      "category": "macro",
+      "impact": "medium",
+      "published": "2026-08-10T09:04:00+00:00"
+    },
+    {
+      "title": "Is It Really Safe to Invest in the S&P 500 Right Now? History Offers a Clear Answer.",
+      "summary": "History actually offers two clear answers about whether to invest in the S&amp;P 500 now.",
+      "url": "https://www.fool.com/investing/2026/08/10/is-it-really-safe-to-invest-in-the-sp-500-right-no/?.tsrc=rss",
+      "source": "Yahoo Finance",
+      "category": "macro",
+      "impact": "low",
+      "published": "2026-08-10T09:04:00+00:00"
+    },
+    {
+      "title": "Bybit Sues North Korea Over $1.5B Hack, Wins Order Freezing Assets",
+      "summary": "The exchange says it has recovered $48.4 million and frozen $30.5 million more, a fraction of what the Lazarus Group took in February 2025.",
+      "url": "https://decrypt.co/375180/bybit-sues-north-korea-over-1-5b-hack-wins-order-freezing-assets",
+      "source": "Decrypt",
+      "category": "crypto",
+      "impact": "low",
+      "published": "2026-08-10T09:04:00+00:00"
+    },
+    {
+      "title": "From \u2018Billionaire Bunker\u2019 to Beverly Hills: The properties that make up Jeff Bezos\u2019 $500 million real estate empire",
+      "summary": "As Amazon soars, nowhere is Bezos\u2019 astronomical wealth more tangibly displayed than in his\u00a0$500 million real estate empire.",
+      "url": "https://www.marketwatch.com/story/from-billionaire-bunker-to-beverly-hills-the-properties-that-make-up-jeff-bezos-500-million-real-estate-empire-5aec38c3?mod=mw_rss_topstories",
+      "source": "MarketWatch Top",
+      "category": "macro",
+      "impact": "low",
+      "published": "2026-08-10T09:02:00+00:00"
+    },
+    {
+      "title": "U.S. CPI inflation, Securitize, Gemini among earnings reports: Crypto Week Ahead",
+      "summary": "",
+      "url": "https://www.coindesk.com/markets/2026/08/10/u-s-cpi-inflation-securitize-gemini-among-earnings-reports-crypto-week-ahead",
+      "source": "CoinDesk",
+      "category": "crypto",
+      "impact": "high",
+      "published": "2026-08-10T08:57:04+00:00"
+    },
+    {
+      "title": "Stock Market News for Aug 10, 2026",
+      "summary": "Wall Street closed higher on Friday as weak jobs data for July raised hope that the Federal Reserve may hold interest rates steady for longer.",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-news-aug-10-085400959.html?.tsrc=rss",
+      "source": "Yahoo Finance",
+      "category": "macro",
+      "impact": "high",
+      "published": "2026-08-10T08:54:00+00:00"
+    },
+    {
+      "title": "Iran hopes neighbors will move to \"strengthen\" regional security - Baghaei",
+      "summary": "",
+      "url": "https://www.investing.com/news/economy-news/iran-hopes-neighbors-will-move-to-strengthen-regional-security--baghaei-4848085",
+      "source": "Investing.com Commodities",
+      "category": "commodities",
+      "impact": "low",
+      "published": "2026-08-10T08:46:43+00:00"
+    },
+    {
+      "title": "Australian rare earth miner surges after U.S. Department of War investment",
       "summary": "The Trump administration has backed plans to build an Australian scandium mine as part of a push to challenge China\u2019s critical-minerals dominance.",
       "url": "https://www.cnbc.com/2026/08/10/rare-earths-sunrise-energy-metals-trump-cina.html",
       "source": "CNBC World",
       "category": "geopolitical",
       "impact": "medium",
-      "published": "2026-08-10T07:03:25+00:00"
+      "published": "2026-08-10T08:36:11+00:00"
+    },
+    {
+      "title": "North Korea\u2019s Kimsuky integrates AI into cyberattacks targeting crypto and finance",
+      "summary": "Kimsuky uses generative AI to produce phishing documents themed around digital assets, investment strategies, and fintech services.",
+      "url": "https://www.theblock.co/news/defi/2026-08-10-north-korea-kimsuky-ai-crypto-411229?utm_source=rss&utm_medium=rss",
+      "source": "The Block",
+      "category": "crypto",
+      "impact": "low",
+      "published": "2026-08-10T08:35:09+00:00"
+    },
+    {
+      "title": "Stock Futures Rise as Tech Rallies Ahead of Inflation Data",
+      "summary": "Stocks looked set to rise on Monday as investors\u2019 focus shifted to inflation, with this week\u2019s consumer-price report print likely to help determine if the Federal Reserve can stick to its guns by not hiking interest rates in September.  Nasdaq 100 futures rose 0.4%.  Dow Jones Industrial Average ...",
+      "url": "https://finance.yahoo.com/m/5de2cb2e-3036-3356-8c83-05d4b0c95d0c/stock-futures-rise-as-tech.html?.tsrc=rss",
+      "source": "Yahoo Finance",
+      "category": "macro",
+      "impact": "high",
+      "published": "2026-08-10T08:32:40+00:00"
+    },
+    {
+      "title": "Analysis-BOJ\u2019s rate-hike path runs into Takaichi\u2019s bond market problems",
+      "summary": "",
+      "url": "https://www.investing.com/news/economy-news/analysisbojs-ratehike-path-runs-into-takaichis-bond-market-problems-4847996",
+      "source": "Investing.com Commodities",
+      "category": "commodities",
+      "impact": "low",
+      "published": "2026-08-10T08:30:39+00:00"
+    },
+    {
+      "title": "The Nasdaq Composite Just Did Something That's Been Observed Only 18 Times Since Its Inception in 1971 -- and History Says Stocks Are About to Skyrocket",
+      "summary": "If history rhymes once again, we could be talking about the Nasdaq topping 34,000 in August 2027.",
+      "url": "https://www.fool.com/investing/2026/08/10/nasdaq-did-something-18-times-history-stocks-soar/?.tsrc=rss",
+      "source": "Yahoo Finance",
+      "category": "macro",
+      "impact": "low",
+      "published": "2026-08-10T08:26:00+00:00"
+    },
+    {
+      "title": "S&P 500, Nasdaq, Dow Futures Mixed As Hormuz Uncertainty Weighs: Why AAPL, TSM, MU, SPCX, ASTS, SLS Stocks Are In Focus",
+      "summary": "Retail sentiment on Stocktwits was split, with traders \u2018bullish\u2019 on SPY and \u2018bearish\u2019 on QQQ.",
+      "url": "https://stocktwits.com/news-articles/markets/equity/sp500-nasdaq-dow-futures-mixed-hormuz-uncertainty-weighs-why-aapl-tsm-mu-spcx-asts-sls-stocks-are-in-focus/cZojj8RRJaw?.tsrc=rss",
+      "source": "Yahoo Finance",
+      "category": "macro",
+      "impact": "low",
+      "published": "2026-08-10T08:24:48+00:00"
+    },
+    {
+      "title": "Analysis-Nigerians\u2019 cost of living pain deepens as election looms",
+      "summary": "",
+      "url": "https://www.investing.com/news/economy-news/analysisnigerians-cost-of-living-pain-deepens-as-election-looms-4848016",
+      "source": "Investing.com Commodities",
+      "category": "commodities",
+      "impact": "low",
+      "published": "2026-08-10T08:24:45+00:00"
+    },
+    {
+      "title": "Berkshire Hathaway finally started spending its nearly $400 billion in cash \u2014 on one stock it knows very well",
+      "summary": "Berkshire is buying its own stock after years of building up a cash pile. Not everyone is excited.",
+      "url": "https://www.marketwatch.com/story/berkshire-hathaway-finally-started-spending-its-nearly-400-billion-in-cash-on-one-stock-it-knows-very-well-f9d56389?mod=mw_rss_topstories",
+      "source": "MarketWatch Top",
+      "category": "macro",
+      "impact": "low",
+      "published": "2026-08-10T08:21:00+00:00"
+    },
+    {
+      "title": "1 Incredible Reason to Buy Walmart (WMT) Stock Before It Reports Earnings on Aug. 20 -- and 1 Reason Not To",
+      "summary": "Walmart tends to perform well in both good economies and bad -- and its e-commerce business is growing briskly.",
+      "url": "https://www.fool.com/investing/2026/08/10/1-incredible-reason-to-buy-walmart-wmt-stock-befor/?.tsrc=rss",
+      "source": "Yahoo Finance",
+      "category": "macro",
+      "impact": "low",
+      "published": "2026-08-10T08:20:00+00:00"
+    },
+    {
+      "title": "US Stock Market Today: S&P 500 Futures Climb On Softer Jobs Data And Yields",
+      "summary": "The Morning Bull - US Market Morning Update Monday, Aug, 10 2026 US stock futures are pointing higher this morning, with the S&amp;P 500 contracts up around 0.6%, as investors weigh softer US jobs data against falling bond yields and cooler inflation expectations. July nonfarm payrolls showed a s...",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/us-stock-market-today-p-081128237.html?.tsrc=rss",
+      "source": "Yahoo Finance",
+      "category": "macro",
+      "impact": "high",
+      "published": "2026-08-10T08:11:28+00:00"
+    },
+    {
+      "title": "Treasury yields inch lower as investors look ahead to key inflation data",
+      "summary": "U.S. Treasury yields inched lower at the start of the week as investors look ahead to a busy week of economic data, particularly key inflation data.",
+      "url": "https://www.cnbc.com/2026/08/10/us-treasury-yields-investors-eye-key-inflation-data-.html",
+      "source": "CNBC World",
+      "category": "macro",
+      "impact": "medium",
+      "published": "2026-08-10T08:11:27+00:00"
+    },
+    {
+      "title": "Iran issues new demands; Berkshire Hathaway results - what\u2019s moving markets",
+      "summary": "",
+      "url": "https://www.investing.com/news/economy-news/iran-issues-new-demands-berkshire-hathaway-results--whats-moving-markets-4847977",
+      "source": "Investing.com Commodities",
+      "category": "commodities",
+      "impact": "low",
+      "published": "2026-08-10T07:58:16+00:00"
+    },
+    {
+      "title": "Inside stablecoin firm BVNK\u2019s journey to a $1.8B acquisition by Mastercard",
+      "summary": "",
+      "url": "https://www.coindesk.com/business/2026/08/10/inside-stablecoin-firm-bvnk-s-journey-to-a-usd1-8b-acquisition-by-mastercard",
+      "source": "CoinDesk",
+      "category": "crypto",
+      "impact": "low",
+      "published": "2026-08-10T07:52:00+00:00"
+    },
+    {
+      "title": "CNBC Daily Open: Record heatwaves hit Europe's already expensive summer",
+      "summary": "German inflation figures and U.K. GDP will show just how deeply months of elevated energy costs have seeped into prices, and how much growth has taken a hit.",
+      "url": "https://www.cnbc.com/2026/08/10/europe-heatwaves-energy-shock-trump-iran-hormuz-.html",
+      "source": "CNBC World",
+      "category": "macro",
+      "impact": "medium",
+      "published": "2026-08-10T07:50:12+00:00"
+    },
+    {
+      "title": "The space boom has created a giant mess. Now startups want to clean it up",
+      "summary": "As Earth\u2019s orbit gets more crowded, companies are betting that cleaning up space junk could become a lucrative new business.",
+      "url": "https://www.cnbc.com/2026/08/08/space-debris-junk-spacex-rocket-moon-crash.html",
+      "source": "CNBC World",
+      "category": "macro",
+      "impact": "low",
+      "published": "2026-08-10T07:44:33+00:00"
+    },
+    {
+      "title": "Stock Market: Will S&P 500 Open Up or Down Today?",
+      "summary": "U.S. stock futures are showing modest gains heading into Monday morning as Wall Street digests a strong weekly performance while tracking high-stakes diplomatic maneuvering in the Middle East. The Polygon-based (CRYPTO: POL) Polymarket crowd is leaning bullish for the Aug....",
+      "url": "https://www.benzinga.com/markets/prediction-markets/26/08/61065974/stock-market-will-sp-500-open-up-or-down-today-13?utm_source=yahooFinance&utm_campaign=partner_feed&utm_medium=referral&.tsrc=rss",
+      "source": "Yahoo Finance",
+      "category": "macro",
+      "impact": "low",
+      "published": "2026-08-10T07:29:55+00:00"
+    },
+    {
+      "title": "UK regulators to prepare tokenized gold framework: Report",
+      "summary": "The UK\u2019s FCA is reportedly preparing a regulatory framework for tokenized gold and how these products may be used as collateral assets in wholesale markets.",
+      "url": "https://cointelegraph.com/news/uk-regulators-tokenized-gold-framework-report?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "category": "crypto",
+      "impact": "low",
+      "published": "2026-08-10T07:25:45+00:00"
+    },
+    {
+      "title": "Take five: Markets aren\u2019t going on a summer holiday",
+      "summary": "",
+      "url": "https://www.investing.com/news/economy-news/take-five-markets-arent-going-on-a-summer-holiday-4847948",
+      "source": "Investing.com Commodities",
+      "category": "commodities",
+      "impact": "low",
+      "published": "2026-08-10T07:12:27+00:00"
     },
     {
       "title": "Robinhood brings crypto trading to UK in AI-powered all-in-one app",
@@ -53,42 +422,6 @@
       "published": "2026-08-10T06:56:50+00:00"
     },
     {
-      "title": "Mobility Global, Inc. declares $0.06 dividend",
-      "summary": "",
-      "url": "https://seekingalpha.com/news/4629712-mobility-global-inc-declares-0_06-dividend?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
-      "source": "Seeking Alpha",
-      "category": "equities",
-      "impact": "low",
-      "published": "2026-08-10T06:53:24+00:00"
-    },
-    {
-      "title": "DWS Municipal Income Trust declares $0.061 dividend",
-      "summary": "",
-      "url": "https://seekingalpha.com/news/4629711-dws-municipal-income-trust-declares-0_061-dividend?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
-      "source": "Seeking Alpha",
-      "category": "equities",
-      "impact": "low",
-      "published": "2026-08-10T06:51:22+00:00"
-    },
-    {
-      "title": "Dover raises dividend by 1% to $0.525",
-      "summary": "",
-      "url": "https://seekingalpha.com/news/4629710-dover-raises-dividend-by-1-to-0525?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
-      "source": "Seeking Alpha",
-      "category": "equities",
-      "impact": "low",
-      "published": "2026-08-10T06:48:51+00:00"
-    },
-    {
-      "title": "Germany\u2019s China trade gap widens to \u20ac55B in H1 2026",
-      "summary": "",
-      "url": "https://seekingalpha.com/news/4629699-germanys-china-trade-gap-widens-to-55b-in-h1-2026?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
-      "source": "Seeking Alpha",
-      "category": "equities",
-      "impact": "low",
-      "published": "2026-08-10T06:41:55+00:00"
-    },
-    {
       "title": "Analysis-How the hard reality of climate change hit Europe\u2019s economy this summer",
       "summary": "",
       "url": "https://www.investing.com/news/economy-news/analysishow-the-hard-reality-of-climate-change-hit-europes-economy-this-summer-4847822",
@@ -116,24 +449,6 @@
       "published": "2026-08-10T06:34:04+00:00"
     },
     {
-      "title": "S&P 500 futures slip as traders watch for Strait of Hormuz deal, inflation data: Live updates",
-      "summary": "The three major indexes are coming off their best weeks since April, and the S&amp;P 500 finished Friday at an all-time closing high.",
-      "url": "https://www.cnbc.com/2026/08/09/stock-market-today-live-updates.html",
-      "source": "CNBC World",
-      "category": "macro",
-      "impact": "medium",
-      "published": "2026-08-10T06:26:30+00:00"
-    },
-    {
-      "title": "Seadrill beats top-line and bottom-line estimates; raises FY26 outlook",
-      "summary": "",
-      "url": "https://seekingalpha.com/news/4629705-seadrill-beats-top-line-and-bottom-line-estimates-raises-fy26-outlook?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
-      "source": "Seeking Alpha",
-      "category": "equities",
-      "impact": "low",
-      "published": "2026-08-10T06:26:02+00:00"
-    },
-    {
       "title": "This bitcoin miner rejected BIP-110 despite mining through a pool that supported it",
       "summary": "",
       "url": "https://www.coindesk.com/markets/2026/08/10/bitcoin-miner-rejects-bip-110-despite-mining-through-a-pool-that-supported-it",
@@ -143,15 +458,6 @@
       "published": "2026-08-10T06:25:17+00:00"
     },
     {
-      "title": "DAE signs deal with Saudia for four Boeing 777 planes",
-      "summary": "",
-      "url": "https://seekingalpha.com/news/4629703-dae-signs-deal-with-saudia-for-four-boeing-777-planes?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
-      "source": "Seeking Alpha",
-      "category": "equities",
-      "impact": "low",
-      "published": "2026-08-10T06:22:42+00:00"
-    },
-    {
       "title": "J.P. Morgan lifts 2026-end target for S&P 500 to 8,000 on AI, earnings strength",
       "summary": "J.P. Morgan raised its year-end target for the S&amp;P 500 index to 8,000 from 7,800 on Monday, citing \u200cprospects of solid corporate earnings and rising confidence that AI \u200cinvestments by large hyperscalers would drive faster revenue growth.  The new target implies about 3.1% upside \u200bfrom the ind...",
       "url": "https://finance.yahoo.com/markets/stocks/articles/j-p-morgan-lifts-2026-061958111.html?.tsrc=rss",
@@ -159,15 +465,6 @@
       "category": "macro",
       "impact": "low",
       "published": "2026-08-10T06:19:58+00:00"
-    },
-    {
-      "title": "GEA Group Aktiengesellschaft Non-GAAP EPS of \u20ac0.79, revenue of \u20ac1.44B; updates FY2026 outlook",
-      "summary": "",
-      "url": "https://seekingalpha.com/news/4629702-gea-group-aktiengesellschaft-non-gaap-eps-of-079-revenue-of-144b-updates-fy2026-outlook?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
-      "source": "Seeking Alpha",
-      "category": "equities",
-      "impact": "low",
-      "published": "2026-08-10T06:18:39+00:00"
     },
     {
       "title": "Here\u2019s what happened in crypto today",
@@ -224,7 +521,7 @@
       "published": "2026-08-10T05:00:00+00:00"
     },
     {
-      "title": "Bitcoin tops $65,000 with US inflation data due this week",
+      "title": "Bitcoin tops $65,000 with U.S. inflation data due this week",
       "summary": "",
       "url": "https://www.coindesk.com/markets/2026/08/10/bitcoin-tops-usd65-000-with-us-inflation-data-due-this-week",
       "source": "CoinDesk",
@@ -260,15 +557,6 @@
       "published": "2026-08-10T04:26:01+00:00"
     },
     {
-      "title": "U.S. reaffirms grip on Hormuz blockade, turning away 55 ships as talks stall",
-      "summary": "The escalating tally underscores how far the two sides remain from resolving a crisis that has choked the Strait of Hormuz for more than five months.",
-      "url": "https://www.cnbc.com/2026/08/10/us-iran-war-trump-hormuz-oman-ships-blockade-shipping.html",
-      "source": "CNBC World",
-      "category": "crypto",
-      "impact": "medium",
-      "published": "2026-08-10T04:24:45+00:00"
-    },
-    {
       "title": "Dow Jones Futures Fall After Market Ramps Up; Cisco, Lumentum Earnings Ahead",
       "summary": "With bulls back in charge, here's what investors should do. Warren Buffett's Berkshire beat views Saturday. Lumentum, Cisco. Applied Materials earnings are on tap..",
       "url": "https://finance.yahoo.com/m/6bf0da8a-faae-33c1-af5a-bcc389ef390c/dow-jones-futures-fall-after.html?.tsrc=rss",
@@ -296,15 +584,6 @@
       "published": "2026-08-10T03:02:00+00:00"
     },
     {
-      "title": "BOJ\u2019s debate on faster hikes bolsters September rate move odds",
-      "summary": "",
-      "url": "https://www.investing.com/news/economy-news/boj-debated-scope-to-hasten-ratehike-pace-in-july-summary-shows-4847786",
-      "source": "Investing.com Commodities",
-      "category": "commodities",
-      "impact": "low",
-      "published": "2026-08-10T03:00:39+00:00"
-    },
-    {
       "title": "Asia Stocks Climb and Rate Bets Ease. Now Comes Wednesday\u2019s CPI Test",
       "summary": "Asia stocks climbed Monday as September Fed hike odds fell to 44%. Wednesday's CPI report is the week's biggest risk.",
       "url": "https://beincrypto.com/asia-stocks-cpi-test-fed-rate-hike-september-2026/?.tsrc=rss",
@@ -312,51 +591,6 @@
       "category": "macro",
       "impact": "high",
       "published": "2026-08-10T02:53:31+00:00"
-    },
-    {
-      "title": "Westpac reports 20% drop in mortgage applications after Australia scraps tax breaks",
-      "summary": "",
-      "url": "https://www.investing.com/news/economy-news/westpac-reports-20-drop-in-mortgage-applications-after-australias-tax-changes-4847783",
-      "source": "Investing.com Commodities",
-      "category": "commodities",
-      "impact": "low",
-      "published": "2026-08-10T02:42:53+00:00"
-    },
-    {
-      "title": "Australian shares dip as Westpac weighs on banks ahead of RBA decision",
-      "summary": "",
-      "url": "https://www.investing.com/news/economy-news/australian-shares-dip-as-westpac-weighs-on-banks-ahead-of-rba-decision-4847796",
-      "source": "Investing.com Commodities",
-      "category": "commodities",
-      "impact": "low",
-      "published": "2026-08-10T01:37:32+00:00"
-    },
-    {
-      "title": "Dollar near two-month trough as US inflation data awaited",
-      "summary": "",
-      "url": "https://www.investing.com/news/economy-news/dollar-near-twomonth-trough-as-us-inflation-data-awaited-4847795",
-      "source": "Investing.com Commodities",
-      "category": "commodities",
-      "impact": "medium",
-      "published": "2026-08-10T01:37:10+00:00"
-    },
-    {
-      "title": "CNBC Daily Open: Washington and Tehran both play it cool \u2014 but markets can't",
-      "summary": "September rate-hike chances have fallen, but a hot inflation print or renewed disruption in the Strait of Hormuz could put them back in play.",
-      "url": "https://www.cnbc.com/2026/08/10/trump-iran-deal-hormuz-netanyahu-gaza-berkshire-hathaway-meta-china-.html",
-      "source": "CNBC World",
-      "category": "macro",
-      "impact": "medium",
-      "published": "2026-08-10T01:18:31+00:00"
-    },
-    {
-      "title": "Why Nasdaq, S&P 500, Dow Futures Are Edging Lower Overnight After Markets Closed Up Last Week",
-      "summary": "All three benchmark indexes closed last week higher, notching best weekly gains since April.",
-      "url": "https://stocktwits.com/news-articles/markets/equity/why-nasdaq-s-and-p-500-dow-futures-are-edging-lower-overnight-after-markets-closed-up-last-week/cZoj7BqRJak?.tsrc=rss",
-      "source": "Yahoo Finance",
-      "category": "macro",
-      "impact": "low",
-      "published": "2026-08-10T01:17:49+00:00"
     },
     {
       "title": "BIP-110 ends with a whimper, CLARITY vote punted: Hodler\u2019s Digest, Aug. 9",
@@ -395,96 +629,6 @@
       "published": "2026-08-09T23:30:00+00:00"
     },
     {
-      "title": "If a Stock Market Crash Is Coming, History Says This Investing Strategy Has Never Once Failed",
-      "summary": "Multiple market indicators are issuing warning signals right now, but history still has good news.",
-      "url": "https://www.fool.com/investing/2026/08/09/if-a-stock-market-crash-is-coming-history-says-thi/?.tsrc=rss",
-      "source": "Yahoo Finance",
-      "category": "macro",
-      "impact": "high",
-      "published": "2026-08-09T22:50:00+00:00"
-    },
-    {
-      "title": "1 S&P 500 Stock with Promising Prospects and 2 That Underwhelm",
-      "summary": "The S&amp;P 500 (^GSPC) is home to the biggest and most well-known companies in the market, making it a go-to index for investors seeking stability. But not all large-cap stocks are created equal - some are struggling with slowing growth, declining margins, or increased competition.",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/1-p-500-stock-promising-223722554.html?.tsrc=rss",
-      "source": "Yahoo Finance",
-      "category": "macro",
-      "impact": "low",
-      "published": "2026-08-09T22:37:22+00:00"
-    },
-    {
-      "title": "1 Internet Stock with Impressive Fundamentals and 2 We Question",
-      "summary": "Whether it be online shopping or social media, secular forces are propelling consumer internet businesses forward. But it\u2019s not all sunshine and rainbows as consumer purchasing power can make or break demand. This unpredictability is weighing on the industry as its 7.6% return over the past six m...",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/1-internet-stock-impressive-fundamentals-222122758.html?.tsrc=rss",
-      "source": "Yahoo Finance",
-      "category": "macro",
-      "impact": "medium",
-      "published": "2026-08-09T22:21:22+00:00"
-    },
-    {
-      "title": "3 S&P 500 Stocks We Approach with Caution",
-      "summary": "While the S&amp;P 500 (^GSPC) includes industry leaders, not every stock in the index is a winner. Some companies are past their prime, weighed down by poor execution, weak financials, or structural headwinds.",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/3-p-500-stocks-approach-215722192.html?.tsrc=rss",
-      "source": "Yahoo Finance",
-      "category": "macro",
-      "impact": "low",
-      "published": "2026-08-09T21:57:22+00:00"
-    },
-    {
-      "title": "3 Reasons to Sell WDAY and 1 Stock to Buy Instead",
-      "summary": "Workday has been treading water for the past six months, holding steady at $163.56. The stock also fell short of the S&amp;P 500\u2019s 11.7% gain during that period.",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/3-reasons-sell-wday-1-210122450.html?.tsrc=rss",
-      "source": "Yahoo Finance",
-      "category": "macro",
-      "impact": "low",
-      "published": "2026-08-09T21:01:22+00:00"
-    },
-    {
-      "title": "S&P 500 Positive Profit Surprises Trending Above 5-Year Average",
-      "summary": "With earnings season progressing, some 86% of S&amp;P 500 companies have reported a positive profit-per-share surprise for the quarter, which is above the five-year average of 78%, according to John Butters, a senior earnings analyst from FactSet.  S&amp;P 500 companies are exceeding their earnin...",
-      "url": "https://finance.yahoo.com/m/c2304190-f675-3c0b-8b8f-7982c61ec921/s%26p-500-positive-profit.html?.tsrc=rss",
-      "source": "Yahoo Finance",
-      "category": "macro",
-      "impact": "low",
-      "published": "2026-08-09T21:01:02+00:00"
-    },
-    {
-      "title": "Trustmark (TRMK): Buy, Sell, or Hold Post Q2 Earnings?",
-      "summary": "Trustmark has followed the market\u2019s trajectory closely, rising in tandem with the S&amp;P 500 over the past six months. The stock has climbed by 8.4% to $48.43 per share while the index has gained 11.7%.",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/trustmark-trmk-buy-sell-hold-205322162.html?.tsrc=rss",
-      "source": "Yahoo Finance",
-      "category": "macro",
-      "impact": "low",
-      "published": "2026-08-09T20:53:22+00:00"
-    },
-    {
-      "title": "3 Reasons PATH is Risky and 1 Stock to Buy Instead",
-      "summary": "Although UiPath (currently trading at $13.59 per share) has gained 5.4% over the last six months, it has trailed the S&amp;P 500\u2019s 11.7% return during that period. This may have investors wondering how to approach the situation.",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/3-reasons-path-risky-1-204522938.html?.tsrc=rss",
-      "source": "Yahoo Finance",
-      "category": "macro",
-      "impact": "low",
-      "published": "2026-08-09T20:45:22+00:00"
-    },
-    {
-      "title": "3 Reasons to Sell PAYX and 1 Stock to Buy Instead",
-      "summary": "Paychex\u2019s 21% return over the past six months has outpaced the S&amp;P 500 by 9.3%, and its stock price has climbed to $119.23 per share. This was partly due to its solid quarterly results, and the performance may have investors wondering how to approach the situation.",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/3-reasons-sell-payx-1-203722232.html?.tsrc=rss",
-      "source": "Yahoo Finance",
-      "category": "macro",
-      "impact": "low",
-      "published": "2026-08-09T20:37:22+00:00"
-    },
-    {
-      "title": "Netanyahu says Trump's new Gaza plan is unacceptable",
-      "summary": "Netanyahu is caught between far-right ministers angered by concessions in Gaza and Trump, who wants progress toward ending the conflict.",
-      "url": "https://www.cnbc.com/2026/08/09/israel-rejects-trumps-15-point-plan-for-gaza-netanyahu-says.html",
-      "source": "CNBC World",
-      "category": "geopolitical",
-      "impact": "medium",
-      "published": "2026-08-09T20:31:57+00:00"
-    },
-    {
       "title": "Bitcoin 'Anti-Spam' Fork Sputters to a Halt After Mining Just Two Blocks",
       "summary": "The breakaway chain drew just 2.53% of mining support, leaving its blocks hours apart and roughly 350 days from a difficulty adjustment while the main network powered ahead.",
       "url": "https://decrypt.co/375177/bitcoin-anti-spam-fork-splutters-halt-mining-just-two-blocks",
@@ -492,15 +636,6 @@
       "category": "crypto",
       "impact": "medium",
       "published": "2026-08-09T19:33:09+00:00"
-    },
-    {
-      "title": "The number of stocks beating the S&P 500 is the highest in 4 years. Why that number should rise.",
-      "summary": "For the first time in four years, the average stock is beating the stock market.",
-      "url": "https://www.marketwatch.com/story/the-number-of-stocks-beating-the-s-p-500-is-the-highest-in-4-years-why-that-number-should-rise-b9bd05b3?mod=mw_rss_topstories",
-      "source": "MarketWatch Top",
-      "category": "macro",
-      "impact": "low",
-      "published": "2026-08-09T19:11:00+00:00"
     },
     {
       "title": "World Liberty received $100 million from businessman investigated for money laundering: NYT",
@@ -530,15 +665,6 @@
       "published": "2026-08-09T18:15:57+00:00"
     },
     {
-      "title": "Trump says U.S. is \u2019low-keying it\u2019 with Iran as its economy struggles",
-      "summary": "",
-      "url": "https://www.investing.com/news/economy-news/fire-at-saudi-aramcos-jazan-refinery-extinguished-no-injuries-reported-4847703",
-      "source": "Investing.com Commodities",
-      "category": "commodities",
-      "impact": "low",
-      "published": "2026-08-09T17:22:16+00:00"
-    },
-    {
       "title": "Brazil to tighten crypto fraud controls with new 24-hour wait on transfers to self-custody wallets",
       "summary": "The new rule will take effect on Jan. 1, 2027, and will cover cryptocurrencies including fiat-backed stablecoins.",
       "url": "https://www.theblock.co/news/regulation/2026-08-09-brazil-to-tighten-crypto-fraud-controls-with-new-24-hour-wait-on-transfers-to-self-custody-wallets-411219?utm_source=rss&utm_medium=rss",
@@ -546,24 +672,6 @@
       "category": "crypto",
       "impact": "low",
       "published": "2026-08-09T17:03:38+00:00"
-    },
-    {
-      "title": "Warsh wants a Fed that plays a smaller role in markets",
-      "summary": "",
-      "url": "https://www.investing.com/news/economy-news/warsh-wants-a-fed-that-plays-a-smaller-role-in-markets-4847750",
-      "source": "Investing.com Commodities",
-      "category": "commodities",
-      "impact": "high",
-      "published": "2026-08-09T16:01:07+00:00"
-    },
-    {
-      "title": "\u2018My wife and I are both retired\u2019: Do we dip into our $2.3 million fund to pay off our $300,000 mortgage at 2.9%?",
-      "summary": "\u201cRight now, we\u2019re withdrawing about $100,000 a year from our investments.\u201d",
-      "url": "https://www.marketwatch.com/story/my-wife-and-i-are-both-retired-do-we-dip-into-our-2-3-million-fund-to-pay-off-our-300-000-mortgage-at-2-9-2d23d1df?mod=mw_rss_topstories",
-      "source": "MarketWatch Top",
-      "category": "macro",
-      "impact": "low",
-      "published": "2026-08-09T16:00:00+00:00"
     },
     {
       "title": "Hyperliquid\u2019s RWA perps boom is eating into the revenue that backs HYPE",
@@ -584,33 +692,6 @@
       "published": "2026-08-09T14:19:35+00:00"
     },
     {
-      "title": "S&P 500 sales growth is at a nearly 5-year high. Here\u2019s what\u2019s behind the surge.",
-      "summary": "Energy companies in the S&amp;P 500 have put up a 42.5% revenue gain in the second quarter, powering the index\u2019s sales performance.",
-      "url": "https://www.marketwatch.com/story/s-p-500-sales-growth-is-at-a-nearly-5-year-high-heres-whats-behind-the-surge-a4ccf06d?mod=mw_rss_topstories",
-      "source": "MarketWatch Top",
-      "category": "macro",
-      "impact": "low",
-      "published": "2026-08-09T14:00:00+00:00"
-    },
-    {
-      "title": "\u2018I don\u2019t wish to be cold-hearted\u2019: My elderly relative can no longer care for himself. Am I wrong to leave his care to the state?",
-      "summary": "\u201cHe has never been particularly generous or nurturing.\u201d",
-      "url": "https://www.marketwatch.com/story/i-dont-wish-to-be-cold-hearted-my-elderly-relative-can-no-longer-care-for-himself-am-i-wrong-to-leave-his-care-to-the-state-8d546b32?mod=mw_rss_topstories",
-      "source": "MarketWatch Top",
-      "category": "macro",
-      "impact": "low",
-      "published": "2026-08-09T13:30:00+00:00"
-    },
-    {
-      "title": "\u2018This has been an emotionally difficult time\u2019: My brother has cancer and my father is 94. How do I shoulder this responsibility?",
-      "summary": "\u201cMy father placed his $600,000 Wisconsin home into a revocable trust, naming my brother as beneficiary.\u201d",
-      "url": "https://www.marketwatch.com/story/this-has-been-an-emotionally-difficult-time-my-brother-has-cancer-and-my-father-is-94-how-do-i-shoulder-this-responsibility-9da09dc4?mod=mw_rss_topstories",
-      "source": "MarketWatch Top",
-      "category": "macro",
-      "impact": "low",
-      "published": "2026-08-09T13:00:00+00:00"
-    },
-    {
       "title": "Crypto is going through a massive dot-com style shakeout as over 100 projects fold in 2026",
       "summary": "",
       "url": "https://www.coindesk.com/business/2026/08/09/crypto-is-going-through-a-massive-dot-com-style-shakeout-as-over-100-projects-fold-in-2026",
@@ -618,24 +699,6 @@
       "category": "crypto",
       "impact": "low",
       "published": "2026-08-09T13:00:00+00:00"
-    },
-    {
-      "title": "I got two email invitations from friends. Is this a phishing scam \u2014 or am I suddenly popular?",
-      "summary": "\u201cI was surprised \u2014 and flattered \u2014 to find myself on the guest list.\u201d",
-      "url": "https://www.marketwatch.com/story/i-got-two-email-invitations-from-friends-is-this-a-phishing-scam-or-am-i-suddenly-popular-d9680aa8?mod=mw_rss_topstories",
-      "source": "MarketWatch Top",
-      "category": "macro",
-      "impact": "low",
-      "published": "2026-08-09T12:30:00+00:00"
-    },
-    {
-      "title": "\u2018Her bank accounts were stripped bare by Medicaid\u2019: My late friend had $20,000 in credit-card debt. Will her life insurance pay for it?",
-      "summary": "\u201cShe left behind a 30-year-old son and 32-year-old daughter.\u201d",
-      "url": "https://www.marketwatch.com/story/her-bank-accounts-were-stripped-bare-by-medicaid-my-late-friend-had-20-000-in-credit-card-debt-will-her-life-insurance-pay-for-it-17ee9792?mod=mw_rss_topstories",
-      "source": "MarketWatch Top",
-      "category": "macro",
-      "impact": "low",
-      "published": "2026-08-09T12:30:00+00:00"
     },
     {
       "title": "Abel puts a big chunk of Berkshire's cash to work",
@@ -663,15 +726,6 @@
       "category": "crypto",
       "impact": "medium",
       "published": "2026-08-09T11:00:53+00:00"
-    },
-    {
-      "title": "Pentagon pushes defense companies to boost weapons production after concerns of depleted stocks",
-      "summary": "A Pentagon spokesman said it was focused on boosting munitions acquisitions to provide \"the weapons our warfighters need at the pace the threat demands.\"",
-      "url": "https://www.cnbc.com/2026/08/09/pentagon-defense-contractors-weapons-production.html",
-      "source": "CNBC World",
-      "category": "equities",
-      "impact": "medium",
-      "published": "2026-08-09T09:49:27+00:00"
     },
     {
       "title": "Brazil targets crypto fraud with up to 24-hour transfer hold",
@@ -755,6 +809,15 @@
       "published": "2026-08-08T17:27:45+00:00"
     },
     {
+      "title": "Hunter Biden says Joe Biden\u2019s cancer has spread further and is \u2018very painful\u2019",
+      "summary": "\"The cancer has spread, is metastasized into his bones and further. It's very painful. It's very debilitating in many respects,\" Hunter Biden said.",
+      "url": "https://www.cnbc.com/2026/08/08/hunter-biden-says-joe-bidens-cancer-has-spread-is-very-debilitating.html",
+      "source": "CNBC World",
+      "category": "equities",
+      "impact": "low",
+      "published": "2026-08-08T17:25:25+00:00"
+    },
+    {
       "title": "Senate Keeps Clarity Act Alive With Crypto Bill Vote Set for September",
       "summary": "Senate Majority Leader John Thune filed the motion to proceed early Saturday, setting up a mid-September showdown.",
       "url": "https://decrypt.co/375174/senate-keeps-clarity-act-alive-with-crypto-bill-vote-set-for-september",
@@ -771,15 +834,6 @@
       "category": "crypto",
       "impact": "medium",
       "published": "2026-08-08T16:20:17+00:00"
-    },
-    {
-      "title": "Brazil's central bank orders exchanges to delay large crypto transfers abroad",
-      "summary": "",
-      "url": "https://www.coindesk.com/business/2026/08/08/brazil-s-central-bank-orders-exchanges-to-delay-large-crypto-transfers-abroad",
-      "source": "CoinDesk",
-      "category": "crypto",
-      "impact": "low",
-      "published": "2026-08-08T15:25:38+00:00"
     },
     {
       "title": "US Senate to vote on advancing CLARITY Act in September after Thune files cloture",
@@ -818,15 +872,6 @@
       "published": "2026-08-08T14:01:05+00:00"
     },
     {
-      "title": "Trillions in institutional money to flow into bitcoin, says Bitwise's Matt Hougan",
-      "summary": "",
-      "url": "https://www.coindesk.com/business/2026/08/08/trillions-in-institutional-money-to-flow-into-bitcoin-says-bitwise-s-matt-hougan",
-      "source": "CoinDesk",
-      "category": "crypto",
-      "impact": "medium",
-      "published": "2026-08-08T14:00:00+00:00"
-    },
-    {
       "title": "'Moneymaxxing' isn't a trend, it's a 'cultural shift,' financial advisor says \u2014 here's how to get started",
       "summary": "In an affordability crunch, social media's viral \"maxxing\" trend could lead to long-term financial security.",
       "url": "https://www.cnbc.com/2026/08/08/moneymaxxing-trend-save-budget-build-wealth.html",
@@ -854,15 +899,6 @@
       "published": "2026-08-08T13:28:00+00:00"
     },
     {
-      "title": "Why trillion-dollar asset manager T. Rowe Price put memecoins in its crypto ETF",
-      "summary": "",
-      "url": "https://www.coindesk.com/markets/2026/08/06/why-trillion-dollar-asset-manager-t-rowe-price-put-memecoins-in-its-crypto-etf",
-      "source": "CoinDesk",
-      "category": "crypto",
-      "impact": "low",
-      "published": "2026-08-08T13:00:00+00:00"
-    },
-    {
       "title": "AI and job losses: How the next automation wave will impact the workforce",
       "summary": "Recent tech layoffs have raised alarms for workers. But multiple studies find that the wave driven by AI looks very different from past automation cycles.",
       "url": "https://www.cnbc.com/2026/08/08/ai-and-job-losses-how-the-next-automation-wave-will-impact-the-workforce.html",
@@ -882,21 +918,12 @@
     },
     {
       "title": "Domestic stablecoins could boost demand for dollar-backed tokens: IMF",
-      "summary": "IMF first deputy managing director Dan Katz says users may favor digital dollars for their liquidity, network effects and cross-border acceptance.",
+      "summary": "IMF First Deputy Managing Director Dan Katz says users may favor digital dollars for their liquidity, network effects and cross-border acceptance.",
       "url": "https://cointelegraph.com/news/imf-domestic-stablecoins-dollar-token-demand?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
       "source": "Cointelegraph",
       "category": "crypto",
       "impact": "low",
       "published": "2026-08-08T06:21:08+00:00"
-    },
-    {
-      "title": "US court backs Bybit\u2019s bid to trace funds from $1.5B North Korea hack",
-      "summary": "Expedited discovery allows the exchange to seek account identities, balances and transaction histories from platforms with US operations.",
-      "url": "https://cointelegraph.com/news/bybit-us-court-trace-funds-north-korea-hack?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "category": "crypto",
-      "impact": "low",
-      "published": "2026-08-08T04:11:53+00:00"
     },
     {
       "title": "Trump Media Abandons Crypto Treasury, Prediction Market Ventures",
@@ -1088,15 +1115,6 @@
       "published": "2026-08-07T13:23:35+00:00"
     },
     {
-      "title": "China\u2019s Kimi K3 Broke Out of Its Sandbox to Look Up Test Answers",
-      "summary": "Unlike the recent breakouts at OpenAI and Anthropic, this involved a model anyone can download, running its default safeguards.",
-      "url": "https://decrypt.co/375096/chinas-kimi-k3-broke-out-of-its-sandbox-to-look-up-test-answers",
-      "source": "Decrypt",
-      "category": "crypto",
-      "impact": "medium",
-      "published": "2026-08-07T12:37:14+00:00"
-    },
-    {
       "title": "Bernstein favors CleanSpark on AI execution as MARA awaits first commercial contract",
       "summary": "Bernstein rates CleanSpark Outperform at $24 on AI lease progress, while keeping MARA at $17 as it awaits its first commercial AI contract.",
       "url": "https://www.theblock.co/news/business/2026-08-07-bernstein-favors-cleanspark-on-ai-execution-as-mara-awaits-first-commercial-contract-411136?utm_source=rss&utm_medium=rss",
@@ -1113,24 +1131,6 @@
       "category": "macro",
       "impact": "medium",
       "published": "2026-08-07T11:23:07+00:00"
-    },
-    {
-      "title": "\u2018Applesauce\u2019: Michigan judge denies Coinbase bid to block state enforcement of sports event contracts",
-      "summary": "\"Coinbase's averments are, in a word, applesauce,\" U.S. District Judge Shalina Kumar wrote in Thursday's ruling.",
-      "url": "https://www.theblock.co/news/regulation/2026-08-07-michigan-judge-denies-coinbase-bid-prediction-markets-411128?utm_source=rss&utm_medium=rss",
-      "source": "The Block",
-      "category": "crypto",
-      "impact": "low",
-      "published": "2026-08-07T09:06:56+00:00"
-    },
-    {
-      "title": "From birth to brokerage: Why South Korea is seeing a surge in infant investment accounts",
-      "summary": "South Korean babies are turning into mini shareholders, thanks to their parents' investment strategies.",
-      "url": "https://www.cnbc.com/2026/08/07/south-korea-investment-stock-baby-accounts.html",
-      "source": "CNBC World",
-      "category": "macro",
-      "impact": "low",
-      "published": "2026-08-06T23:42:20+00:00"
     },
     {
       "title": "Stocks making the biggest moves after hours: Twilio, Airbnb, DraftKings, Trade Desk and more",
