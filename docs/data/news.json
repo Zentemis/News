@@ -1,21 +1,156 @@
 {
-  "generated": "2026-08-16T21:10:02.456672+00:00",
+  "generated": "2026-08-17T00:36:22.108333+00:00",
   "count": 156,
   "sources": [
+    "Yahoo Finance",
+    "Seeking Alpha",
+    "The Block",
+    "CNBC World",
+    "Decrypt",
+    "MarketWatch Top",
     "Cointelegraph",
+    "CoinDesk",
     "CNBC Economy",
     "MarketWatch Economy",
-    "CoinDesk",
-    "Yahoo Finance",
     "CNBC Finance",
-    "CNBC World",
-    "The Block",
-    "Seeking Alpha",
-    "MarketWatch Top",
-    "Investing.com Commodities",
-    "Decrypt"
+    "Investing.com Commodities"
   ],
   "articles": [
+    {
+      "title": "U.S. stock futures little changed as investors ponder the Fed\u2019s next move",
+      "summary": "U.S. stock-index futures were little changed on Sunday after a quiet week on Wall Street, as investors await hints from the Fed concerning the outlook for interest rates.",
+      "url": "https://www.marketwatch.com/story/u-s-stock-futures-little-changed-as-investors-ponder-the-feds-next-move-27bcbea4?mod=mw_rss_topstories",
+      "source": "MarketWatch Top",
+      "category": "macro",
+      "impact": "medium",
+      "published": "2026-08-17T00:22:00+00:00"
+    },
+    {
+      "title": "Stock futures are little changed after S&P 500 posts three-week win streak: Live updates",
+      "summary": "The stock market remains near all-time highs.",
+      "url": "https://www.cnbc.com/2026/08/16/stock-market-today-live-updates-.html",
+      "source": "CNBC World",
+      "category": "equities",
+      "impact": "low",
+      "published": "2026-08-17T00:21:06+00:00"
+    },
+    {
+      "title": "Dow Jones Futures: Nvidia Leads 5 Stocks In Buy Areas, Sandisk Needs This; Walmart Looms",
+      "summary": "The S&amp;P 500 and Nasdaq look ready to run, but they haven't quite done so. Sandisk surged but must do this. Walmart, Target loom.",
+      "url": "https://finance.yahoo.com/m/79b73c1c-e364-315f-8433-18e9ae96269d/dow-jones-futures%3A-nvidia.html?.tsrc=rss",
+      "source": "Yahoo Finance",
+      "category": "macro",
+      "impact": "low",
+      "published": "2026-08-17T00:17:29+00:00"
+    },
+    {
+      "title": "Japan second-quarter GDP grows 1.1% on an annualized basis, missing expectations",
+      "summary": "On an annualized basis, Japan saw growth of 1.1%, against estimates of 2%.",
+      "url": "https://www.cnbc.com/2026/08/17/japan-gdp-misses-estimates-trade-exports-yen-nikkei.html",
+      "source": "CNBC World",
+      "category": "macro",
+      "impact": "low",
+      "published": "2026-08-17T00:15:39+00:00"
+    },
+    {
+      "title": "Data of 54,000 wallet users leaked, CLARITY odds just 10%: Hodler\u2019s Digest",
+      "summary": "Owners of Trezor and SafePal crypto wallets at high risk of phishing attempts after separate data leaks, CLARITY odds at 10% despite White House meeting this week.",
+      "url": "https://cointelegraph.com/magazine/data-of-54000-wallet-users-leaked-clarity-odds-just-10-hodlers-digest?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "category": "crypto",
+      "impact": "low",
+      "published": "2026-08-16T23:54:50+00:00"
+    },
+    {
+      "title": "Trump asks Pentagon to slash military drills with South Korea",
+      "summary": "",
+      "url": "https://www.investing.com/news/economy-news/trump-asks-pentagon-to-slash-military-drills-with-south-korea-4862018",
+      "source": "Investing.com Commodities",
+      "category": "commodities",
+      "impact": "low",
+      "published": "2026-08-16T23:45:03+00:00"
+    },
+    {
+      "title": "Oil edges higher as Middle East tensions return to focus",
+      "summary": "",
+      "url": "https://seekingalpha.com/news/4633619-oil-edges-higher-as-middle-east-tensions-return-to-focus?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+      "source": "Seeking Alpha",
+      "category": "equities",
+      "impact": "low",
+      "published": "2026-08-16T22:37:57+00:00"
+    },
+    {
+      "title": "A2 Milk profit tumbles 44% after China formula shortage",
+      "summary": "",
+      "url": "https://seekingalpha.com/news/4633618-a2-milk-profit-tumbles-44-percent-after-china-formula-shortage?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+      "source": "Seeking Alpha",
+      "category": "equities",
+      "impact": "low",
+      "published": "2026-08-16T22:30:52+00:00"
+    },
+    {
+      "title": "New AI financing backstops allows compute buyers more control over business models",
+      "summary": "",
+      "url": "https://www.investing.com/news/economy-news/new-ai-financing-backstops-allows-compute-buyers-more-control-over-business-models-4862016",
+      "source": "Investing.com Commodities",
+      "category": "commodities",
+      "impact": "low",
+      "published": "2026-08-16T22:10:04+00:00"
+    },
+    {
+      "title": "Here are the major earnings before the open Monday",
+      "summary": "",
+      "url": "https://seekingalpha.com/news/4633602-here-are-the-major-earnings-before-the-open-monday?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+      "source": "Seeking Alpha",
+      "category": "equities",
+      "impact": "low",
+      "published": "2026-08-16T22:00:38+00:00"
+    },
+    {
+      "title": "Trump orders reduction in U.S.-South Korea military exercises",
+      "summary": "",
+      "url": "https://seekingalpha.com/news/4633617-trump-orders-reduction-in-u-s-south-korea-military-exercises?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+      "source": "Seeking Alpha",
+      "category": "equities",
+      "impact": "low",
+      "published": "2026-08-16T21:58:26+00:00"
+    },
+    {
+      "title": "Stripe is said to agree to buy OpenRouter for more than $7B",
+      "summary": "",
+      "url": "https://seekingalpha.com/news/4633616-stripe-is-said-to-agree-to-buy-openrouter-for-more-than-7b?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+      "source": "Seeking Alpha",
+      "category": "equities",
+      "impact": "low",
+      "published": "2026-08-16T21:51:31+00:00"
+    },
+    {
+      "title": "Prediction market Novig sues Wisconsin AG in latest spat over sports contracts",
+      "summary": "Novig, which recently announced a partnership with the New York Mets, has sued officials in five states including Wisconsin since Aug. 4.",
+      "url": "https://www.theblock.co/news/business/2026-08-16-prediction-market-novig-sues-wisconsin-ag-in-latest-spat-over-sports-contracts-411938",
+      "source": "The Block",
+      "category": "crypto",
+      "impact": "low",
+      "published": "2026-08-16T21:40:20+00:00"
+    },
+    {
+      "title": "Yalla Q2 Earnings Preview",
+      "summary": "",
+      "url": "https://seekingalpha.com/news/4633328-yalla-q2-earnings-preview?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+      "source": "Seeking Alpha",
+      "category": "equities",
+      "impact": "low",
+      "published": "2026-08-16T21:35:00+00:00"
+    },
+    {
+      "title": "Flexsteel Q4 2026 Earnings Preview",
+      "summary": "",
+      "url": "https://seekingalpha.com/news/4633330-flexsteel-q4-2026-earnings-preview?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+      "source": "Seeking Alpha",
+      "category": "equities",
+      "impact": "low",
+      "published": "2026-08-16T21:35:00+00:00"
+    },
     {
       "title": "2 Reasons to Like BURL (and 1 Not So Much)",
       "summary": "Burlington has followed the market\u2019s trajectory closely, rising in tandem with the S&amp;P 500 over the past six months. The stock has climbed by 13.6% to $355.47 per share while the index has gained 13.1%.",
@@ -89,15 +224,6 @@
       "published": "2026-08-16T19:49:00+00:00"
     },
     {
-      "title": "Colombia seeks temporary U.S. tariff relief after deadly earthquake",
-      "summary": "",
-      "url": "https://seekingalpha.com/news/4633614-colombia-seeks-temporary-u-s-tariff-relief-after-deadly-earthquake?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
-      "source": "Seeking Alpha",
-      "category": "equities",
-      "impact": "medium",
-      "published": "2026-08-16T19:43:02+00:00"
-    },
-    {
       "title": "Sotera Health Company (SHC): Buy, Sell, or Hold Post Q2 Earnings?",
       "summary": "Sotera Health Company trades at $19.02 per share and has stayed right on track with the overall market, gaining 11.3% over the last six months. At the same time, the S&amp;P 500 has returned 13.1%.",
       "url": "https://finance.yahoo.com/markets/stocks/articles/sotera-health-company-shc-buy-194100321.html?.tsrc=rss",
@@ -143,24 +269,6 @@
       "published": "2026-08-16T19:06:26+00:00"
     },
     {
-      "title": "U.S. air-conditioner shipments jump in June as H1 growth remains modest",
-      "summary": "",
-      "url": "https://seekingalpha.com/news/4633613-u-s-air-conditioner-shipments-jump-in-june-as-h1-growth-remains-modest?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
-      "source": "Seeking Alpha",
-      "category": "equities",
-      "impact": "low",
-      "published": "2026-08-16T19:05:11+00:00"
-    },
-    {
-      "title": "Dow Jones Futures: Nvidia Leads 5 Stocks In Buy Areas, Sandisk Needs This; Walmart Looms",
-      "summary": "The S&amp;P 500 and Nasdaq look ready to run, but they haven't quite done so. Sandisk surged but must do this. Walmart, Target loom.",
-      "url": "https://finance.yahoo.com/m/79b73c1c-e364-315f-8433-18e9ae96269d/dow-jones-futures%3A-nvidia.html?.tsrc=rss",
-      "source": "Yahoo Finance",
-      "category": "macro",
-      "impact": "low",
-      "published": "2026-08-16T18:59:55+00:00"
-    },
-    {
       "title": "2 Reasons to Watch JCI and 1 to Stay Cautious",
       "summary": "Even though Johnson Controls (currently trading at $152.98 per share) has gained 7.6% over the last six months, it has lagged the S&amp;P 500\u2019s 13.1% return during that period. This may have investors wondering how to approach the situation.",
       "url": "https://finance.yahoo.com/markets/stocks/articles/2-reasons-watch-jci-1-185300595.html?.tsrc=rss",
@@ -168,15 +276,6 @@
       "category": "macro",
       "impact": "low",
       "published": "2026-08-16T18:53:00+00:00"
-    },
-    {
-      "title": "Rocket Lab-built satellites for MDA Space begin operations in orbit",
-      "summary": "",
-      "url": "https://seekingalpha.com/news/4633612-rocket-lab-built-satellites-for-mda-space-begin-operations-in-orbit?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
-      "source": "Seeking Alpha",
-      "category": "equities",
-      "impact": "low",
-      "published": "2026-08-16T18:52:37+00:00"
     },
     {
       "title": "J. M. Smucker (SJM): Buy, Sell, or Hold Post Q1 Earnings?",
@@ -206,15 +305,6 @@
       "published": "2026-08-16T18:30:00+00:00"
     },
     {
-      "title": "Soci\u00e9t\u00e9 G\u00e9n\u00e9rale sees more room for KOSPI recovery despite rebuilding leverage",
-      "summary": "",
-      "url": "https://seekingalpha.com/news/4633610-societe-generale-sees-more-room-for-kospi-recovery-despite-rebuilding-leverage?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
-      "source": "Seeking Alpha",
-      "category": "equities",
-      "impact": "low",
-      "published": "2026-08-16T18:29:54+00:00"
-    },
-    {
       "title": "Can I claim 50% of my husband\u2019s Social Security now \u2014 and switch to my higher benefit at 70?",
       "summary": "\u201cI would like to offer a piece of advice for women who are or have been married.\u201d",
       "url": "https://www.marketwatch.com/story/can-i-claim-50-of-my-husbands-social-security-now-and-switch-to-my-higher-benefit-at-70-5518700b?mod=mw_rss_topstories",
@@ -222,24 +312,6 @@
       "category": "macro",
       "impact": "low",
       "published": "2026-08-16T18:15:00+00:00"
-    },
-    {
-      "title": "States rethink AI data-center incentives as power costs, public backlash grow",
-      "summary": "",
-      "url": "https://seekingalpha.com/news/4633608-states-rethink-ai-data-center-incentives-as-power-costs-public-backlash-grow?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
-      "source": "Seeking Alpha",
-      "category": "equities",
-      "impact": "low",
-      "published": "2026-08-16T17:59:33+00:00"
-    },
-    {
-      "title": "Top global stories last week: JD.com, SK Hynix among notable names",
-      "summary": "",
-      "url": "https://seekingalpha.com/news/4633611-top-global-stories-last-week-jdcom-sk-hynix-among-notable-names?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
-      "source": "Seeking Alpha",
-      "category": "equities",
-      "impact": "low",
-      "published": "2026-08-16T17:46:28+00:00"
     },
     {
       "title": "Stanley Druckenmiller builds $120 million bet on major tech stock",
@@ -269,15 +341,6 @@
       "published": "2026-08-16T17:18:38+00:00"
     },
     {
-      "title": "Quebec, Newfoundland near expanded hydroelectric power agreement",
-      "summary": "",
-      "url": "https://seekingalpha.com/news/4633607-quebec-newfoundland-near-expanded-hydroelectric-power-agreement?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
-      "source": "Seeking Alpha",
-      "category": "equities",
-      "impact": "low",
-      "published": "2026-08-16T17:01:30+00:00"
-    },
-    {
       "title": "\u2018It\u2019s a double-edged sword\u2019: My husband got a $42,000 bonus. Will it wipe out our Affordable Care Act subsidy?",
       "summary": "\u201cWe were advised to return the bonus and take out a home-equity loan.\u201d",
       "url": "https://www.marketwatch.com/story/its-a-double-edged-sword-my-husband-got-a-42-000-bonus-will-it-wipe-out-our-affordable-care-act-subsidy-32db285e?mod=mw_rss_topstories",
@@ -294,15 +357,6 @@
       "category": "commodities",
       "impact": "medium",
       "published": "2026-08-16T16:59:30+00:00"
-    },
-    {
-      "title": "BBC asks a U.S. court for help in getting testimony from the Trump family in defamation suit",
-      "summary": "Trump filed the lawsuit in December seeking $10 billion in damages from the BBC, accusing it of defamation and deceptive and unfair trade practices.",
-      "url": "https://www.cnbc.com/2026/08/16/bbc-asks-us-court-for-help-in-getting-testimony-from-trump-family.html",
-      "source": "CNBC World",
-      "category": "macro",
-      "impact": "low",
-      "published": "2026-08-16T16:32:24+00:00"
     },
     {
       "title": "I\u2019m 63, a retired CPA with a $1.2 million 401(k). Do I need to bother with a Roth conversion?",
@@ -393,15 +447,6 @@
       "category": "crypto",
       "impact": "low",
       "published": "2026-08-16T13:00:00+00:00"
-    },
-    {
-      "title": "Thousands evacuate after Indonesia quake kills 53, aftershocks hamper rescue efforts",
-      "summary": "Over 3,300 people in Indonesia's eastern Sikka region self-evacuated or were in a sports arena, the country's national disaster mitigation agency BNPB said.",
-      "url": "https://www.cnbc.com/2026/08/16/thousands-evacuated-after-indonesia-quake-kills-51-cuts-roads.html",
-      "source": "CNBC World",
-      "category": "macro",
-      "impact": "low",
-      "published": "2026-08-16T12:53:41+00:00"
     },
     {
       "title": "DefiLlama delayed mobile launch over phishing apps on Apple Store, founder says",
@@ -521,33 +566,6 @@
       "published": "2026-08-16T07:33:56+00:00"
     },
     {
-      "title": "Central bank market backstops risk fuelling leverage and future crises",
-      "summary": "",
-      "url": "https://www.investing.com/news/economy-news/central-bank-market-backstops-risk-fuelling-leverage-and-future-crises-4861929",
-      "source": "Investing.com Commodities",
-      "category": "commodities",
-      "impact": "low",
-      "published": "2026-08-16T07:05:50+00:00"
-    },
-    {
-      "title": "China plans faster rollout of renewable-energy recycling rules - CCTV",
-      "summary": "",
-      "url": "https://www.investing.com/news/economy-news/china-plans-faster-rollout-of-renewableenergy-recycling-rules--cctv-4861924",
-      "source": "Investing.com Commodities",
-      "category": "commodities",
-      "impact": "low",
-      "published": "2026-08-16T06:26:33+00:00"
-    },
-    {
-      "title": "U.S. to tell partners they must pick sides in AI race with China: Reuters",
-      "summary": "The draft letter is addressed to the 35 signatories of a U.S. \"AI Opportunity Statement\" signed in June.",
-      "url": "https://www.cnbc.com/2026/08/15/us-to-tell-allies-they-must-pick-sides-in-ai-race-with-china-reuters.html",
-      "source": "CNBC World",
-      "category": "geopolitical",
-      "impact": "low",
-      "published": "2026-08-15T22:49:03+00:00"
-    },
-    {
       "title": "JPMorgan cut Polymarket\u2019s banking ties in October but still wants a role in a potential IPO: FT",
       "summary": "Polymarket has moved its accounts to a lender the report could not identify but says it still maintains a \"close, active relationship\" with JPMorgan.",
       "url": "https://www.theblock.co/news/business/2026-08-15-jpmorgan-cut-polymarkets-banking-ties-in-october-but-still-wants-a-role-in-a-potential-ipo-ft-411929",
@@ -600,15 +618,6 @@
       "category": "macro",
       "impact": "low",
       "published": "2026-08-15T18:23:00+00:00"
-    },
-    {
-      "title": "An active fund holding a whopping 800 stocks is beating major indexes. Here\u2019s how.",
-      "summary": "For diversification in the stock market, there are actively managed alternatives to index funds.",
-      "url": "https://www.marketwatch.com/story/an-active-fund-holding-a-whopping-800-stocks-is-beating-major-indexes-heres-how-6bf73062?mod=mw_rss_topstories",
-      "source": "MarketWatch Top",
-      "category": "macro",
-      "impact": "low",
-      "published": "2026-08-15T18:05:00+00:00"
     },
     {
       "title": "Tokenized stock holders more than double as monthly volume surges",
@@ -782,20 +791,20 @@
       "published": "2026-08-15T08:40:59+00:00"
     },
     {
+      "title": "Beijing is said to move to clarify tax rules stoking confusion among China's ultra-wealthy",
+      "summary": "Beijing is said to be moving to clarify ambiguities in new tax rules on offshore trusts after the policy sowed confusion among wealthy Chinese and advisors.",
+      "url": "https://www.cnbc.com/2026/08/15/china-rich-tycoons-tax-overseas-investment-trust-insurance-capital-flows.html",
+      "source": "CNBC World",
+      "category": "macro",
+      "impact": "low",
+      "published": "2026-08-15T06:11:11+00:00"
+    },
+    {
       "title": "Russia's economy has defied the skeptics. Cracks are getting harder to hide",
       "summary": "Russia's wartime economy is under growing strain as its budget deficit widens and analysts warn pressure could intensify next year.",
       "url": "https://www.cnbc.com/2026/08/15/ukraine-war-russia-economy-putin-oil.html",
       "source": "CNBC World",
       "category": "macro",
-      "impact": "medium",
-      "published": "2026-08-15T05:00:01+00:00"
-    },
-    {
-      "title": "Extreme heat spurs earliest-ever Champagne harvest, putting its famous taste to the test",
-      "summary": "Producers of the iconic French fizz face a challenge to preserve its taste profile while they also battle tariff complications and fewer drinkers.",
-      "url": "https://www.cnbc.com/2026/08/15/heatwave-champagne-harvest-climate.html",
-      "source": "CNBC World",
-      "category": "geopolitical",
       "impact": "medium",
       "published": "2026-08-15T05:00:01+00:00"
     },
@@ -1016,15 +1025,6 @@
       "published": "2026-08-14T15:43:26+00:00"
     },
     {
-      "title": "Israel\u2019s largest bank taps Galaxy to offer Bitcoin, Ether, Solana trading",
-      "summary": "Bank Leumi customers will be able to buy, hold and sell three major cryptocurrencies directly through the bank\u2019s investment app beginning in early 2027.",
-      "url": "https://cointelegraph.com/news/israels-largest-bank-taps-galaxy-to-offer-bitcoin-ether-and-solana-trading?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "category": "crypto",
-      "impact": "medium",
-      "published": "2026-08-14T15:41:49+00:00"
-    },
-    {
       "title": "Ethena treasury company StablecoinX shares jump 12% after revealing 20% stake in ENA supply",
       "summary": "StablecoinX shares surged after the Ethena treasury firm revealed it holds 20% of ENA\u2019s total supply.",
       "url": "https://www.theblock.co/news/business/2026-08-14-ethena-treasury-company-stablecoinx-shares-jump-12-revealing-20-stake-ena-supply-411845",
@@ -1070,15 +1070,6 @@
       "published": "2026-08-14T12:38:39+00:00"
     },
     {
-      "title": "Norway sovereign wealth fund sees indirect bitcoin exposure hit all-time high, with Strategy accounting for 86%: K33",
-      "summary": "Norges Bank Investment Management also disclosed a new $88 million stake in Ethereum treasury firm Bitmine.",
-      "url": "https://www.theblock.co/news/markets/2026-08-14-norway-sovereign-wealth-fund-indirect-bitcoin-exposure-all-time-high-strategy-k33-411815",
-      "source": "The Block",
-      "category": "crypto",
-      "impact": "high",
-      "published": "2026-08-14T12:25:38+00:00"
-    },
-    {
       "title": "Morning Minute: Tether Finally Gets An Audit",
       "summary": "It seems Tether passed, putting an end to the longest-running open criticism of the leading stablecoin company.",
       "url": "https://decrypt.co/375625/morning-minute-tether-finally-gets-an-audit",
@@ -1113,6 +1104,15 @@
       "category": "equities",
       "impact": "low",
       "published": "2026-08-14T01:02:39+00:00"
+    },
+    {
+      "title": "From Apple to Ford: How Chinese tech is becoming harder for global companies to ignore",
+      "summary": "Global companies are increasingly tapping Chinese technology for its growing capabilities and scale, even as geopolitical risks remain.",
+      "url": "https://www.cnbc.com/2026/08/14/china-tech-global-appeal-apple-ford-catl-deepseek.html",
+      "source": "CNBC World",
+      "category": "equities",
+      "impact": "medium",
+      "published": "2026-08-14T00:09:11+00:00"
     },
     {
       "title": "Careem\u2019s founders put in $100,000. Seven years later, Uber bought it for $3.1 billion",
