@@ -1,29 +1,272 @@
 {
-  "generated": "2026-08-30T18:14:26.938610+00:00",
-  "count": 156,
+  "generated": "2026-08-30T22:59:50.739969+00:00",
+  "count": 157,
   "sources": [
-    "CoinDesk",
-    "The Block",
     "CNBC Economy",
-    "Yahoo Finance",
+    "CNBC World",
+    "MarketWatch Top",
+    "Cointelegraph",
+    "Seeking Alpha",
+    "Decrypt",
+    "CoinDesk",
+    "MarketWatch Economy",
     "CNBC Finance",
     "Investing.com Commodities",
-    "Seeking Alpha",
-    "MarketWatch Economy",
-    "CNBC World",
-    "Decrypt",
-    "Cointelegraph",
-    "MarketWatch Top"
+    "Yahoo Finance",
+    "The Block"
   ],
   "articles": [
     {
-      "title": "Trump plans to refill U.S. emergency oil reserve with Venezuelan crude",
+      "title": "Dow Jones Futures Fall, Oil Prices Jump As U.S. Strikes Iran",
+      "summary": "Dow Jones futures fell slightly while oil prices bounced as the U.S. struck Iran publicly for the first time in a month.",
+      "url": "https://finance.yahoo.com/m/5851be5e-4456-36df-acc2-e391c82c51f8/dow-jones-futures-fall%2C-oil.html?.tsrc=rss",
+      "source": "Yahoo Finance",
+      "category": "macro",
+      "impact": "low",
+      "published": "2026-08-30T22:48:41+00:00"
+    },
+    {
+      "title": "U.S. stock futures flat as chances of rate hike rise after Warsh\u2019s Jackson Hole comments",
+      "summary": "U.S. stock-index futures were little changed on Sunday, as investors ponder the likelihood of a fresh interest-rate hike and look ahead to fresh labor data and tech earnings this week.",
+      "url": "https://www.marketwatch.com/story/u-s-stock-futures-flat-as-chances-of-rate-hike-rise-after-warshs-jackson-hole-comments-1f5287f2?mod=mw_rss_topstories",
+      "source": "MarketWatch Top",
+      "category": "macro",
+      "impact": "high",
+      "published": "2026-08-30T22:45:00+00:00"
+    },
+    {
+      "title": "U.S. plans to sanction another bank in effort to clamp down on Iran transactions: Bessent",
+      "summary": "Bessent's campaign means to push countries that still do business with Iran to sever their financial ties or face retaliation from the U.S.",
+      "url": "https://www.cnbc.com/2026/08/30/bessent-bank-sanction-iran-transactions.html",
+      "source": "CNBC World",
+      "category": "geopolitical",
+      "impact": "medium",
+      "published": "2026-08-30T22:37:31+00:00"
+    },
+    {
+      "title": "Oil prices jump more than 2% after U.S. strike on Iran",
       "summary": "",
-      "url": "https://seekingalpha.com/news/4638071-trump-plans-to-refill-u-s-emergency-oil-reserve-with-venezuelan-crude?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+      "url": "https://seekingalpha.com/news/4638082-oil-prices-jump-more-than-2-percent-after-u-s-strike-on-iran?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
       "source": "Seeking Alpha",
       "category": "equities",
+      "impact": "low",
+      "published": "2026-08-30T22:31:17+00:00"
+    },
+    {
+      "title": "Polygon Quietly Patched Security Flaws in Two Hard Forks Before Disclosing Them",
+      "summary": "The Austin and Kyoto hard forks, deployed quietly on the Bor and Heimdall clients before public disclosure, closed denial-of-service and consensus-hardening flaws that Polygon says were never exploited.",
+      "url": "https://decrypt.co/376911/polygon-quietly-patched-security-flaws",
+      "source": "Decrypt",
+      "category": "crypto",
+      "impact": "low",
+      "published": "2026-08-30T22:31:04+00:00"
+    },
+    {
+      "title": "\u2018It\u2019s the ultimate regifting\u2019: My mom gave me a house. Should I transfer it back to her to reduce capital gains?",
+      "summary": "\u201cThe property is very old and requires significant ongoing maintenance.\u201d",
+      "url": "https://www.marketwatch.com/story/its-the-ultimate-regifting-my-mom-gave-me-a-house-should-i-transfer-it-back-to-her-to-reduce-capital-gains-e357f49c?mod=mw_rss_topstories",
+      "source": "MarketWatch Top",
+      "category": "macro",
+      "impact": "low",
+      "published": "2026-08-30T22:31:00+00:00"
+    },
+    {
+      "title": "Bessent says yen moves \u2019pretty contained\u2019 and not disorderly",
+      "summary": "",
+      "url": "https://www.investing.com/news/economy-news/bessent-says-yen-moves-pretty-contained-and-not-disorderly-4882076",
+      "source": "Investing.com Commodities",
+      "category": "commodities",
+      "impact": "low",
+      "published": "2026-08-30T22:30:30+00:00"
+    },
+    {
+      "title": "Bayer\u2019s experimental PET tracer shows accuracy in Phase 3 cardiac amyloidosis",
+      "summary": "",
+      "url": "https://seekingalpha.com/news/4638078-bayer-s-experimental-pet-tracer-shows-accuracy-in-phase-3-cardiac-amyloidosis?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+      "source": "Seeking Alpha",
+      "category": "equities",
+      "impact": "low",
+      "published": "2026-08-30T22:23:17+00:00"
+    },
+    {
+      "title": "Stock futures are little changed as traders get set to wrap up a winning month: Live updates",
+      "summary": "The Dow is up 2.1% in August, on pace for its fifth consecutive monthly advance.",
+      "url": "https://www.cnbc.com/2026/08/30/stock-market-today-live-updates.html",
+      "source": "CNBC World",
+      "category": "equities",
+      "impact": "low",
+      "published": "2026-08-30T22:18:34+00:00"
+    },
+    {
+      "title": "\u2018My main goal is to help people\u2019: I\u2019m single, 74, with $10 million burning a hole in my pocket. What should I do?",
+      "summary": "\u201cI also own my home and an SUV outright, with no outstanding debt.\u201d",
+      "url": "https://www.marketwatch.com/story/my-main-goal-is-to-help-people-im-single-74-with-10-million-burning-a-hole-in-my-pocket-what-should-i-do-0e6112e1?mod=mw_rss_topstories",
+      "source": "MarketWatch Top",
+      "category": "macro",
+      "impact": "low",
+      "published": "2026-08-30T22:15:00+00:00"
+    },
+    {
+      "title": "\u2018I feel shoehorned\u2019: My father funded my $800,000 Roth IRA. Does that give him the right to say how I invest it?",
+      "summary": "\u201cHis argument is essentially that, since my parents provided the money for the Roth, they have a say in how I invest it.\u201d",
+      "url": "https://www.marketwatch.com/story/i-feel-shoehorned-my-father-funded-my-800-000-roth-ira-does-that-give-him-the-right-to-say-how-i-invest-it-7b1e3ab3?mod=mw_rss_topstories",
+      "source": "MarketWatch Top",
+      "category": "macro",
+      "impact": "low",
+      "published": "2026-08-30T22:15:00+00:00"
+    },
+    {
+      "title": "Rescuers battle floods and debris as Himalayan disaster death toll nears 800",
+      "summary": "Beijing said 261 foreign nationals from 23 countries were unaccounted for in Tibet, near a key border crossing with Nepal.",
+      "url": "https://www.cnbc.com/2026/08/30/rescuers-race-to-find-thousands-after-nepal-china-glacier-collapse.html",
+      "source": "CNBC World",
+      "category": "macro",
+      "impact": "low",
+      "published": "2026-08-30T22:14:58+00:00"
+    },
+    {
+      "title": "Stock Futures Drift Lower, Oil Rises Ahead of Jobs Data, Tech Earnings",
+      "summary": "This week features earnings from Nvidia rival Broadcom plus reports from Dell and Hewlett Packard Enterprise.",
+      "url": "https://finance.yahoo.com/m/f2abac1b-c525-31ba-9e2e-f1bf9ebaa4ae/stock-futures-drift-lower%2C.html?.tsrc=rss",
+      "source": "Yahoo Finance",
+      "category": "macro",
       "impact": "medium",
-      "published": "2026-08-30T18:02:24+00:00"
+      "published": "2026-08-30T22:13:00+00:00"
+    },
+    {
+      "title": "Aon nears $17 billion deal to buy insurance broker USI from KKR, WSJ reports",
+      "summary": "Aon is nearing a roughly $17 billion deal, including debt, to acquire insurance brokerage USI from KKR, the Journal reported.",
+      "url": "https://www.cnbc.com/2026/08/30/aon-usi-17-billion-deal-talks.html",
+      "source": "CNBC World",
+      "category": "macro",
+      "impact": "low",
+      "published": "2026-08-30T22:05:32+00:00"
+    },
+    {
+      "title": "Here are the major earnings before the open Monday",
+      "summary": "",
+      "url": "https://seekingalpha.com/news/4638049-here-are-the-major-earnings-before-the-open-monday?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+      "source": "Seeking Alpha",
+      "category": "equities",
+      "impact": "low",
+      "published": "2026-08-30T22:00:26+00:00"
+    },
+    {
+      "title": "United Therapeutics highlights new data supporting two FDA filings",
+      "summary": "",
+      "url": "https://seekingalpha.com/news/4638067-united-therapeutics-highlights-new-data-supporting-two-fda-filings?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+      "source": "Seeking Alpha",
+      "category": "equities",
+      "impact": "low",
+      "published": "2026-08-30T21:59:14+00:00"
+    },
+    {
+      "title": "U.S. strikes Iranian launchers near Strait of Hormuz",
+      "summary": "",
+      "url": "https://seekingalpha.com/news/4638081-u-s-strikes-iranian-launchers-near-strait-of-hormuz?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+      "source": "Seeking Alpha",
+      "category": "equities",
+      "impact": "low",
+      "published": "2026-08-30T21:36:11+00:00"
+    },
+    {
+      "title": "U.S. strikes Iranian rocket launchers near Strait of Hormuz",
+      "summary": "The last major U.S. strikes on Iran were carried out in late July.",
+      "url": "https://www.cnbc.com/2026/08/30/us-iran-strikes-strait-hormuz.html",
+      "source": "CNBC World",
+      "category": "macro",
+      "impact": "low",
+      "published": "2026-08-30T21:32:59+00:00"
+    },
+    {
+      "title": "Bitcoin ETFs Snap Nine-Day Inflow Streak as Ethereum Funds Extend Their Run",
+      "summary": "Spot Bitcoin ETFs shed $201.9 million on Aug. 28, ending a nine-day inflow run, even as Ethereum funds extended a 10-day streak with fresh cash.",
+      "url": "https://decrypt.co/376897/bitcoin-etfs-snap-streak-ethereum-funds-extend",
+      "source": "Decrypt",
+      "category": "crypto",
+      "impact": "high",
+      "published": "2026-08-30T21:31:04+00:00"
+    },
+    {
+      "title": "NATO doesn't see imminent attack as Russian \u2018hybrid\u2019 activity intensifies",
+      "summary": "",
+      "url": "https://seekingalpha.com/news/4638080-nato-doesnt-see-imminent-attack-as-russian-hybrid-activity-intensifies?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+      "source": "Seeking Alpha",
+      "category": "equities",
+      "impact": "low",
+      "published": "2026-08-30T21:12:09+00:00"
+    },
+    {
+      "title": "S&P 500 Is Up 12% in 2026 But a 1907 Crash Signal Is Back",
+      "summary": "The S&amp;P 500 is up 12.65% in 2026, yet record options and margin debt echo the leverage that broke 1907. What happens next?",
+      "url": "https://beincrypto.com/sp500-2026-rally-1907-crash-warning/?.tsrc=rss",
+      "source": "Yahoo Finance",
+      "category": "macro",
+      "impact": "medium",
+      "published": "2026-08-30T21:04:01+00:00"
+    },
+    {
+      "title": "U.S. forces strike Iranian launchers on Larak Island",
+      "summary": "",
+      "url": "https://www.investing.com/news/economy-news/iran-insists-strait-of-hormuz-remains-closed-as-war-enters-seventh-month-4882018",
+      "source": "Investing.com Commodities",
+      "category": "commodities",
+      "impact": "low",
+      "published": "2026-08-30T20:50:01+00:00"
+    },
+    {
+      "title": "PetroChina H1 profit rises 22% despite weaker fuel demand",
+      "summary": "",
+      "url": "https://seekingalpha.com/news/4638079-petrochina-h1-profit-rises-22-percent-despite-weaker-fuel-demand?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+      "source": "Seeking Alpha",
+      "category": "equities",
+      "impact": "low",
+      "published": "2026-08-30T20:48:11+00:00"
+    },
+    {
+      "title": "Kalshi becomes exclusive prediction market partner of US Open: report",
+      "summary": "As part of the agreement, rival prediction market platforms are reportedly barred from advertising at the tournament and on its ESPN broadcasts.",
+      "url": "https://www.theblock.co/news/deals/2026-08-30-kalshi-becomes-exclusive-prediction-market-partner-of-us-open-report-413074",
+      "source": "The Block",
+      "category": "crypto",
+      "impact": "low",
+      "published": "2026-08-30T20:28:52+00:00"
+    },
+    {
+      "title": "Trump criticizes NBC over election comment as Treasury denies some NYT, WSJ and Bloomberg reporters G20 credentials",
+      "summary": "Trump's attack on NBC comes after the Treasury barred journalists from The New York Times, The Wall Street Journal and Bloomberg from attending the G20.",
+      "url": "https://www.cnbc.com/2026/08/30/trump-nbc-election-comment-treasury-g20-reporter-access.html",
+      "source": "CNBC World",
+      "category": "macro",
+      "impact": "low",
+      "published": "2026-08-30T19:40:52+00:00"
+    },
+    {
+      "title": "Strategy\u2019s Bitcoin Is $2.8 Billion in Profit\u2014Is Saylor Teeing Up a Buy?",
+      "summary": "A Bitcoin rally to around $79,000 lifted the company's 840,447 BTC roughly $2.8 billion above its cost basis, as Saylor's \"We're Back\" post fueled speculation that Strategy may resume buying.",
+      "url": "https://decrypt.co/376884/strategy-bitcoin-2-8-billion-profit-saylor-btc-buy",
+      "source": "Decrypt",
+      "category": "crypto",
+      "impact": "medium",
+      "published": "2026-08-30T19:39:55+00:00"
+    },
+    {
+      "title": "What Happens When You Invest in the Stock Market at the Worst Possible Time? History Has Reassuring News for Investors.",
+      "summary": "Investing at peak prices can still result in lucrative long-term returns.",
+      "url": "https://www.fool.com/investing/2026/08/30/what-happens-when-you-invest-in-the-stock-market-a/?.tsrc=rss",
+      "source": "Yahoo Finance",
+      "category": "macro",
+      "impact": "low",
+      "published": "2026-08-30T19:20:00+00:00"
+    },
+    {
+      "title": "Crypto.com-linked Cronos network halts after Tectonic exploit estimated at $75 million",
+      "summary": "Li says the attacker manipulated the price of Tectonic's illiquid TONIC token before borrowing against the inflated collateral, a Mango Markets-style hack.",
+      "url": "https://www.theblock.co/news/defi/2026-08-30-crypto-com-linked-cronos-network-halts-after-tectonic-exploit-estimated-at-75-million-413069",
+      "source": "The Block",
+      "category": "crypto",
+      "impact": "low",
+      "published": "2026-08-30T18:40:08+00:00"
     },
     {
       "title": "Saylor signals Strategy is \u2018Back\u2019 to Bitcoin buying",
@@ -44,24 +287,6 @@
       "published": "2026-08-30T17:51:54+00:00"
     },
     {
-      "title": "\u2018Spider-Man\u2019 holds box-office crown as \u2018Coyote vs. Acme\u2019 debuts at no. 2",
-      "summary": "",
-      "url": "https://seekingalpha.com/news/4638072-spider-man-holds-box-office-crown-as-coyote-vs-acme-debuts-at-no-2?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
-      "source": "Seeking Alpha",
-      "category": "equities",
-      "impact": "low",
-      "published": "2026-08-30T17:41:44+00:00"
-    },
-    {
-      "title": "European Central Bankers fear U.S. policy shifts could rattle global markets",
-      "summary": "",
-      "url": "https://seekingalpha.com/news/4638070-european-central-bankers-fear-u-s-policy-shifts-could-rattle-global-markets?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
-      "source": "Seeking Alpha",
-      "category": "equities",
-      "impact": "low",
-      "published": "2026-08-30T17:33:49+00:00"
-    },
-    {
       "title": "Iceland rejects EU-accession talks in close-fought referendum",
       "summary": "",
       "url": "https://www.investing.com/news/economy-news/iceland-votes-in-tight-referendum-on-whether-to-start-eu-membership-talks-4881985",
@@ -69,60 +294,6 @@
       "category": "commodities",
       "impact": "low",
       "published": "2026-08-30T17:19:32+00:00"
-    },
-    {
-      "title": "Gold bulls turn to lower-cost options as dollar weakens",
-      "summary": "",
-      "url": "https://seekingalpha.com/news/4638062-gold-bulls-turn-to-lower-cost-options-as-dollar-weakens?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
-      "source": "Seeking Alpha",
-      "category": "equities",
-      "impact": "low",
-      "published": "2026-08-30T16:58:29+00:00"
-    },
-    {
-      "title": "Trump criticizes NBC over election comment as Treasury denies some NYT, WSJ and Bloomberg reporters G20 credentials",
-      "summary": "Trump's attack on NBC comes after the Treasury barred journalists from The New York Times, The Wall Street Journal and Bloomberg from attending the G20.",
-      "url": "https://www.cnbc.com/2026/08/30/trump-nbc-election-comment-treasury-g20-reporter-access.html",
-      "source": "CNBC World",
-      "category": "macro",
-      "impact": "low",
-      "published": "2026-08-30T16:55:14+00:00"
-    },
-    {
-      "title": "Alnylam data support Amvuttra across ATTR patient groups, advance hypertension drug case",
-      "summary": "",
-      "url": "https://seekingalpha.com/news/4638066-alnylam-data-support-amvuttra-across-attr-patient-groups-advance-hypertension-drug-case?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
-      "source": "Seeking Alpha",
-      "category": "equities",
-      "impact": "low",
-      "published": "2026-08-30T16:43:24+00:00"
-    },
-    {
-      "title": "Amarin analysis links Vascepa adherence to greater, longer-lasting heart benefits",
-      "summary": "",
-      "url": "https://seekingalpha.com/news/4638065-amarin-analysis-links-vascepa-adherence-to-greater-longer-lasting-heart-benefits?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
-      "source": "Seeking Alpha",
-      "category": "equities",
-      "impact": "low",
-      "published": "2026-08-30T16:37:53+00:00"
-    },
-    {
-      "title": "Arrowhead\u2019s plozasiran cuts pancreatitis events in Phase 3 studies",
-      "summary": "",
-      "url": "https://seekingalpha.com/news/4638064-arrowheads-plozasiran-cuts-pancreatitis-events-in-phase-3-studies?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
-      "source": "Seeking Alpha",
-      "category": "equities",
-      "impact": "low",
-      "published": "2026-08-30T16:30:26+00:00"
-    },
-    {
-      "title": "\u2018I feel shoehorned\u2019: My father funded my $800,000 Roth IRA. Does that give him the right to say how I invest it?",
-      "summary": "\u201cHis argument is essentially that, since my parents provided the money for the Roth, they have a say in how I invest it.\u201d",
-      "url": "https://www.marketwatch.com/story/i-feel-shoehorned-my-father-funded-my-800-000-roth-ira-does-that-give-him-the-right-to-say-how-i-invest-it-7b1e3ab3?mod=mw_rss_topstories",
-      "source": "MarketWatch Top",
-      "category": "macro",
-      "impact": "low",
-      "published": "2026-08-30T16:30:00+00:00"
     },
     {
       "title": "Cathie Wood buys $53 million of popular semiconductor stock",
@@ -242,15 +413,6 @@
       "published": "2026-08-30T13:29:00+00:00"
     },
     {
-      "title": "Dow Jones Futures Due Amid Bullish, Bearish Market Signals. What To Do Now.",
-      "summary": "Microsoft and other titans lifted the major indexes for the week, masking declines for small caps and many sectors as yields jump.",
-      "url": "https://finance.yahoo.com/m/5851be5e-4456-36df-acc2-e391c82c51f8/dow-jones-futures-due-amid.html?.tsrc=rss",
-      "source": "Yahoo Finance",
-      "category": "macro",
-      "impact": "medium",
-      "published": "2026-08-30T13:28:30+00:00"
-    },
-    {
       "title": "This 2 ETF Portfolio Historically Outperforms the S&P 500 With Less Volatility",
       "summary": "Combining two factors that produce strong returns may be all you need.",
       "url": "https://www.fool.com/investing/2026/08/30/2-etf-portfolio-historically-outperforms-sp-500/?.tsrc=rss",
@@ -314,15 +476,6 @@
       "published": "2026-08-30T12:49:37+00:00"
     },
     {
-      "title": "Rescuers race to find thousands missing after Nepal-China glacier collapse",
-      "summary": "",
-      "url": "https://www.cnbc.com/2026/08/30/rescuers-race-to-find-thousands-after-nepal-china-glacier-collapse.html",
-      "source": "CNBC World",
-      "category": "macro",
-      "impact": "medium",
-      "published": "2026-08-30T12:36:44+00:00"
-    },
-    {
       "title": "Icelanders reject reopening talks to join the EU despite Trump's Greenland threats",
       "summary": "Icelanders voted 52.8% to 47.2% against reopening talks to join the European Union.",
       "url": "https://www.cnbc.com/2026/08/30/iceland-eu-accession-referendum-result.html",
@@ -330,15 +483,6 @@
       "category": "commodities",
       "impact": "low",
       "published": "2026-08-30T12:32:44+00:00"
-    },
-    {
-      "title": "NASA's newest space telescope launches on a quest to explore the hidden universe",
-      "summary": "The bus-sized telescope \u2014 named after the late Nancy Grace Roman, NASA's first chief astronomer \u2014 will take more than three months to reach its destination.",
-      "url": "https://www.cnbc.com/2026/08/30/nasas-newest-telescope-launches-on-a-quest-to-explore-the-universe.html",
-      "source": "CNBC World",
-      "category": "macro",
-      "impact": "low",
-      "published": "2026-08-30T12:30:06+00:00"
     },
     {
       "title": "Party balloons could become a \u2018luxury\u2019 as the Iran war spurs a helium shortage",
@@ -350,6 +494,15 @@
       "published": "2026-08-30T12:30:00+00:00"
     },
     {
+      "title": "Is Advanced Micro Devices Stock Outperforming the Dow?",
+      "summary": "As Advanced Micro Devices has outperformed relative to the Dow over the past year, Wall Street analysts maintain a bullish outlook on the stock\u2019s prospects.",
+      "url": "https://www.barchart.com/story/news/4344192/is-advanced-micro-devices-stock-outperforming-the-dow?.tsrc=rss",
+      "source": "Yahoo Finance",
+      "category": "macro",
+      "impact": "low",
+      "published": "2026-08-30T12:29:44+00:00"
+    },
+    {
       "title": "SpaceX launches NASA\u2019s $4.3 billion Roman space telescope",
       "summary": "",
       "url": "https://www.investing.com/news/economy-news/spacex-set-to-launch-nasas-43-billion-roman-space-telescope-4882035",
@@ -357,15 +510,6 @@
       "category": "commodities",
       "impact": "low",
       "published": "2026-08-30T12:00:17+00:00"
-    },
-    {
-      "title": "AI isn\u2019t eating software after all \u2014 and the sector\u2019s \u2018epic\u2019 rally could run through October",
-      "summary": "Months of panic that AI would replace subscription software are easing after a strong week of software earnings.",
-      "url": "https://www.marketwatch.com/story/ai-isnt-eating-software-after-all-and-the-sectors-epic-rally-could-run-through-october-a4610583?mod=mw_rss_topstories",
-      "source": "MarketWatch Top",
-      "category": "macro",
-      "impact": "medium",
-      "published": "2026-08-30T12:00:00+00:00"
     },
     {
       "title": "Crypto market makers are cashing in on bitcoin's rally - without betting on direction",
@@ -422,15 +566,6 @@
       "published": "2026-08-30T10:40:19+00:00"
     },
     {
-      "title": "Turkey, Saudi Arabia, Pakistan to hold first defense pact meeting, source says",
-      "summary": "Foreign and defense ministers, as well as the chiefs of staff, of the three countries will attend the meeting in Istanbul, Reuters reported.",
-      "url": "https://www.cnbc.com/2026/08/30/turkey-saudi-arabia-pakistan-to-hold-first-defense-pact-meeting.html",
-      "source": "CNBC World",
-      "category": "macro",
-      "impact": "low",
-      "published": "2026-08-30T10:23:27+00:00"
-    },
-    {
       "title": "Russia\u2019s Sber eyes USDT loans, questions digital ruble demand",
       "summary": "Russia\u2019s largest bank, Sber, plans to accept USDT and Ether alongside Bitcoin as loan collateral as the country introduces regulated crypto trading under a new law.",
       "url": "https://cointelegraph.com/news/russia-sber-bank-bitcoin-ether-usdt-crypto-loans?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
@@ -438,33 +573,6 @@
       "category": "crypto",
       "impact": "medium",
       "published": "2026-08-30T09:55:00+00:00"
-    },
-    {
-      "title": "Is Coca-Cola Stock Outperforming the Nasdaq?",
-      "summary": "As Coca-Cola has outpaced the broader Nasdaq Composite over the past year, Wall Street analysts remain strongly optimistic about the stock\u2019s prospects.",
-      "url": "https://www.barchart.com/story/news/4342994/is-coca-cola-stock-outperforming-the-nasdaq?.tsrc=rss",
-      "source": "Yahoo Finance",
-      "category": "macro",
-      "impact": "low",
-      "published": "2026-08-30T08:37:19+00:00"
-    },
-    {
-      "title": "Is a Stock Market Crash Imminent Under President Donald Trump? More Than 85 Years of Historical Precedent Offers an Answer.",
-      "summary": "One scenario makes stock market crashes likelier, and Trump is overseeing it right now.",
-      "url": "https://www.fool.com/investing/2026/08/30/stock-market-crash-imminent-president-donald-trump-85-years-history-offers-answer/?.tsrc=rss",
-      "source": "Yahoo Finance",
-      "category": "macro",
-      "impact": "medium",
-      "published": "2026-08-30T08:26:01+00:00"
-    },
-    {
-      "title": "Khamenei urges unity among Gulf leaders as Tehran keeps Hormuz closed",
-      "summary": "",
-      "url": "https://www.investing.com/news/economy-news/iran-insists-strait-of-hormuz-remains-closed-as-war-enters-seventh-month-4882018",
-      "source": "Investing.com Commodities",
-      "category": "commodities",
-      "impact": "low",
-      "published": "2026-08-30T08:10:40+00:00"
     },
     {
       "title": "Real Trump Coins denies launching GOLD token, blames \u2018bad actors\u2019",
@@ -483,15 +591,6 @@
       "category": "commodities",
       "impact": "low",
       "published": "2026-08-30T07:49:27+00:00"
-    },
-    {
-      "title": "Is Mastercard Incorporated Stock Underperforming the S&P 500?",
-      "summary": "While Mastercard Incorporated has lagged behind the S&amp;P 500 Index over the past year, analysts are bullish about the stock\u2019s prospects.",
-      "url": "https://www.barchart.com/story/news/4342784/is-mastercard-incorporated-stock-underperforming-the-s-p-500?.tsrc=rss",
-      "source": "Yahoo Finance",
-      "category": "macro",
-      "impact": "low",
-      "published": "2026-08-30T07:03:26+00:00"
     },
     {
       "title": "Burnham faces hurdles bringing UK asylum system under public control - Bloomberg",
@@ -519,24 +618,6 @@
       "category": "commodities",
       "impact": "low",
       "published": "2026-08-30T05:12:26+00:00"
-    },
-    {
-      "title": "Russia steps up \u2019gray zone\u2019 attacks across Europe as NATO tensions rise",
-      "summary": "",
-      "url": "https://www.investing.com/news/economy-news/russia-steps-up-gray-zone-attacks-across-europe-as-nato-tensions-rise-4882015",
-      "source": "Investing.com Commodities",
-      "category": "commodities",
-      "impact": "low",
-      "published": "2026-08-30T04:04:08+00:00"
-    },
-    {
-      "title": "Where\u2019s the long-term money in softlines?",
-      "summary": "Investing.com -- Long-term investors remain broadly underweight U.S. softlines stocks, with Ross Stores standing out as a recent beneficiary of shifting fund positioning, according to Evercore ISI.",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/where-long-term-money-softlines-031555788.html?.tsrc=rss",
-      "source": "Yahoo Finance",
-      "category": "macro",
-      "impact": "low",
-      "published": "2026-08-30T03:15:55+00:00"
     },
     {
       "title": "A $1.1 million crypto card hack crashed a neobank's token 49%",
@@ -591,15 +672,6 @@
       "category": "crypto",
       "impact": "low",
       "published": "2026-08-29T20:15:32+00:00"
-    },
-    {
-      "title": "Tech backlash reaches fever pitch as AI angst collides with social media fears",
-      "summary": "With data center concerns becoming a major election issue and Meta reaching a landmark settlement in a social media case, the tech backlash is gaining steam.",
-      "url": "https://www.cnbc.com/2026/08/29/tech-backlash-ai-data-centers-elections.html",
-      "source": "CNBC World",
-      "category": "equities",
-      "impact": "low",
-      "published": "2026-08-29T19:55:30+00:00"
     },
     {
       "title": "Stellar tokenized RWA market more than quadruples to nearly $4B",
@@ -692,15 +764,6 @@
       "published": "2026-08-29T13:31:04+00:00"
     },
     {
-      "title": "Why would someone lock up money by rolling it into a 401(k)?",
-      "summary": "When done right, rollovers can be a great tool.",
-      "url": "https://www.marketwatch.com/story/why-would-someone-lock-up-money-by-rolling-it-into-a-401-k-2c742e90?mod=mw_rss_topstories",
-      "source": "MarketWatch Top",
-      "category": "macro",
-      "impact": "low",
-      "published": "2026-08-29T13:00:00+00:00"
-    },
-    {
       "title": "Tokenized assets are busier than the data shows",
       "summary": "",
       "url": "https://www.coindesk.com/opinion/2026/08/29/tokenized-assets-are-busier-than-the-data-shows",
@@ -708,15 +771,6 @@
       "category": "crypto",
       "impact": "low",
       "published": "2026-08-29T13:00:00+00:00"
-    },
-    {
-      "title": "5 affordable cities to retire in the U.S. right now",
-      "summary": "You don\u2019t have to leave the country to find an affordable place that matches your retirement vision.",
-      "url": "https://www.marketwatch.com/story/5-cheap-u-s-cities-to-retire-in-if-you-can-deal-with-this-one-thing-fbda5d1a?mod=mw_rss_topstories",
-      "source": "MarketWatch Top",
-      "category": "macro",
-      "impact": "low",
-      "published": "2026-08-29T12:50:00+00:00"
     },
     {
       "title": "Iran trade falls as Supreme Leader Khamenei urges less reliance on the U.S. dollar",
@@ -944,15 +998,6 @@
       "published": "2026-08-28T16:08:02+00:00"
     },
     {
-      "title": "Bitcoin Miner IREN Shares Fall as AI Conversion Costs Mount",
-      "summary": "AI cloud revenue topped Bitcoin mining for the first time as IREN accelerated its data center conversion.",
-      "url": "https://decrypt.co/376816/bitcoin-miner-iren-shares-drop-ai-costs",
-      "source": "Decrypt",
-      "category": "crypto",
-      "impact": "medium",
-      "published": "2026-08-28T16:04:37+00:00"
-    },
-    {
       "title": "Bitwise fund is first Solana ETF to hit $1 billion AUM",
       "summary": "The Bitwise Solana Staking ETF (ticker BSOL) crossed $1 billion AUM on Friday, less than a year after its launch.",
       "url": "https://www.theblock.co/news/markets/2026-08-28-bitwise-fund-is-first-solana-etf-to-hit-1-billion-aum-413035",
@@ -980,15 +1025,6 @@
       "published": "2026-08-28T15:22:10+00:00"
     },
     {
-      "title": "Bitcoin Traders Watch Fed Chair Warsh for Clues\u2014And Get Nothing",
-      "summary": "Fed Chair Warsh's first Jackson Hole keynote doubled down on giving markets zero rate hints as inflation runs hot and Bitcoin traders wait on September's call.",
-      "url": "https://decrypt.co/376813/bitcoin-traders-watch-fed-chair-warsh-for-clues-and-get-nothing",
-      "source": "Decrypt",
-      "category": "crypto",
-      "impact": "high",
-      "published": "2026-08-28T15:14:11+00:00"
-    },
-    {
       "title": "Crypto Biz: Bitcoin pumps, Wall Street does the paperwork",
       "summary": "Bitcoin\u2019s $80,000 rebound lifts crypto stocks as Circle, Strategy and Solana show how capital markets, stablecoins and onchain growth are driving crypto\u2019s recovery.",
       "url": "https://cointelegraph.com/news/crypto-biz-bitcoin-rally-crypto-stocks-circle-strategy-solana?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
@@ -1014,15 +1050,6 @@
       "category": "crypto",
       "impact": "low",
       "published": "2026-08-28T14:37:14+00:00"
-    },
-    {
-      "title": "Ethereum ETFs Take $226M in a Day, Almost Matching Bitcoin's Haul",
-      "summary": "Nine straight sessions have brought in $1.4 billion, with Thursday marking the funds' strongest day in 10 months.",
-      "url": "https://decrypt.co/376810/ethereum-etfs-take-226m-in-a-day-almost-matching-bitcoins-haul",
-      "source": "Decrypt",
-      "category": "crypto",
-      "impact": "high",
-      "published": "2026-08-28T14:17:21+00:00"
     },
     {
       "title": "Fed Chair Kevin Warsh at Jackson Hole: 'We have work to do' on inflation",
@@ -1115,15 +1142,6 @@
       "published": "2026-08-28T06:00:22+00:00"
     },
     {
-      "title": "XRP treasury firm Evernorth says SEC registration now effective, clearing way for Nasdaq listing",
-      "summary": "The S-4 registration statement is for Evernorth's merger with SPAC firm Armada, through which it seeks a Nasdaq listing.",
-      "url": "https://www.theblock.co/news/deals/2026-08-27-evernorth-xrp-sec-effective-412981",
-      "source": "The Block",
-      "category": "crypto",
-      "impact": "medium",
-      "published": "2026-08-28T02:30:34+00:00"
-    },
-    {
       "title": "Trump ratchets up rhetoric against Beijing as U.S.-China officials meet for Xi's Washington visit",
       "summary": "U.S. and Chinese officials met in Beijing this week, despite the White House's tough talk on China.",
       "url": "https://www.cnbc.com/2026/08/28/trump-x-meeting-us-china-iran-sanctions.html",
@@ -1131,15 +1149,6 @@
       "category": "equities",
       "impact": "low",
       "published": "2026-08-28T01:35:13+00:00"
-    },
-    {
-      "title": "BitGo buys NYDIG\u2019s institutional trading business, expanding derivatives offering",
-      "summary": "With the transaction, around 30 NYDIG employees have joined BitGo, along with their institutional trading relationships.",
-      "url": "https://www.theblock.co/news/business/2026-08-27-bitgo-buys-nydig-institutional-trading-412975",
-      "source": "The Block",
-      "category": "crypto",
-      "impact": "low",
-      "published": "2026-08-28T01:11:37+00:00"
     },
     {
       "title": "Stocks making the biggest moves after hours: Gap, Workday, Autodesk and more",
