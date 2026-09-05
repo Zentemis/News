@@ -1,21 +1,354 @@
 {
-  "generated": "2026-09-05T12:12:37.055229+00:00",
-  "count": 156,
+  "generated": "2026-09-05T17:00:01.221721+00:00",
+  "count": 157,
   "sources": [
-    "Decrypt",
-    "CNBC Finance",
+    "Yahoo Finance",
+    "MarketWatch Top",
+    "The Block",
     "MarketWatch Economy",
-    "CNBC World",
-    "Seeking Alpha",
-    "CNBC Economy",
+    "Investing.com Commodities",
     "CoinDesk",
     "Cointelegraph",
-    "MarketWatch Top",
-    "Investing.com Commodities",
-    "Yahoo Finance",
-    "The Block"
+    "Decrypt",
+    "CNBC World",
+    "Seeking Alpha",
+    "CNBC Finance",
+    "CNBC Economy"
   ],
   "articles": [
+    {
+      "title": "Dow Jones Futures: Nvidia, Micron, Sandisk Flash Buy Signals; Apple, Inflation Reports Ahead",
+      "summary": "The stock market fell this week before bouncing. Nvidia, Micron, Sandisk are new buys, but for how long? Apple, inflation data loom.",
+      "url": "https://finance.yahoo.com/m/d5001ca0-1c20-3379-83c3-ddca4526f9c2/dow-jones-futures%3A-nvidia%2C.html?.tsrc=rss",
+      "source": "Yahoo Finance",
+      "category": "macro",
+      "impact": "medium",
+      "published": "2026-09-05T16:46:30+00:00"
+    },
+    {
+      "title": "Dollar-backed stablecoins can push local currencies lower, Bank of Korea study finds",
+      "summary": "",
+      "url": "https://www.coindesk.com/business/2026/09/05/dollar-backed-stablecoins-can-push-local-currencies-lower-bank-of-korea-study-finds",
+      "source": "CoinDesk",
+      "category": "crypto",
+      "impact": "low",
+      "published": "2026-09-05T16:43:13+00:00"
+    },
+    {
+      "title": "Jobs and Iran add to Trump\u2019s midterm headaches. Why that\u2019s good for bonds and bad for energy stocks.",
+      "summary": "The president needs lower gasoline prices and mortgage rates \u2014 fast.",
+      "url": "https://www.marketwatch.com/story/jobs-and-iran-add-to-trumps-midterm-headaches-why-thats-good-for-bonds-and-bad-for-energy-stocks-551cb765?mod=mw_rss_topstories",
+      "source": "MarketWatch Top",
+      "category": "macro",
+      "impact": "low",
+      "published": "2026-09-05T16:34:00+00:00"
+    },
+    {
+      "title": "Bulls vs. Bears: Whither Credo Technology after post-earnings selloff",
+      "summary": "",
+      "url": "https://seekingalpha.com/news/4640501-credo-technology-stock-draws-rave-reviews-q1?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+      "source": "Seeking Alpha",
+      "category": "equities",
+      "impact": "low",
+      "published": "2026-09-05T16:27:36+00:00"
+    },
+    {
+      "title": "Fed Chair Kevin Warsh Just Shifted the Central Bank's Entire Focus on Inflation in One Sentence",
+      "summary": "Jerome Powell\u2019s successor has flipped the script on inflation.",
+      "url": "https://www.fool.com/investing/2026/09/05/fed-chair-kevin-warsh-just-shifted-central-bank-focus-on-inflation-in-one-sentence/?.tsrc=rss",
+      "source": "Yahoo Finance",
+      "category": "macro",
+      "impact": "high",
+      "published": "2026-09-05T16:26:01+00:00"
+    },
+    {
+      "title": "How to invest in a booming stock market that\u2019s way cheaper than the S&P 500",
+      "summary": "Poland\u2019s reclassification as a developed economy from an emerging market opens it up for investment by many more investors.",
+      "url": "https://www.marketwatch.com/story/how-to-invest-in-a-booming-stock-market-thats-way-cheaper-than-the-s-p-500-b2f5ef5d?mod=mw_rss_topstories",
+      "source": "MarketWatch Top",
+      "category": "macro",
+      "impact": "low",
+      "published": "2026-09-05T16:12:00+00:00"
+    },
+    {
+      "title": "What Is Robinhood Chain? The Ethereum Layer-2 Network for Tokenized Stocks and Meme Coins",
+      "summary": "Robinhood Chain is an Ethereum layer-2 network built with Arbitrum technology for tokenized assets, crypto apps, and on-chain financial products.",
+      "url": "https://decrypt.co/resources/what-robinhood-chain-ethereum-layer-2-network-tokenized-stocks",
+      "source": "Decrypt",
+      "category": "crypto",
+      "impact": "medium",
+      "published": "2026-09-05T16:06:41+00:00"
+    },
+    {
+      "title": "Federal appeals court upholds ban on Trump\u2019s bid to use citizenship data for voter checks",
+      "summary": "",
+      "url": "https://www.investing.com/news/economy-news/federal-appeals-court-upholds-ban-on-trumps-bid-to-use-citizenship-data-for-voter-checks-4890220",
+      "source": "Investing.com Commodities",
+      "category": "commodities",
+      "impact": "medium",
+      "published": "2026-09-05T16:06:33+00:00"
+    },
+    {
+      "title": "Real estate stocks post losses in August amid surging rate hike odds",
+      "summary": "",
+      "url": "https://seekingalpha.com/news/4640436-real-estate-stocks-post-losses-in-august-amid-surging-rate-hike-odds?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+      "source": "Seeking Alpha",
+      "category": "equities",
+      "impact": "medium",
+      "published": "2026-09-05T16:00:30+00:00"
+    },
+    {
+      "title": "We\u2019re in our 60s. We earn $345,000 and have $1 million in 403(b)s. Is it too late for Roth conversions?",
+      "summary": "\u201cRoth assets would provide our children with tax-free distributions.\u201d",
+      "url": "https://www.marketwatch.com/story/were-in-our-60s-my-wife-and-i-have-345-000-in-annual-pensions-and-1-million-in-403-b-s-is-it-too-late-for-roth-conversions-5df35d42?mod=mw_rss_topstories",
+      "source": "MarketWatch Top",
+      "category": "macro",
+      "impact": "low",
+      "published": "2026-09-05T16:00:00+00:00"
+    },
+    {
+      "title": "Why does almost nobody want to befriend older people like me \u2014 except scammers?",
+      "summary": "\u201cI\u2019d rather leave my estate to people who spent time with me because they genuinely valued my company.\u201d",
+      "url": "https://www.marketwatch.com/story/why-does-almost-nobody-want-to-befriend-older-people-like-me-except-scammers-fda849d1?mod=mw_rss_topstories",
+      "source": "MarketWatch Top",
+      "category": "macro",
+      "impact": "low",
+      "published": "2026-09-05T16:00:00+00:00"
+    },
+    {
+      "title": "Why I'm Still Investing in VTI Right Now No Matter What the Stock Market Does",
+      "summary": "When the stock market gets choppy, I take comfort from the lessons of history.",
+      "url": "https://www.fool.com/investing/2026/09/05/why-im-still-investing-in-vti-right-now-no-matter/?.tsrc=rss",
+      "source": "Yahoo Finance",
+      "category": "macro",
+      "impact": "low",
+      "published": "2026-09-05T15:50:00+00:00"
+    },
+    {
+      "title": "U.S. attacks 3 Iranian oil tankers after missiles target Navy warships",
+      "summary": "Three Iranian crude oil carriers were hit by U.S. forces on Saturday near Iran's key oil export hub, Kharg Island, in the Gulf, U.S. Central Command reported.",
+      "url": "https://www.cnbc.com/2026/09/05/us-iran-oil-tankers-navy-missile-attack.html",
+      "source": "CNBC World",
+      "category": "commodities",
+      "impact": "medium",
+      "published": "2026-09-05T15:43:08+00:00"
+    },
+    {
+      "title": "I offered to buy my friend a birthday drink. She ordered $180 worth of food and expects me to pay. Should I Venmo her for half?",
+      "summary": "\u201cMy offer was cocktails.\u201d",
+      "url": "https://www.marketwatch.com/story/i-offered-to-buy-my-friend-a-birthday-drink-she-ordered-180-worth-of-food-and-expects-me-to-pay-should-i-venmo-her-for-half-0efc941c?mod=mw_rss_topstories",
+      "source": "MarketWatch Top",
+      "category": "macro",
+      "impact": "low",
+      "published": "2026-09-05T15:37:00+00:00"
+    },
+    {
+      "title": "If a Downturn Is Coming, 50 Years of Market History Says This Is the Single Best Response",
+      "summary": "Wall Street history is pretty clear: if there's a bear market on the way, you'll probably want to follow Winnie the Pooh's sage advice.",
+      "url": "https://www.fool.com/investing/2026/09/05/if-a-downturn-is-coming-50-years-of-market-history/?.tsrc=rss",
+      "source": "Yahoo Finance",
+      "category": "macro",
+      "impact": "low",
+      "published": "2026-09-05T15:35:00+00:00"
+    },
+    {
+      "title": "Jefferies-linked fund reportedly has $500M exposure to Radiant World",
+      "summary": "",
+      "url": "https://seekingalpha.com/news/4640500-jefferies-linked-fund-has-500m-exposure-radiant-world?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+      "source": "Seeking Alpha",
+      "category": "equities",
+      "impact": "low",
+      "published": "2026-09-05T15:33:14+00:00"
+    },
+    {
+      "title": "I\u2019m 68. Should I spend half my 401(k) to buy a home with a mortgage?",
+      "summary": "There\u2019s a long checklist when deciding where to live, especially in your retirement years.",
+      "url": "https://www.marketwatch.com/story/im-68-should-i-spend-half-my-401-k-to-buy-a-home-with-a-mortgage-285e5ada?mod=mw_rss_topstories",
+      "source": "MarketWatch Top",
+      "category": "macro",
+      "impact": "low",
+      "published": "2026-09-05T15:17:00+00:00"
+    },
+    {
+      "title": "U.S. strikes three Iranian oil tankers near Kharg Island, CENTCOM says",
+      "summary": "",
+      "url": "https://www.investing.com/news/economy-news/irans-oil-blockade-leverage-weakens-as-us-keeps-gulf-crude-flowing-4890160",
+      "source": "Investing.com Commodities",
+      "category": "commodities",
+      "impact": "low",
+      "published": "2026-09-05T15:15:21+00:00"
+    },
+    {
+      "title": "Trump\u2019s state capitalism comes to the oil industry with his unprecedented Venezuela deal",
+      "summary": "The deal comes eight months after Washington ousted former President Nicol\u00e1s Maduro in a military raid.",
+      "url": "https://www.cnbc.com/2026/09/05/trump-venezuela-oil-north-america-blue-energy-partners-nabep.html",
+      "source": "CNBC World",
+      "category": "commodities",
+      "impact": "low",
+      "published": "2026-09-05T15:11:03+00:00"
+    },
+    {
+      "title": "Healthcare August recap: Moderna jumps 156% as biotech shines; DaVita sinks",
+      "summary": "",
+      "url": "https://seekingalpha.com/news/4639836-healthcare-august-recap-moderna-jumps-156-as-biotech-shines-davita-sinks?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+      "source": "Seeking Alpha",
+      "category": "equities",
+      "impact": "low",
+      "published": "2026-09-05T15:05:57+00:00"
+    },
+    {
+      "title": "Insider trades: Nvidia, TSMC, and Johnson & Johnson among notable names",
+      "summary": "",
+      "url": "https://seekingalpha.com/news/4640469-insider-trades-nvidia-tsmc-and-johnson-johnson-among-notable-names?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+      "source": "Seeking Alpha",
+      "category": "equities",
+      "impact": "low",
+      "published": "2026-09-05T15:03:39+00:00"
+    },
+    {
+      "title": "Update Your Browser: Google Patches Chrome Flaw Hackers Were Already Using",
+      "summary": "The update fixes a high-severity flaw in Chrome\u2019s V8 engine, but Google has not revealed who is using it or whom they targeted.",
+      "url": "https://decrypt.co/377501/google-chrome-zero-day-exploited",
+      "source": "Decrypt",
+      "category": "crypto",
+      "impact": "low",
+      "published": "2026-09-05T15:01:04+00:00"
+    },
+    {
+      "title": "There Are Only a Handful of S&P 500 Stocks That Yield Over 5%. Here's My Top Pick to Buy in September.",
+      "summary": "This is an excellent dividend stock at any time.",
+      "url": "https://www.fool.com/investing/2026/09/05/there-are-only-a-handful-of-sp-500-stocks-that-yie/?.tsrc=rss",
+      "source": "Yahoo Finance",
+      "category": "macro",
+      "impact": "medium",
+      "published": "2026-09-05T14:45:00+00:00"
+    },
+    {
+      "title": "CrowdStrike (CRWD) Stock Faces High Expectations After Strong Gains, DA Davidson Stays Bullish",
+      "summary": "Shares of CrowdStrike Holdings, Inc. (NASDAQ:CRWD) have rallied more than 83% year-to-date as of September 3. The stock has significantly outperformed the broader S&amp;P 500 Index, which has seen a 13% rise so far this year. CrowdStrike Holdings, Inc. (NASDAQ:CRWD) has also returned more than 40...",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/crowdstrike-crwd-stock-faces-high-144223749.html?.tsrc=rss",
+      "source": "Yahoo Finance",
+      "category": "macro",
+      "impact": "low",
+      "published": "2026-09-05T14:42:23+00:00"
+    },
+    {
+      "title": "Here\u2019s how much Americans rely on Social Security \u2014 at all income levels",
+      "summary": "Social Security is really important for older Americans. It needs to be tweaked, not restructured.",
+      "url": "https://www.marketwatch.com/story/heres-how-much-americans-rely-on-social-security-at-all-income-levels-3a767119?mod=mw_rss_topstories",
+      "source": "MarketWatch Top",
+      "category": "macro",
+      "impact": "low",
+      "published": "2026-09-05T14:33:00+00:00"
+    },
+    {
+      "title": "\u2018Please don\u2019t let this happen to you\u2019: My best friend died without a will \u2014 her neglectful family gets everything",
+      "summary": "\u201cShe struggled with the thought of leaving everything to people who, in her eyes, had never made much time for her.\u201d",
+      "url": "https://www.marketwatch.com/story/please-dont-let-this-happen-to-you-my-best-friend-died-without-a-will-her-neglectful-family-gets-everything-a4e6753e?mod=mw_rss_topstories",
+      "source": "MarketWatch Top",
+      "category": "macro",
+      "impact": "low",
+      "published": "2026-09-05T14:31:00+00:00"
+    },
+    {
+      "title": "Bessent predicts $40 crude oil and lower yields after Iran war",
+      "summary": "",
+      "url": "https://seekingalpha.com/news/4640499-bessent-predicts-40-crude-oil-post-iran-wa?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+      "source": "Seeking Alpha",
+      "category": "equities",
+      "impact": "medium",
+      "published": "2026-09-05T14:21:14+00:00"
+    },
+    {
+      "title": "Medicare Advantage patients who get diagnosed with Alzheimer\u2019s or other serious diseases are ditching their plans \u2014 and it can cost them",
+      "summary": "The annual Medicare open-enrollment period runs from Oct. 15 to Dec. 7.",
+      "url": "https://www.marketwatch.com/story/medicare-advantage-patients-who-get-diagnosed-with-alzheimers-or-other-serious-diseases-are-ditching-their-plans-and-it-can-cost-them-b5c42717?mod=mw_rss_topstories",
+      "source": "MarketWatch Top",
+      "category": "macro",
+      "impact": "low",
+      "published": "2026-09-05T14:15:00+00:00"
+    },
+    {
+      "title": "Notable analyst calls this week: Akamai, Robinhood and Nio among top picks",
+      "summary": "",
+      "url": "https://seekingalpha.com/news/4640457-notable-analyst-calls-this-week-akamai-robinhood-and-nio-among-top-picks?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+      "source": "Seeking Alpha",
+      "category": "equities",
+      "impact": "low",
+      "published": "2026-09-05T14:10:31+00:00"
+    },
+    {
+      "title": "LeBron James teases Polymarket partnership in new social media video",
+      "summary": "The announcement comes after James' free agency decision generated $273 million in prediction market volume across platforms.",
+      "url": "https://www.theblock.co/news/deals/2026-09-05-lebron-james-teases-polymarket-partnership-in-new-social-media-video-413608",
+      "source": "The Block",
+      "category": "crypto",
+      "impact": "low",
+      "published": "2026-09-05T14:01:40+00:00"
+    },
+    {
+      "title": "My wife and I are in our 70s. Should we move to California and take on a bigger mortgage to be near our kids?",
+      "summary": "\u201cWe currently live in a relatively low-cost, lower-tax Northwest state.\u201d",
+      "url": "https://www.marketwatch.com/story/my-wife-and-i-are-in-our-70s-should-we-move-to-california-and-take-on-a-bigger-mortgage-to-be-near-our-kids-1d619084?mod=mw_rss_topstories",
+      "source": "MarketWatch Top",
+      "category": "macro",
+      "impact": "low",
+      "published": "2026-09-05T14:00:00+00:00"
+    },
+    {
+      "title": "Are Stocks Going to Plunge if Congress Is Split Under President Donald Trump? Here's What History Says About Stock Market Returns in This Scenario.",
+      "summary": "Nearly a century of historical return data shows what happens when the political puzzle pieces are rearranged on Capitol Hill.",
+      "url": "https://www.fool.com/investing/2026/09/05/stocks-going-to-plunge-if-congress-split-under-donald-trump-what-history-says-about-stock-returns/?.tsrc=rss",
+      "source": "Yahoo Finance",
+      "category": "macro",
+      "impact": "low",
+      "published": "2026-09-05T13:26:01+00:00"
+    },
+    {
+      "title": "AI Just Solved a 350-Year-Old Math Problem By Writing the Longest Proof Ever",
+      "summary": "Anthropic says Claude spent 11 days turning Fermat's Last Theorem into 13 million lines of code a computer can check itself, no human trust required",
+      "url": "https://decrypt.co/377491/ai-solved-350-year-old-math-problem",
+      "source": "Decrypt",
+      "category": "crypto",
+      "impact": "low",
+      "published": "2026-09-05T13:01:03+00:00"
+    },
+    {
+      "title": "Abel: Two ways Berkshire hopes to cash in on AI",
+      "summary": "Berkshire Hathaway CEO Greg Abel tells CNBC the company is pursuing AI opportunities on two paths.",
+      "url": "https://www.cnbc.com/2026/09/05/abel-two-ways-berkshire-hopes-in-cash-in-on-ai.html",
+      "source": "CNBC World",
+      "category": "macro",
+      "impact": "low",
+      "published": "2026-09-05T12:45:44+00:00"
+    },
+    {
+      "title": "Iranian tanker hit by US attack near Iran's Kharg Island, Tasnim says",
+      "summary": "",
+      "url": "https://www.cnbc.com/2026/09/05/iranian-tanker-reportedly-hit-by-us-attack-near-irans-kharg-island.html",
+      "source": "CNBC World",
+      "category": "macro",
+      "impact": "low",
+      "published": "2026-09-05T12:45:26+00:00"
+    },
+    {
+      "title": "Putin orders a 72-hour pause in strikes on Kyiv as U.S. envoys Witkoff and Kushner visit Russia and Ukraine",
+      "summary": "Trump's push to end the fighting, now in its fifth year, has lost momentum as U.S. attention has been focused for the last six months on its war with Iran.",
+      "url": "https://www.cnbc.com/2026/09/05/witkoff-kushner-moscow-russia-ukraine.html",
+      "source": "CNBC World",
+      "category": "geopolitical",
+      "impact": "medium",
+      "published": "2026-09-05T12:36:56+00:00"
+    },
+    {
+      "title": "This enhanced geothermal project aims to unlock gigawatts of power to fuel the data center boom",
+      "summary": "Power demand in the U.S. is rising. Fervo Energy bets that its project in Utah will prove that enhanced geothermal can be part of the power mix going forward.",
+      "url": "https://www.cnbc.com/2026/09/05/fervo-energys-enhanced-geothermal-project-aims-to-power-data-center-boom.html",
+      "source": "CNBC World",
+      "category": "geopolitical",
+      "impact": "medium",
+      "published": "2026-09-05T12:20:42+00:00"
+    },
     {
       "title": "From \u2018mystery vacations\u2019 to hostels, budget travelers get thrifty as prices rise",
       "summary": "Despite rising prices and the travel industry focusing on the luxury segment, budget-minded vacationers are still finding ways to get away.",
@@ -23,16 +356,16 @@
       "source": "CNBC Economy",
       "category": "macro",
       "impact": "low",
-      "published": "2026-09-05T12:07:54+00:00"
+      "published": "2026-09-05T12:14:21+00:00"
     },
     {
-      "title": "Anthropic IPO launch shifts toward mid-October: Reuters",
-      "summary": "The artificial intelligence company had been expected to make its IPO prospectus public as early as next week, two sources told Reuters.",
-      "url": "https://www.cnbc.com/2026/09/05/anthropic-ipo-launch-shifts-toward-mid-october-reuters.html",
+      "title": "Goldman Sachs says buy the dip in these five stocks before it's too late",
+      "summary": "The Wall Street investment bank said this week investors should take advantage of recent declines in several stocks.",
+      "url": "https://www.cnbc.com/2026/09/05/buy-the-dip-in-these-five-stocks-before-its-too-late-goldman-says.html",
       "source": "CNBC World",
       "category": "equities",
-      "impact": "high",
-      "published": "2026-09-05T12:02:20+00:00"
+      "impact": "low",
+      "published": "2026-09-05T12:10:33+00:00"
     },
     {
       "title": "GM vs. Ford: U.S. defense, energy sectors add to automakers' century-old rivalry",
@@ -51,24 +384,6 @@
       "category": "geopolitical",
       "impact": "medium",
       "published": "2026-09-05T12:00:01+00:00"
-    },
-    {
-      "title": "Why does almost nobody want to befriend older people like me \u2014 except scammers?",
-      "summary": "\u201cI\u2019d rather leave my estate to people who spent time with me because they genuinely valued my company.\u201d",
-      "url": "https://www.marketwatch.com/story/why-does-almost-nobody-want-to-befriend-older-people-like-me-except-scammers-fda849d1?mod=mw_rss_topstories",
-      "source": "MarketWatch Top",
-      "category": "macro",
-      "impact": "low",
-      "published": "2026-09-05T12:00:00+00:00"
-    },
-    {
-      "title": "Humanoid robots could upend life as we know it \u2014\u00a0if only they had better brains",
-      "summary": "Humanoids need to get better at retaining information and learning from their mistakes. Memory technology will be key to future breakthroughs.",
-      "url": "https://www.marketwatch.com/story/humanoid-robots-could-upend-life-as-we-know-it-if-only-they-had-better-brains-4eee42eb?mod=mw_rss_topstories",
-      "source": "MarketWatch Top",
-      "category": "macro",
-      "impact": "low",
-      "published": "2026-09-05T12:00:00+00:00"
     },
     {
       "title": "British investor thought he lost $2,000 in bitcoin in 2012. He just recovered $4.5 million",
@@ -107,15 +422,6 @@
       "published": "2026-09-05T11:02:00+00:00"
     },
     {
-      "title": "NFL preview: Sportsbooks take on the prediction market challenge; SCOTUS wildcard?",
-      "summary": "",
-      "url": "https://seekingalpha.com/news/4640058-nfl-preview-sportsbooks-take-on-the-prediction-market-challenge-scotus-wildcard?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
-      "source": "Seeking Alpha",
-      "category": "equities",
-      "impact": "low",
-      "published": "2026-09-05T11:00:44+00:00"
-    },
-    {
       "title": "Poland upholds crypto bill veto as Zondacrypto scandal widens",
       "summary": "Polish lawmakers failed to overturn a presidential veto of crypto legislation as the Zondacrypto investigation expands and its Estonian operator enters bankruptcy.",
       "url": "https://cointelegraph.com/news/poland-upholds-crypto-bill-veto-zondacrypto-scandal-widens?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
@@ -123,33 +429,6 @@
       "category": "crypto",
       "impact": "low",
       "published": "2026-09-05T10:44:29+00:00"
-    },
-    {
-      "title": "U.S. envoys Witkoff and Kushner are in Moscow in a new push for peace between Russia and Ukraine",
-      "summary": "Trump's push to end the fighting, now in its fifth year, has lost momentum as U.S. attention has been focused for the last six months on its war with Iran.",
-      "url": "https://www.cnbc.com/2026/09/05/witkoff-kushner-moscow-russia-ukraine.html",
-      "source": "CNBC World",
-      "category": "geopolitical",
-      "impact": "medium",
-      "published": "2026-09-05T10:40:44+00:00"
-    },
-    {
-      "title": "Iranian tanker hit by U.S. attack near Iran's Kharg Island, Tasnim says",
-      "summary": "",
-      "url": "https://www.cnbc.com/2026/09/05/iranian-tanker-reportedly-hit-by-us-attack-near-irans-kharg-island.html",
-      "source": "CNBC World",
-      "category": "macro",
-      "impact": "low",
-      "published": "2026-09-05T10:36:58+00:00"
-    },
-    {
-      "title": "U.S., China gear up for mid-September AI safety talks: Reuters",
-      "summary": "The AI safety talks will be led by U.S. Treasury Secretary Scott Bessent on the U.S. side, sources told Reuters.",
-      "url": "https://www.cnbc.com/2026/09/05/us-china-gear-up-for-mid-september-ai-safety-talks-reuters.html",
-      "source": "CNBC World",
-      "category": "macro",
-      "impact": "low",
-      "published": "2026-09-05T10:01:14+00:00"
     },
     {
       "title": "Jensen Huang Just Sent a Signal That Could Matter More Than the September Effect",
@@ -269,15 +548,6 @@
       "published": "2026-09-05T05:30:45+00:00"
     },
     {
-      "title": "Berkshire Hathaway Outperformed the S&P 500 Over a 60-Year Period Under Warren Buffett. Here's the Stock That Could Help Continue the Streak Under Greg Abel.",
-      "summary": "Even if the conglomerate's share price tanked 99% tomorrow, it would still have beaten the S&amp;P 500 index in the past six decades.",
-      "url": "https://www.fool.com/investing/2026/09/05/berkshire-hathaway-outperformed-the-sp-500-over-a/?.tsrc=rss",
-      "source": "Yahoo Finance",
-      "category": "macro",
-      "impact": "medium",
-      "published": "2026-09-05T05:20:00+00:00"
-    },
-    {
       "title": "White House reviewed potential replacements for Pentagon deputy Feinberg - Reuters",
       "summary": "",
       "url": "https://www.investing.com/news/economy-news/white-house-reviewed-potential-replacements-for-pentagon-deputy-feinberg--reuters-4890163",
@@ -303,15 +573,6 @@
       "category": "crypto",
       "impact": "low",
       "published": "2026-09-05T05:00:00+00:00"
-    },
-    {
-      "title": "Iran\u2019s oil blockade leverage weakens as U.S. keeps Gulf crude flowing",
-      "summary": "",
-      "url": "https://www.investing.com/news/economy-news/irans-oil-blockade-leverage-weakens-as-us-keeps-gulf-crude-flowing-4890160",
-      "source": "Investing.com Commodities",
-      "category": "commodities",
-      "impact": "low",
-      "published": "2026-09-05T04:40:39+00:00"
     },
     {
       "title": "Hong Kong targets bigger offshore yuan role, mainland links, in first 5-year plan",
@@ -341,51 +602,6 @@
       "published": "2026-09-05T03:32:14+00:00"
     },
     {
-      "title": "Premium Income Corporation PFD SHS declares $0.1063 dividend",
-      "summary": "",
-      "url": "https://seekingalpha.com/news/4640493-premium-income-corporation-pfd-shs-declares-0_1063-dividend?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
-      "source": "Seeking Alpha",
-      "category": "equities",
-      "impact": "low",
-      "published": "2026-09-05T03:06:51+00:00"
-    },
-    {
-      "title": "Premium Income Corp. - Class A declares $0.09 dividend",
-      "summary": "",
-      "url": "https://seekingalpha.com/news/4640492-premium-income-corp-class-a-declares-0_09-dividend?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
-      "source": "Seeking Alpha",
-      "category": "equities",
-      "impact": "low",
-      "published": "2026-09-05T03:06:11+00:00"
-    },
-    {
-      "title": "Premium Global Income Split declares $0.08 dividend",
-      "summary": "",
-      "url": "https://seekingalpha.com/news/4640491-premium-global-income-split-declares-0_08-dividend?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
-      "source": "Seeking Alpha",
-      "category": "equities",
-      "impact": "low",
-      "published": "2026-09-05T03:02:55+00:00"
-    },
-    {
-      "title": "Premium Global Income Split Fund PFD SHS declares $0.0625 dividend",
-      "summary": "",
-      "url": "https://seekingalpha.com/news/4640490-premium-global-income-split-fund-pfd-shs-declares-0_0625-dividend?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
-      "source": "Seeking Alpha",
-      "category": "equities",
-      "impact": "low",
-      "published": "2026-09-05T03:02:07+00:00"
-    },
-    {
-      "title": "Olympia Financial Group Inc. declares CAD 0.50 dividend",
-      "summary": "",
-      "url": "https://seekingalpha.com/news/4640489-olympia-financial-group-inc-declares-cad-0_50-dividend?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
-      "source": "Seeking Alpha",
-      "category": "equities",
-      "impact": "low",
-      "published": "2026-09-05T03:00:19+00:00"
-    },
-    {
       "title": "U.S. shields 35% stake in Venezuela oil venture from dilution, Reuters reports",
       "summary": "",
       "url": "https://www.investing.com/news/economy-news/us-shields-35-stake-in-venezuela-oil-venture-from-dilution-reuters-reports-4890149",
@@ -395,78 +611,6 @@
       "published": "2026-09-05T02:21:28+00:00"
     },
     {
-      "title": "Bloom Energy (BE) Set To Join The S&P 500 In Quarterly Rebalancing",
-      "summary": "Bloom Energy (NYSE: BE) is set to join the S&amp;P 500 index in the upcoming quarterly rebalancing, replacing Molson Coors Beverage. The index change is expected to draw interest from institutional investors and passive funds that track the S&amp;P 500. Inclusion reflects Bloom Energy's market ca...",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/bloom-energy-set-join-p-010837206.html?.tsrc=rss",
-      "source": "Yahoo Finance",
-      "category": "macro",
-      "impact": "low",
-      "published": "2026-09-05T01:08:37+00:00"
-    },
-    {
-      "title": "U.S. approves potential $5.75B in weapons sales to Saudi Arabia",
-      "summary": "",
-      "url": "https://seekingalpha.com/news/4640488-u-s-approves-potential-5b-sale-of-weapons-to-saudi-arabia?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
-      "source": "Seeking Alpha",
-      "category": "equities",
-      "impact": "low",
-      "published": "2026-09-05T00:09:32+00:00"
-    },
-    {
-      "title": "Britain cuts infrastructure appraisal rate to boost investment",
-      "summary": "",
-      "url": "https://www.investing.com/news/economy-news/britain-cuts-infrastructure-appraisal-rate-to-boost-investment-4890117",
-      "source": "Investing.com Commodities",
-      "category": "commodities",
-      "impact": "low",
-      "published": "2026-09-04T23:59:25+00:00"
-    },
-    {
-      "title": "BE, P, ILMN Join S&P 500; LNG Misses Out \u2014 Bloom Energy Stock Gains While Cheniere Energy Slips",
-      "summary": "S&amp;P said on Friday that Bloom Energy, Everpure (P) and Illumina (ILMN) will join the S&amp;P 500 index.",
-      "url": "https://stocktwits.com/news-articles/markets/equity/be-p-ilmn-join-s-and-p-500-lng-misses-out-bloom-energy-stock-gains-while-cheniere-energy-slips/cZsDmHnRJDi?.tsrc=rss",
-      "source": "Yahoo Finance",
-      "category": "macro",
-      "impact": "low",
-      "published": "2026-09-04T23:42:59+00:00"
-    },
-    {
-      "title": "Bloom Energy, Illumina, and Everpure Set to Join S&P 500; Others to Join S&P 100, S&P MidCap 400, and S&P SmallCap 600",
-      "summary": "S&amp;P Dow Jones Indices will make the following changes to the S&amp;P 500, S&amp;P 100, S&amp;P MidCap 400, and S&amp;P SmallCap 600 indices effective prior to the open of trading on Monday, September 21, 2026, to coincide with the quarterly rebalance. The changes ensure that each index is mor...",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/bloom-energy-illumina-everpure-set-231500760.html?.tsrc=rss",
-      "source": "Yahoo Finance",
-      "category": "macro",
-      "impact": "low",
-      "published": "2026-09-04T23:15:00+00:00"
-    },
-    {
-      "title": "Dow Jones Futures: Nvidia, Micron, Sandisk Flash Buy Signals; Apple, Inflation Reports Ahead",
-      "summary": "The stock market fell this week before bouncing. Nvidia, Micron, Sandisk are new buys, but for how long? Apple, inflation data loom.",
-      "url": "https://finance.yahoo.com/m/d5001ca0-1c20-3379-83c3-ddca4526f9c2/dow-jones-futures%3A-nvidia%2C.html?.tsrc=rss",
-      "source": "Yahoo Finance",
-      "category": "macro",
-      "impact": "medium",
-      "published": "2026-09-04T22:41:04+00:00"
-    },
-    {
-      "title": "S&P 500, Dow End Lower As Blowout Jobs Report Fans Rate Hike Fears, While Chipmaker Strength Aids Nasdaq \u2014TSLA, NFLX, BE, NVDA In Focus",
-      "summary": "Nonfarm payrolls grew by 162,000 in August, while the unemployment rate held steady at 4.1%.",
-      "url": "https://stocktwits.com/news-articles/markets/equity/s-and-p-500-dow-end-lower-as-blowout-jobs-report-fans-rate-hike-fears-while-chipmaker-strength-aids-nasdaq-tsla-nflx-be-nvda-in-focus/cZsDjVKRJDg?.tsrc=rss",
-      "source": "Yahoo Finance",
-      "category": "macro",
-      "impact": "high",
-      "published": "2026-09-04T22:18:49+00:00"
-    },
-    {
-      "title": "Bloom Energy and These 2 Stocks Are Joining the S&P 500",
-      "summary": "The  is getting three new members this month, with  Bloom Energy Everpure  and  Illumina  joining the benchmark as part of its latest quarterly reshuffle.  Bloom Energy, which makes fuel-cell systems that provide on-site electricity to businesses and data centers, will replace  Molson Coors Bever...",
-      "url": "https://finance.yahoo.com/m/eaff982d-82cb-3ae8-bbb3-a1daf61ddad5/bloom-energy-and-these-2.html?.tsrc=rss",
-      "source": "Yahoo Finance",
-      "category": "macro",
-      "impact": "low",
-      "published": "2026-09-04T22:16:00+00:00"
-    },
-    {
       "title": "TikTok's Parent Company Just Borrowed $30 Billion to Go All-In on AI",
       "summary": "Nearly 30 banks backed the rare unsecured facility as TikTok\u2019s parent company spends heavily on AI chips, models, and overseas data centers.",
       "url": "https://decrypt.co/377489/tiktok-bytedance-loan-ai",
@@ -474,15 +618,6 @@
       "category": "crypto",
       "impact": "low",
       "published": "2026-09-04T21:46:03+00:00"
-    },
-    {
-      "title": "Bloom Energy was just named to the S&P 500. These other stocks are joining the index as well.",
-      "summary": "Molson Coors Beverage, Builders FirstSource and Trade Desk will be getting the boot from the benchmark index.",
-      "url": "https://www.marketwatch.com/story/s-p-500-changes-are-coming-soon-these-stocks-could-be-named-to-the-index-today-2d0d7c14?mod=mw_rss_topstories",
-      "source": "MarketWatch Top",
-      "category": "macro",
-      "impact": "low",
-      "published": "2026-09-04T21:46:00+00:00"
     },
     {
       "title": "G7 Warns Quantum Threat Demands Action as Crypto Industry Weighs Fixes",
@@ -510,69 +645,6 @@
       "category": "crypto",
       "impact": "high",
       "published": "2026-09-04T20:30:47+00:00"
-    },
-    {
-      "title": "Tesla\u2019s stock falls as Cybercab launch lands with a thud",
-      "summary": "The company\u2019s Cybercab rollout won\u2019t be as broad as some investors had hoped.",
-      "url": "https://www.marketwatch.com/story/teslas-stock-falls-as-cybercab-launch-lands-with-a-thud-1108376b?mod=mw_rss_topstories",
-      "source": "MarketWatch Top",
-      "category": "macro",
-      "impact": "low",
-      "published": "2026-09-04T20:18:00+00:00"
-    },
-    {
-      "title": "Micron is doubling down on AI memory chips. That could pay off big time for investors.",
-      "summary": "Micron is reportedly increasing production capacity of a more profitable memory offering that\u2019s in high demand due to AI.",
-      "url": "https://www.marketwatch.com/story/micron-is-doubling-down-on-ai-memory-chips-that-could-pay-off-big-time-for-investors-da9e7f5e?mod=mw_rss_topstories",
-      "source": "MarketWatch Top",
-      "category": "macro",
-      "impact": "low",
-      "published": "2026-09-04T20:12:00+00:00"
-    },
-    {
-      "title": "Will a data center hurt your home\u2019s value? Research says no. Sellers disagree.",
-      "summary": "In recent months, Americans have gotten more vocal about their concerns over data centers and the effects they could have on home values.",
-      "url": "https://www.marketwatch.com/story/will-a-data-center-hurt-your-homes-value-research-says-no-sellers-disagree-7017ace4?mod=mw_rss_topstories",
-      "source": "MarketWatch Top",
-      "category": "macro",
-      "impact": "low",
-      "published": "2026-09-04T20:03:00+00:00"
-    },
-    {
-      "title": "Here\u2019s what\u2019s worth streaming in September 2026 on Netflix, Hulu, HBO Max and more",
-      "summary": "Prices are rising again, but a slew of fan-favorite shows \u2014 including Apple\u2019s \u2018Slow Horses,\u2019 Netflix\u2019s \u2018The Gentlemen\u2019 and Paramount\u2019s \u2018MobLand\u2019 \u2014 are returning for new seasons",
-      "url": "https://www.marketwatch.com/story/heres-whats-worth-streaming-in-september-2026-on-netflix-hulu-hbo-max-and-more-a702e7dd?mod=mw_rss_topstories",
-      "source": "MarketWatch Top",
-      "category": "macro",
-      "impact": "low",
-      "published": "2026-09-04T20:00:00+00:00"
-    },
-    {
-      "title": "Why Oracle\u2019s stock looks like a compelling buy ahead of earnings",
-      "summary": "While there are long-term debates around Oracle\u2019s stock, analysts say the company looks poised to benefit from upbeat pricing trends and more when it reports results next week.",
-      "url": "https://www.marketwatch.com/story/why-oracles-stock-looks-like-a-compelling-buy-ahead-of-earnings-12a04d7b?mod=mw_rss_topstories",
-      "source": "MarketWatch Top",
-      "category": "macro",
-      "impact": "low",
-      "published": "2026-09-04T19:59:00+00:00"
-    },
-    {
-      "title": "There\u2019s a new record number of 401(k) millionaires as retirement savings hold at all-time highs",
-      "summary": "Retirement savings hovered at record highs in the second quarter, pushing the number of 401(k) millionaires to a record as investors focused on their long-term goals despite persistent anxiety about the broader economy, Fidelity Investments said Thursday.",
-      "url": "https://www.marketwatch.com/story/theres-a-new-record-number-of-401-k-millionaires-as-retirement-savings-hold-at-all-time-highs-94f2c520?mod=mw_rss_topstories",
-      "source": "MarketWatch Top",
-      "category": "macro",
-      "impact": "medium",
-      "published": "2026-09-04T19:52:00+00:00"
-    },
-    {
-      "title": "I\u2019m 68. Should I spend half my 401(k) to buy a home with a mortgage?",
-      "summary": "There\u2019s a long checklist when deciding where to live, especially in your retirement years.",
-      "url": "https://www.marketwatch.com/story/im-68-should-i-spend-half-my-401-k-to-buy-a-home-with-a-mortgage-285e5ada?mod=mw_rss_topstories",
-      "source": "MarketWatch Top",
-      "category": "macro",
-      "impact": "low",
-      "published": "2026-09-04T19:52:00+00:00"
     },
     {
       "title": "Pineapple Financial puts $1B in mortgage records on Injective",
@@ -854,15 +926,6 @@
       "published": "2026-09-04T12:03:16+00:00"
     },
     {
-      "title": "67,000 More Trezor Customers Exposed as Data Breach Widens",
-      "summary": "Some records exposed in the breach date to 2019, years beyond the 90-day retention Trezor said its partners had agreed to.",
-      "url": "https://decrypt.co/377389/67000-more-trezor-customers-exposed-as-data-breach-widens",
-      "source": "Decrypt",
-      "category": "crypto",
-      "impact": "low",
-      "published": "2026-09-04T11:32:49+00:00"
-    },
-    {
       "title": "Kalshi US visits soar 1,500% as regulatory pressure mounts",
       "summary": "Kalshi\u2019s US web traffic climbed more than 1,500% in less than a year, while trading volume grew even faster and legal scrutiny of its sports contracts intensified.",
       "url": "https://cointelegraph.com/news/kalshi-traffic-soars-regulatory-pressure-mounts?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
@@ -870,15 +933,6 @@
       "category": "crypto",
       "impact": "low",
       "published": "2026-09-04T11:32:28+00:00"
-    },
-    {
-      "title": "Why Nvidia's 'defensive move' to acquire Hugging Face is about much more than chips",
-      "summary": "Nvidia\u2019s $12.9 billion Hugging Face deal could protect its open AI ecosystem, deepen ties with developers and keep the platform from rivals.",
-      "url": "https://www.cnbc.com/2026/09/04/nvidia-hugging-face-deal-chips.html",
-      "source": "CNBC World",
-      "category": "equities",
-      "impact": "low",
-      "published": "2026-09-04T11:31:30+00:00"
     },
     {
       "title": "We checked 6 years of bitcoin data. The NFP report isn't big price mover",
@@ -935,15 +989,6 @@
       "published": "2026-09-04T10:40:14+00:00"
     },
     {
-      "title": "FinCEN Ties $12.7B to Crypto Scams Run From Asian Compounds",
-      "summary": "Monthly reported sums rose 18% on average, and the compounds now appear to be spreading beyond Southeast Asia.",
-      "url": "https://decrypt.co/377386/fincen-ties-12-7b-to-crypto-scams-run-from-asian-compounds",
-      "source": "Decrypt",
-      "category": "crypto",
-      "impact": "low",
-      "published": "2026-09-04T10:22:57+00:00"
-    },
-    {
       "title": "Andreessen Horowitz-backed OpenReserve secures preliminary OCC approval for national bank charter",
       "summary": "OpenReserve Holdings received preliminary OCC approval for a national bank focused on onchain settlement, following a $25 million seed round.",
       "url": "https://www.theblock.co/news/regulation/2026-09-04-andreessen-horowitz-backed-openreserve-secures-preliminary-occ-approval-for-national-bank-charter-413528",
@@ -998,15 +1043,6 @@
       "published": "2026-09-04T09:41:31+00:00"
     },
     {
-      "title": "AMC CEO Calls Robinhood Stock Tokens 'Contemptible' and 'Vile'",
-      "summary": "Adam Aron says AMC Entertainment has no connection to the tokens and is putting outside securities counsel on the case.",
-      "url": "https://decrypt.co/377378/amc-ceo-calls-robinhood-stock-tokens-contemptible-and-vile",
-      "source": "Decrypt",
-      "category": "crypto",
-      "impact": "low",
-      "published": "2026-09-04T09:24:56+00:00"
-    },
-    {
       "title": "US bitcoin ETFs report the largest inflow day since January, worth $731 million",
       "summary": "Analysts attributed Fed Governor Christopher Waller\u2019s dovish comments to the significant inflow of capital into bitcoin products.",
       "url": "https://www.theblock.co/news/markets/2026-09-04-us-bitcoin-etfs-largest-inflow-day-since-january-413515",
@@ -1043,15 +1079,6 @@
       "published": "2026-09-04T05:49:43+00:00"
     },
     {
-      "title": "One full bitcoin now buys a little more than 18 ounces of gold, the most since January",
-      "summary": "",
-      "url": "https://www.coindesk.com/markets/2026/09/04/one-full-bitcoin-now-buys-a-little-more-than-18-ounces-of-gold-the-most-since-january",
-      "source": "CoinDesk",
-      "category": "crypto",
-      "impact": "medium",
-      "published": "2026-09-04T05:10:34+00:00"
-    },
-    {
       "title": "Shein has made a shaky stock market entry. Can it get its mojo back?",
       "summary": "Shein\u2019s Hong Kong IPO puts the focus on how the fast-fashion retailer can reaccelerate growth as its low-cost model faces new pressures.",
       "url": "https://www.cnbc.com/2026/09/04/shein-ipo-fast-fashion-temu-competition.html",
@@ -1059,15 +1086,6 @@
       "category": "equities",
       "impact": "medium",
       "published": "2026-09-04T04:49:36+00:00"
-    },
-    {
-      "title": "Goldman just revised this credit-market forecast thanks to the AI sector",
-      "summary": "AI-related supply has helped USD investment grade gross issuance to keep its active momentum all through summer, prompting Goldman to raise its forecast higher.",
-      "url": "https://www.cnbc.com/2026/09/04/goldman-usd-corporate-debt-bond-yields.html",
-      "source": "CNBC World",
-      "category": "equities",
-      "impact": "medium",
-      "published": "2026-09-04T02:42:11+00:00"
     },
     {
       "title": "Coinbase seeks SEC greenlight to list equity perpetuals",
@@ -1113,15 +1131,6 @@
       "category": "crypto",
       "impact": "high",
       "published": "2026-09-03T16:27:35+00:00"
-    },
-    {
-      "title": "Stablecoin payments infrastructure startup Diameter Pay raises $10 million",
-      "summary": "Diameter Pay has raised $10 million in a Series A funding round co-led by CMT Digital and Lightspeed Faction.",
-      "url": "https://www.theblock.co/news/deals/2026-09-03-diameter-pay-funding-stablecoin-payments-infrastructure-413454",
-      "source": "The Block",
-      "category": "crypto",
-      "impact": "low",
-      "published": "2026-09-03T16:00:03+00:00"
     },
     {
       "title": "Fed Governor Waller indicates he will support holding rates steady at September meeting",
