@@ -1,29 +1,173 @@
 {
-  "generated": "2026-09-14T02:15:03.469270+00:00",
-  "count": 155,
+  "generated": "2026-09-14T08:15:15.526448+00:00",
+  "count": 156,
   "sources": [
-    "CoinDesk",
-    "MarketWatch Top",
-    "CNBC World",
-    "Seeking Alpha",
-    "MarketWatch Economy",
-    "Cointelegraph",
     "CNBC Economy",
+    "Cointelegraph",
+    "Yahoo Finance",
+    "MarketWatch Economy",
+    "CoinDesk",
+    "Seeking Alpha",
+    "MarketWatch Top",
+    "CNBC Finance",
+    "Decrypt",
     "Investing.com Commodities",
     "The Block",
-    "Yahoo Finance",
-    "CNBC Finance",
-    "Decrypt"
+    "CNBC World"
   ],
   "articles": [
     {
-      "title": "Amodei's AI Slowdown Warning Rattles Futures: Will Stocks Open Lower?",
-      "summary": "Anthropic's AI slowdown call and OpenAI's shelved IPO plans pull stock futures lower ahead of Monday's open.",
-      "url": "https://beincrypto.com/ai-slowdown-stock-futures-monday/?.tsrc=rss",
+      "title": "AI stocks slide after major CEOs unite to urge slowdown",
+      "summary": "Anthropic CEO Dario Amodei said the industry \"must slow the pace at which we improve the capabilities of AI models,\" amid growing concerns over risks from AI.",
+      "url": "https://www.cnbc.com/2026/09/14/ai-stocks-slowdown-amodei-altman.html",
+      "source": "CNBC World",
+      "category": "equities",
+      "impact": "low",
+      "published": "2026-09-14T08:09:55+00:00"
+    },
+    {
+      "title": "Bitcoin bucks tech selloff as AI safety concerns weigh on stocks",
+      "summary": "",
+      "url": "https://www.coindesk.com/markets/2026/09/14/bitcoin-bucks-tech-selloff-as-ai-safety-concerns-weigh-on-stocks",
+      "source": "CoinDesk",
+      "category": "crypto",
+      "impact": "medium",
+      "published": "2026-09-14T08:07:16+00:00"
+    },
+    {
+      "title": "Stock market today: Dow, S&P 500, Nasdaq futures fall as Anthropic's AI warning spooks tech traders, oil prices jump",
+      "summary": "The CEOs of Anthropic and OpenAI spooked markets, while investors monitored rising oil prices and an upcoming Fed rate decision.",
+      "url": "https://finance.yahoo.com/markets/live/stock-market-today-monday-september-14-dow-sp-500-nasdaq-080559558.html?.tsrc=rss",
       "source": "Yahoo Finance",
       "category": "macro",
       "impact": "high",
-      "published": "2026-09-14T02:04:34+00:00"
+      "published": "2026-09-14T08:05:59+00:00"
+    },
+    {
+      "title": "Stock futures retreat as investors digest OpenAI IPO comments, higher oil prices",
+      "summary": "",
+      "url": "https://seekingalpha.com/news/4642335-stock-futures-retreat-as-investors-digest-openai-ipo-comments-higher-oil-prices?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+      "source": "Seeking Alpha",
+      "category": "equities",
+      "impact": "medium",
+      "published": "2026-09-14T07:56:01+00:00"
+    },
+    {
+      "title": "Companies left China to dodge tariffs. Now some are heading back",
+      "summary": "",
+      "url": "https://www.investing.com/news/economy-news/companies-left-china-to-dodge-tariffs-now-some-are-heading-back-4898910",
+      "source": "Investing.com Commodities",
+      "category": "commodities",
+      "impact": "medium",
+      "published": "2026-09-14T07:54:56+00:00"
+    },
+    {
+      "title": "Trump to lift 10% tariff on Irish whiskey",
+      "summary": "",
+      "url": "https://seekingalpha.com/news/4642330-trump-to-lift-10-tariff-on-irish-whiskey?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+      "source": "Seeking Alpha",
+      "category": "equities",
+      "impact": "medium",
+      "published": "2026-09-14T07:51:14+00:00"
+    },
+    {
+      "title": "European stocks mixed after Saudi Arabia shuts key oil pipeline",
+      "summary": "",
+      "url": "https://seekingalpha.com/news/4642332-european-stocks-mixed-after-saudi-arabia-shuts-key-oil-pipeline?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+      "source": "Seeking Alpha",
+      "category": "equities",
+      "impact": "low",
+      "published": "2026-09-14T07:49:40+00:00"
+    },
+    {
+      "title": "Novo Nordisk rebrands as \u2018Novo\u2019 in push to win back obesity market",
+      "summary": "",
+      "url": "https://seekingalpha.com/news/4642333-novo-nordisk-rebrands-as-novo-in-push-to-win-back-obesity-market?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+      "source": "Seeking Alpha",
+      "category": "equities",
+      "impact": "low",
+      "published": "2026-09-14T07:45:30+00:00"
+    },
+    {
+      "title": "European shares muted as tech slides, oil surge weighs",
+      "summary": "",
+      "url": "https://www.investing.com/news/economy-news/european-shares-muted-as-tech-slides-oil-surge-weighs-4898881",
+      "source": "Investing.com Commodities",
+      "category": "commodities",
+      "impact": "low",
+      "published": "2026-09-14T07:30:37+00:00"
+    },
+    {
+      "title": "Iran says it destroys U.S. advanced drone over Hormuz as Middle East conflict intensifies",
+      "summary": "Iran said it downed an advanced American drone over the Strait of Hormuz, as Tehran and Washington trade warnings and strikes with no sign of de-escalation.",
+      "url": "https://www.cnbc.com/2026/09/14/us-iran-trump-hormuz-gulf-oil-crude-talks-.html",
+      "source": "CNBC World",
+      "category": "geopolitical",
+      "impact": "high",
+      "published": "2026-09-14T07:24:21+00:00"
+    },
+    {
+      "title": "Tesla sets up Vietnam unit to tap fast-growing EV market - report",
+      "summary": "",
+      "url": "https://seekingalpha.com/news/4642329-tesla-sets-up-vietnam-unit-to-tap-fast-growing-ev-market---report?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+      "source": "Seeking Alpha",
+      "category": "equities",
+      "impact": "low",
+      "published": "2026-09-14T07:11:56+00:00"
+    },
+    {
+      "title": "Yen appreciation has carry-trade seekers looking at these two currencies",
+      "summary": "",
+      "url": "https://www.cnbc.com/2026/09/14/yen-strength-carry-trade-cad-yuan.html",
+      "source": "CNBC World",
+      "category": "commodities",
+      "impact": "low",
+      "published": "2026-09-14T07:10:37+00:00"
+    },
+    {
+      "title": "Bitcoin ETFs shed $463M in weekly reversal as Ether ETFs gain $197M",
+      "summary": "ARKB, GBTC and IBIT led Bitcoin ETF withdrawals, while BlackRock\u2019s ETHA pushed Ether ETFs into weekly inflows.",
+      "url": "https://cointelegraph.com/markets/bitcoin-etfs-shed-463m-ether-etfs-gain-197m?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "category": "crypto",
+      "impact": "medium",
+      "published": "2026-09-14T07:07:54+00:00"
+    },
+    {
+      "title": "Novo Nordisk rebrands to 'Novo,' unveils corporate changes as it fights for obesity market share",
+      "summary": "The Danish drugmaker called the changes the beginning of a new chapter for the company, which faces stiff competition from Eli Lilly.",
+      "url": "https://www.cnbc.com/2026/09/14/novo-nordisk-rebrands-to-novo-ceo-mike-doustdar.html",
+      "source": "CNBC World",
+      "category": "macro",
+      "impact": "low",
+      "published": "2026-09-14T07:00:01+00:00"
+    },
+    {
+      "title": "Anthropic wants AI to slow down. Its $517 billion spending plan says otherwise",
+      "summary": "",
+      "url": "https://www.investing.com/news/economy-news/anthropic-wants-ai-to-slow-down-its-517-billion-spending-plan-says-otherwise-4898857",
+      "source": "Investing.com Commodities",
+      "category": "commodities",
+      "impact": "low",
+      "published": "2026-09-14T06:59:27+00:00"
+    },
+    {
+      "title": "S&P 500 Bulls Are Not Giving Up Yet \u2013 But Rising Oil Prices, Long-Term Yields Rise Are Narrowing The Path Higher",
+      "summary": "Over the weekend, Yardeni Research said in a post that despite rising oil prices, bond yields, and expectations for a Fed rate hike, the S&amp;P 500 has not reacted sharply to the macroeconomic headwinds.",
+      "url": "https://stocktwits.com/news-articles/markets/equity/s-and-p-500-bulls-are-not-giving-up-yet-but-rising-oil-prices-long-term-yields-rise-are-narrowing-the-path-higher/cZtlufhRBR9?.tsrc=rss",
+      "source": "Yahoo Finance",
+      "category": "macro",
+      "impact": "high",
+      "published": "2026-09-14T06:52:13+00:00"
+    },
+    {
+      "title": "1 Industrials Stock for Long-Term Investors and 2 We Avoid",
+      "summary": "Industrials businesses quietly power the physical things we depend on, from cars and homes to e-commerce infrastructure. Still, their generally high capital requirements expose them to the ups and downs of economic cycles, and the industry\u2019s six-month return of 5% has fallen short of the S&amp;P ...",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/1-industrials-stock-long-term-065120360.html?.tsrc=rss",
+      "source": "Yahoo Finance",
+      "category": "macro",
+      "impact": "low",
+      "published": "2026-09-14T06:51:20+00:00"
     },
     {
       "title": "Dow Jones Futures: Techs Tumble As Anthropic Leads Call For AI Slowdown; Fed Meeting Ahead",
@@ -32,25 +176,232 @@
       "source": "Yahoo Finance",
       "category": "macro",
       "impact": "medium",
-      "published": "2026-09-14T02:03:20+00:00"
+      "published": "2026-09-14T06:40:45+00:00"
     },
     {
-      "title": "Cramer Draws 2018 Parallel to Today's Market: Any Danger of History Repeating Itself?",
-      "summary": "Jim Cramer sees eerie parallels between 2018 and 2026 markets but says investors should trim winners, not panic sell.",
-      "url": "https://beincrypto.com/cramer-2018-market-parallel-warsh/?.tsrc=rss",
+      "title": "OpenAI CEO calls for \u2018pacing, not stopping\u2019 AI development",
+      "summary": "",
+      "url": "https://seekingalpha.com/news/4642328-openai-ceo-calls-for-pacing-not-stopping-ai-development?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+      "source": "Seeking Alpha",
+      "category": "equities",
+      "impact": "low",
+      "published": "2026-09-14T06:39:23+00:00"
+    },
+    {
+      "title": "SoftBank gets $11.87B loan for OpenAI bet, AI concerns hit shares - report",
+      "summary": "",
+      "url": "https://seekingalpha.com/news/4642325-softbank-gets-1187b-loan-for-openai-bet-ai-concerns-hit-shares---report?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+      "source": "Seeking Alpha",
+      "category": "equities",
+      "impact": "low",
+      "published": "2026-09-14T06:27:43+00:00"
+    },
+    {
+      "title": "CNBC Daily Open: 'Whoever wins AI, wins'",
+      "summary": "Rivals Anthropic, OpenAI and xAI jointly called for a slowdown in AI development, while President Donald Trump stressed the need to keep a lead on China.",
+      "url": "https://www.cnbc.com/2026/09/14/daily-open-ai-slowdown-trump-anthropic.html",
+      "source": "CNBC World",
+      "category": "macro",
+      "impact": "low",
+      "published": "2026-09-14T06:25:12+00:00"
+    },
+    {
+      "title": "ECB\u2019s Kazaks sees growing case for more tightening",
+      "summary": "",
+      "url": "https://www.investing.com/news/economy-news/ecbs-kazaks-sees-growing-case-for-more-tightening-4898835",
+      "source": "Investing.com Commodities",
+      "category": "commodities",
+      "impact": "low",
+      "published": "2026-09-14T06:06:28+00:00"
+    },
+    {
+      "title": "Stock Market: Will S&P 500 Open Up or Down Today?",
+      "summary": "The S&amp;P 500 closed higher on Friday, surging 0.86% to close at 7,656.98, but U.S. stock futures were pointing lower early Monday as investors grappled with surging oil prices, elevated Treasury yields and a looming Federal Reserve interest-rate decision. The...",
+      "url": "https://www.benzinga.com/news/26/09/61756583/stock-market-will-sp-500-open-up-or-down-today-36?utm_source=yahooFinance&utm_campaign=partner_feed&utm_medium=referral&.tsrc=rss",
+      "source": "Yahoo Finance",
+      "category": "macro",
+      "impact": "high",
+      "published": "2026-09-14T05:36:36+00:00"
+    },
+    {
+      "title": "Here\u2019s what happened in crypto today",
+      "summary": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
+      "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "category": "crypto",
+      "impact": "medium",
+      "published": "2026-09-14T05:31:55+00:00"
+    },
+    {
+      "title": "Shein shares fall 10% amid urgent recall of contact-lens cleaner by Australia, New Zealand",
+      "summary": "Shein's Hong Kong-listed shares fell as much as 10%, amid news that a contact lens product has been recalled urgently due to worries of contamination.",
+      "url": "https://www.cnbc.com/2026/09/14/shein-shares-fall-10percent-amid-australia-nz-contact-lens-cleaner-recall.html",
+      "source": "CNBC World",
+      "category": "equities",
+      "impact": "low",
+      "published": "2026-09-14T05:21:29+00:00"
+    },
+    {
+      "title": "BOJ executive saw need for vigilance to \u2019non-linear\u2019 inflation spikes",
+      "summary": "",
+      "url": "https://www.investing.com/news/economy-news/boj-executive-saw-need-for-vigilance-to-nonlinear-inflation-spikes-4898820",
+      "source": "Investing.com Commodities",
+      "category": "commodities",
+      "impact": "medium",
+      "published": "2026-09-14T05:18:26+00:00"
+    },
+    {
+      "title": "King Charles to host AI chiefs amid industry call to slow development",
+      "summary": "The gathering comes days after Dario Amodei and Sam Altman called for greater restraint at the AI frontier, warning that rapidly improving systems could pose increasingly difficult-to-control risks.",
+      "url": "https://cointelegraph.com/news/king-charles-host-ai-chiefs-amid-industry-call-slow-development?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "category": "crypto",
+      "impact": "medium",
+      "published": "2026-09-14T05:16:59+00:00"
+    },
+    {
+      "title": "Trump calls $5,000 payouts \u2019easy\u2019 to fit into federal budget",
+      "summary": "",
+      "url": "https://www.investing.com/news/economy-news/ahead-of-fed-meeting-trump-says-us-should-have-worlds-lowest-interest-rate-4898742",
+      "source": "Investing.com Commodities",
+      "category": "commodities",
+      "impact": "medium",
+      "published": "2026-09-14T05:06:29+00:00"
+    },
+    {
+      "title": "Aktsiaselts Infortar own share acquisition transactions",
+      "summary": "Aktsiaselts Infortar acquired its own shares on the Nasdaq Tallinn Stock Exchange during the period of 7 September \u2013 11 September 2026 as follows: DateAggregated volume (pcs)Weighted average price per day (EUR)07.09.202621657,677808.09.202622258,136909.09.202622560,000010.09.202622760,000011.09.2...",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/aktsiaselts-infortar-own-share-acquisition-050000350.html?.tsrc=rss",
       "source": "Yahoo Finance",
       "category": "macro",
       "impact": "low",
-      "published": "2026-09-14T01:56:15+00:00"
+      "published": "2026-09-14T05:00:00+00:00"
     },
     {
-      "title": "The 10-year Treasury is closing in on 5%. How it gets there matters more",
-      "summary": "The 10-year Treasury yield is closing in on 5%, a level last touched in October 2023. Strategists say the drivers behind higher yields are more important.",
-      "url": "https://www.cnbc.com/2026/09/14/10-year-us-treasury-is-closing-in-on-5percent.html",
+      "title": "LA Clippers owner Steve Ballmer apologizes over team sanctions",
+      "summary": "Ballmer said that the team is complying with the penalties, has paid the fines, and is \"moving forward.\"",
+      "url": "https://www.cnbc.com/2026/09/14/la-clippers-steve-ballmer-apologizes-kawhi-leonard.html",
+      "source": "CNBC World",
+      "category": "geopolitical",
+      "impact": "high",
+      "published": "2026-09-14T04:58:46+00:00"
+    },
+    {
+      "title": "Robinhood CEO says issuers should not have veto over tokenized stocks",
+      "summary": "Robinhood CEO Vlad Tenev said issuers should be involved if tokenized products change shareholder rights or company obligations, but not when they create separate instruments backed by shares.",
+      "url": "https://cointelegraph.com/news/robinhood-ceo-issuer-veto-tokenized-stocks?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "category": "crypto",
+      "impact": "low",
+      "published": "2026-09-14T04:55:28+00:00"
+    },
+    {
+      "title": "'Kevin Warsh has a conundrum': Wall Street weighs Fed's next move as bond yields rise",
+      "summary": "The market wants the Fed to hike rates at its policy meeting next week.",
+      "url": "https://finance.yahoo.com/markets/article/kevin-warsh-has-a-conundrum-wall-street-weighs-feds-next-move-as-bond-yields-rise-045439827.html?.tsrc=rss",
+      "source": "Yahoo Finance",
+      "category": "macro",
+      "impact": "high",
+      "published": "2026-09-14T04:54:39+00:00"
+    },
+    {
+      "title": "Trump says he would be OK with China building cars in US",
+      "summary": "",
+      "url": "https://www.investing.com/news/economy-news/trump-says-he-would-be-ok-with-china-building-cars-in-us-4898818",
+      "source": "Investing.com Commodities",
+      "category": "commodities",
+      "impact": "low",
+      "published": "2026-09-14T04:54:28+00:00"
+    },
+    {
+      "title": "Morning Bid: Shipping oil gets ever harder, costlier",
+      "summary": "",
+      "url": "https://www.investing.com/news/economy-news/morning-bid-shipping-oil-gets-ever-harder-costlier-4898817",
+      "source": "Investing.com Commodities",
+      "category": "commodities",
+      "impact": "low",
+      "published": "2026-09-14T04:36:43+00:00"
+    },
+    {
+      "title": "Cadbury cut two months off its supply chain lead time for a key chocolate-bar ingredient in one move",
+      "summary": "Mondelez is expanding its chocolate manufacturing operations in Malaysia, with the company also seeing further room for growth across Southeast Asia.",
+      "url": "https://www.cnbc.com/2026/09/14/cadbury-supply-chain-lead-time-key-ingredient-chocolate-crumble-malaysia.html",
       "source": "CNBC World",
       "category": "macro",
+      "impact": "low",
+      "published": "2026-09-14T04:25:17+00:00"
+    },
+    {
+      "title": "Senate Republicans release \u2018final\u2019 Clarity Act draft as Trump accepts most ethics provisions",
+      "summary": "President Donald Trump agreed to ethics restrictions on the bill, which would limit officials and their spouses from crypto-related dealings.",
+      "url": "https://www.theblock.co/news/regulation/2026-09-14-senate-republicans-release-final-clarity-act-draft-414575",
+      "source": "The Block",
+      "category": "crypto",
+      "impact": "low",
+      "published": "2026-09-14T04:24:37+00:00"
+    },
+    {
+      "title": "Goldman Sachs, JP Morgan expect September Fed hike as inflation lingers",
+      "summary": "",
+      "url": "https://www.investing.com/news/economy-news/goldman-sachs-now-expects-fed-to-hike-rates-in-september-4898799",
+      "source": "Investing.com Commodities",
+      "category": "commodities",
+      "impact": "high",
+      "published": "2026-09-14T04:24:26+00:00"
+    },
+    {
+      "title": "Anthropic walks tightrope to Nasdaq, pushing for a slowdown while pursuing $2 trillion valuation",
+      "summary": "As Anthropic meets with prospective investors ahead of its potentially historic market debut, CEO Dario Amodei is pushing for a slowdown in AI.",
+      "url": "https://www.cnbc.com/2026/09/14/anthropic-walks-tightrope-to-nasdaq-pushing-slowdown-and-pursuing-ipo.html",
+      "source": "CNBC World",
+      "category": "equities",
+      "impact": "low",
+      "published": "2026-09-14T04:01:01+00:00"
+    },
+    {
+      "title": "Dow, S&P 500, Nasdaq Futures Decline Amid AI Concerns, Rising Oil Prices Ahead Of Fed Rate Week: RUM,  ORCL, SMMT, USO Stocks In Focus",
+      "summary": "Rising oil prices amid the ongoing conflict with Iran have pressured long-term bond yields and also impacted stock markets ahead of the Fed\u2019s September policy meeting.",
+      "url": "https://stocktwits.com/news-articles/markets/equity/dow-s-and-p-500-nasdaq-futures-decline-amid-ai-concerns-rising-oil-prices-ahead-of-fed-rate-week-rum-orcl-smmt-uso-stocks-in-focus/cZtlo67RBRd?.tsrc=rss",
+      "source": "Yahoo Finance",
+      "category": "macro",
       "impact": "medium",
-      "published": "2026-09-14T01:39:13+00:00"
+      "published": "2026-09-14T03:31:48+00:00"
+    },
+    {
+      "title": "Baker Hughes sees no slowdown in energy projects despite higher rates\u00a0as AI buildouts stoke LNG demand",
+      "summary": "Baker Hughes has yet to see higher borrowing costs slow investment in major energy projects.",
+      "url": "https://www.cnbc.com/2026/09/14/baker-hughes-ceo-no-slowdown-in-energy-projects-despite-higher-rates-.html",
+      "source": "CNBC World",
+      "category": "commodities",
+      "impact": "low",
+      "published": "2026-09-14T03:27:58+00:00"
+    },
+    {
+      "title": "US Republicans send \u2018final\u2019 CLARITY Act offer to Democrats",
+      "summary": "The 635-page revised proposal includes Trump-backed ethics provisions and comes just two days before a key procedural vote.",
+      "url": "https://cointelegraph.com/news/us-republicans-send-final-clarity-act-offer-to-democrats?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "category": "crypto",
+      "impact": "low",
+      "published": "2026-09-14T03:22:49+00:00"
+    },
+    {
+      "title": "Z.ai shares tumble over 10% after $5 billion fundraising, its second major raise in two months",
+      "summary": "Z.ai shares tumbled after the Chinese AI company announced its second major fundraising in two months.",
+      "url": "https://www.cnbc.com/2026/09/14/zai-shares-tumble-second-major-raise-two-months-.html",
+      "source": "CNBC World",
+      "category": "equities",
+      "impact": "low",
+      "published": "2026-09-14T03:03:58+00:00"
+    },
+    {
+      "title": "Amodei's AI Slowdown Warning Rattles Futures: Will Stocks Open Lower?",
+      "summary": "Anthropic's AI slowdown call and OpenAI's shelved IPO plans pull stock futures lower ahead of Monday's open.",
+      "url": "https://beincrypto.com/ai-slowdown-stock-futures-monday/?.tsrc=rss",
+      "source": "Yahoo Finance",
+      "category": "macro",
+      "impact": "high",
+      "published": "2026-09-14T02:04:34+00:00"
     },
     {
       "title": "Prediction markets are becoming more professionalized, but also harder to beat",
@@ -69,24 +420,6 @@
       "category": "macro",
       "impact": "low",
       "published": "2026-09-14T01:30:00+00:00"
-    },
-    {
-      "title": "CNBC Daily Open: Peace talks amid pipeline shocks",
-      "summary": "Statements from the BRICS summit over the weekend had a common thread: Nations want peace in the Middle East.",
-      "url": "https://www.cnbc.com/2026/09/14/cnbc-daily-open-peace-talks-amid-pipeline-shocks.html",
-      "source": "CNBC World",
-      "category": "geopolitical",
-      "impact": "low",
-      "published": "2026-09-14T01:29:09+00:00"
-    },
-    {
-      "title": "Trump calls $5,000 payouts \u2019easy\u2019 to fit into federal budget",
-      "summary": "",
-      "url": "https://www.investing.com/news/economy-news/ahead-of-fed-meeting-trump-says-us-should-have-worlds-lowest-interest-rate-4898742",
-      "source": "Investing.com Commodities",
-      "category": "commodities",
-      "impact": "medium",
-      "published": "2026-09-14T01:00:57+00:00"
     },
     {
       "title": "\u2018I still don\u2019t have my MRI\u2019: My health insurer canceled my plan without warning. Is that legal?",
@@ -116,24 +449,6 @@
       "published": "2026-09-14T00:48:32+00:00"
     },
     {
-      "title": "FDA approves Telix brain cancer imaging drug Pixclara",
-      "summary": "",
-      "url": "https://seekingalpha.com/news/4642313-fda-approves-telix-brain-cancer-imaging-drug-pixclara?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
-      "source": "Seeking Alpha",
-      "category": "equities",
-      "impact": "low",
-      "published": "2026-09-14T00:34:11+00:00"
-    },
-    {
-      "title": "Dollar steady, yen near 7-month high ahead of Fed, BOJ meetings",
-      "summary": "",
-      "url": "https://www.investing.com/news/economy-news/dollar-steady-yen-near-7month-high-ahead-of-fed-boj-meetings-4898780",
-      "source": "Investing.com Commodities",
-      "category": "commodities",
-      "impact": "medium",
-      "published": "2026-09-14T00:30:24+00:00"
-    },
-    {
       "title": "Crypto\u2019s biggest week ever? Swarm fears prompt AI slowdown: Hodler\u2019s Digest",
       "summary": "Crypto\u2019s moment of CLARITY finally arrives with a key Senate vote on Tuesday. AI swarm fears prompt development slowdown, with some predicting big falls in AI stock prices.",
       "url": "https://cointelegraph.com/magazine/cryptos-biggest-week-ever-swarm-fears-prompt-ai-slowdown-hodlers-digest?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
@@ -152,24 +467,6 @@
       "published": "2026-09-13T23:50:00+00:00"
     },
     {
-      "title": "Jim Cramer questions Anthropic CEO's slowdown manifesto and puts forth an action plan",
-      "summary": "While I have grown tired of his endless proclamations, Dario Amodei does raise points that will impact many stocks if the spending curb proceeds.",
-      "url": "https://www.cnbc.com/2026/09/13/cramer-questions-anthropic-ceos-slowdown-manifesto-puts-forth-an-action-plan.html",
-      "source": "CNBC World",
-      "category": "equities",
-      "impact": "low",
-      "published": "2026-09-13T23:47:14+00:00"
-    },
-    {
-      "title": "Michael Dell\u2019s family office nears deal to buy Baldwin Insurance: FT",
-      "summary": "",
-      "url": "https://seekingalpha.com/news/4642312-michael-dell-s-family-office-nears-deal-to-buy-baldwin-insurance-ft?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
-      "source": "Seeking Alpha",
-      "category": "equities",
-      "impact": "low",
-      "published": "2026-09-13T23:16:13+00:00"
-    },
-    {
       "title": "Berkshire Hathaway Stock Is Trailing the S&P 500 by About 10 Points This Year. History Says That Usually Doesn't Last.",
       "summary": "Nine times since 1990, the conglomerate has finished a year this far behind the market. Seven times, it beat the index the year after.",
       "url": "https://www.fool.com/investing/2026/09/13/berkshire-hathaway-stock-is-trailing-the-s-and-p-500-by-about-10-points-this-year-history-says-that-usually-doesn-t-last/?.tsrc=rss",
@@ -179,42 +476,6 @@
       "published": "2026-09-13T22:34:01+00:00"
     },
     {
-      "title": "Oil prices rise after Saudi Arabia shut down critical pipeline that bypasses Strait of Hormuz",
-      "summary": "Saudi Arabia has faced escalating attacks from Iran-allied militant groups in recent days.",
-      "url": "https://www.cnbc.com/2026/09/13/oil-price-iran-war-strait-hormuz-saudi-pipeline.html",
-      "source": "CNBC World",
-      "category": "commodities",
-      "impact": "low",
-      "published": "2026-09-13T22:28:04+00:00"
-    },
-    {
-      "title": "OpenAI rules out IPO this year as Altman, Musk & Amodei warn AI is moving too fast",
-      "summary": "Altman's IPO comments and Amodei's public call for more careful pacing of AI development cap a week of loud AI warnings.",
-      "url": "https://www.cnbc.com/2026/09/12/anthropics-amodei-proposes-plan-to-slow-the-pace-of-advancing-ai-capabilities.html",
-      "source": "CNBC World",
-      "category": "equities",
-      "impact": "high",
-      "published": "2026-09-13T22:21:33+00:00"
-    },
-    {
-      "title": "Stock Futures Slide, Oil Rises Ahead of Fed Rate Decision",
-      "summary": "Stock futures are falling on Sunday ahead of the Federal Reserve\u2019s interest rate decision this week.  Oil prices continued to climb, with  Brent crude  futures up more than 2%, above $106 a barrel, and  WTI futures  up 2% to around $102 a barrel.  At the same time, Treasury yields pushed higher d...",
-      "url": "https://finance.yahoo.com/m/f1d89395-9654-369a-b91d-cf36e903647d/stock-futures-slide%2C-oil.html?.tsrc=rss",
-      "source": "Yahoo Finance",
-      "category": "macro",
-      "impact": "high",
-      "published": "2026-09-13T22:12:00+00:00"
-    },
-    {
-      "title": "Here are the major earnings before the open Monday",
-      "summary": "",
-      "url": "https://seekingalpha.com/news/4642280-here-are-the-major-earnings-before-the-open-monday?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
-      "source": "Seeking Alpha",
-      "category": "equities",
-      "impact": "low",
-      "published": "2026-09-13T22:00:26+00:00"
-    },
-    {
       "title": "Symbiosis says it recovered 15 BTC after Bitcoin bridge exploit, offers attacker 20% bounty",
       "summary": "Blockchain security firm Blockaid said roughly 46.1 billion syBTC were minted but the attacker realized only about $336,000 in proceeds.",
       "url": "https://www.theblock.co/news/defi/2026-09-13-symbiosis-says-it-recovered-15-btc-after-bitcoin-bridge-exploit-offers-attacker-20-bounty-414568",
@@ -222,33 +483,6 @@
       "category": "crypto",
       "impact": "medium",
       "published": "2026-09-13T21:51:11+00:00"
-    },
-    {
-      "title": "High Tide Q3 2026 Earnings Preview",
-      "summary": "",
-      "url": "https://seekingalpha.com/news/4642170-high-tide-q3-2026-earnings-preview?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
-      "source": "Seeking Alpha",
-      "category": "equities",
-      "impact": "low",
-      "published": "2026-09-13T21:35:00+00:00"
-    },
-    {
-      "title": "Dave &amp; Buster's Q2 2027 Earnings Preview",
-      "summary": "",
-      "url": "https://seekingalpha.com/news/4642171-dave-and-busters-q2-2027-earnings-preview?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
-      "source": "Seeking Alpha",
-      "category": "equities",
-      "impact": "low",
-      "published": "2026-09-13T21:35:00+00:00"
-    },
-    {
-      "title": "Radiant Logistics Q4 2026 Earnings Preview",
-      "summary": "",
-      "url": "https://seekingalpha.com/news/4642173-radiant-logistics-q4-2026-earnings-preview?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
-      "source": "Seeking Alpha",
-      "category": "equities",
-      "impact": "low",
-      "published": "2026-09-13T21:35:00+00:00"
     },
     {
       "title": "These are the 10 biggest retirement fears \u2014 and what you can do about them",
@@ -287,6 +521,15 @@
       "published": "2026-09-13T20:36:00+00:00"
     },
     {
+      "title": "Oil Is $100, The 10-Year Is Near 5%. Why Doesn\u2019t The Stock Market Care?",
+      "summary": "The market is ignoring $100 oil and near-5% Treasury yields because earnings are still holding up, but that confidence could disappear quickly if those pressures start hitting profits.",
+      "url": "https://www.barchart.com/story/news/4580757/oil-is-100-the-10-year-is-near-5-why-doesnt-the-stock-market-care?.tsrc=rss",
+      "source": "Yahoo Finance",
+      "category": "macro",
+      "impact": "medium",
+      "published": "2026-09-13T20:33:26+00:00"
+    },
+    {
       "title": "This simple mistake can give your money to the wrong person when you die. Here\u2019s how to protect your estate.",
       "summary": "Estate-planning crises usually come down to small oversights.",
       "url": "https://www.marketwatch.com/story/this-simple-mistake-can-cost-your-loved-ones-their-share-of-your-estate-heres-how-to-protect-your-money-99374a95?mod=mw_rss_topstories",
@@ -294,15 +537,6 @@
       "category": "macro",
       "impact": "low",
       "published": "2026-09-13T20:30:00+00:00"
-    },
-    {
-      "title": "Saudi pipeline outage threatens 4% of global oil supply",
-      "summary": "",
-      "url": "https://seekingalpha.com/news/4642310-saudi-pipeline-outage-threatens-4-percent-of-global-oil-supply?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
-      "source": "Seeking Alpha",
-      "category": "equities",
-      "impact": "low",
-      "published": "2026-09-13T20:27:19+00:00"
     },
     {
       "title": "How to trade a well-paying job for more work-life balance \u2014 without going broke",
@@ -377,24 +611,6 @@
       "published": "2026-09-13T18:03:00+00:00"
     },
     {
-      "title": "From Fashion to Concrete: J.P. Morgan Says Buy These 2 Stocks",
-      "summary": "Once again, earning season has left market watchers feeling upbeat. Across the S&amp;P 500 index, revenues were up 16% year-over-year, and earnings growth came close to 52%. Profit margins are at or near record highs, and better yet, the gains are broad. Some 86% of reporting companies have beate...",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/fashion-concrete-j-p-morgan-180000956.html?.tsrc=rss",
-      "source": "Yahoo Finance",
-      "category": "macro",
-      "impact": "medium",
-      "published": "2026-09-13T18:00:00+00:00"
-    },
-    {
-      "title": "Trump reiterates support for united Ireland, says won\u2019t talk about Scotland \u2019yet\u2019",
-      "summary": "",
-      "url": "https://www.investing.com/news/economy-news/trump-reiterates-support-for-united-ireland-says-wont-talk-about-scotland-yet-4898746",
-      "source": "Investing.com Commodities",
-      "category": "commodities",
-      "impact": "low",
-      "published": "2026-09-13T17:24:29+00:00"
-    },
-    {
       "title": "Quantum-proof blockchain: why math, not machines, holds the key",
       "summary": "",
       "url": "https://www.coindesk.com/opinion/2026/09/13/quantum-proof-blockchain-why-math-not-machines-holds-the-key",
@@ -402,87 +618,6 @@
       "category": "crypto",
       "impact": "low",
       "published": "2026-09-13T17:00:00+00:00"
-    },
-    {
-      "title": "Here\u2019s what happened in crypto today",
-      "summary": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
-      "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "category": "crypto",
-      "impact": "medium",
-      "published": "2026-09-13T16:47:53+00:00"
-    },
-    {
-      "title": "Anthropic's Amodei says China presents 'toughest dilemma' for his proposed AI slowdown",
-      "summary": "OpenAI CEO Sam Altman, Demis Hassabis, the chair of Google DeepMind, and Elon Musk have all welcomed Amodei's proposal.",
-      "url": "https://www.cnbc.com/2026/09/13/china-dilemma-ai-slowdown-anthropic.html",
-      "source": "CNBC World",
-      "category": "equities",
-      "impact": "low",
-      "published": "2026-09-13T16:39:24+00:00"
-    },
-    {
-      "title": "Xi says China will take lead to foster AI, tech cooperation among BRICS countries",
-      "summary": "China will take the lead to help foster artificial-intelligence collaboration and development among developing-economy countries, President Xi Jinping said.",
-      "url": "https://www.cnbc.com/2026/09/13/china-xi-ai-tech-brics.html",
-      "source": "CNBC World",
-      "category": "macro",
-      "impact": "low",
-      "published": "2026-09-13T16:38:45+00:00"
-    },
-    {
-      "title": "Will Secretary Scott Bessent fire his bazooka to avert yields climbing above 5%?",
-      "summary": "",
-      "url": "https://www.investing.com/news/economy-news/will-secretary-scott-bessent-fire-his-bazooka-to-avert-yields-climbing-above-5-4898743",
-      "source": "Investing.com Commodities",
-      "category": "commodities",
-      "impact": "low",
-      "published": "2026-09-13T16:19:42+00:00"
-    },
-    {
-      "title": "HSBC Raises 2026 S&P 500 Target to 8,100 on Earnings Outlook",
-      "summary": "HSBC raised its year-end 2026 target for the S&amp;P 500 to 8,100 from 7,650, citing corporate earnings that have exceeded its previous expectations. Strategist Nicole Inui said the revision was driven mainly by earnings.",
-      "url": "https://investorshub.advfn.com/market-news/article/36145/hsbc-raises-2026-sp-500-target-to-8100-on-earnings-outlook?.tsrc=rss",
-      "source": "Yahoo Finance",
-      "category": "macro",
-      "impact": "low",
-      "published": "2026-09-13T15:43:00+00:00"
-    },
-    {
-      "title": "Central banks should favor market inflation expectations when setting policy - UBS",
-      "summary": "",
-      "url": "https://www.investing.com/news/economy-news/central-banks-should-favor-market-inflation-expectations-when-setting-policy--ubs-4898740",
-      "source": "Investing.com Commodities",
-      "category": "commodities",
-      "impact": "medium",
-      "published": "2026-09-13T15:05:33+00:00"
-    },
-    {
-      "title": "A Bear Market Is Coming at Some Point. History Says That's Actually Good News for Investors.",
-      "summary": "Sizable market downturns are common, and investors shouldn't fear them.",
-      "url": "https://www.fool.com/investing/2026/09/13/bear-market-coming-history-says-good-news/?.tsrc=rss",
-      "source": "Yahoo Finance",
-      "category": "macro",
-      "impact": "low",
-      "published": "2026-09-13T14:43:00+00:00"
-    },
-    {
-      "title": "Trump says \u2019very negative forces\u2019 raising exaggerated concerns over AI",
-      "summary": "",
-      "url": "https://www.investing.com/news/economy-news/trump-says-very-negative-forces-raising-exaggerated-concerns-over-ai-4898739",
-      "source": "Investing.com Commodities",
-      "category": "commodities",
-      "impact": "low",
-      "published": "2026-09-13T14:30:28+00:00"
-    },
-    {
-      "title": "History Says September Is a Terrible Month for the S&P 500 Index and for Other Stocks. Here's Why I'm Still Investing Anyway.",
-      "summary": "Septembers, on average, don't feature great stock market gains. But not every September is a dud.",
-      "url": "https://www.fool.com/investing/2026/09/13/history-says-september-is-a-terrible-month-for/?.tsrc=rss",
-      "source": "Yahoo Finance",
-      "category": "macro",
-      "impact": "low",
-      "published": "2026-09-13T13:55:00+00:00"
     },
     {
       "title": "Vessel struck in Strait of Hormuz, UKMTO says, as prospects for U.S.-Iran diplomacy appear elusive",
@@ -494,15 +629,6 @@
       "published": "2026-09-13T13:38:23+00:00"
     },
     {
-      "title": "Trump\u2019s \u2019Liberation Day 2.0\u2019 risks drastic policy change in 2028 - BCA Research",
-      "summary": "",
-      "url": "https://www.investing.com/news/economy-news/trumps-liberation-day-20-risks-drastic-policy-change-in-2028--bca-research-4898734",
-      "source": "Investing.com Commodities",
-      "category": "commodities",
-      "impact": "low",
-      "published": "2026-09-13T13:34:14+00:00"
-    },
-    {
       "title": "AI Agents Spending Money Online? New Research Says Not Really",
       "summary": "TRM examined roughly $52.7 million across 198.9 million settlements using the x402 protocol. Most of it isn\u2019t coming from AI agents, it says.",
       "url": "https://decrypt.co/378103/ai-agents-spending-money-research",
@@ -510,15 +636,6 @@
       "category": "crypto",
       "impact": "low",
       "published": "2026-09-13T13:01:03+00:00"
-    },
-    {
-      "title": "Investors brace for possible rate hike at uncertain Fed meeting",
-      "summary": "",
-      "url": "https://www.investing.com/news/economy-news/investors-brace-for-possible-rate-hike-at-uncertain-fed-meeting-4898733",
-      "source": "Investing.com Commodities",
-      "category": "commodities",
-      "impact": "high",
-      "published": "2026-09-13T13:00:31+00:00"
     },
     {
       "title": "Fed rate hike is about Wall Street, not inflation, says economist",
@@ -548,15 +665,6 @@
       "published": "2026-09-13T12:00:00+00:00"
     },
     {
-      "title": "Dow Jones Futures: Fed Rate Hike Seen As Oil, Yields Pressure Stocks; Apple, Moderna Are New Buys",
-      "summary": "Despite Friday's bounce, stocks are struggling amid surging oil prices and yields, though Apple, Moderna are buys. The Fed meeting looms.",
-      "url": "https://finance.yahoo.com/m/ff3ebbcf-fe39-3ccd-b655-37522db9df46/dow-jones-futures%3A-fed-rate.html?.tsrc=rss",
-      "source": "Yahoo Finance",
-      "category": "macro",
-      "impact": "high",
-      "published": "2026-09-13T11:57:14+00:00"
-    },
-    {
       "title": "Goldman picks China healthcare stocks for a post-AI trade",
       "summary": "Chinese stocks' earnings tracked by Goldman Sachs grew at their highest quarterly pace in five years.",
       "url": "https://www.cnbc.com/2026/09/13/goldman-picks-china-healthcare-stocks-for-a-post-ai-trade.html",
@@ -582,33 +690,6 @@
       "category": "crypto",
       "impact": "low",
       "published": "2026-09-13T11:09:54+00:00"
-    },
-    {
-      "title": "Wall Street's Biggest Bubble May Be Bursting Before Our Eyes, and the Consequences for the Stock Market Are Nothing Short of Disastrous",
-      "summary": "History has an uncanny ability to forecast the future, especially regarding investors\u2019 willingness to take risks.",
-      "url": "https://www.fool.com/investing/2026/09/13/wall-street-biggest-bubble-bursting-consequences-for-stock-market-are-disastrous/?.tsrc=rss",
-      "source": "Yahoo Finance",
-      "category": "macro",
-      "impact": "low",
-      "published": "2026-09-13T10:56:01+00:00"
-    },
-    {
-      "title": "Xi pushes China\u2019s open-source AI vision at BRICS summit",
-      "summary": "",
-      "url": "https://www.investing.com/news/economy-news/xi-pushes-chinas-opensource-ai-vision-at-brics-summit-4898725",
-      "source": "Investing.com Commodities",
-      "category": "commodities",
-      "impact": "low",
-      "published": "2026-09-13T09:57:11+00:00"
-    },
-    {
-      "title": "China's Xi urges BRICS nations to work towards peace in the Middle East",
-      "summary": "China, Iran's biggest trading partner and a key customer of Tehran's energy exports, is willing to work with BRICS towards peace in the region, Xi said.",
-      "url": "https://www.cnbc.com/2026/09/13/chinas-xi-urges-brics-peace-middle-east.html",
-      "source": "CNBC World",
-      "category": "geopolitical",
-      "impact": "medium",
-      "published": "2026-09-13T09:41:53+00:00"
     },
     {
       "title": "Revolut says customer data exposed through fake government email",
@@ -672,15 +753,6 @@
       "category": "crypto",
       "impact": "low",
       "published": "2026-09-12T18:43:33+00:00"
-    },
-    {
-      "title": "Larry Ellison nixes plan to offload up to $7.5 billion worth of Oracle stock",
-      "summary": "Oracle founder Larry Ellison has canceled his plan to sell up to $7.5 billion worth of stock in the software company.",
-      "url": "https://www.cnbc.com/2026/09/12/larry-ellison-nixes-plan-to-offload-up-to-7point5-billion-worth-of-oracle-stock-.html",
-      "source": "CNBC World",
-      "category": "equities",
-      "impact": "medium",
-      "published": "2026-09-12T17:14:56+00:00"
     },
     {
       "title": "Revolut Leaks Passports, Bitcoin Transaction Histories to Fake Government Request",
@@ -809,15 +881,6 @@
       "published": "2026-09-12T10:11:01+00:00"
     },
     {
-      "title": "Russia, Trump and a battle over welfare loom over Sweden\u2019s election",
-      "summary": "Russia's war, permanently higher defense spending and uncertainty over U.S. commitments are narrowing the choices facing whoever wins Sunday's election.",
-      "url": "https://www.cnbc.com/2026/09/12/sweden-election-russia-trump-welfare-defense.html",
-      "source": "CNBC World",
-      "category": "geopolitical",
-      "impact": "medium",
-      "published": "2026-09-12T05:00:01+00:00"
-    },
-    {
       "title": "Robinhood CEO says companies shouldn't get veto over stock tokens in AMC feud",
       "summary": "",
       "url": "https://www.coindesk.com/markets/2026/09/11/robinhood-ceo-says-companies-shouldn-t-get-veto-over-stock-tokens-in-amc-feud",
@@ -908,15 +971,6 @@
       "published": "2026-09-11T17:22:39+00:00"
     },
     {
-      "title": "The legal drama of imprisoned Sam Bankman-Fried is waiting on its last act",
-      "summary": "",
-      "url": "https://www.coindesk.com/news-analysis/2026/09/11/the-legal-drama-of-imprisoned-sam-bankman-fried-is-waiting-on-its-last-act",
-      "source": "CoinDesk",
-      "category": "crypto",
-      "impact": "low",
-      "published": "2026-09-11T17:12:45+00:00"
-    },
-    {
       "title": "Consumer outlook plunges in September as inflation outlook worsens",
       "summary": "The survey's headline index hit a level of 47.8, down 7.5% from the August reading and off 13.2% from a year ago.",
       "url": "https://www.cnbc.com/2026/09/11/consumer-outlook-plunges-in-september-as-inflation-outlook-worsens.html",
@@ -960,15 +1014,6 @@
       "category": "crypto",
       "impact": "medium",
       "published": "2026-09-11T16:05:15+00:00"
-    },
-    {
-      "title": "Bitcoin spikes toward $80K as US CPI data delivers new 22-year high in bond yields",
-      "summary": "Bitcoin briefly rebounded past $79,000 and US stocks turned green as US CPI inflation data met expectations.",
-      "url": "https://cointelegraph.com/markets/bitcoin-spikes-toward-80k-as-us-cpi-data-delivers-new-22-year-high-in-bond-yields?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "category": "crypto",
-      "impact": "high",
-      "published": "2026-09-11T16:03:37+00:00"
     },
     {
       "title": "Metaplanet reverses course on executive options with 41% cut to potential shares, scraps employee warrant plan",
@@ -1032,33 +1077,6 @@
       "category": "macro",
       "impact": "high",
       "published": "2026-09-11T13:46:36+00:00"
-    },
-    {
-      "title": "Metaplanet cuts Series 10 stock pool by 41%, plans Hong Kong subsidiary",
-      "summary": "Metaplanet will cut 131.3 million potential shares and form a $1 million Hong Kong subsidiary for trading in Bitcoin, equities and credit products.",
-      "url": "https://cointelegraph.com/news/metaplanet-executive-stock-pool-hong-kong-subsidiary?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "category": "crypto",
-      "impact": "medium",
-      "published": "2026-09-11T13:44:27+00:00"
-    },
-    {
-      "title": "Trading stocks against BONER is the latest trend for DeFi degens",
-      "summary": "Why would anyone want to trade a healthcare stock for a memecoin like BONER? Why wouldn\u2019t they, ask the degens on Robinhood Chain who are building a strange new corner of DeFi.",
-      "url": "https://cointelegraph.com/magazine/trading-stocks-against-boner-is-the-latest-trend-for-defi-degens?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "category": "crypto",
-      "impact": "low",
-      "published": "2026-09-11T13:30:00+00:00"
-    },
-    {
-      "title": "Bitcoin ETF outflows accelerate as investors pull $449M in three days",
-      "summary": "ARK 21Shares accounted for $164 million of Thursday\u2019s Bitcoin ETF withdrawals, while Ether and Solana funds also recorded net outflows.",
-      "url": "https://cointelegraph.com/markets/bitcoin-etfs-282m-biggest-outflow-july?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "category": "crypto",
-      "impact": "medium",
-      "published": "2026-09-11T12:33:38+00:00"
     },
     {
       "title": "Morning Minute: AI Agents Cut BTC Quantum Attack Benchmark by 86%",
@@ -1140,15 +1158,6 @@
       "category": "crypto",
       "impact": "low",
       "published": "2026-09-10T20:28:46+00:00"
-    },
-    {
-      "title": "Senate Republicans unveil revised crypto bill ahead of key Clarity Act vote next week",
-      "summary": "Ahead of a pivotal initial vote next week, Senate Republicans released a revised version of landmark cryptocurrency legislation.",
-      "url": "https://www.theblock.co/news/regulation/2026-09-10-senate-republicans-unveil-revised-crypto-bill-ahead-of-key-clarity-act-vote-next-week-414180",
-      "source": "The Block",
-      "category": "crypto",
-      "impact": "low",
-      "published": "2026-09-10T19:42:06+00:00"
     },
     {
       "title": "Friday's CPI inflation report is even more important than usual. Here's what to expect",
