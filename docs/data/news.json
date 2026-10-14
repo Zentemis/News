@@ -1,29 +1,812 @@
 {
-  "generated": "2026-10-14T08:09:07.750898+00:00",
-  "count": 156,
+  "generated": "2026-10-14T14:09:33.920959+00:00",
+  "count": 154,
   "sources": [
-    "CNBC World",
-    "MarketWatch Top",
-    "Seeking Alpha",
-    "CNBC Finance",
     "The Block",
-    "CoinDesk",
-    "CNBC Economy",
-    "Decrypt",
     "Yahoo Finance",
+    "Cointelegraph",
+    "CNBC Finance",
+    "Decrypt",
     "Investing.com Commodities",
+    "Seeking Alpha",
+    "CoinDesk",
     "MarketWatch Economy",
-    "Cointelegraph"
+    "MarketWatch Top",
+    "CNBC Economy",
+    "CNBC World"
   ],
   "articles": [
     {
-      "title": "1 Industrials Stock with Promising Prospects and 2 We Find Risky",
-      "summary": "Even if they go mostly unnoticed, industrial businesses are the backbone of our country. But they are at the whim of volatile macroeconomic factors that influence capital spending (like interest rates), and the market seems convinced that demand will slow. Due to this bearish outlook, the industr...",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/1-industrials-stock-promising-prospects-080247023.html?.tsrc=rss",
+      "title": "S&P 500 falls as yields rise after hot inflation report: Live updates",
+      "summary": "Investors reacted to hotter-than-expected September consumer inflation data.",
+      "url": "https://www.cnbc.com/2026/10/13/stock-market-today-live-updates-.html",
+      "source": "CNBC World",
+      "category": "macro",
+      "impact": "medium",
+      "published": "2026-10-14T14:09:14+00:00"
+    },
+    {
+      "title": "Former FTX Europe chief targets U.S. tokenized stock trading with new SEC exemption",
+      "summary": "",
+      "url": "https://www.coindesk.com/business/2026/10/14/former-ftx-europe-chief-targets-u-s-stock-tokenization-with-new-sec-exemption",
+      "source": "CoinDesk",
+      "category": "crypto",
+      "impact": "low",
+      "published": "2026-10-14T14:08:43+00:00"
+    },
+    {
+      "title": "Bank of America adds a profit miss to the misery of a $1.2 billion government fine",
+      "summary": "Bank of America\u2019s stock falls as investor disappointment over the $1.2 billion government fine added to the bank\u2019s downbeat earnings report.",
+      "url": "https://www.marketwatch.com/story/bank-of-america-adds-a-profit-miss-to-the-misery-of-a-1-2-billion-government-fine-d4420bfa?mod=mw_rss_topstories",
+      "source": "MarketWatch Top",
+      "category": "macro",
+      "impact": "low",
+      "published": "2026-10-14T14:08:00+00:00"
+    },
+    {
+      "title": "Bank of America shares drop 8% after third-quarter revenue miss and regulatory penalty",
+      "summary": "Bank of America shares fell Wednesday after the company posted weaker-than-expected trading revenue and the impact of a $1.2 billion Treasury fine.",
+      "url": "https://www.cnbc.com/2026/10/14/bank-of-america-bac-q3-2026-earnings.html",
+      "source": "CNBC Finance",
+      "category": "equities",
+      "impact": "low",
+      "published": "2026-10-14T14:07:44+00:00"
+    },
+    {
+      "title": "Social Security\u2019s COLA will be 3.6% in 2027 as inflation persists",
+      "summary": "The increase is aimed at helping about 68 million beneficiaries keep pace with inflation.",
+      "url": "https://www.marketwatch.com/story/social-securitys-cola-will-be-3-6-in-2027-as-inflation-persists-f7c9dff2?mod=mw_rss_topstories",
+      "source": "MarketWatch Top",
+      "category": "macro",
+      "impact": "medium",
+      "published": "2026-10-14T14:07:00+00:00"
+    },
+    {
+      "title": "Netflix is laying off roughly 6% of its workforce",
+      "summary": "Netflix will lay off roughly 6% of its workforce, according to a memo obtained by CNBC.",
+      "url": "https://www.cnbc.com/2026/10/14/netflix-layoffs.html",
+      "source": "CNBC World",
+      "category": "macro",
+      "impact": "low",
+      "published": "2026-10-14T14:06:57+00:00"
+    },
+    {
+      "title": "This ETF Has Crushed the S&P 500 in 2026. Here's Why I Think It Still Has Room to Grow.",
+      "summary": "This reliable dividend ETF could offer strong yields and meaningful protection in case of a tech stock crash.",
+      "url": "https://www.fool.com/investing/2026/10/14/this-etf-has-crushed-the-sp-500-in-2026-heres-why/?.tsrc=rss",
+      "source": "Yahoo Finance",
+      "category": "macro",
+      "impact": "medium",
+      "published": "2026-10-14T14:05:00+00:00"
+    },
+    {
+      "title": "Hex Founder Richard Heart Detained in Istanbul on Interpol Red Notice: Report",
+      "summary": "Turkish police and intelligence officers reportedly seized cash, phones, jewelry and firearms at the crypto founder's address in Be\u015fikta\u015f.",
+      "url": "https://decrypt.co/380948/hex-founder-richard-heart-detained-in-istanbul-on-interpol-red-notice-report",
+      "source": "Decrypt",
+      "category": "crypto",
+      "impact": "low",
+      "published": "2026-10-14T14:03:20+00:00"
+    },
+    {
+      "title": "Here are the major earnings after the close Wednesday",
+      "summary": "",
+      "url": "https://seekingalpha.com/news/4652542-here-are-the-major-earnings-after-the-close-wednesday?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+      "source": "Seeking Alpha",
+      "category": "equities",
+      "impact": "low",
+      "published": "2026-10-14T14:00:00+00:00"
+    },
+    {
+      "title": "PC Connection names Matt Zafirovski president and COO",
+      "summary": "",
+      "url": "https://seekingalpha.com/news/4652942-pc-connection-names-matt-zafirovski-president-and-coo?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+      "source": "Seeking Alpha",
+      "category": "equities",
+      "impact": "low",
+      "published": "2026-10-14T13:58:58+00:00"
+    },
+    {
+      "title": "U.S. equities trade lower after the latest CPI inflation report",
+      "summary": "",
+      "url": "https://seekingalpha.com/news/4652940-us-equities-trade-lower-after-the-latest-cpi-inflation-report?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+      "source": "Seeking Alpha",
+      "category": "equities",
+      "impact": "high",
+      "published": "2026-10-14T13:58:42+00:00"
+    },
+    {
+      "title": "10-year Treasury yield rises following hot inflation data: AlphaCheck",
+      "summary": "Stocks were mixed on Wednesday after a hotter-than-expected inflation print.",
+      "url": "https://finance.yahoo.com/markets/article/10-year-treasury-yield-rises-following-hot-inflation-data-alphacheck-135815482.html?.tsrc=rss",
+      "source": "Yahoo Finance",
+      "category": "macro",
+      "impact": "medium",
+      "published": "2026-10-14T13:58:15+00:00"
+    },
+    {
+      "title": "Linde plc (LIN) Adds Exposure to Industrial Gases and Secular Growth Trends",
+      "summary": "Sirmium Capital recently released its quarterly Q3 2026 investor letter. A copy of the letter can be downloaded here. The letter examined a highly concentrated, AI-driven market in which a narrow group of technology and infrastructure-related stocks supported headline indexes while many other bus...",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/linde-plc-lin-adds-exposure-135748576.html?.tsrc=rss",
       "source": "Yahoo Finance",
       "category": "macro",
       "impact": "low",
-      "published": "2026-10-14T08:02:47+00:00"
+      "published": "2026-10-14T13:57:48+00:00"
+    },
+    {
+      "title": "3 Reasons MD is Risky and 1 Stock to Buy Instead",
+      "summary": "Pediatrix Medical Group has had an impressive run over the past six months as its shares have beaten the S&amp;P 500 by 5.6%. The stock now trades at $26.61, marking a 17.7% gain. This was partly due to its solid quarterly results, and the performance may have investors wondering how to approach ...",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/3-reasons-md-risky-1-135607333.html?.tsrc=rss",
+      "source": "Yahoo Finance",
+      "category": "macro",
+      "impact": "low",
+      "published": "2026-10-14T13:56:07+00:00"
+    },
+    {
+      "title": "Entegris receives Buy rating on higher content in advanced semiconductor nodes: Truist",
+      "summary": "",
+      "url": "https://seekingalpha.com/news/4652934-entegris-receives-buy-rating-on-higher-content-in-advanced-semiconductor-nodes-truist?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+      "source": "Seeking Alpha",
+      "category": "equities",
+      "impact": "low",
+      "published": "2026-10-14T13:54:50+00:00"
+    },
+    {
+      "title": "Equinor discovers oil near Oseberg field in North Sea",
+      "summary": "",
+      "url": "https://seekingalpha.com/news/4652900-equinor-discovers-oil-near-oseberg-field-in-north-sea?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+      "source": "Seeking Alpha",
+      "category": "equities",
+      "impact": "low",
+      "published": "2026-10-14T13:54:22+00:00"
+    },
+    {
+      "title": "MaxCyte stock rallies on initial Q3 revenue, higher FY26 outlook",
+      "summary": "",
+      "url": "https://seekingalpha.com/news/4652938-maxcyte-stock-rallies-on-initial-q3-revenue-higher-fy26-outlook?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+      "source": "Seeking Alpha",
+      "category": "equities",
+      "impact": "low",
+      "published": "2026-10-14T13:54:10+00:00"
+    },
+    {
+      "title": "Consumer prices rose 3.7% annually in September as gas prices skyrocket",
+      "summary": "The consumer price index was expected to increase 0.6% in September on a monthly basis and 3.6% from a year ago, according to the Dow Jones consensus forecast.",
+      "url": "https://www.cnbc.com/2026/10/14/cpi-inflation-report-september-2026.html",
+      "source": "CNBC Economy",
+      "category": "macro",
+      "impact": "low",
+      "published": "2026-10-14T13:53:28+00:00"
+    },
+    {
+      "title": "Bending Spoons stock soars after Berkshire Hathaway boosts stake to 4%",
+      "summary": "",
+      "url": "https://seekingalpha.com/news/4652930-bending-spoons-stock-soars-after-berkshire-hathaway-boosts-stake-to-4?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+      "source": "Seeking Alpha",
+      "category": "equities",
+      "impact": "low",
+      "published": "2026-10-14T13:52:14+00:00"
+    },
+    {
+      "title": "America's growing digital economy requires power grid updates. Who will foot the bill?",
+      "summary": "",
+      "url": "https://www.coindesk.com/opinion/2026/10/14/the-battle-over-the-ratepayer-protection-act-is-just-getting-started",
+      "source": "CoinDesk",
+      "category": "crypto",
+      "impact": "low",
+      "published": "2026-10-14T13:51:12+00:00"
+    },
+    {
+      "title": "BlackBerry (BB) Stock Is Back, but Is the Rally Sustainable?",
+      "summary": "BlackBerry Ltd. (NYSE:BB) offers an attractive mix of accelerating topline, robust margins, positive cash flows, and a healthy balance sheet. However, the real tradeoff is the stock price. After an almost 123% jump in 2026, the stock carries a weight of expectations requiring continued execution....",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/blackberry-bb-stock-back-rally-134911578.html?.tsrc=rss",
+      "source": "Yahoo Finance",
+      "category": "macro",
+      "impact": "low",
+      "published": "2026-10-14T13:49:11+00:00"
+    },
+    {
+      "title": "2 Reasons to Like KMI and 1 to Stay Skeptical",
+      "summary": "While the S&amp;P 500 is up 12% since April 2026, Kinder Morgan (currently trading at $33.35 per share) has lagged behind, posting a return of 5.4%. This might have investors contemplating their next move.",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/2-reasons-kmi-1-stay-134807859.html?.tsrc=rss",
+      "source": "Yahoo Finance",
+      "category": "macro",
+      "impact": "low",
+      "published": "2026-10-14T13:48:07+00:00"
+    },
+    {
+      "title": "Ledger Asks Resellers in Seven Asian Markets to Pull Devices After Suspected $86M Drain",
+      "summary": "European electronics chain MediaMarkt Saturn has also halted Ledger sales after a customer in Germany reported finding an implant.",
+      "url": "https://decrypt.co/380940/ledger-asks-resellers-in-seven-asian-markets-to-pull-devices-after-suspected-86m-drain",
+      "source": "Decrypt",
+      "category": "crypto",
+      "impact": "low",
+      "published": "2026-10-14T13:47:44+00:00"
+    },
+    {
+      "title": "Fed may now have to hike twice or increase by a half point in December, traders bet",
+      "summary": "Odds for an Oct. 28 quarter-point hike increased to 53.7% from just 22.1% a day ago.",
+      "url": "https://www.cnbc.com/2026/10/14/fed-may-now-have-to-hike-twice-or-increase-by-a-half-point-in-december-traders-bet.html",
+      "source": "CNBC World",
+      "category": "macro",
+      "impact": "medium",
+      "published": "2026-10-14T13:46:16+00:00"
+    },
+    {
+      "title": "BlackRock now manages assets equal to half the size of the U.S. economy after 15% growth",
+      "summary": "Fund-management giant BlackRock said Wednesday that assets under management are nearly $15.5 trillion after growth of 15%.",
+      "url": "https://www.marketwatch.com/story/blackrock-now-has-assets-equal-to-half-the-size-of-the-u-s-economy-after-15-growth-c382b289?mod=mw_rss_topstories",
+      "source": "MarketWatch Top",
+      "category": "macro",
+      "impact": "low",
+      "published": "2026-10-14T13:46:00+00:00"
+    },
+    {
+      "title": "I lost my home in the Great Recession. I still rent in my 50s. Why is that judged as failure?",
+      "summary": "\u201dI earn $110,000 a year.\u201d",
+      "url": "https://www.marketwatch.com/story/i-earn-110-000-a-year-i-lost-my-home-in-the-great-recession-im-renting-in-my-50s-why-is-that-judged-as-failure-d1371d67?mod=mw_rss_topstories",
+      "source": "MarketWatch Top",
+      "category": "macro",
+      "impact": "medium",
+      "published": "2026-10-14T13:45:00+00:00"
+    },
+    {
+      "title": "Stock Market Today: Dow Wavers On Surprise CPI Inflation Data; Bank Of America Sinks On Results (Live Coverage)",
+      "summary": "The Dow Jones index wavers Wednesday on a surprise CPI inflation report. Bank of America plunges on earnings.",
+      "url": "https://finance.yahoo.com/m/a9aa7eaa-2df2-3f6f-b548-5269d49f67bc/stock-market-today%3A-dow.html?.tsrc=rss",
+      "source": "Yahoo Finance",
+      "category": "macro",
+      "impact": "high",
+      "published": "2026-10-14T13:43:05+00:00"
+    },
+    {
+      "title": "US retirees to receive 3.6% Social Security increase in 2027",
+      "summary": "",
+      "url": "https://www.investing.com/news/economy-news/us-retirees-to-receive-36-social-security-increase-in-2027-4949506",
+      "source": "Investing.com Commodities",
+      "category": "commodities",
+      "impact": "low",
+      "published": "2026-10-14T13:42:55+00:00"
+    },
+    {
+      "title": "Notorious Crypto Celeb Meme Coin Promoter Plots Second Wave on New Launchpad",
+      "summary": "Sahil Arora says he's not done with celebrity meme coins, and that Fomo presents new possible strategies for his controversial schemes.",
+      "url": "https://decrypt.co/380928/notorious-crypto-celeb-meme-coin-promoter-plots-second-wave-on-new-launchpad",
+      "source": "Decrypt",
+      "category": "crypto",
+      "impact": "low",
+      "published": "2026-10-14T13:41:21+00:00"
+    },
+    {
+      "title": "CPI Inflation Overshoot Is Like Half A Fed Rate Hike; S&P 500 Futures Fall, Yields Jump (Live Coverage)",
+      "summary": "September core CPI inflation rose more than expected, keeping an October Fed rate hike in play. Treasury yields jumped and S&amp;P 500 futures fell.",
+      "url": "https://finance.yahoo.com/m/fecfb073-407a-3324-9100-d51a7afe6262/cpi-inflation-overshoot-is.html?.tsrc=rss",
+      "source": "Yahoo Finance",
+      "category": "macro",
+      "impact": "high",
+      "published": "2026-10-14T13:40:37+00:00"
+    },
+    {
+      "title": "Fed rate hike call seen tight as inflation heats up",
+      "summary": "",
+      "url": "https://www.investing.com/news/economy-news/fed-rate-hike-seen-more-likely-after-inflation-data-4949259",
+      "source": "Investing.com Commodities",
+      "category": "commodities",
+      "impact": "high",
+      "published": "2026-10-14T13:37:41+00:00"
+    },
+    {
+      "title": "Here\u2019s what happened in crypto today",
+      "summary": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
+      "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "category": "crypto",
+      "impact": "medium",
+      "published": "2026-10-14T13:36:56+00:00"
+    },
+    {
+      "title": "Charles Schwab and DoorDash ranked among bargain stocks that could lead the market higher",
+      "summary": "Third-quarter earnings growth is expected to be driven by energy and semiconductor companies, but what if the rest of the market shows up? HSBC envisages a stock market finally broadening out.",
+      "url": "https://www.marketwatch.com/story/from-charles-schwab-to-doordash-why-these-bargain-stocks-could-lead-the-market-higher-4d99fb97?mod=mw_rss_topstories",
+      "source": "MarketWatch Top",
+      "category": "macro",
+      "impact": "low",
+      "published": "2026-10-14T13:36:00+00:00"
+    },
+    {
+      "title": "Stocks Fall After Hot Inflation Report Sends Rate-Hike Odds Flying",
+      "summary": "The stock market finally got its catalyst, and it has Wall Street reeling.",
+      "url": "https://finance.yahoo.com/m/6af4443d-332e-3679-9214-a9c4961b619c/stocks-fall-after-hot.html?.tsrc=rss",
+      "source": "Yahoo Finance",
+      "category": "macro",
+      "impact": "medium",
+      "published": "2026-10-14T13:34:01+00:00"
+    },
+    {
+      "title": "3 Reasons to Avoid SBUX and 1 Stock to Buy Instead",
+      "summary": "Over the past six months, Starbucks\u2019s stock price fell to $91.86. Shareholders have lost 6.7% of their capital, which is disappointing considering the S&amp;P 500 has climbed by 12%. This might have investors contemplating their next move.",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/3-reasons-avoid-sbux-1-133207752.html?.tsrc=rss",
+      "source": "Yahoo Finance",
+      "category": "macro",
+      "impact": "low",
+      "published": "2026-10-14T13:32:07+00:00"
+    },
+    {
+      "title": "Dollar jumps, stocks and bonds dented by hot US inflation data",
+      "summary": "",
+      "url": "https://www.investing.com/news/economy-news/asia-shares-edge-up-as-chip-selloff-eases-us-cpi-awaited-4947869",
+      "source": "Investing.com Commodities",
+      "category": "commodities",
+      "impact": "medium",
+      "published": "2026-10-14T13:31:48+00:00"
+    },
+    {
+      "title": "Warrior Met Coal (HCC): Transitioning Blue Creek Development into Low-Cost Cash Generation",
+      "summary": "Black Bear Value Partners, an investment advisory firm, issued its second-quarter 2026 investor letter. The letter can be downloaded here. The Black Bear Value Fund returned -10.3% in September, +2.5% for the quarter, and +4.1% year-to-date (YTD). In comparison, the S&amp;P 500 saw a -0.4% return...",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/warrior-met-coal-hcc-transitioning-133122241.html?.tsrc=rss",
+      "source": "Yahoo Finance",
+      "category": "macro",
+      "impact": "medium",
+      "published": "2026-10-14T13:31:22+00:00"
+    },
+    {
+      "title": "Fake shopping sprees and \u2018happiness insurance\u2019: The latest fintech apps reveal our financial anxieties",
+      "summary": "Fintech companies are catching on to how Americans are altering their financial habits, and they\u2019ve created new products to try to meet the moment.",
+      "url": "https://www.marketwatch.com/story/fake-shopping-sprees-and-happiness-insurance-the-latest-fintech-apps-reveal-our-financial-anxieties-77770a46?mod=mw_rss_topstories",
+      "source": "MarketWatch Top",
+      "category": "macro",
+      "impact": "low",
+      "published": "2026-10-14T13:31:00+00:00"
+    },
+    {
+      "title": "Wall St set for lower open as hot inflation data fuels rate-hike bets",
+      "summary": "",
+      "url": "https://www.investing.com/news/economy-news/sp-500-dow-futures-rise-ahead-of-big-bank-results-cpi-data-4948567",
+      "source": "Investing.com Commodities",
+      "category": "commodities",
+      "impact": "medium",
+      "published": "2026-10-14T13:30:30+00:00"
+    },
+    {
+      "title": "\u2018Bunker mode\u2019 won\u2019t protect your crypto, critics say",
+      "summary": "Even if Justin Drake\u2019s prediction that AI could break cryptography proves correct, critics say \u201cbunker mode\u201d is an impractical suggestion that\u2019s unlikely to protect your crypto.",
+      "url": "https://cointelegraph.com/magazine/bunker-mode-wont-protect-your-crypto-critics-say?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "category": "crypto",
+      "impact": "low",
+      "published": "2026-10-14T13:30:00+00:00"
+    },
+    {
+      "title": "Gen Z renters are the only group more likely to feel successful by investing than buying a house",
+      "summary": "\u201cInstead of focusing on homeownership, many are prioritizing financial freedom and debt-free living.\u201d",
+      "url": "https://www.marketwatch.com/story/gen-z-renters-are-the-only-group-more-likely-to-feel-successful-by-investing-than-buying-a-house-30ac5344?mod=mw_rss_topstories",
+      "source": "MarketWatch Top",
+      "category": "macro",
+      "impact": "low",
+      "published": "2026-10-14T13:28:00+00:00"
+    },
+    {
+      "title": "FBI arrests Saudi OpenAI employee who allegedly planted recording device in conference room",
+      "summary": "The Tuesday incident comes as the ChatGPT-maker, along with competitors, faces heightened scrutiny over its safety practices.",
+      "url": "https://www.cnbc.com/2026/10/13/openai-employee-arrested-recording-device.html",
+      "source": "CNBC World",
+      "category": "macro",
+      "impact": "low",
+      "published": "2026-10-14T13:25:24+00:00"
+    },
+    {
+      "title": "Midterm voters haven\u2019t seen this many housing proposals on the ballot in 20 years",
+      "summary": "Ballot measures aim to fix the housing crisis in various ways, from making it easier to build new homes, to cutting property taxes.",
+      "url": "https://www.marketwatch.com/story/midterm-voters-havent-seen-this-many-housing-proposals-on-the-ballot-in-20-years-8cdf1405?mod=mw_rss_topstories",
+      "source": "MarketWatch Top",
+      "category": "macro",
+      "impact": "medium",
+      "published": "2026-10-14T13:23:00+00:00"
+    },
+    {
+      "title": "BNY, Citadel Securities complete Treasury repo in first use of tokenized assets on major triparty platform",
+      "summary": "BNY and Citadel Securities completed the first tokenized U.S. Treasury repo workflow on a major triparty platform.",
+      "url": "https://www.theblock.co/news/business/2026-10-14-bny-citadel-securities-complete-treasury-repo-in-first-use-of-tokenized-assets-on-major-triparty-platform-418534",
+      "source": "The Block",
+      "category": "crypto",
+      "impact": "low",
+      "published": "2026-10-14T13:21:37+00:00"
+    },
+    {
+      "title": "Strategy\u2019s preferred stock financing may cost it bitcoin, K33 argues",
+      "summary": "K33 argues Strategy could accumulate more bitcoin over time by relying on common stock issuance rather than preferred shares.",
+      "url": "https://www.theblock.co/news/markets/2026-10-14-strategys-preferred-stock-financing-may-cost-it-bitcoin-k33-argues-418543",
+      "source": "The Block",
+      "category": "crypto",
+      "impact": "medium",
+      "published": "2026-10-14T13:20:46+00:00"
+    },
+    {
+      "title": "Tightening Fleet Supply Positioned Tidewater (TDW) for Multi-Year Offshore Energy Expansion",
+      "summary": "Black Bear Value Partners, an investment advisory firm, issued its second-quarter 2026 investor letter. The letter can be downloaded here. The Black Bear Value Fund returned -10.3% in September, +2.5% for the quarter, and +4.1% year-to-date (YTD). In comparison, the S&amp;P 500 saw a -0.4% return...",
+      "url": "https://finance.yahoo.com/energy/articles/tightening-fleet-supply-positioned-tidewater-132012426.html?.tsrc=rss",
+      "source": "Yahoo Finance",
+      "category": "macro",
+      "impact": "low",
+      "published": "2026-10-14T13:20:12+00:00"
+    },
+    {
+      "title": "5 No-Brainer ETFs Worth Loading Up On for Long-Term Investors",
+      "summary": "Tech and AI stocks have dominated the past two decades. These are the next areas to focus your investments on.",
+      "url": "https://www.fool.com/investing/2026/10/14/no-brainer-etf-worth-loading-up-on-long-term/?.tsrc=rss",
+      "source": "Yahoo Finance",
+      "category": "macro",
+      "impact": "low",
+      "published": "2026-10-14T13:20:00+00:00"
+    },
+    {
+      "title": "The S&P 500 is about to break its longest streak without a 1% drop",
+      "summary": "The S&amp;P 500 has gone 52 trading days without a 1% down day, matching the streak that ended in July 2024.",
+      "url": "https://finance.yahoo.com/markets/stocks/article/the-sp-500-is-about-to-break-its-longest-streak-without-a-1-drop-131750025.html?.tsrc=rss",
+      "source": "Yahoo Finance",
+      "category": "macro",
+      "impact": "low",
+      "published": "2026-10-14T13:17:50+00:00"
+    },
+    {
+      "title": "Core Natural Resources (CNR): Capitalizing on Global Electrification and Supply-Constrained Coal Markets",
+      "summary": "Black Bear Value Partners, an investment advisory firm, issued its second-quarter 2026 investor letter. The letter can be downloaded here. The Black Bear Value Fund returned -10.3% in September, +2.5% for the quarter, and +4.1% year-to-date (YTD). In comparison, the S&amp;P 500 saw a -0.4% return...",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/core-natural-resources-cnr-capitalizing-131730935.html?.tsrc=rss",
+      "source": "Yahoo Finance",
+      "category": "macro",
+      "impact": "low",
+      "published": "2026-10-14T13:17:30+00:00"
+    },
+    {
+      "title": "This one move will save $20,000 on our wedding",
+      "summary": "Plus: Where we\u2019re cutting back to free up space in our wedding budget for the things we really want on our big day",
+      "url": "https://www.marketwatch.com/story/this-one-move-will-save-20-000-on-our-wedding-d22e4d24?mod=mw_rss_topstories",
+      "source": "MarketWatch Top",
+      "category": "macro",
+      "impact": "low",
+      "published": "2026-10-14T13:17:00+00:00"
+    },
+    {
+      "title": "Morgan Stanley tops estimates as equities trading revenue beats expectations by $909 million",
+      "summary": "Morgan Stanley topped expectations on the top and bottom lines for the third quarter.",
+      "url": "https://www.cnbc.com/2026/10/14/morgan-stanley-ms-q3-2026-earnings.html",
+      "source": "CNBC Finance",
+      "category": "equities",
+      "impact": "low",
+      "published": "2026-10-14T13:11:07+00:00"
+    },
+    {
+      "title": "Kraken parent Payward to become first crypto firm to buy a EU bank as it expands into deposits, lending",
+      "summary": "",
+      "url": "https://www.coindesk.com/business/2026/10/14/kraken-parent-payward-to-become-first-crypto-firm-to-buy-a-eu-bank-as-it-expands-into-deposits-lending",
+      "source": "CoinDesk",
+      "category": "crypto",
+      "impact": "medium",
+      "published": "2026-10-14T13:07:45+00:00"
+    },
+    {
+      "title": "DriveWealth to use Ripple\u2019s RLUSD for stablecoin settlement, cross-border payments",
+      "summary": "DriveWealth will use Ripple's RLUSD on the XRP Ledger for stablecoin settlement, collateral funding and custody, starting in Europe.",
+      "url": "https://www.theblock.co/news/business/2026-10-14-drivewealth-ripple-rlusd-stablecoin-settlement-418479",
+      "source": "The Block",
+      "category": "crypto",
+      "impact": "low",
+      "published": "2026-10-14T13:00:00+00:00"
+    },
+    {
+      "title": "Polygon Labs completes Coinme acquisition, bringing regulated payments coverage across 48 US states",
+      "summary": "Polygon Labs completed its Coinme acquisition, bringing 37 state money transmitter licenses into its stablecoin payments infrastructure.",
+      "url": "https://www.theblock.co/news/business/2026-10-14-polygon-labs-completes-coinme-acquisition-bringing-regulated-payments-coverage-across-48-us-states-418518",
+      "source": "The Block",
+      "category": "crypto",
+      "impact": "low",
+      "published": "2026-10-14T13:00:00+00:00"
+    },
+    {
+      "title": "Canada crypto remittances to Asian countries surge 141% to $2.36B: Chainalysis",
+      "summary": "Remittance-sized crypto transfers from Canada to three Asian countries reached $2.36 billion, while transfers to the Philippines alone rose 28% to $61 million.",
+      "url": "https://cointelegraph.com/news/canada-crypto-remittances-asia-surge-chainalysis?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "category": "crypto",
+      "impact": "low",
+      "published": "2026-10-14T13:00:00+00:00"
+    },
+    {
+      "title": "Top economic adviser says Venezuela aims to publish debt sustainability analysis \u2019very soon\u2019",
+      "summary": "",
+      "url": "https://www.investing.com/news/economy-news/venezuelas-top-economic-adviser-says-aims-to-publish-debt-sustainability-analysis-very-soon-4948618",
+      "source": "Investing.com Commodities",
+      "category": "commodities",
+      "impact": "low",
+      "published": "2026-10-14T12:54:29+00:00"
+    },
+    {
+      "title": "Qivalis receives EMI authorization from Dutch central bank for euro stablecoin",
+      "summary": "Qivalis said the EMI authorization enables it to launch a euro-denominated stablecoin, with issuance planned for the coming months, subject to additional MiCA requirements.",
+      "url": "https://cointelegraph.com/news/qivalis-authorization-dutch-central-bank-euro-stablecoin?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "category": "crypto",
+      "impact": "low",
+      "published": "2026-10-14T12:53:41+00:00"
+    },
+    {
+      "title": "Indian bond yields hit highest level since March 2023",
+      "summary": "",
+      "url": "https://www.investing.com/news/economy-news/indian-bond-yields-hit-highest-level-since-march-2023-93CH-4949270",
+      "source": "Investing.com Commodities",
+      "category": "commodities",
+      "impact": "medium",
+      "published": "2026-10-14T12:47:12+00:00"
+    },
+    {
+      "title": "Iran says it\u2019s \u2018counting the moments\u2019 until it can attack U.S. warships; Saudi Aramco facilities attacked",
+      "summary": "Meanwhile, Saudi Arabia's Aramco reportedly came under fresh attack overnight.",
+      "url": "https://www.cnbc.com/2026/10/14/us-iran-war-trump-hormuz-saudi.html",
+      "source": "CNBC World",
+      "category": "geopolitical",
+      "impact": "medium",
+      "published": "2026-10-14T12:43:45+00:00"
+    },
+    {
+      "title": "S&P 500 futures turn negative after Sept inflation data",
+      "summary": "",
+      "url": "https://www.investing.com/news/economy-news/sp-500-futures-turn-negative-after-sept-inflation-data-4949261",
+      "source": "Investing.com Commodities",
+      "category": "commodities",
+      "impact": "medium",
+      "published": "2026-10-14T12:43:10+00:00"
+    },
+    {
+      "title": "US consumer prices accelerate in September on costlier gasoline; core CPI firmer",
+      "summary": "",
+      "url": "https://www.investing.com/news/economy-news/us-consumer-prices-accelerate-in-september-on-costlier-gasoline-core-cpi-firmer-4949258",
+      "source": "Investing.com Commodities",
+      "category": "commodities",
+      "impact": "medium",
+      "published": "2026-10-14T12:42:43+00:00"
+    },
+    {
+      "title": "Thailand could return to 3% economic growth within 3 years",
+      "summary": "",
+      "url": "https://www.investing.com/news/economy-news/thailand-could-return-to-3-economic-growth-within-3-years-93CH-4949256",
+      "source": "Investing.com Commodities",
+      "category": "commodities",
+      "impact": "low",
+      "published": "2026-10-14T12:41:24+00:00"
+    },
+    {
+      "title": "U.S. September CPI comes in hot, sending bitcoin sharply lower",
+      "summary": "",
+      "url": "https://www.coindesk.com/markets/2026/10/14/u-s-september-cpi-comes-in-hot-sending-bitcoin-sharply-lower",
+      "source": "CoinDesk",
+      "category": "crypto",
+      "impact": "high",
+      "published": "2026-10-14T12:33:56+00:00"
+    },
+    {
+      "title": "Kraken parent to buy Lithuanian Saldo Bank amid TradFi expansion",
+      "summary": "Payward expects to close the acquisition in 2027, enabling it to expand its traditional banking services into four EU operating markets already served by Saldo Bank.",
+      "url": "https://cointelegraph.com/news/krakens-parent-buy-lithuanian-saldo-bank-tradfi-expansion?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "category": "crypto",
+      "impact": "medium",
+      "published": "2026-10-14T12:26:05+00:00"
+    },
+    {
+      "title": "French navy chief sees no threat to US catapult supply for future carrier",
+      "summary": "",
+      "url": "https://www.investing.com/news/economy-news/french-navy-chief-sees-no-threat-to-us-catapult-supply-for-future-carrier-4949104",
+      "source": "Investing.com Commodities",
+      "category": "commodities",
+      "impact": "low",
+      "published": "2026-10-14T12:18:22+00:00"
+    },
+    {
+      "title": "My sister moved in with our mother, 78, and now says she deserves the $925,000 family home. Is she right?",
+      "summary": "\u201cThe house is worth $925,000 and mom owns it outright. She also has $480,000 in investments.\u201d",
+      "url": "https://www.marketwatch.com/story/my-sister-moved-in-with-our-widowed-mother-78-and-says-she-deserves-the-family-home-is-she-right-7981835d?mod=mw_rss_topstories",
+      "source": "MarketWatch Top",
+      "category": "macro",
+      "impact": "low",
+      "published": "2026-10-14T12:15:00+00:00"
+    },
+    {
+      "title": "Morning Minute: Move Over, Saylor, There\u2019s a New Top Buyer in Town",
+      "summary": "With Strategy's preferred stock STRC closing in on $100 par, Saylor might not be the number two buyer for long...",
+      "url": "https://decrypt.co/380920/morning-minute-move-over-saylor-theres-a-new-top-buyer-in-town",
+      "source": "Decrypt",
+      "category": "crypto",
+      "impact": "low",
+      "published": "2026-10-14T12:11:35+00:00"
+    },
+    {
+      "title": "Delta's business-class revamp: New seats, menus, plates and more Porsches",
+      "summary": "Delta is upgrading its top-tier Delta One cabin with new suites for its largest A350 plane, starting next year.",
+      "url": "https://www.cnbc.com/2026/10/14/delta-one-revamp.html",
+      "source": "CNBC World",
+      "category": "macro",
+      "impact": "low",
+      "published": "2026-10-14T12:10:03+00:00"
+    },
+    {
+      "title": "Evernorth taps Ripple, Kraken, Coinbase and BitGo to put $648 million XRP treasury to work",
+      "summary": "Evernorth said it is planning a phased move into XRP lending and yield strategies following its Nasdaq debut.",
+      "url": "https://www.theblock.co/news/deals/2026-10-14-evernorth-taps-ripple-kraken-coinbase-bitgo-xrp-treasury-work-418503",
+      "source": "The Block",
+      "category": "crypto",
+      "impact": "medium",
+      "published": "2026-10-14T12:00:00+00:00"
+    },
+    {
+      "title": "Can crypto users trust the supply chain behind hardware wallets?",
+      "summary": "Ledger hardware wallet implants have renewed scrutiny of the middlemen handling devices before they reach buyers, even through authorized sellers.",
+      "url": "https://cointelegraph.com/news/hardware-wallet-supply-chain-risk-ledger-incident?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "category": "crypto",
+      "impact": "medium",
+      "published": "2026-10-14T11:59:42+00:00"
+    },
+    {
+      "title": "BlackRock draws $205 billion in client funds as quarterly profit beats estimates",
+      "summary": "BlackRock's assets under management \u2014 which determine a large chunk of its earnings \u2014 rose to $15.49 trillion, from $13.46 trillion a year earlier.",
+      "url": "https://www.cnbc.com/2026/10/14/blackrock-profit-jumps-as-resilient-markets-boost-fees.html",
+      "source": "CNBC World",
+      "category": "equities",
+      "impact": "low",
+      "published": "2026-10-14T11:57:19+00:00"
+    },
+    {
+      "title": "How Bitcoin Works",
+      "summary": "Bitcoin 201 examines Bitcoin as a secure monetary network. It follows the system from rule enforcement and monetary design through fees, privacy, scaling, security, governance, mining economics, energy use, Lightning, and long-term adoption.",
+      "url": "https://www.theblock.co/learn/campus/how-bitcoin-works-417659",
+      "source": "The Block",
+      "category": "crypto",
+      "impact": "medium",
+      "published": "2026-10-14T11:52:16+00:00"
+    },
+    {
+      "title": "Stocks making the biggest moves premarket: Bank of America, BlackRock, HPE & more",
+      "summary": "These are the stocks posting the largest moves premarket.",
+      "url": "https://www.cnbc.com/2026/10/14/stocks-moving-premarket-bank-of-america-blackrock-asml.html",
+      "source": "CNBC Finance",
+      "category": "equities",
+      "impact": "low",
+      "published": "2026-10-14T11:36:25+00:00"
+    },
+    {
+      "title": "Here's how analysts see U.S. inflation influencing bitcoin",
+      "summary": "",
+      "url": "https://www.coindesk.com/daybook-us/2026/10/14/here-s-how-analysts-see-u-s-inflation-influencing-bitcoin",
+      "source": "CoinDesk",
+      "category": "crypto",
+      "impact": "high",
+      "published": "2026-10-14T11:15:00+00:00"
+    },
+    {
+      "title": "Dutch central bank grants Qivalis e-money license for MiCA-compliant euro token",
+      "summary": "",
+      "url": "https://www.coindesk.com/policy/2026/10/14/dutch-regulator-approves-qivalis-as-electronic-money-institution-under-mica-rules",
+      "source": "CoinDesk",
+      "category": "crypto",
+      "impact": "low",
+      "published": "2026-10-14T11:12:36+00:00"
+    },
+    {
+      "title": "Coins.ph says Philippine central bank license intact amid revocation claims",
+      "summary": "Coins.ph says its Philippine central bank license remains intact amid reports of possible revocation over alleged offshore gambling transactions.",
+      "url": "https://cointelegraph.com/news/coinsph-says-bsp-license-intact-amid-claims-of-potential-revocation?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "category": "crypto",
+      "impact": "low",
+      "published": "2026-10-14T11:05:00+00:00"
+    },
+    {
+      "title": "Bitcoin holds above $83,000 ahead of U.S. inflation data as altcoins lag",
+      "summary": "",
+      "url": "https://www.coindesk.com/markets/2026/10/14/bitcoin-holds-above-usd83-000-ahead-of-u-s-inflation-data-as-altcoins-lag",
+      "source": "CoinDesk",
+      "category": "crypto",
+      "impact": "high",
+      "published": "2026-10-14T10:51:39+00:00"
+    },
+    {
+      "title": "S&P 500 options are the hottest bet on this Hyperliquid exchange",
+      "summary": "",
+      "url": "https://www.coindesk.com/markets/2026/10/14/s-and-p-500-options-are-the-hottest-bet-on-this-hyperliquid-exchange",
+      "source": "CoinDesk",
+      "category": "crypto",
+      "impact": "low",
+      "published": "2026-10-14T10:38:47+00:00"
+    },
+    {
+      "title": "CryptoQuant\u2019s 3 charts keeping Bitcoin\u2019s \u2018Uptober\u2019 thesis valid",
+      "summary": "Bitcoin onchain analysis eyed a \u201cpotential bottom\u201d for BTC price action in early October as demand weathered external headwinds.",
+      "url": "https://cointelegraph.com/markets/cryptoquant-charts-bitcoin-uptober-thesis-valid?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "category": "crypto",
+      "impact": "medium",
+      "published": "2026-10-14T10:38:22+00:00"
+    },
+    {
+      "title": "Sam Bankman-Fried\u2019s lawyer lays out ex-FTX CEO\u2019s Supreme Court case",
+      "summary": "Should US high court justices grant review of the case, they could release a decision as early as June 2027.",
+      "url": "https://cointelegraph.com/news/ftx-sam-bankman-fried-lawyer-supreme-court-appeal?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "category": "crypto",
+      "impact": "low",
+      "published": "2026-10-14T10:29:47+00:00"
+    },
+    {
+      "title": "Bitcoin will become \u2018less volatile\u2019 and larger than gold: \u2018The Bitcoin Standard\u2019 author",
+      "summary": "Saifedean Ammous argues that Bitcoin already functions as money when held as a store of value; expects it will become larger and less volatile than gold as it matures.",
+      "url": "https://cointelegraph.com/news/bitcoin-less-volatile-larger-gold-bitcoin-standard-author?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "category": "crypto",
+      "impact": "high",
+      "published": "2026-10-14T10:25:53+00:00"
+    },
+    {
+      "title": "Kraken Owner Payward to Buy Lithuania's Saldo Bank in EU Push",
+      "summary": "Co-CEO Arjun Sethi says customers want cash, crypto, tokenized stocks and credit in one place, starting with lending and cards.",
+      "url": "https://decrypt.co/380912/kraken-owner-payward-to-buy-lithuanias-saldo-bank-in-eu-push",
+      "source": "Decrypt",
+      "category": "crypto",
+      "impact": "medium",
+      "published": "2026-10-14T10:21:34+00:00"
+    },
+    {
+      "title": "Standard Chartered expands Bitcoin and Ether trading to professional investors in UAE",
+      "summary": "Standard Chartered expanded its spot crypto trading services to professional investors in the UAE region, with plans to offer access to more market participants.",
+      "url": "https://cointelegraph.com/news/standard-chartered-bitcoin-ether-trading-professional-investors-uae?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "category": "crypto",
+      "impact": "medium",
+      "published": "2026-10-14T10:07:03+00:00"
+    },
+    {
+      "title": "BitMEX Sued in UK for Return of $27M in Bitcoin Over Unlicensed Derivatives",
+      "summary": "The claim challenges 1,053 loss-making perpetual swap trades from 2018 to 2022 and also accuses the now-closed exchange of deceit.",
+      "url": "https://decrypt.co/380904/bitmex-sued-in-uk-for-return-of-27m-in-bitcoin-over-unlicensed-derivatives",
+      "source": "Decrypt",
+      "category": "crypto",
+      "impact": "medium",
+      "published": "2026-10-14T09:54:52+00:00"
+    },
+    {
+      "title": "Live updates: Bitcoin tumbles more than 1% after disappointing inflation report",
+      "summary": "",
+      "url": "https://www.coindesk.com/business/2026/10/14/live-updates-bitcoin-tumbles-from-near-usd84-000-ahead-of-u-s-inflation-data",
+      "source": "CoinDesk",
+      "category": "crypto",
+      "impact": "high",
+      "published": "2026-10-14T09:45:53+00:00"
+    },
+    {
+      "title": "Ukraine warns Starlink limits are disrupting military operations as Russia pounds its energy infrastructure",
+      "summary": "A ballistic missile has struck energy infrastructure supposedly covered by the \"energy ceasefire\" announced by Trump on Sunday, Zelenskyy said.",
+      "url": "https://www.cnbc.com/2026/10/14/russia-ukraine-energy-ceasefire-power-outages.html",
+      "source": "CNBC World",
+      "category": "geopolitical",
+      "impact": "medium",
+      "published": "2026-10-14T09:18:18+00:00"
+    },
+    {
+      "title": "Scott Bessent's growth plans aren't enough to tame surging deficit and debt pile, IMF chief says",
+      "summary": "IMF chief Kristalina Georgieva said Bessent\u2019s reliance on growth won\u2019t cut the U.S. deficit and $40 trillion debt fast enough, calling for fiscal consolidation.",
+      "url": "https://www.cnbc.com/2026/10/14/bond-yields-debt-deficit-treasury.html",
+      "source": "CNBC World",
+      "category": "macro",
+      "impact": "low",
+      "published": "2026-10-14T08:53:35+00:00"
+    },
+    {
+      "title": "Proposed 31.4% French tax on regulated stablecoins could drive crypto traders offshore",
+      "summary": "",
+      "url": "https://www.coindesk.com/policy/2026/10/14/proposed-french-tax-on-regulated-stablecoins-could-drive-crypto-traders-offshore",
+      "source": "CoinDesk",
+      "category": "crypto",
+      "impact": "low",
+      "published": "2026-10-14T08:48:11+00:00"
     },
     {
       "title": "ASML says it's getting order interest through 2030 as profit smashes expectations",
@@ -32,187 +815,25 @@
       "source": "CNBC World",
       "category": "macro",
       "impact": "low",
-      "published": "2026-10-14T08:00:55+00:00"
+      "published": "2026-10-14T08:45:13+00:00"
     },
     {
-      "title": "Diesel squeeze set to last well into 2027 as Iran war disrupts supply, IEA says",
-      "summary": "Diesel supply is expected to remain tight into 2027 as Iran war-related disruption, falling inventories and resilient demand strain the market, the IEA said.",
-      "url": "https://www.cnbc.com/2026/10/14/diesel-deal-oil-price-iea-report.html",
+      "title": "Standard Chartered unlocks direct bitcoin and ether trading for affluent UAE clients",
+      "summary": "",
+      "url": "https://www.coindesk.com/business/2026/10/14/standard-chartered-unlocks-direct-bitcoin-and-ether-trading-for-affluent-uae-clients",
+      "source": "CoinDesk",
+      "category": "crypto",
+      "impact": "medium",
+      "published": "2026-10-14T08:10:07+00:00"
+    },
+    {
+      "title": "EU's Dombrovskis on diesel deal: Now is not the time to ease Russian sanctions",
+      "summary": "Valdis Dombrovskis, European Commissioner for Economy and Productivity discusses the implications of a potential U.S.\u2013Russia diesel deal and cautions against easing sanctions during the ongoing war in Ukraine. He also highlights Europe's urgent need to strengthen regional defense capabilities to ...",
+      "url": "https://www.cnbc.com/video/2026/10/14/eus-dombrovskis-diesel-deal-no-reason-to-ease-russian-sanctions.html",
       "source": "CNBC World",
       "category": "geopolitical",
-      "impact": "medium",
-      "published": "2026-10-14T08:00:01+00:00"
-    },
-    {
-      "title": "2 Bank Stocks to Target This Week and 1 We Ignore",
-      "summary": "Banks serve as the backbone of the economy, facilitating lending, deposits, and financial services that keep businesses and consumers moving forward. Still, investors are uneasy as banks face challenges from credit quality concerns and potential regulatory changes. These doubts have caused the in...",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/2-bank-stocks-target-week-074322717.html?.tsrc=rss",
-      "source": "Yahoo Finance",
-      "category": "macro",
-      "impact": "medium",
-      "published": "2026-10-14T07:43:22+00:00"
-    },
-    {
-      "title": "ASML says supply will not meet demand at least until 2028",
-      "summary": "",
-      "url": "https://seekingalpha.com/news/4652755-asml-says-supply-will-not-meet-the-demand-at-least-until-2028?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
-      "source": "Seeking Alpha",
-      "category": "equities",
-      "impact": "low",
-      "published": "2026-10-14T07:42:07+00:00"
-    },
-    {
-      "title": "Trump: 'Massive' oil, gas and mineral exploration set for Greenland",
-      "summary": "",
-      "url": "https://seekingalpha.com/news/4652760-trump-massive-oil-gas-and-mineral-exploration-set-for-greenland?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
-      "source": "Seeking Alpha",
-      "category": "equities",
-      "impact": "low",
-      "published": "2026-10-14T07:29:16+00:00"
-    },
-    {
-      "title": "U.S. Treasury yields inch lower as investors await key inflation report",
-      "summary": "U.S. Treasury yields inched lower on Wednesday as investors awaited the latest CPI inflation reading ahead of a flurry of economic data this week.",
-      "url": "https://www.cnbc.com/2026/10/14/us-treasury-yields-cpi-inflation-report.html",
-      "source": "CNBC World",
-      "category": "macro",
       "impact": "high",
-      "published": "2026-10-14T07:21:38+00:00"
-    },
-    {
-      "title": "SK Group chairman to sell 1.34% stake to Dell family office fund",
-      "summary": "",
-      "url": "https://seekingalpha.com/news/4652752-sk-group-chairman-to-sell-134-stake-to-dell-family-office-fund?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
-      "source": "Seeking Alpha",
-      "category": "equities",
-      "impact": "low",
-      "published": "2026-10-14T07:18:02+00:00"
-    },
-    {
-      "title": "GameStop CEO Ryan Cohen buys another $22.8M in shares",
-      "summary": "",
-      "url": "https://seekingalpha.com/news/4652757-gamestop-ceo-ryan-cohen-buys-another-228m-in-shares?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
-      "source": "Seeking Alpha",
-      "category": "equities",
-      "impact": "low",
-      "published": "2026-10-14T07:14:17+00:00"
-    },
-    {
-      "title": "HII unit gets $56M US Navy contract to advance AUKUS design",
-      "summary": "",
-      "url": "https://seekingalpha.com/news/4652758-hii-unit-gets-56m-us-navy-contract-to-advance-aukus-design?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
-      "source": "Seeking Alpha",
-      "category": "equities",
-      "impact": "low",
-      "published": "2026-10-14T07:13:13+00:00"
-    },
-    {
-      "title": "Russia pounds Ukraine's energy infrastructure, leaving 600,000 without power",
-      "summary": "A ballistic missile has struck energy infrastructure supposedly covered by the \"energy ceasefire\" announced by Trump on Sunday, Zelenskyy said.",
-      "url": "https://www.cnbc.com/2026/10/14/russia-ukraine-energy-ceasefire-power-outages.html",
-      "source": "CNBC World",
-      "category": "geopolitical",
-      "impact": "low",
-      "published": "2026-10-14T07:07:56+00:00"
-    },
-    {
-      "title": "Ryohin Keikaku GAAP EPS of \u00a5143.84, revenue of \u00a5923.59B; updates FY 2027 outlook",
-      "summary": "",
-      "url": "https://seekingalpha.com/news/4652759-ryohin-keikaku-gaap-eps-of-14384-revenue-of-92359b-updates-fy-2027-outlook?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
-      "source": "Seeking Alpha",
-      "category": "equities",
-      "impact": "low",
-      "published": "2026-10-14T07:07:39+00:00"
-    },
-    {
-      "title": "CNBC Daily Open: Zelenskyy heads to UK for talks on fresh support",
-      "summary": "U.K. Prime Minister is set to host Ukrainian President Volodymyr Zelenskyy as European leaders rally to show support for the country.",
-      "url": "https://www.cnbc.com/2026/10/14/daily-open-zelenskyy-uk-visit-asml-results.html",
-      "source": "CNBC World",
-      "category": "commodities",
-      "impact": "low",
-      "published": "2026-10-14T06:57:16+00:00"
-    },
-    {
-      "title": "ASML declares 2026 interim dividend of \u20ac1.88 per share, payable in November",
-      "summary": "",
-      "url": "https://seekingalpha.com/news/4652754-asml-declares-2026-interim-dividend-of-188-per-share-payable-in-november?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
-      "source": "Seeking Alpha",
-      "category": "equities",
-      "impact": "low",
-      "published": "2026-10-14T06:51:08+00:00"
-    },
-    {
-      "title": "Bank of France governor says policy decisions are data dependent",
-      "summary": "",
-      "url": "https://www.investing.com/news/economy-news/bank-of-france-governor-says-policy-decisions-are-data-dependent-93CH-4948167",
-      "source": "Investing.com Commodities",
-      "category": "commodities",
-      "impact": "low",
-      "published": "2026-10-14T06:49:35+00:00"
-    },
-    {
-      "title": "Bank of England economist questions market rate hike expectations",
-      "summary": "",
-      "url": "https://www.investing.com/news/economy-news/bank-of-england-economist-questions-market-rate-hike-expectations-93CH-4948154",
-      "source": "Investing.com Commodities",
-      "category": "commodities",
-      "impact": "medium",
-      "published": "2026-10-14T06:44:40+00:00"
-    },
-    {
-      "title": "Bank of England\u2019s Pill says he\u2019s sceptical about market pricing four rate hikes",
-      "summary": "",
-      "url": "https://www.investing.com/news/economy-news/bank-of-englands-pill-says-hes-sceptical-about-market-pricing-four-rate-hikes-4948148",
-      "source": "Investing.com Commodities",
-      "category": "commodities",
-      "impact": "medium",
-      "published": "2026-10-14T06:36:36+00:00"
-    },
-    {
-      "title": "Asia shares inch up as chip selloff eases; US CPI awaited",
-      "summary": "",
-      "url": "https://www.investing.com/news/economy-news/asia-shares-edge-up-as-chip-selloff-eases-us-cpi-awaited-4947869",
-      "source": "Investing.com Commodities",
-      "category": "commodities",
-      "impact": "medium",
-      "published": "2026-10-14T06:31:23+00:00"
-    },
-    {
-      "title": "IMF urges members to stock up funds for low-income, vulnerable states",
-      "summary": "",
-      "url": "https://www.investing.com/news/economy-news/imf-urges-members-to-stock-up-funds-for-lowincome-vulnerable-states-4948114",
-      "source": "Investing.com Commodities",
-      "category": "commodities",
-      "impact": "low",
-      "published": "2026-10-14T06:19:07+00:00"
-    },
-    {
-      "title": "UK finance minister to fund budget initiatives with tax hikes - report",
-      "summary": "",
-      "url": "https://www.investing.com/news/economy-news/uk-finance-minister-to-fund-budget-initiatives-with-tax-hikes--report-93CH-4948070",
-      "source": "Investing.com Commodities",
-      "category": "commodities",
-      "impact": "low",
-      "published": "2026-10-14T06:09:49+00:00"
-    },
-    {
-      "title": "UK finance minister Healey set to pay for budget measures without more borrowing, FT reports",
-      "summary": "",
-      "url": "https://www.investing.com/news/economy-news/uk-finance-minister-healey-set-to-pay-for-budget-measures-without-more-borrowing-ft-reports-4948054",
-      "source": "Investing.com Commodities",
-      "category": "commodities",
-      "impact": "low",
-      "published": "2026-10-14T06:00:46+00:00"
-    },
-    {
-      "title": "IMF says Britain does not need to speed up fiscal consolidation",
-      "summary": "",
-      "url": "https://www.investing.com/news/economy-news/imf-says-it-is-not-recommending-faster-uk-fiscal-consolidation-4947904",
-      "source": "Investing.com Commodities",
-      "category": "commodities",
-      "impact": "low",
-      "published": "2026-10-14T05:54:26+00:00"
+      "published": "2026-10-14T07:58:34+00:00"
     },
     {
       "title": "Coinbase, which holds 5% of all bitcoin, wants the quantum fix started now",
@@ -222,24 +843,6 @@
       "category": "crypto",
       "impact": "medium",
       "published": "2026-10-14T05:44:51+00:00"
-    },
-    {
-      "title": "UNH Stock Outpaces S&P 500 In 2026, Eyes Best Year Since Pandemic \u2014 CFO Says Wall Street May Be Missing 2027 Upside",
-      "summary": "CFO Wayne DeVeydt called the lower end of the company\u2019s 13% to 16% long-term earnings growth target a \u201creasonable starting point.\u201d",
-      "url": "https://stocktwits.com/news-articles/markets/equity/unh-stock-outpaces-sp500-2026-best-year-pandemic-cfo-wall-street-missing-2027-upside/cZxfXx1RBpJ?.tsrc=rss",
-      "source": "Yahoo Finance",
-      "category": "macro",
-      "impact": "low",
-      "published": "2026-10-14T05:37:34+00:00"
-    },
-    {
-      "title": "Here\u2019s what happened in crypto today",
-      "summary": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
-      "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "category": "crypto",
-      "impact": "medium",
-      "published": "2026-10-14T05:35:52+00:00"
     },
     {
       "title": "Starknet introduces wallet privacy feature for DeFi activity",
@@ -260,15 +863,6 @@
       "published": "2026-10-14T05:30:10+00:00"
     },
     {
-      "title": "Trump says \u2018massive\u2019 oil, gas, and mineral exploration to begin in Greenland",
-      "summary": "",
-      "url": "https://www.investing.com/news/economy-news/trump-says-massive-oil-gas-and-mineral-exploration-to-begin-in-greenland-4948034",
-      "source": "Investing.com Commodities",
-      "category": "commodities",
-      "impact": "low",
-      "published": "2026-10-14T05:26:04+00:00"
-    },
-    {
       "title": "Ripple adds Stripe-owned wallets to XRP Ledger as AI payments pass 14 million",
       "summary": "",
       "url": "https://www.coindesk.com/tech/2026/10/14/ripple-adds-stripe-owned-wallets-to-xrp-ledger-as-ai-payments-pass-14-million",
@@ -278,33 +872,6 @@
       "published": "2026-10-14T05:24:12+00:00"
     },
     {
-      "title": "The S&P 500 Just Hit a Record High. Here's Why History Says It's Still a Smart Time to Invest.",
-      "summary": "Record highs in the S&amp;P 500 are often a bullish sign of more highs to come.",
-      "url": "https://www.fool.com/investing/2026/10/14/the-sp-500-just-hit-a-record-high-heres-why-histor/?.tsrc=rss",
-      "source": "Yahoo Finance",
-      "category": "macro",
-      "impact": "medium",
-      "published": "2026-10-14T05:20:00+00:00"
-    },
-    {
-      "title": "Judge extends block on Trump White House ban of MS NOW, CNN and Politico",
-      "summary": "President Donald Trump had sought to ban media outlets MS NOW, CNN and Politico from reporting from the White House.",
-      "url": "https://www.cnbc.com/2026/10/14/trump-white-house-msnow-cnn-politico-media-ban.html",
-      "source": "CNBC World",
-      "category": "macro",
-      "impact": "low",
-      "published": "2026-10-14T05:19:36+00:00"
-    },
-    {
-      "title": "Intel Stock Has Nearly Tripled in 2026. A $10,000 Stake From 2016 Still Trails the S&P 500.",
-      "summary": "The chipmaker's share price went nowhere for nine years. How much of the turnaround are investors already paying for?",
-      "url": "https://www.fool.com/investing/2026/10/14/intel-stock-has-nearly-tripled-in-2026-a-usd10-000-stake-from-2016-still-trails-the-s-and-p-500/?.tsrc=rss",
-      "source": "Yahoo Finance",
-      "category": "macro",
-      "impact": "low",
-      "published": "2026-10-14T05:03:01+00:00"
-    },
-    {
       "title": "Crypto bosses, CEOs and F1: Singapore's business events boom gathers pace",
       "summary": "Singapore's Formula 1 race week is a major business draw as a growing number of conferences coincide with the Grand Prix.",
       "url": "https://www.cnbc.com/2026/10/14/crypto-bosses-ceos-and-f1-singapore-events-boom-gathers-pace-.html",
@@ -312,15 +879,6 @@
       "category": "crypto",
       "impact": "low",
       "published": "2026-10-14T04:41:29+00:00"
-    },
-    {
-      "title": "Morning Bid: Let the doves sing",
-      "summary": "",
-      "url": "https://www.investing.com/news/economy-news/morning-bid-let-the-doves-sing-4948000",
-      "source": "Investing.com Commodities",
-      "category": "commodities",
-      "impact": "low",
-      "published": "2026-10-14T04:36:25+00:00"
     },
     {
       "title": "'Godzilla El Ni\u00f1o' is wreaking havoc with Philippine central bank's inflation forecasts",
@@ -341,24 +899,6 @@
       "published": "2026-10-14T04:11:16+00:00"
     },
     {
-      "title": "Oil rises amid growing Mideast tensions between Iran-backed Houthis and Saudi Arabia",
-      "summary": "Worries over supply disruptions due to escalating tensions in the Middle East helped to push oil prices higher.",
-      "url": "https://www.cnbc.com/2026/10/14/oil-rises-amid-growing-tensions-between-saudis-and-iran-backed-houthis.html",
-      "source": "CNBC World",
-      "category": "commodities",
-      "impact": "low",
-      "published": "2026-10-14T04:07:00+00:00"
-    },
-    {
-      "title": "Asian shares slip in trading after US stocks edge back from record",
-      "summary": "TOKYO (AP) \u2014 Asian markets mostly fell in cautious trading Wednesday, although interest in computer chips and artificial intelligence continued to support some global shares.Japan's benchmark Nikkei 225 declined less than 0.",
-      "url": "https://finance.yahoo.com/markets/world-indices/articles/asian-shares-trade-mixed-us-040201784.html?.tsrc=rss",
-      "source": "Yahoo Finance",
-      "category": "macro",
-      "impact": "low",
-      "published": "2026-10-14T04:02:01+00:00"
-    },
-    {
       "title": "Bitcoin climbs toward $84,000 after Fed\u2019s Williams sees no rate hikes in 2027",
       "summary": "",
       "url": "https://www.coindesk.com/markets/2026/10/14/bitcoin-climbs-toward-usd84-000-after-fed-s-williams-sees-no-rate-hikes-in-2027",
@@ -375,24 +915,6 @@
       "category": "equities",
       "impact": "low",
       "published": "2026-10-14T03:41:36+00:00"
-    },
-    {
-      "title": "China's producer prices rise at fastest pace since June 2022, beating expectations",
-      "summary": "The increase was higher than the 4.5% expected by economists polled by Reuters, and higher than the 3.8% seen in the previous month.",
-      "url": "https://www.cnbc.com/2026/10/14/producer-prices-in-china-rise-fastest-since-june-2022-on-fuel-costs.html",
-      "source": "CNBC World",
-      "category": "macro",
-      "impact": "low",
-      "published": "2026-10-14T03:14:48+00:00"
-    },
-    {
-      "title": "Dow Jones Futures: Techs Rise After Meta, AMD Lead Buys; ASML, CPI Inflation Due",
-      "summary": "The stock market edged lower Tuesday but Meta and AMD led five buys. AI chip giant ASML and the CPI inflation report loom.",
-      "url": "https://finance.yahoo.com/m/02b2fe19-36e5-3f96-ac0e-2dc2cf84ceb1/dow-jones-futures%3A-techs-rise.html?.tsrc=rss",
-      "source": "Yahoo Finance",
-      "category": "macro",
-      "impact": "high",
-      "published": "2026-10-14T03:06:01+00:00"
     },
     {
       "title": "Coinbase lays out flexible designs as key priority for Bitcoin\u2019s post-quantum migration",
@@ -413,132 +935,6 @@
       "published": "2026-10-14T02:19:56+00:00"
     },
     {
-      "title": "Taiwan agrees to buy 30% of gas from Alaska LNG project, Trump says",
-      "summary": "U.S. President Donald Trump said Tuesday that Taiwan had agreed to buy 30% of the gas from a pipeline project in Alaska.",
-      "url": "https://www.cnbc.com/2026/10/14/taiwan-alaska-lng-project-trump-.html",
-      "source": "CNBC World",
-      "category": "commodities",
-      "impact": "low",
-      "published": "2026-10-14T02:09:00+00:00"
-    },
-    {
-      "title": "South Korean carmaker Hyundai plans 'strategic' investment of $15.5 billion in India by 2032",
-      "summary": "Korean car company Hyundai says India is a strategic core market",
-      "url": "https://www.cnbc.com/2026/10/14/korea-india-hyundai-cars-investment.html",
-      "source": "CNBC World",
-      "category": "macro",
-      "impact": "low",
-      "published": "2026-10-14T02:04:47+00:00"
-    },
-    {
-      "title": "Frazier Life Sciences Acquisition Corp. II Announces Pricing of $75,000,000 Initial Public Offering",
-      "summary": "PALO ALTO, Calif., October 14, 2026--Frazier Life Sciences Acquisition Corp. II (the \"Company\"), a special purpose acquisition company, announced today that it priced its initial public offering of 7,500,000 Class A ordinary shares at a price of $10.00 per share. The Class A ordinary shares will ...",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/frazier-life-sciences-acquisition-corp-015200868.html?.tsrc=rss",
-      "source": "Yahoo Finance",
-      "category": "macro",
-      "impact": "low",
-      "published": "2026-10-14T01:52:00+00:00"
-    },
-    {
-      "title": "Do HP's Dividends Make Up For A Lagging Stock?",
-      "summary": "HP Inc. (HPQ) sells PCs and printers and returns cash directly to shareholders. Executives say they remain committed to returning approximately 100% of free cash flow to investors over time. In fiscal Q3 2026, HP returned nearly $600 million through dividends and share repurchases, about 37% of t...",
-      "url": "https://www.trefis.com/articles/618492/do-hps-dividends-make-up-for-a-lagging-stock/2026-10-13?.tsrc=rss",
-      "source": "Yahoo Finance",
-      "category": "macro",
-      "impact": "low",
-      "published": "2026-10-14T01:44:13+00:00"
-    },
-    {
-      "title": "\u2018I am a pretty cautious person\u2019: My financial adviser wants me to invest $350,000 in a UAE data center. Is this risky?",
-      "summary": "\u201cI like my life, but I also like the idea of a big return after years of putting money into my 401(k).\u201d",
-      "url": "https://www.marketwatch.com/story/the-prospectus-looks-impressive-my-financial-adviser-wants-me-to-invest-350-000-in-a-uae-data-center-is-this-risky-d5d3747c?mod=mw_rss_topstories",
-      "source": "MarketWatch Top",
-      "category": "macro",
-      "impact": "low",
-      "published": "2026-10-14T01:31:00+00:00"
-    },
-    {
-      "title": "My wife says we can\u2019t afford to retire, yet she wants to take an $8,000 trip to Italy. We have $4 million. Do I keep working?",
-      "summary": "\u201cI worry about healthcare, long-term care, inflation, a long bear market and living to 95.\u201d",
-      "url": "https://www.marketwatch.com/story/my-wife-says-we-cant-afford-to-retire-we-have-4-million-do-i-just-keep-working-f1b6b085?mod=mw_rss_topstories",
-      "source": "MarketWatch Top",
-      "category": "macro",
-      "impact": "medium",
-      "published": "2026-10-14T01:25:00+00:00"
-    },
-    {
-      "title": "U.S. stock futures muted after chip losses drag Wall Street; CPI data awaited",
-      "summary": "Investing.com-- U.S. stock futures were little changed on Tuesday evening after Wall Street ended lower on chipmaker losses, as investors awaited September's consumer inflation report for clues on the Federal Reserve's interest-rate outlook.",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/u-stock-futures-muted-chip-012425121.html?.tsrc=rss",
-      "source": "Yahoo Finance",
-      "category": "macro",
-      "impact": "high",
-      "published": "2026-10-14T01:24:25+00:00"
-    },
-    {
-      "title": "Largest Philippines crypto exchange, Coins.ph, said to face central bank regulatory action",
-      "summary": "",
-      "url": "https://www.coindesk.com/policy/2026/10/13/largest-philippines-crypto-exchange-coins-ph-said-to-face-central-bank-regulatory-action",
-      "source": "CoinDesk",
-      "category": "crypto",
-      "impact": "low",
-      "published": "2026-10-14T01:00:00+00:00"
-    },
-    {
-      "title": "Down 12.5% in 2 Months, Is the Sell-Off in Realty Income a Buying Opportunity for Income Investors?",
-      "summary": "Realty Income's stock price has substantially underperformed the S&amp;P 500 over the last couple of months.",
-      "url": "https://www.fool.com/investing/2026/10/13/down-125-in-2-months-is-the-sell-off-in-realty-inc/?.tsrc=rss",
-      "source": "Yahoo Finance",
-      "category": "macro",
-      "impact": "low",
-      "published": "2026-10-14T00:20:00+00:00"
-    },
-    {
-      "title": "Was There Any Sign Coherent Stock Would Run?",
-      "summary": "Coherent (COHR) stock returned 135.4% in the twelve months to October 12, 2026, against 17.3% for the S&amp;P 500. Sales growth accelerated over those months, and management credits demand from AI data centers. Investors could have anticipated this run only if Coherent's sales and profit metrics ...",
-      "url": "https://www.trefis.com/articles/618460/was-there-any-sign-coherent-stock-would-run/2026-10-13?.tsrc=rss",
-      "source": "Yahoo Finance",
-      "category": "macro",
-      "impact": "low",
-      "published": "2026-10-14T00:19:38+00:00"
-    },
-    {
-      "title": "FBI arrests Saudi OpenAI employee who allegedly planted recording device in conference room",
-      "summary": "The Tuesday incident comes as the ChatGPT-maker, along with competitors, faces heightened scrutiny over its safety practices.",
-      "url": "https://www.cnbc.com/2026/10/13/openai-employee-arrested-recording-device.html",
-      "source": "CNBC World",
-      "category": "macro",
-      "impact": "low",
-      "published": "2026-10-14T00:13:45+00:00"
-    },
-    {
-      "title": "Can This Number Push Avis Budget Stock Higher?",
-      "summary": "Fleet utilization stands out as a critical metric at Avis Budget (CAR), and buyers of the stock may be betting on this share of its fleet out on rent. Rental companies typically expand by acquiring more vehicles, yet Avis deliberately opted to operate fewer. Over the last twelve months, the compa...",
-      "url": "https://www.trefis.com/articles/618465/can-this-number-push-avis-budget-stock-higher/2026-10-13?.tsrc=rss",
-      "source": "Yahoo Finance",
-      "category": "macro",
-      "impact": "low",
-      "published": "2026-10-14T00:09:33+00:00"
-    },
-    {
-      "title": "Should You Sell Your Fair Isaac Stock Now?",
-      "summary": "Fair Isaac (FICO) stock has lost 57% over the past twelve months, while the S&amp;P 500 returned 17.3%. Shareholders are likely wondering if it is time to sell. The question is difficult because the underlying business has been growing rapidly, and the recent decline followed a government decisio...",
-      "url": "https://www.trefis.com/articles/618468/should-you-sell-your-fair-isaac-stock-now/2026-10-13?.tsrc=rss",
-      "source": "Yahoo Finance",
-      "category": "macro",
-      "impact": "low",
-      "published": "2026-10-14T00:03:20+00:00"
-    },
-    {
-      "title": "How Much Could You Lose In T-Mobile Stock?",
-      "summary": "T-Mobile US (TMUS) stock fell 16.7% over the past month, diverging from a 2.0% gain for the S&amp;P 500. News reports tied a sharp drop on October 9 to a SpaceX spectrum deal, and AT&amp;T, Verizon and Comcast each lost more than 12% over the same month. You may still think of a wireless carrier ...",
-      "url": "https://www.trefis.com/articles/618472/how-much-could-you-lose-in-t-mobile-stock/2026-10-13?.tsrc=rss",
-      "source": "Yahoo Finance",
-      "category": "macro",
-      "impact": "low",
-      "published": "2026-10-13T23:56:48+00:00"
-    },
-    {
       "title": "Ledger asks resellers to halt sales in Southeast Asia and Hong Kong",
       "summary": "The wallet maker requested that devices be removed from shelves while investigators work to establish where tampering occurred.",
       "url": "https://cointelegraph.com/news/ledger-asks-resellers-to-halt-sales-in-southeast-asia-and-hong-kong?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
@@ -548,15 +944,6 @@
       "published": "2026-10-13T23:28:19+00:00"
     },
     {
-      "title": "Strive raising $500 million to buy additional bitcoin with new preferred share class",
-      "summary": "",
-      "url": "https://www.coindesk.com/markets/2026/10/13/strive-to-ipo-second-preferred-share-class-as-it-looks-to-further-build-bitcoin-treasury",
-      "source": "CoinDesk",
-      "category": "crypto",
-      "impact": "medium",
-      "published": "2026-10-13T23:23:05+00:00"
-    },
-    {
       "title": "Goldman says investors are looking for 'profitable' Chinese business growth overseas",
       "summary": "Sluggish consumer demand in China has pushed many companies, such as electric car brands, to accelerate plans for entering other countries.",
       "url": "https://www.cnbc.com/2026/10/14/goldman-says-investors-seek-profitable-chinese-business-growth-abroad.html",
@@ -564,15 +951,6 @@
       "category": "equities",
       "impact": "low",
       "published": "2026-10-13T23:05:12+00:00"
-    },
-    {
-      "title": "BNY, Citadel Securities test tokenized U.S. Treasuries to speed up Wall Street financing",
-      "summary": "",
-      "url": "https://www.coindesk.com/business/2026/10/13/bny-citadel-securities-test-tokenized-u-s-treasuries-to-speed-up-wall-street-financing",
-      "source": "CoinDesk",
-      "category": "crypto",
-      "impact": "low",
-      "published": "2026-10-13T21:52:00+00:00"
     },
     {
       "title": "OpenAI Engineer Arrested for Bugging Office, Company Says AI Caught Him",
@@ -593,15 +971,6 @@
       "published": "2026-10-13T21:16:04+00:00"
     },
     {
-      "title": "Chip stocks suffer worst stretch in 16 months as AI fatigue grips the market",
-      "summary": "Anticipation is building for Anthropic\u2019s investor day, as Wall Street grows less patient with heavy AI spending.",
-      "url": "https://www.marketwatch.com/story/ai-fatigue-is-gripping-the-market-and-driving-chip-stocks-toward-their-worst-stretch-in-16-months-6dc78ece?mod=mw_rss_topstories",
-      "source": "MarketWatch Top",
-      "category": "macro",
-      "impact": "low",
-      "published": "2026-10-13T21:02:00+00:00"
-    },
-    {
       "title": "JPMorgan Chase blocks outside AI agents like Muse, Instinct from directly accessing accounts",
       "summary": "JPMorgan Chase CEO Jamie Dimon warned of rogue agents operating at scale and said the bank is building defensive tools.",
       "url": "https://www.cnbc.com/2026/10/13/jpmorgan-ai-agents-account-access.html",
@@ -611,60 +980,6 @@
       "published": "2026-10-13T20:48:37+00:00"
     },
     {
-      "title": "The SpaceX threat could loom over AT&T\u2019s stock for a prolonged stretch, analyst cautions",
-      "summary": "Bernstein analyst Laurent Yoon no longer recommends any of the major telecommunications stocks as he warns of more volatility ahead.",
-      "url": "https://www.marketwatch.com/story/the-spacex-threat-could-loom-over-at-ts-stock-for-a-prolonged-stretch-analyst-cautions-71436853?mod=mw_rss_topstories",
-      "source": "MarketWatch Top",
-      "category": "macro",
-      "impact": "medium",
-      "published": "2026-10-13T20:42:00+00:00"
-    },
-    {
-      "title": "Six Flags\u2019 stock slumps near 17-year low after fatal incident",
-      "summary": "A fatal accident on a Six Flags Entertainment roller coaster sent shares of the amusement-park operator tumbling.",
-      "url": "https://www.marketwatch.com/story/six-flags-stock-slumps-near-52-week-lows-after-fatal-accident-3f938112?mod=mw_rss_topstories",
-      "source": "MarketWatch Top",
-      "category": "macro",
-      "impact": "low",
-      "published": "2026-10-13T20:41:00+00:00"
-    },
-    {
-      "title": "AST SpaceMobile\u2019s stock is feeling the heat from SpaceX\u2019s wireless plans",
-      "summary": "AST\u2019s commercial rollout could face delays due to satellite-launch challenges and SpaceX\u2019s growing ambitions, an analyst warns.",
-      "url": "https://www.marketwatch.com/story/ast-spacemobiles-stock-is-feeling-the-heat-from-spacexs-wireless-plans-7e2fafb4?mod=mw_rss_topstories",
-      "source": "MarketWatch Top",
-      "category": "macro",
-      "impact": "medium",
-      "published": "2026-10-13T20:32:00+00:00"
-    },
-    {
-      "title": "UnitedHealth keeps medical costs under control \u2014 and raises its outlook again",
-      "summary": "The health-insurance giant said its medical-cost ratio was 88.4% in the third quarter of this year, as the company tries to rein in spending on medical care.",
-      "url": "https://www.marketwatch.com/story/unitedhealth-keeps-medical-costs-under-control-and-raises-its-outlook-again-71abc99c?mod=mw_rss_topstories",
-      "source": "MarketWatch Top",
-      "category": "macro",
-      "impact": "low",
-      "published": "2026-10-13T20:29:00+00:00"
-    },
-    {
-      "title": "Was Broadcom CEO bullish or bearish on AI? \u2018Gamblers\u2019 comment creates storm.",
-      "summary": "The comments made by Broadcom\u2019s CEO at a conference in Singapore have been cited as a reason for microchip stocks\u2019 slumps on both Monday and Tuesday.",
-      "url": "https://www.marketwatch.com/story/was-broadcom-ceo-bullish-or-bearish-on-ai-gamblers-comment-creates-storm-33f11787?mod=mw_rss_topstories",
-      "source": "MarketWatch Top",
-      "category": "macro",
-      "impact": "low",
-      "published": "2026-10-13T20:27:00+00:00"
-    },
-    {
-      "title": "Micron\u2019s stock extends declines as China competition heats up",
-      "summary": "Even Elon Musk says Chinese memory-chip makers are catching up.",
-      "url": "https://www.marketwatch.com/story/microns-stock-extends-declines-as-china-competition-heats-up-b8ec25f0?mod=mw_rss_topstories",
-      "source": "MarketWatch Top",
-      "category": "macro",
-      "impact": "low",
-      "published": "2026-10-13T20:25:00+00:00"
-    },
-    {
       "title": "Binance Is Shutting Down Its Bitcoin Mining Pool After Six Years",
       "summary": "Binance will discontinue Binance Pool, Pool Savings, Cloud Mining, and other related services in a retreat from mining infrastructure.",
       "url": "https://decrypt.co/380870/binance-shutting-down-bitcoin-mining-pool",
@@ -672,24 +987,6 @@
       "category": "crypto",
       "impact": "medium",
       "published": "2026-10-13T20:16:03+00:00"
-    },
-    {
-      "title": "My sister moved in with our mother, 78, and now says she deserves the $925,000 family home. Is she right?",
-      "summary": "\u201cThe house is worth $925,000 and mom owns it outright. She also has $480,000 in investments.\u201d",
-      "url": "https://www.marketwatch.com/story/my-sister-moved-in-with-our-widowed-mother-78-and-says-she-deserves-the-family-home-is-she-right-7981835d?mod=mw_rss_topstories",
-      "source": "MarketWatch Top",
-      "category": "macro",
-      "impact": "low",
-      "published": "2026-10-13T20:16:00+00:00"
-    },
-    {
-      "title": "Most tokenized stock trading on Solana, BNB Chain occurs outside US market hours",
-      "summary": "Tokenized equities have reached nearly $3.3 billion in value as investors embrace round-the-clock access beyond Wall Street hours.",
-      "url": "https://cointelegraph.com/news/tokenized-stocks-after-hours-trading-solana-bnb-chain?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "category": "crypto",
-      "impact": "low",
-      "published": "2026-10-13T19:48:06+00:00"
     },
     {
       "title": "Williams says Fed may not have to hike rates in 2027, at odds with traders",
@@ -708,15 +1005,6 @@
       "category": "crypto",
       "impact": "high",
       "published": "2026-10-13T19:38:12+00:00"
-    },
-    {
-      "title": "Trezor reduces resellers as a \u2018preventative step\u2019 amid Ledger tampering reports",
-      "summary": "CCO Danny Sanders said he had notified certain hardware wallet resellers that they would be removed from Trezor\u2019s list of authorized entities starting Jan. 1.",
-      "url": "https://cointelegraph.com/news/trezor-preventative-steps-wallet-tampering-reports?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "category": "crypto",
-      "impact": "medium",
-      "published": "2026-10-13T19:07:04+00:00"
     },
     {
       "title": "Strive Buys $280 Million in Bitcoin, Its Largest Purchase in Months",
@@ -746,24 +1034,6 @@
       "published": "2026-10-13T17:37:46+00:00"
     },
     {
-      "title": "Trump's diesel deal with Russia equals less than two weeks of U.S. demand",
-      "summary": "President Donald Trump's diesel deal with Russia comes as he is under pressure to reduce fuel prices with the U.S. midterm elections less than a month way.",
-      "url": "https://www.cnbc.com/2026/10/13/trump-putin-zelenskyy-russia-ukraine-diesel-oil-price.html",
-      "source": "CNBC World",
-      "category": "geopolitical",
-      "impact": "low",
-      "published": "2026-10-13T16:53:43+00:00"
-    },
-    {
-      "title": "How the SEC\u2019s lack of leadership could facilitate crypto rulemaking",
-      "summary": "A recent change in the SEC\u2019s rules on quorum could make it easier for the agency to amend its approach to crypto regulation in the absence of a market structure bill.",
-      "url": "https://cointelegraph.com/news/sec-leadership-facilitate-crypto-rulemaking?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "category": "crypto",
-      "impact": "low",
-      "published": "2026-10-13T16:51:25+00:00"
-    },
-    {
       "title": "Bitcoin Shakes Off Spooky Season Jitters: Can Bulls Keep It Going?",
       "summary": "Bitcoin dipped below $81,000 before buyers stepped in, but the Fear and Greed Index says traders aren't convinced yet.",
       "url": "https://decrypt.co/380842/bitcoin-shakes-off-spooky-season-jitters",
@@ -791,15 +1061,6 @@
       "published": "2026-10-13T16:00:00+00:00"
     },
     {
-      "title": "Strive reports $208M in warrant exercises as Bitcoin holdings jump 11%",
-      "summary": "Strive is now the fifth-largest publicly traded corporate Bitcoin holder, with 32,773 BTC, as it continues to expand its treasury through equity financing.",
-      "url": "https://cointelegraph.com/news/strive-bitcoin-holdings-32773-btc-warrant-exercises?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "category": "crypto",
-      "impact": "high",
-      "published": "2026-10-13T15:57:55+00:00"
-    },
-    {
       "title": "In charts: How one of the world's biggest economies got trapped by debt",
       "summary": "France opens debate on its 2027 budget as high deficits, rising debt and student protests intensify pressure on lawmakers.",
       "url": "https://www.cnbc.com/2026/10/13/france-2027-budget-debt.html",
@@ -807,33 +1068,6 @@
       "category": "macro",
       "impact": "low",
       "published": "2026-10-13T15:52:24+00:00"
-    },
-    {
-      "title": "Crypto exchange MNX takes on OKX, Bitget offering pre-IPO futures for AI giants",
-      "summary": "",
-      "url": "https://www.coindesk.com/business/2026/10/13/new-crypto-exchange-takes-on-okx-bitget-with-unique-way-to-trade-ai-giants",
-      "source": "CoinDesk",
-      "category": "crypto",
-      "impact": "medium",
-      "published": "2026-10-13T15:52:09+00:00"
-    },
-    {
-      "title": "Bitcoin keeps up pressure on $84K as US stocks skirt Korea tech sell-off",
-      "summary": "Bitcoin price action preserved overnight gains as US stocks quickly rebounded after opening lower on the back of Korea\u2019s tech-stock rout.",
-      "url": "https://cointelegraph.com/markets/bitcoin-keeps-up-pressure-on-84k-as-us-stocks-sidestep-korea-tech-sell-off?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "category": "crypto",
-      "impact": "medium",
-      "published": "2026-10-13T15:27:32+00:00"
-    },
-    {
-      "title": "UK crypto trader says almost $800,000 lost in knife assault as wrench attacks proliferate",
-      "summary": "",
-      "url": "https://www.coindesk.com/policy/2026/10/13/why-self-custody-and-hardware-wallets-cannot-prevent-physical-crypto-extortion",
-      "source": "CoinDesk",
-      "category": "crypto",
-      "impact": "low",
-      "published": "2026-10-13T15:24:52+00:00"
     },
     {
       "title": "Interactive Brokers expands crypto services with Ethereum staking via Zerohash",
@@ -872,15 +1106,6 @@
       "published": "2026-10-13T14:45:08+00:00"
     },
     {
-      "title": "Anthropic warns \u2018AI worms\u2019 may autonomously spread across devices like a virus",
-      "summary": "Anthropic warned that rogue \u201cAI worms\u201d are months away from the ability to self-replicate and autonomously infect user devices such as home appliances and other internet-connected devices.",
-      "url": "https://cointelegraph.com/news/anthropic-ai-worms-autonomously-spread-devices-virus?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "category": "crypto",
-      "impact": "medium",
-      "published": "2026-10-13T13:55:09+00:00"
-    },
-    {
       "title": "Strive buys 3,311 bitcoin for $280 million in largest acquisition since January",
       "summary": "Strive added 3,311 BTC between Oct. 5 and Oct. 9, bringing holdings to 32,773 BTC and narrowing the gap with MARA.",
       "url": "https://www.theblock.co/news/business/2026-10-13-strive-buys-3311-bitcoin-280-million-largest-acquisition-since-january-418430",
@@ -890,24 +1115,6 @@
       "published": "2026-10-13T13:42:25+00:00"
     },
     {
-      "title": "Is Bitcoin kidding itself about the Lightning Network?",
-      "summary": "Bitcoin developer Paul Sztorc says Bitcoiners are lying to themselves about Lightning. Developers claim usability has improved, but questions remain over everyday adoption.",
-      "url": "https://cointelegraph.com/magazine/is-bitcoin-kidding-itself-about-the-lightning-network?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "category": "crypto",
-      "impact": "medium",
-      "published": "2026-10-13T13:30:00+00:00"
-    },
-    {
-      "title": "Digital cash offers \u2018cash-like privacy,\u2019 but bank data breaches threaten users: BIS",
-      "summary": "BIS said that digital cash can achieve \u201ccash-like privacy,\u201d however, the technology isn\u2019t yet production-ready due to risks such as bank data breaches.",
-      "url": "https://cointelegraph.com/news/bis-digital-cash-privacy-bank-data-breaches?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "category": "crypto",
-      "impact": "low",
-      "published": "2026-10-13T13:17:17+00:00"
-    },
-    {
       "title": "World Bank jobs council urges 'crisis-era' employment support measures as IMF warns of AI \u2018tsunami\u2019",
       "summary": "IMF Chief Kristalina Georgieva warned AI is hitting the global labor market like a \u201cslow-moving tsunami,\u201d with young workers entering the job market the most exposed.",
       "url": "https://www.cnbc.com/2026/10/12/imf-world-bank-ai-jobs-inflation-.html",
@@ -915,42 +1122,6 @@
       "category": "macro",
       "impact": "high",
       "published": "2026-10-13T13:09:55+00:00"
-    },
-    {
-      "title": "Russia clears Sberbank for crypto trading ahead of December launch",
-      "summary": "Russia\u2019s largest bank, Sberbank, has secured crypto exchange authorization as it prepares to offer Bitcoin, Ether and Tether USDt trading.",
-      "url": "https://cointelegraph.com/news/sberbank-russia-crypto-trading-approval?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "category": "crypto",
-      "impact": "medium",
-      "published": "2026-10-13T12:22:24+00:00"
-    },
-    {
-      "title": "South Korea blocks 27 crypto exchanges, including Bitmart and Kucoin",
-      "summary": "",
-      "url": "https://www.coindesk.com/policy/2026/10/13/south-korea-blocks-27-crypto-exchanges-including-bitmart-and-kucoin",
-      "source": "CoinDesk",
-      "category": "crypto",
-      "impact": "low",
-      "published": "2026-10-13T11:58:04+00:00"
-    },
-    {
-      "title": "Federated Hermes joins Wall Street's tokenization push with plans for first onchain fund shares",
-      "summary": "",
-      "url": "https://www.coindesk.com/business/2026/10/13/federated-hermes-joins-wall-street-s-tokenization-push-with-plans-for-first-onchain-fund-shares",
-      "source": "CoinDesk",
-      "category": "crypto",
-      "impact": "medium",
-      "published": "2026-10-13T11:56:04+00:00"
-    },
-    {
-      "title": "Ledger Finds LTE Implant That Stole Recovery Phrases in Suspected $86M Drain",
-      "summary": "Ledger says the hidden chip reads the 24-word phrase off the screen during setup, leaving the Secure Element and its software untouched.",
-      "url": "https://decrypt.co/380826/ledger-finds-lte-implant-that-stole-recovery-phrases-in-suspected-86m-drain",
-      "source": "Decrypt",
-      "category": "crypto",
-      "impact": "medium",
-      "published": "2026-10-13T11:53:15+00:00"
     },
     {
       "title": "Stocks making the biggest moves premarket: JPMorgan Chase, Micron, UnitedHealth & more",
@@ -971,15 +1142,6 @@
       "published": "2026-10-13T11:40:56+00:00"
     },
     {
-      "title": "Morning Minute: Bitcoin Gets Spooked as \u2018Uptober\u2019 Lets Down",
-      "summary": "Crypto majors are red, alts are down bad and onchain is facing capitulation. This was not the \u2018Uptober\u2019 that was promised\u2026",
-      "url": "https://decrypt.co/380828/morning-minute-bitcoin-gets-spooked-as-uptober-lets-down",
-      "source": "Decrypt",
-      "category": "crypto",
-      "impact": "medium",
-      "published": "2026-10-13T11:40:51+00:00"
-    },
-    {
       "title": "UK High Court rules Chinese law governs claims over $5 billion in seized bitcoin",
       "summary": "A UK judge ruled Chinese law applies to victims' claims over 61,000 seized bitcoin, leaving ownership undecided.",
       "url": "https://www.theblock.co/news/regulation/2026-10-13-uk-high-court-rules-chinese-law-governs-claims-over-5-billion-in-seized-bitcoin-418409",
@@ -987,87 +1149,6 @@
       "category": "crypto",
       "impact": "medium",
       "published": "2026-10-13T11:38:19+00:00"
-    },
-    {
-      "title": "Stacks' STX, a Bitcoin layer-2 token, has surged by 50% in four weeks",
-      "summary": "",
-      "url": "https://www.coindesk.com/daybook-us/2026/10/13/stacks-stx-a-bitcoin-layer-2-token-has-surged-by-50-in-four-weeks",
-      "source": "CoinDesk",
-      "category": "crypto",
-      "impact": "medium",
-      "published": "2026-10-13T11:26:45+00:00"
-    },
-    {
-      "title": "ENS seeks DAO approval to activate upgraded Ethereum naming system",
-      "summary": "New .eth registrations would pause for hours during the transition, while existing domain holders could renew their names without migrating.",
-      "url": "https://cointelegraph.com/news/ens-dao-ensv2-upgrade-eth-domain-registrations?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "category": "crypto",
-      "impact": "medium",
-      "published": "2026-10-13T11:11:27+00:00"
-    },
-    {
-      "title": "Bitcoin, ether slip and rebound as South Korean stocks slide on AI-related concerns",
-      "summary": "",
-      "url": "https://www.coindesk.com/markets/2026/10/13/bitcoin-ether-slip-and-rebound-as-south-korean-stocks-slide-on-ai-related-concerns",
-      "source": "CoinDesk",
-      "category": "crypto",
-      "impact": "medium",
-      "published": "2026-10-13T11:06:39+00:00"
-    },
-    {
-      "title": "Russia\u2019s largest bank Sberbank secures approval to trade crypto",
-      "summary": "",
-      "url": "https://www.coindesk.com/business/2026/10/13/russia-s-largest-bank-sberbank-secures-approval-to-trade-crypto",
-      "source": "CoinDesk",
-      "category": "crypto",
-      "impact": "low",
-      "published": "2026-10-13T11:02:47+00:00"
-    },
-    {
-      "title": "UK Moves Closer to Keeping $5B Bitcoin Haul After High Court Ruling",
-      "summary": "A judge ruled that Chinese law should govern fraud victims' claims to the 61,000 BTC seized from Zhimin Qian, in a blow to the claimants.",
-      "url": "https://decrypt.co/380818/uk-moves-closer-to-keeping-5b-bitcoin-haul-after-high-court-ruling",
-      "source": "Decrypt",
-      "category": "crypto",
-      "impact": "medium",
-      "published": "2026-10-13T10:51:33+00:00"
-    },
-    {
-      "title": "Live updates: Bitcoin trading in tight range near $83,000 ahead of key U.S. inflation data",
-      "summary": "",
-      "url": "https://www.coindesk.com/markets/2026/10/13/live-updates-bitcoin-whipsaws-between-usd81-000-and-usd84-000-as-altcoins-slide",
-      "source": "CoinDesk",
-      "category": "crypto",
-      "impact": "high",
-      "published": "2026-10-13T10:46:57+00:00"
-    },
-    {
-      "title": "\u2018Leave\u2019: Crypto Backlash Over French Proposal to Report Wallets Over $112K",
-      "summary": "The proposal would require crypto owners to report holdings over \u20ac100,000, sparking concerns following a wave of \"wrench attacks\" in France.",
-      "url": "https://decrypt.co/380808/leave-crypto-backlash-over-french-proposal-to-report-wallets-over-112k",
-      "source": "Decrypt",
-      "category": "crypto",
-      "impact": "low",
-      "published": "2026-10-13T10:30:37+00:00"
-    },
-    {
-      "title": "NFT Marketplace Blur to Shut Down Website, Stop New Blend Loans Next Month",
-      "summary": "The shutdown comes as NFT trading volumes have collapsed from their 2021-2022 peak, with market revenue projected at $318 million this year.",
-      "url": "https://decrypt.co/380802/nft-marketplace-blur-to-shut-down-website-stop-new-blend-loans-next-month",
-      "source": "Decrypt",
-      "category": "crypto",
-      "impact": "medium",
-      "published": "2026-10-13T09:12:45+00:00"
-    },
-    {
-      "title": "Can U.S. lenders keep up their momentum? Don't bank on it",
-      "summary": "Steve sets the stage for the start of earnings season, with U.S. lenders set to fire the starting gun later today. JPMorgan chief Jamie Dimon said last quarter was nearly \"as good as it gets\" - are investors set for a rude awakening this time around?",
-      "url": "https://www.cnbc.com/video/2026/10/13/can-u-s-lenders-keep-up-their-momentum-dont-bank-on-it.html",
-      "source": "CNBC World",
-      "category": "equities",
-      "impact": "low",
-      "published": "2026-10-13T08:53:15+00:00"
     },
     {
       "title": "Visa gets Beijing's green light for bank card business after 40 years of working with China",
@@ -1097,15 +1178,6 @@
       "published": "2026-10-13T04:54:07+00:00"
     },
     {
-      "title": "Bitcoin whale moves $378 million in BTC after six years of dormancy: onchain data",
-      "summary": "The wallet originally received 4,582 BTC in March 2020, when the holdings were worth roughly $40.8 million.",
-      "url": "https://www.theblock.co/news/markets/2026-10-13-bitcoin-whale-moves-378-million-418383",
-      "source": "The Block",
-      "category": "crypto",
-      "impact": "medium",
-      "published": "2026-10-13T04:18:30+00:00"
-    },
-    {
       "title": "IMF sees milder global slowdown as AI boom offsets war hit \u2014 warns resilience is nearing limits",
       "summary": "The IMF raised its 2026 global growth forecast to 3.1%, warning that resilience is tested by energy constraints and looming fiscal risks.",
       "url": "https://www.cnbc.com/2026/10/12/imf-world-bank-annual-meetings-october-bangkok-asia-.html",
@@ -1124,15 +1196,6 @@
       "published": "2026-10-13T02:58:11+00:00"
     },
     {
-      "title": "Bitcoin slides below $82,000 as crypto liquidations surge past $770 million",
-      "summary": "Crypto liquidations amounted to $771 million over the past 24 hours, including $685.6 million in long positions.",
-      "url": "https://www.theblock.co/news/markets/2026-10-12-bitcoin-slides-crypto-liquidations-surge-418374",
-      "source": "The Block",
-      "category": "crypto",
-      "impact": "medium",
-      "published": "2026-10-13T01:57:49+00:00"
-    },
-    {
       "title": "'Boring is not bad': CEO of Southeast Asia's largest bank pitches Singapore as a haven amid global turmoil",
       "summary": "Singapore is a bastion of safety amid global turmoil, according to the CEO of DBS.",
       "url": "https://www.cnbc.com/2026/10/13/singapore-war-geopolitics-dbs-bank-ceo.html",
@@ -1142,42 +1205,6 @@
       "published": "2026-10-13T01:26:41+00:00"
     },
     {
-      "title": "Blur to shut down frontend next month as NFT trading volume dwindles",
-      "summary": "The NFT marketplace's frontend next month while the protocol stays onchain. The BLUR token fell more than 20%.",
-      "url": "https://www.theblock.co/news/ecosystems/2026-10-12-blur-nft-marketplace-shutting-down-frontend-blend-418363",
-      "source": "The Block",
-      "category": "crypto",
-      "impact": "low",
-      "published": "2026-10-12T21:49:02+00:00"
-    },
-    {
-      "title": "AI Will Hit 40% of Jobs, IMF Warns. Young People Are First in Line",
-      "summary": "IMF chief Kristalina Georgieva says AI investment is holding global growth near 3%, with Asian chipmakers winning big, while warning of a 'slow-moving tsunami' for young workers.",
-      "url": "https://decrypt.co/380789/ai-hit-40-percent-jobs-imf-warns-young-people-first",
-      "source": "Decrypt",
-      "category": "crypto",
-      "impact": "medium",
-      "published": "2026-10-12T21:46:03+00:00"
-    },
-    {
-      "title": "CFTC\u2019s new crypto framework could face 2028 election deadline, says TD Cowen",
-      "summary": "Newly proposed rules for leveraged and margined crypto trading may be too late as the 2028 election cycle looms, according to TD Cowen.",
-      "url": "https://www.theblock.co/news/regulation/2026-10-12-cftcs-new-crypto-framework-could-face-2028-election-deadline-td-cowen-418358",
-      "source": "The Block",
-      "category": "crypto",
-      "impact": "low",
-      "published": "2026-10-12T20:53:54+00:00"
-    },
-    {
-      "title": "Binance launches AI trading tool after 150,000-user beta",
-      "summary": "Binance rolled out Binance AI, a free generative-UI trading interface, to all English-language users after a beta with about 150,000 testers.",
-      "url": "https://www.theblock.co/news/business/2026-10-12-binance-ai-trading-interface-global-rollout-418349",
-      "source": "The Block",
-      "category": "crypto",
-      "impact": "low",
-      "published": "2026-10-12T18:44:10+00:00"
-    },
-    {
       "title": "The bull market turned 4 years old on Monday. Investors say reaching a fifth birthday could be challenging",
       "summary": "The S&amp;P 500 has climbed almost 120% since its closing low on Oct. 12, 2022.",
       "url": "https://www.cnbc.com/2026/10/12/the-bull-market-just-turned-four-after-climbing-a-wall-of-worry.html",
@@ -1185,15 +1212,6 @@
       "category": "equities",
       "impact": "low",
       "published": "2026-10-12T18:18:39+00:00"
-    },
-    {
-      "title": "StoneX raises Securitize price target 50% as tokenized stock platform opens new revenue stream",
-      "summary": "StoneX lifts SECZ price target to $18 from $12, citing new revenue from the Securitize Stocks tokenized trading platform on Solana.",
-      "url": "https://www.theblock.co/news/markets/2026-10-12-stonex-raises-securitize-price-target-tokenized-stocks-418313",
-      "source": "The Block",
-      "category": "crypto",
-      "impact": "low",
-      "published": "2026-10-12T17:06:25+00:00"
     },
     {
       "title": "Inflation likely peaked for 2026 but will remain sticky, according to prediction markets",
@@ -1241,15 +1259,6 @@
       "published": "2026-10-11T11:39:38+00:00"
     },
     {
-      "title": "JPMorgan makes bullish call in fixed income space, suggests it's a once in a generation opportunity",
-      "summary": "Why Priya Misra, a portfolio manager at the firm, is looking to take credit risk in high-quality companies.",
-      "url": "https://www.cnbc.com/2026/10/10/jpmorgan-sees-once-in-a-generation-opportunity-in-fixed-income-space.html",
-      "source": "CNBC Finance",
-      "category": "equities",
-      "impact": "low",
-      "published": "2026-10-10T15:00:01+00:00"
-    },
-    {
       "title": "Americans' debt problems are flashing a warning not seen since the Great Recession",
       "summary": "Researchers found that while wealth disparities narrowed somewhat, the ability to meet debt payments deteriorated significantly.",
       "url": "https://www.cnbc.com/2026/10/09/american-debt-delinquency.html",
@@ -1259,15 +1268,6 @@
       "published": "2026-10-09T19:18:24+00:00"
     },
     {
-      "title": "Stocks making the biggest moves midday: T-Mobile, Verizon, AT&T, Crown Castle, Teva & more",
-      "summary": "These are some of the stocks posting the largest moves midday.",
-      "url": "https://www.cnbc.com/2026/10/09/stocks-making-the-biggest-moves-midday-tmus-vz-t-cci-teva.html",
-      "source": "CNBC Finance",
-      "category": "equities",
-      "impact": "low",
-      "published": "2026-10-09T18:57:23+00:00"
-    },
-    {
       "title": "Treasury's Bessent hires Trump's controversial former Fed board pick, Judy Shelton, as advisor",
       "summary": "Shelton's controversial economic ideas led the Senate to block her nomination to the Fed. Now she's going to be a counselor to the Treasury secretary.",
       "url": "https://www.cnbc.com/2026/10/09/judy-shelton-scott-bessent-treasury.html",
@@ -1275,15 +1275,6 @@
       "category": "macro",
       "impact": "medium",
       "published": "2026-10-09T13:09:19+00:00"
-    },
-    {
-      "title": "Blockchain.com seeks U.S. approval for prediction markets, crypto derivatives trading",
-      "summary": "Blockchain.com is seeking CFTC designation and registration to offer U.S. event contracts and cryptocurrency derivatives.",
-      "url": "https://www.cnbc.com/2026/10/09/blockchain-com-cftc-prediction-markets.html",
-      "source": "CNBC Finance",
-      "category": "equities",
-      "impact": "low",
-      "published": "2026-10-09T12:01:26+00:00"
     },
     {
       "title": "Inflation on many everyday items was entirely due to tariffs, NY Fed says",
@@ -1311,15 +1302,6 @@
       "category": "macro",
       "impact": "low",
       "published": "2026-10-07T12:24:32+00:00"
-    },
-    {
-      "title": "India\u2019s central bank hikes rates for the first time since 2023 as inflation risks build",
-      "summary": "HSBC and Goldman Sachs expect the RBI to raise interest rates in December as well.",
-      "url": "https://www.cnbc.com/2026/10/07/india-rbi-interest-rates-inflation.html",
-      "source": "CNBC Economy",
-      "category": "macro",
-      "impact": "medium",
-      "published": "2026-10-07T11:55:36+00:00"
     },
     {
       "title": "Why AI is both the hope and the hazard for world leaders, according to IMF chief Georgieva",
